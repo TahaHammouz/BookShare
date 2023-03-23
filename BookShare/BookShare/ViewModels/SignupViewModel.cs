@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BookShare.ViewModels
 {
-    internal class signupViewModel
+    internal class SignupViewModel
     {
     }
 }

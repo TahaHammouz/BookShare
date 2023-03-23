@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace BookShare.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class signupPage : ContentPage
+    public partial class SignupPage : ContentPage
     {
-        public signupPage()
+        public SignupPage()
         {
             InitializeComponent();
         }

@@ -52,10 +52,4 @@
   <ItemGroup>
     <Folder Include="Services\" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Views\signupPage.xaml.cs">
-      <DependentUpon>SignupPage.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
 </Project>
