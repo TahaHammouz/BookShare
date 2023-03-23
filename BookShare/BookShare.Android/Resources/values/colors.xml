@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  	<color name="Primary">#544E50</color>
+	  <color name="launcher_background">#E9E3E3</color>
+    <color name="Active">#F4717F</color>
+    <color name="buttonColor">#F4717F</color>
+    <color name="barColor">#D9C8C0</color>
+    <color name="shadowColor">#DAD8D9</color>
+</resources>
