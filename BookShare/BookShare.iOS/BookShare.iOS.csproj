@@ -132,13 +132,13 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2578" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.5" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\BookShare\BookShare.csproj">
-      <Project>{086B5CDC-D8D7-41D9-8DB9-918B9F45D80D}</Project>
+      <Project>{6FC40264-4D36-45D1-9BBF-75902EE04822}</Project>
       <Name>BookShare</Name>
     </ProjectReference>
   </ItemGroup>
