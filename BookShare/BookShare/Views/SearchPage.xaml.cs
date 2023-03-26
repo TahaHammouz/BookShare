@@ -16,5 +16,12 @@ namespace BookShare.Views
         {
             InitializeComponent();
         }
+        private void OnItemTapped(object sender, EventArgs e)
+        {
+            Console.WriteLine("Clicked!");
+        }
+
+
+
     }
 }
