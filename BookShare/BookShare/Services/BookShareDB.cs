@@ -1,28 +1,39 @@
-﻿using Firebase.Database;
+﻿using BookShare.Models;
+using Firebase.Database;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Text;
-using BookShare.Models;
-using Firebase.Database.Query;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace BookShare.Services
 {
-    internal class BookShareDB
+    public class BookShareDB
     {
-        FirebaseClient client;
+        private HttpClient httpClient;
+        private FirebaseClient firebaseClient;
 
-        public BookShareDB()
+        public BookShareDB(string url)
         {
-            client = new FirebaseClient("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
-        }
-        public async Task AddBook(Book book)
-        {
-            await client.Child("books").PostAsync(book);
+            httpClient = new HttpClient();
+            firebaseClient = new FirebaseClient(url);
         }
 
+        public async Task<List<Book>> GetBooksAsync()
+        {
+            var firebaseUrl = "https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/books.json";
+            var response = await httpClient.GetAsync(firebaseUrl);
+            var content = await response.Content.ReadAsStringAsync();
 
+            var booksDict = JsonConvert.DeserializeObject<Dictionary<string, Book>>(content);
+            var books = new List<Book>(booksDict.Values);
+
+            return books;
+        }
+
+        internal object GetHttpClient()
+        {
+            throw new NotImplementedException();
+        }
     }
-
 }

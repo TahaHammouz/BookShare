@@ -1,57 +1,50 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
+using BookShare.Models;
+using BookShare.Services;
 
 namespace BookShare.ViewModels
 {
-    internal class SearchViewModel
+    public class SearchViewModel : INotifyPropertyChanged
     {
-        public List<BookCardViewModel> BookCards { get; set; }
+        private BookShareDB firebaseDataService;
 
-        public SearchViewModel()
+        public   SearchViewModel()
         {
-            // Dummy data for testing
-            BookCards = new List<BookCardViewModel>
+            try { 
+            firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
+                _ = LoadBooksAsync();
+            }catch(Exception e) { e.Source = "SearchViewModel"; }
+        }
+
+        private ObservableCollection<Book> books;
+        public ObservableCollection<Book> Books
+        {
+       
+                get { return books; }
+                set { books = value; OnPropertyChanged(); }
+        }
+
+        private async Task LoadBooksAsync()
+        {
+            try
             {
-                new BookCardViewModel
-                {
-                    ImagePath = "image 1.jpg",
-                    Name = "John Smith",
-                    BookName = "The Great Gatsby",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-                },
-                new BookCardViewModel
-                {
-                    ImagePath = "image2.jpg",
-                    Name = "Jane Doe",
-                    BookName = "To Kill a Mockingbird",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-                },
-                new BookCardViewModel
-                {
-                    ImagePath = "image3.jpg",
-                    Name = "Bob Johnson",
-                    BookName = "1984",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-                },
-                                new BookCardViewModel
-                {
-                    ImagePath = "image 1.jpg",
-                    Name = "John Smith",
-                    BookName = "The Great Gatsby",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-                },                new BookCardViewModel
-                {
-                    ImagePath = "image 1.jpg",
-                    Name = "John Smith",
-                    BookName = "The Great Gatsby",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-                },                new BookCardViewModel
-                {
-                    ImagePath = "image 1.jpg",
-                    Name = "John Smith",
-                    BookName = "The Great Gatsby",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-                },
-            };
+                var books = await firebaseDataService.GetBooksAsync();
+                Books = new ObservableCollection<Book>(books);
+            }
+            catch(Exception e)
+            {
+                e.Source = "LoadBooksAsync";
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
