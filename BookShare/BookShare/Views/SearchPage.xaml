@@ -1,12 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels" xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              x:Class="BookShare.Views.SearchPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame Margin="10,13,16,10" Padding="10,0,0,0"  BorderColor="#D9D9D9" CornerRadius="7">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                    </Grid.ColumnDefinitions>
+
+                    <autocomplete:SfAutoComplete 
+            VerticalOptions="Center" 
+            Watermark="Search Books..."
+            ShowBorder="False"
+           
+
+            />
+
+                    <ImageButton 
+            Grid.Column="1"
+            Source="circum_search"
+            WidthRequest="43"
+            BackgroundColor="#F4717F"
+            HorizontalOptions="End"
+            Aspect="AspectFit"
+            Padding="8,8,8,4"
+            CornerRadius="4"
+        />
+                </Grid>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
