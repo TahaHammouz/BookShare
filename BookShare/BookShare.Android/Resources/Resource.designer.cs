@@ -25,6 +25,3684 @@ namespace BookShare.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::BookShare.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::BookShare.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::BookShare.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar12 = global::BookShare.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar13 = global::BookShare.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar14 = global::BookShare.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar15 = global::BookShare.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar16 = global::BookShare.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar17 = global::BookShare.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar18 = global::BookShare.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar19 = global::BookShare.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar2 = global::BookShare.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar20 = global::BookShare.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar21 = global::BookShare.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar22 = global::BookShare.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar23 = global::BookShare.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar24 = global::BookShare.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar25 = global::BookShare.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar26 = global::BookShare.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar27 = global::BookShare.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar28 = global::BookShare.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar29 = global::BookShare.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar3 = global::BookShare.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar30 = global::BookShare.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar4 = global::BookShare.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar5 = global::BookShare.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar6 = global::BookShare.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar7 = global::BookShare.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar8 = global::BookShare.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar9 = global::BookShare.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::BookShare.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::BookShare.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::BookShare.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.clear_button_icon = global::BookShare.Droid.Resource.Drawable.clear_button_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_fade_in = global::BookShare.Droid.Resource.Animation.abc_fade_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_fade_out = global::BookShare.Droid.Resource.Animation.abc_fade_out;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::BookShare.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_popup_enter = global::BookShare.Droid.Resource.Animation.abc_popup_enter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_popup_exit = global::BookShare.Droid.Resource.Animation.abc_popup_exit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::BookShare.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_slide_in_bottom = global::BookShare.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_slide_in_top = global::BookShare.Droid.Resource.Animation.abc_slide_in_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_slide_out_bottom = global::BookShare.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_slide_out_top = global::BookShare.Droid.Resource.Animation.abc_slide_out_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_tooltip_enter = global::BookShare.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_tooltip_exit = global::BookShare.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::BookShare.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::BookShare.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::BookShare.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::BookShare.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::BookShare.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::BookShare.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::BookShare.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::BookShare.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::BookShare.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::BookShare.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::BookShare.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::BookShare.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::BookShare.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::BookShare.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.design_snackbar_in = global::BookShare.Droid.Resource.Animation.design_snackbar_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.design_snackbar_out = global::BookShare.Droid.Resource.Animation.design_snackbar_out;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.EnterFromLeft = global::BookShare.Droid.Resource.Animation.EnterFromLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.EnterFromRight = global::BookShare.Droid.Resource.Animation.EnterFromRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.ExitToLeft = global::BookShare.Droid.Resource.Animation.ExitToLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.ExitToRight = global::BookShare.Droid.Resource.Animation.ExitToRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.fragment_fast_out_extra_slow_in = global::BookShare.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in = global::BookShare.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out = global::BookShare.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.mtrl_card_lowers_interpolator = global::BookShare.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.design_appbar_state_list_animator = global::BookShare.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.design_fab_hide_motion_spec = global::BookShare.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.design_fab_show_motion_spec = global::BookShare.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::BookShare.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::BookShare.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_card_state_list_anim = global::BookShare.Droid.Resource.Animator.mtrl_card_state_list_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::BookShare.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::BookShare.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::BookShare.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator = global::BookShare.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::BookShare.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::BookShare.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::BookShare.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::BookShare.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarDivider = global::BookShare.Droid.Resource.Attribute.actionBarDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarItemBackground = global::BookShare.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarPopupTheme = global::BookShare.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarSize = global::BookShare.Droid.Resource.Attribute.actionBarSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarSplitStyle = global::BookShare.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarStyle = global::BookShare.Droid.Resource.Attribute.actionBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarTabBarStyle = global::BookShare.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarTabStyle = global::BookShare.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarTabTextStyle = global::BookShare.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarTheme = global::BookShare.Droid.Resource.Attribute.actionBarTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarWidgetTheme = global::BookShare.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionButtonStyle = global::BookShare.Droid.Resource.Attribute.actionButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionDropDownStyle = global::BookShare.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionLayout = global::BookShare.Droid.Resource.Attribute.actionLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionMenuTextAppearance = global::BookShare.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionMenuTextColor = global::BookShare.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeBackground = global::BookShare.Droid.Resource.Attribute.actionModeBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::BookShare.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeCloseDrawable = global::BookShare.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeCopyDrawable = global::BookShare.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeCutDrawable = global::BookShare.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeFindDrawable = global::BookShare.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModePasteDrawable = global::BookShare.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::BookShare.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::BookShare.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeShareDrawable = global::BookShare.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeSplitBackground = global::BookShare.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeStyle = global::BookShare.Droid.Resource.Attribute.actionModeStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::BookShare.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::BookShare.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::BookShare.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionProviderClass = global::BookShare.Droid.Resource.Attribute.actionProviderClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionTextColorAlpha = global::BookShare.Droid.Resource.Attribute.actionTextColorAlpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionViewClass = global::BookShare.Droid.Resource.Attribute.actionViewClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.activityChooserViewStyle = global::BookShare.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::BookShare.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alertDialogCenterButtons = global::BookShare.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alertDialogStyle = global::BookShare.Droid.Resource.Attribute.alertDialogStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alertDialogTheme = global::BookShare.Droid.Resource.Attribute.alertDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.allowStacking = global::BookShare.Droid.Resource.Attribute.allowStacking;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alpha = global::BookShare.Droid.Resource.Attribute.alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alphabeticModifiers = global::BookShare.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.animationMode = global::BookShare.Droid.Resource.Attribute.animationMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.appBarLayoutStyle = global::BookShare.Droid.Resource.Attribute.appBarLayoutStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.arrowHeadLength = global::BookShare.Droid.Resource.Attribute.arrowHeadLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.arrowShaftLength = global::BookShare.Droid.Resource.Attribute.arrowShaftLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::BookShare.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizeMaxTextSize = global::BookShare.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizeMinTextSize = global::BookShare.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizePresetSizes = global::BookShare.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizeStepGranularity = global::BookShare.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizeTextType = global::BookShare.Droid.Resource.Attribute.autoSizeTextType;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.background = global::BookShare.Droid.Resource.Attribute.background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundColor = global::BookShare.Droid.Resource.Attribute.backgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundInsetBottom = global::BookShare.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundInsetEnd = global::BookShare.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundInsetStart = global::BookShare.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundInsetTop = global::BookShare.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundOverlayColorAlpha = global::BookShare.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundSplit = global::BookShare.Droid.Resource.Attribute.backgroundSplit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundStacked = global::BookShare.Droid.Resource.Attribute.backgroundStacked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundTint = global::BookShare.Droid.Resource.Attribute.backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundTintMode = global::BookShare.Droid.Resource.Attribute.backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.badgeGravity = global::BookShare.Droid.Resource.Attribute.badgeGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.badgeStyle = global::BookShare.Droid.Resource.Attribute.badgeStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.badgeTextColor = global::BookShare.Droid.Resource.Attribute.badgeTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.barLength = global::BookShare.Droid.Resource.Attribute.barLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_autoHide = global::BookShare.Droid.Resource.Attribute.behavior_autoHide;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_autoShrink = global::BookShare.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_draggable = global::BookShare.Droid.Resource.Attribute.behavior_draggable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_expandedOffset = global::BookShare.Droid.Resource.Attribute.behavior_expandedOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_fitToContents = global::BookShare.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_halfExpandedRatio = global::BookShare.Droid.Resource.Attribute.behavior_halfExpandedRatio;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_hideable = global::BookShare.Droid.Resource.Attribute.behavior_hideable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_overlapTop = global::BookShare.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_peekHeight = global::BookShare.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_saveFlags = global::BookShare.Droid.Resource.Attribute.behavior_saveFlags;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_skipCollapsed = global::BookShare.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.borderlessButtonStyle = global::BookShare.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.borderWidth = global::BookShare.Droid.Resource.Attribute.borderWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.bottomAppBarStyle = global::BookShare.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.bottomNavigationStyle = global::BookShare.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::BookShare.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.bottomSheetStyle = global::BookShare.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxBackgroundColor = global::BookShare.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxBackgroundMode = global::BookShare.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::BookShare.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::BookShare.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::BookShare.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::BookShare.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::BookShare.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxStrokeColor = global::BookShare.Droid.Resource.Attribute.boxStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxStrokeErrorColor = global::BookShare.Droid.Resource.Attribute.boxStrokeErrorColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxStrokeWidth = global::BookShare.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxStrokeWidthFocused = global::BookShare.Droid.Resource.Attribute.boxStrokeWidthFocused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarButtonStyle = global::BookShare.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::BookShare.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::BookShare.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::BookShare.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarStyle = global::BookShare.Droid.Resource.Attribute.buttonBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonCompat = global::BookShare.Droid.Resource.Attribute.buttonCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonGravity = global::BookShare.Droid.Resource.Attribute.buttonGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonIconDimen = global::BookShare.Droid.Resource.Attribute.buttonIconDimen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonPanelSideLayout = global::BookShare.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonStyle = global::BookShare.Droid.Resource.Attribute.buttonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonStyleSmall = global::BookShare.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonTint = global::BookShare.Droid.Resource.Attribute.buttonTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonTintMode = global::BookShare.Droid.Resource.Attribute.buttonTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardBackgroundColor = global::BookShare.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardCornerRadius = global::BookShare.Droid.Resource.Attribute.cardCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardElevation = global::BookShare.Droid.Resource.Attribute.cardElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardForegroundColor = global::BookShare.Droid.Resource.Attribute.cardForegroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardMaxElevation = global::BookShare.Droid.Resource.Attribute.cardMaxElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::BookShare.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardUseCompatPadding = global::BookShare.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardViewStyle = global::BookShare.Droid.Resource.Attribute.cardViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkboxStyle = global::BookShare.Droid.Resource.Attribute.checkboxStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedButton = global::BookShare.Droid.Resource.Attribute.checkedButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedChip = global::BookShare.Droid.Resource.Attribute.checkedChip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIcon = global::BookShare.Droid.Resource.Attribute.checkedIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIconEnabled = global::BookShare.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIconTint = global::BookShare.Droid.Resource.Attribute.checkedIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIconVisible = global::BookShare.Droid.Resource.Attribute.checkedIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedTextViewStyle = global::BookShare.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipBackgroundColor = global::BookShare.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipCornerRadius = global::BookShare.Droid.Resource.Attribute.chipCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipEndPadding = global::BookShare.Droid.Resource.Attribute.chipEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipGroupStyle = global::BookShare.Droid.Resource.Attribute.chipGroupStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIcon = global::BookShare.Droid.Resource.Attribute.chipIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIconEnabled = global::BookShare.Droid.Resource.Attribute.chipIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIconSize = global::BookShare.Droid.Resource.Attribute.chipIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIconTint = global::BookShare.Droid.Resource.Attribute.chipIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIconVisible = global::BookShare.Droid.Resource.Attribute.chipIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipMinHeight = global::BookShare.Droid.Resource.Attribute.chipMinHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipMinTouchTargetSize = global::BookShare.Droid.Resource.Attribute.chipMinTouchTargetSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSpacing = global::BookShare.Droid.Resource.Attribute.chipSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSpacingHorizontal = global::BookShare.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSpacingVertical = global::BookShare.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStandaloneStyle = global::BookShare.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStartPadding = global::BookShare.Droid.Resource.Attribute.chipStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStrokeColor = global::BookShare.Droid.Resource.Attribute.chipStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStrokeWidth = global::BookShare.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStyle = global::BookShare.Droid.Resource.Attribute.chipStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSurfaceColor = global::BookShare.Droid.Resource.Attribute.chipSurfaceColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIcon = global::BookShare.Droid.Resource.Attribute.closeIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconEnabled = global::BookShare.Droid.Resource.Attribute.closeIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconEndPadding = global::BookShare.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconSize = global::BookShare.Droid.Resource.Attribute.closeIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconStartPadding = global::BookShare.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconTint = global::BookShare.Droid.Resource.Attribute.closeIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconVisible = global::BookShare.Droid.Resource.Attribute.closeIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeItemLayout = global::BookShare.Droid.Resource.Attribute.closeItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapseContentDescription = global::BookShare.Droid.Resource.Attribute.collapseContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapsedTitleGravity = global::BookShare.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::BookShare.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapseIcon = global::BookShare.Droid.Resource.Attribute.collapseIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collectionViewStyle = global::BookShare.Droid.Resource.Attribute.collectionViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.color = global::BookShare.Droid.Resource.Attribute.color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorAccent = global::BookShare.Droid.Resource.Attribute.colorAccent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorBackgroundFloating = global::BookShare.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorButtonNormal = global::BookShare.Droid.Resource.Attribute.colorButtonNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorControlActivated = global::BookShare.Droid.Resource.Attribute.colorControlActivated;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorControlHighlight = global::BookShare.Droid.Resource.Attribute.colorControlHighlight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorControlNormal = global::BookShare.Droid.Resource.Attribute.colorControlNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorError = global::BookShare.Droid.Resource.Attribute.colorError;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnBackground = global::BookShare.Droid.Resource.Attribute.colorOnBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnError = global::BookShare.Droid.Resource.Attribute.colorOnError;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnPrimary = global::BookShare.Droid.Resource.Attribute.colorOnPrimary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnPrimarySurface = global::BookShare.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnSecondary = global::BookShare.Droid.Resource.Attribute.colorOnSecondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnSurface = global::BookShare.Droid.Resource.Attribute.colorOnSurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorPrimary = global::BookShare.Droid.Resource.Attribute.colorPrimary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorPrimaryDark = global::BookShare.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorPrimarySurface = global::BookShare.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorPrimaryVariant = global::BookShare.Droid.Resource.Attribute.colorPrimaryVariant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorSecondary = global::BookShare.Droid.Resource.Attribute.colorSecondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorSecondaryVariant = global::BookShare.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorSurface = global::BookShare.Droid.Resource.Attribute.colorSurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::BookShare.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.commitIcon = global::BookShare.Droid.Resource.Attribute.commitIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentDescription = global::BookShare.Droid.Resource.Attribute.contentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetEnd = global::BookShare.Droid.Resource.Attribute.contentInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetEndWithActions = global::BookShare.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetLeft = global::BookShare.Droid.Resource.Attribute.contentInsetLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetRight = global::BookShare.Droid.Resource.Attribute.contentInsetRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetStart = global::BookShare.Droid.Resource.Attribute.contentInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::BookShare.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentPadding = global::BookShare.Droid.Resource.Attribute.contentPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentPaddingBottom = global::BookShare.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentPaddingLeft = global::BookShare.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentPaddingRight = global::BookShare.Droid.Resource.Attribute.contentPaddingRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentPaddingTop = global::BookShare.Droid.Resource.Attribute.contentPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentScrim = global::BookShare.Droid.Resource.Attribute.contentScrim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.controlBackground = global::BookShare.Droid.Resource.Attribute.controlBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.coordinatorLayoutStyle = global::BookShare.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerFamily = global::BookShare.Droid.Resource.Attribute.cornerFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerFamilyBottomLeft = global::BookShare.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerFamilyBottomRight = global::BookShare.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerFamilyTopLeft = global::BookShare.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerFamilyTopRight = global::BookShare.Droid.Resource.Attribute.cornerFamilyTopRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerRadius = global::BookShare.Droid.Resource.Attribute.cornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerSize = global::BookShare.Droid.Resource.Attribute.cornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerSizeBottomLeft = global::BookShare.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerSizeBottomRight = global::BookShare.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerSizeTopLeft = global::BookShare.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerSizeTopRight = global::BookShare.Droid.Resource.Attribute.cornerSizeTopRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterEnabled = global::BookShare.Droid.Resource.Attribute.counterEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterMaxLength = global::BookShare.Droid.Resource.Attribute.counterMaxLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::BookShare.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterOverflowTextColor = global::BookShare.Droid.Resource.Attribute.counterOverflowTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterTextAppearance = global::BookShare.Droid.Resource.Attribute.counterTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterTextColor = global::BookShare.Droid.Resource.Attribute.counterTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.customNavigationLayout = global::BookShare.Droid.Resource.Attribute.customNavigationLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dayInvalidStyle = global::BookShare.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.daySelectedStyle = global::BookShare.Droid.Resource.Attribute.daySelectedStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dayStyle = global::BookShare.Droid.Resource.Attribute.dayStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dayTodayStyle = global::BookShare.Droid.Resource.Attribute.dayTodayStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.defaultQueryHint = global::BookShare.Droid.Resource.Attribute.defaultQueryHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dialogCornerRadius = global::BookShare.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dialogPreferredPadding = global::BookShare.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dialogTheme = global::BookShare.Droid.Resource.Attribute.dialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.displayOptions = global::BookShare.Droid.Resource.Attribute.displayOptions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.divider = global::BookShare.Droid.Resource.Attribute.divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dividerHorizontal = global::BookShare.Droid.Resource.Attribute.dividerHorizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dividerPadding = global::BookShare.Droid.Resource.Attribute.dividerPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dividerVertical = global::BookShare.Droid.Resource.Attribute.dividerVertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableBottomCompat = global::BookShare.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableEndCompat = global::BookShare.Droid.Resource.Attribute.drawableEndCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableLeftCompat = global::BookShare.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableRightCompat = global::BookShare.Droid.Resource.Attribute.drawableRightCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableSize = global::BookShare.Droid.Resource.Attribute.drawableSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableStartCompat = global::BookShare.Droid.Resource.Attribute.drawableStartCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableTint = global::BookShare.Droid.Resource.Attribute.drawableTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableTintMode = global::BookShare.Droid.Resource.Attribute.drawableTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableTopCompat = global::BookShare.Droid.Resource.Attribute.drawableTopCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawerArrowStyle = global::BookShare.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawerLayoutStyle = global::BookShare.Droid.Resource.Attribute.drawerLayoutStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::BookShare.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dropDownListViewStyle = global::BookShare.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.editTextBackground = global::BookShare.Droid.Resource.Attribute.editTextBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.editTextColor = global::BookShare.Droid.Resource.Attribute.editTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.editTextStyle = global::BookShare.Droid.Resource.Attribute.editTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.elevation = global::BookShare.Droid.Resource.Attribute.elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.elevationOverlayColor = global::BookShare.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.elevationOverlayEnabled = global::BookShare.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconCheckable = global::BookShare.Droid.Resource.Attribute.endIconCheckable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconContentDescription = global::BookShare.Droid.Resource.Attribute.endIconContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconDrawable = global::BookShare.Droid.Resource.Attribute.endIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconMode = global::BookShare.Droid.Resource.Attribute.endIconMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconTint = global::BookShare.Droid.Resource.Attribute.endIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconTintMode = global::BookShare.Droid.Resource.Attribute.endIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.enforceMaterialTheme = global::BookShare.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.enforceTextAppearance = global::BookShare.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ensureMinTouchTargetSize = global::BookShare.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorContentDescription = global::BookShare.Droid.Resource.Attribute.errorContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorEnabled = global::BookShare.Droid.Resource.Attribute.errorEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorIconDrawable = global::BookShare.Droid.Resource.Attribute.errorIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorIconTint = global::BookShare.Droid.Resource.Attribute.errorIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorIconTintMode = global::BookShare.Droid.Resource.Attribute.errorIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorTextAppearance = global::BookShare.Droid.Resource.Attribute.errorTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorTextColor = global::BookShare.Droid.Resource.Attribute.errorTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::BookShare.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expanded = global::BookShare.Droid.Resource.Attribute.expanded;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleGravity = global::BookShare.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMargin = global::BookShare.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::BookShare.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::BookShare.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMarginStart = global::BookShare.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMarginTop = global::BookShare.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::BookShare.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.extendedFloatingActionButtonStyle = global::BookShare.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.extendMotionSpec = global::BookShare.Droid.Resource.Attribute.extendMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabAlignmentMode = global::BookShare.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabAnimationMode = global::BookShare.Droid.Resource.Attribute.fabAnimationMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCradleMargin = global::BookShare.Droid.Resource.Attribute.fabCradleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::BookShare.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCradleVerticalOffset = global::BookShare.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCustomSize = global::BookShare.Droid.Resource.Attribute.fabCustomSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabSize = global::BookShare.Droid.Resource.Attribute.fabSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fastScrollEnabled = global::BookShare.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::BookShare.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::BookShare.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::BookShare.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::BookShare.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.firstBaselineToTopHeight = global::BookShare.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.floatingActionButtonStyle = global::BookShare.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.font = global::BookShare.Droid.Resource.Attribute.font;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontFamily = global::BookShare.Droid.Resource.Attribute.fontFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderAuthority = global::BookShare.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderCerts = global::BookShare.Droid.Resource.Attribute.fontProviderCerts;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderFetchStrategy = global::BookShare.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderFetchTimeout = global::BookShare.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderPackage = global::BookShare.Droid.Resource.Attribute.fontProviderPackage;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderQuery = global::BookShare.Droid.Resource.Attribute.fontProviderQuery;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontStyle = global::BookShare.Droid.Resource.Attribute.fontStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontVariationSettings = global::BookShare.Droid.Resource.Attribute.fontVariationSettings;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontWeight = global::BookShare.Droid.Resource.Attribute.fontWeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.foregroundInsidePadding = global::BookShare.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.gapBetweenBars = global::BookShare.Droid.Resource.Attribute.gapBetweenBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.gestureInsetBottomIgnored = global::BookShare.Droid.Resource.Attribute.gestureInsetBottomIgnored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.goIcon = global::BookShare.Droid.Resource.Attribute.goIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.haloColor = global::BookShare.Droid.Resource.Attribute.haloColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.haloRadius = global::BookShare.Droid.Resource.Attribute.haloRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.headerLayout = global::BookShare.Droid.Resource.Attribute.headerLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.height = global::BookShare.Droid.Resource.Attribute.height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperText = global::BookShare.Droid.Resource.Attribute.helperText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperTextEnabled = global::BookShare.Droid.Resource.Attribute.helperTextEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperTextTextAppearance = global::BookShare.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperTextTextColor = global::BookShare.Droid.Resource.Attribute.helperTextTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hideMotionSpec = global::BookShare.Droid.Resource.Attribute.hideMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hideOnContentScroll = global::BookShare.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hideOnScroll = global::BookShare.Droid.Resource.Attribute.hideOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintAnimationEnabled = global::BookShare.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintEnabled = global::BookShare.Droid.Resource.Attribute.hintEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintTextAppearance = global::BookShare.Droid.Resource.Attribute.hintTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintTextColor = global::BookShare.Droid.Resource.Attribute.hintTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.homeAsUpIndicator = global::BookShare.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.homeLayout = global::BookShare.Droid.Resource.Attribute.homeLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.horizontalOffset = global::BookShare.Droid.Resource.Attribute.horizontalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::BookShare.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.icon = global::BookShare.Droid.Resource.Attribute.icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconEndPadding = global::BookShare.Droid.Resource.Attribute.iconEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconGravity = global::BookShare.Droid.Resource.Attribute.iconGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconifiedByDefault = global::BookShare.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconPadding = global::BookShare.Droid.Resource.Attribute.iconPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconSize = global::BookShare.Droid.Resource.Attribute.iconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconStartPadding = global::BookShare.Droid.Resource.Attribute.iconStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconTint = global::BookShare.Droid.Resource.Attribute.iconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconTintMode = global::BookShare.Droid.Resource.Attribute.iconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.imageButtonStyle = global::BookShare.Droid.Resource.Attribute.imageButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.indeterminateProgressStyle = global::BookShare.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.initialActivityCount = global::BookShare.Droid.Resource.Attribute.initialActivityCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.insetForeground = global::BookShare.Droid.Resource.Attribute.insetForeground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.isLightTheme = global::BookShare.Droid.Resource.Attribute.isLightTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.isMaterialTheme = global::BookShare.Droid.Resource.Attribute.isMaterialTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemBackground = global::BookShare.Droid.Resource.Attribute.itemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemFillColor = global::BookShare.Droid.Resource.Attribute.itemFillColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemHorizontalPadding = global::BookShare.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::BookShare.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemIconPadding = global::BookShare.Droid.Resource.Attribute.itemIconPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemIconSize = global::BookShare.Droid.Resource.Attribute.itemIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemIconTint = global::BookShare.Droid.Resource.Attribute.itemIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemMaxLines = global::BookShare.Droid.Resource.Attribute.itemMaxLines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemPadding = global::BookShare.Droid.Resource.Attribute.itemPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemRippleColor = global::BookShare.Droid.Resource.Attribute.itemRippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeAppearance = global::BookShare.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeAppearanceOverlay = global::BookShare.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeFillColor = global::BookShare.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeInsetBottom = global::BookShare.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeInsetEnd = global::BookShare.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeInsetStart = global::BookShare.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeInsetTop = global::BookShare.Droid.Resource.Attribute.itemShapeInsetTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemSpacing = global::BookShare.Droid.Resource.Attribute.itemSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemStrokeColor = global::BookShare.Droid.Resource.Attribute.itemStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemStrokeWidth = global::BookShare.Droid.Resource.Attribute.itemStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextAppearance = global::BookShare.Droid.Resource.Attribute.itemTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextAppearanceActive = global::BookShare.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextAppearanceInactive = global::BookShare.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextColor = global::BookShare.Droid.Resource.Attribute.itemTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.keylines = global::BookShare.Droid.Resource.Attribute.keylines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.labelBehavior = global::BookShare.Droid.Resource.Attribute.labelBehavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.labelStyle = global::BookShare.Droid.Resource.Attribute.labelStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.labelVisibilityMode = global::BookShare.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::BookShare.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout = global::BookShare.Droid.Resource.Attribute.layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layoutManager = global::BookShare.Droid.Resource.Attribute.layoutManager;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_anchor = global::BookShare.Droid.Resource.Attribute.layout_anchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_anchorGravity = global::BookShare.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_behavior = global::BookShare.Droid.Resource.Attribute.layout_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_collapseMode = global::BookShare.Droid.Resource.Attribute.layout_collapseMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::BookShare.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::BookShare.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_insetEdge = global::BookShare.Droid.Resource.Attribute.layout_insetEdge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_keyline = global::BookShare.Droid.Resource.Attribute.layout_keyline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_scrollFlags = global::BookShare.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_scrollInterpolator = global::BookShare.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.liftOnScroll = global::BookShare.Droid.Resource.Attribute.liftOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.liftOnScrollTargetViewId = global::BookShare.Droid.Resource.Attribute.liftOnScrollTargetViewId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.lineHeight = global::BookShare.Droid.Resource.Attribute.lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.lineSpacing = global::BookShare.Droid.Resource.Attribute.lineSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::BookShare.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::BookShare.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::BookShare.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listDividerAlertDialog = global::BookShare.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listItemLayout = global::BookShare.Droid.Resource.Attribute.listItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listLayout = global::BookShare.Droid.Resource.Attribute.listLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listMenuViewStyle = global::BookShare.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPopupWindowStyle = global::BookShare.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemHeight = global::BookShare.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::BookShare.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::BookShare.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemPaddingEnd = global::BookShare.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::BookShare.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::BookShare.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemPaddingStart = global::BookShare.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.logo = global::BookShare.Droid.Resource.Attribute.logo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.logoDescription = global::BookShare.Droid.Resource.Attribute.logoDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle = global::BookShare.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialAlertDialogTheme = global::BookShare.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle = global::BookShare.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::BookShare.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle = global::BookShare.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialButtonOutlinedStyle = global::BookShare.Droid.Resource.Attribute.materialButtonOutlinedStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialButtonStyle = global::BookShare.Droid.Resource.Attribute.materialButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialButtonToggleGroupStyle = global::BookShare.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarDay = global::BookShare.Droid.Resource.Attribute.materialCalendarDay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarFullscreenTheme = global::BookShare.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton = global::BookShare.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderDivider = global::BookShare.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderLayout = global::BookShare.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderSelection = global::BookShare.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderTitle = global::BookShare.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderToggleButton = global::BookShare.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarStyle = global::BookShare.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarTheme = global::BookShare.Droid.Resource.Attribute.materialCalendarTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCardViewStyle = global::BookShare.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialThemeOverlay = global::BookShare.Droid.Resource.Attribute.materialThemeOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxActionInlineWidth = global::BookShare.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxButtonHeight = global::BookShare.Droid.Resource.Attribute.maxButtonHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxCharacterCount = global::BookShare.Droid.Resource.Attribute.maxCharacterCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxImageSize = global::BookShare.Droid.Resource.Attribute.maxImageSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxLines = global::BookShare.Droid.Resource.Attribute.maxLines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.measureWithLargestChild = global::BookShare.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.menu = global::BookShare.Droid.Resource.Attribute.menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.minTouchTargetSize = global::BookShare.Droid.Resource.Attribute.minTouchTargetSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.multiChoiceItemLayout = global::BookShare.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationContentDescription = global::BookShare.Droid.Resource.Attribute.navigationContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationIcon = global::BookShare.Droid.Resource.Attribute.navigationIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationMode = global::BookShare.Droid.Resource.Attribute.navigationMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationViewStyle = global::BookShare.Droid.Resource.Attribute.navigationViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.number = global::BookShare.Droid.Resource.Attribute.number;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.numericModifiers = global::BookShare.Droid.Resource.Attribute.numericModifiers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.overlapAnchor = global::BookShare.Droid.Resource.Attribute.overlapAnchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingBottomNoButtons = global::BookShare.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingBottomSystemWindowInsets = global::BookShare.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingEnd = global::BookShare.Droid.Resource.Attribute.paddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingLeftSystemWindowInsets = global::BookShare.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingRightSystemWindowInsets = global::BookShare.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingStart = global::BookShare.Droid.Resource.Attribute.paddingStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingTopNoTitle = global::BookShare.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.panelBackground = global::BookShare.Droid.Resource.Attribute.panelBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.panelMenuListTheme = global::BookShare.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.panelMenuListWidth = global::BookShare.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleContentDescription = global::BookShare.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleDrawable = global::BookShare.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleEnabled = global::BookShare.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleTint = global::BookShare.Droid.Resource.Attribute.passwordToggleTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleTintMode = global::BookShare.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.placeholderText = global::BookShare.Droid.Resource.Attribute.placeholderText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.placeholderTextAppearance = global::BookShare.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.placeholderTextColor = global::BookShare.Droid.Resource.Attribute.placeholderTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupMenuBackground = global::BookShare.Droid.Resource.Attribute.popupMenuBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupMenuStyle = global::BookShare.Droid.Resource.Attribute.popupMenuStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupTheme = global::BookShare.Droid.Resource.Attribute.popupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupWindowStyle = global::BookShare.Droid.Resource.Attribute.popupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.prefixText = global::BookShare.Droid.Resource.Attribute.prefixText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.prefixTextAppearance = global::BookShare.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.prefixTextColor = global::BookShare.Droid.Resource.Attribute.prefixTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.preserveIconSpacing = global::BookShare.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.pressedTranslationZ = global::BookShare.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.progressBarPadding = global::BookShare.Droid.Resource.Attribute.progressBarPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.progressBarStyle = global::BookShare.Droid.Resource.Attribute.progressBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.queryBackground = global::BookShare.Droid.Resource.Attribute.queryBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.queryHint = global::BookShare.Droid.Resource.Attribute.queryHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.radioButtonStyle = global::BookShare.Droid.Resource.Attribute.radioButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.rangeFillColor = global::BookShare.Droid.Resource.Attribute.rangeFillColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ratingBarStyle = global::BookShare.Droid.Resource.Attribute.ratingBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::BookShare.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ratingBarStyleSmall = global::BookShare.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.recyclerViewStyle = global::BookShare.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.reverseLayout = global::BookShare.Droid.Resource.Attribute.reverseLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.rippleColor = global::BookShare.Droid.Resource.Attribute.rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrimAnimationDuration = global::BookShare.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrimBackground = global::BookShare.Droid.Resource.Attribute.scrimBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::BookShare.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrollViewStyle = global::BookShare.Droid.Resource.Attribute.scrollViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.searchHintIcon = global::BookShare.Droid.Resource.Attribute.searchHintIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.searchIcon = global::BookShare.Droid.Resource.Attribute.searchIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.searchViewStyle = global::BookShare.Droid.Resource.Attribute.searchViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.seekBarStyle = global::BookShare.Droid.Resource.Attribute.seekBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.selectableItemBackground = global::BookShare.Droid.Resource.Attribute.selectableItemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::BookShare.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.selectionRequired = global::BookShare.Droid.Resource.Attribute.selectionRequired;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shapeAppearance = global::BookShare.Droid.Resource.Attribute.shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shapeAppearanceLargeComponent = global::BookShare.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shapeAppearanceMediumComponent = global::BookShare.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shapeAppearanceOverlay = global::BookShare.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shapeAppearanceSmallComponent = global::BookShare.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showAsAction = global::BookShare.Droid.Resource.Attribute.showAsAction;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showDividers = global::BookShare.Droid.Resource.Attribute.showDividers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showMotionSpec = global::BookShare.Droid.Resource.Attribute.showMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showText = global::BookShare.Droid.Resource.Attribute.showText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showTitle = global::BookShare.Droid.Resource.Attribute.showTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shrinkMotionSpec = global::BookShare.Droid.Resource.Attribute.shrinkMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.singleChoiceItemLayout = global::BookShare.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.singleLine = global::BookShare.Droid.Resource.Attribute.singleLine;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.singleSelection = global::BookShare.Droid.Resource.Attribute.singleSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.sliderStyle = global::BookShare.Droid.Resource.Attribute.sliderStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.snackbarButtonStyle = global::BookShare.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.snackbarStyle = global::BookShare.Droid.Resource.Attribute.snackbarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.snackbarTextViewStyle = global::BookShare.Droid.Resource.Attribute.snackbarTextViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spanCount = global::BookShare.Droid.Resource.Attribute.spanCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spinBars = global::BookShare.Droid.Resource.Attribute.spinBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::BookShare.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spinnerStyle = global::BookShare.Droid.Resource.Attribute.spinnerStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.splitTrack = global::BookShare.Droid.Resource.Attribute.splitTrack;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.srcCompat = global::BookShare.Droid.Resource.Attribute.srcCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.stackFromEnd = global::BookShare.Droid.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.startIconCheckable = global::BookShare.Droid.Resource.Attribute.startIconCheckable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.startIconContentDescription = global::BookShare.Droid.Resource.Attribute.startIconContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.startIconDrawable = global::BookShare.Droid.Resource.Attribute.startIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.startIconTint = global::BookShare.Droid.Resource.Attribute.startIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.startIconTintMode = global::BookShare.Droid.Resource.Attribute.startIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_above_anchor = global::BookShare.Droid.Resource.Attribute.state_above_anchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_collapsed = global::BookShare.Droid.Resource.Attribute.state_collapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_collapsible = global::BookShare.Droid.Resource.Attribute.state_collapsible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_dragged = global::BookShare.Droid.Resource.Attribute.state_dragged;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_liftable = global::BookShare.Droid.Resource.Attribute.state_liftable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_lifted = global::BookShare.Droid.Resource.Attribute.state_lifted;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.statusBarBackground = global::BookShare.Droid.Resource.Attribute.statusBarBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.statusBarForeground = global::BookShare.Droid.Resource.Attribute.statusBarForeground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.statusBarScrim = global::BookShare.Droid.Resource.Attribute.statusBarScrim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.strokeColor = global::BookShare.Droid.Resource.Attribute.strokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.strokeWidth = global::BookShare.Droid.Resource.Attribute.strokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subMenuArrow = global::BookShare.Droid.Resource.Attribute.subMenuArrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.submitBackground = global::BookShare.Droid.Resource.Attribute.submitBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitle = global::BookShare.Droid.Resource.Attribute.subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitleTextAppearance = global::BookShare.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitleTextColor = global::BookShare.Droid.Resource.Attribute.subtitleTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitleTextStyle = global::BookShare.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.suffixText = global::BookShare.Droid.Resource.Attribute.suffixText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.suffixTextAppearance = global::BookShare.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.suffixTextColor = global::BookShare.Droid.Resource.Attribute.suffixTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.suggestionRowLayout = global::BookShare.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::BookShare.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchMinWidth = global::BookShare.Droid.Resource.Attribute.switchMinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchPadding = global::BookShare.Droid.Resource.Attribute.switchPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchStyle = global::BookShare.Droid.Resource.Attribute.switchStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchTextAppearance = global::BookShare.Droid.Resource.Attribute.switchTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabBackground = global::BookShare.Droid.Resource.Attribute.tabBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabContentStart = global::BookShare.Droid.Resource.Attribute.tabContentStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabGravity = global::BookShare.Droid.Resource.Attribute.tabGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIconTint = global::BookShare.Droid.Resource.Attribute.tabIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIconTintMode = global::BookShare.Droid.Resource.Attribute.tabIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicator = global::BookShare.Droid.Resource.Attribute.tabIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::BookShare.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicatorColor = global::BookShare.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicatorFullWidth = global::BookShare.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicatorGravity = global::BookShare.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicatorHeight = global::BookShare.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabInlineLabel = global::BookShare.Droid.Resource.Attribute.tabInlineLabel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabMaxWidth = global::BookShare.Droid.Resource.Attribute.tabMaxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabMinWidth = global::BookShare.Droid.Resource.Attribute.tabMinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabMode = global::BookShare.Droid.Resource.Attribute.tabMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabPadding = global::BookShare.Droid.Resource.Attribute.tabPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabPaddingBottom = global::BookShare.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabPaddingEnd = global::BookShare.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabPaddingStart = global::BookShare.Droid.Resource.Attribute.tabPaddingStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabPaddingTop = global::BookShare.Droid.Resource.Attribute.tabPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabRippleColor = global::BookShare.Droid.Resource.Attribute.tabRippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabSelectedTextColor = global::BookShare.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabStyle = global::BookShare.Droid.Resource.Attribute.tabStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabTextAppearance = global::BookShare.Droid.Resource.Attribute.tabTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabTextColor = global::BookShare.Droid.Resource.Attribute.tabTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabUnboundedRipple = global::BookShare.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAllCaps = global::BookShare.Droid.Resource.Attribute.textAllCaps;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceBody1 = global::BookShare.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceBody2 = global::BookShare.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceButton = global::BookShare.Droid.Resource.Attribute.textAppearanceButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceCaption = global::BookShare.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline1 = global::BookShare.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline2 = global::BookShare.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline3 = global::BookShare.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline4 = global::BookShare.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline5 = global::BookShare.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline6 = global::BookShare.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::BookShare.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceLineHeightEnabled = global::BookShare.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceListItem = global::BookShare.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::BookShare.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::BookShare.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceOverline = global::BookShare.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::BookShare.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::BookShare.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::BookShare.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::BookShare.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::BookShare.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::BookShare.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::BookShare.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textColorSearchUrl = global::BookShare.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textEndPadding = global::BookShare.Droid.Resource.Attribute.textEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::BookShare.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textInputStyle = global::BookShare.Droid.Resource.Attribute.textInputStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textLocale = global::BookShare.Droid.Resource.Attribute.textLocale;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textStartPadding = global::BookShare.Droid.Resource.Attribute.textStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.theme = global::BookShare.Droid.Resource.Attribute.theme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.themeLineHeight = global::BookShare.Droid.Resource.Attribute.themeLineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thickness = global::BookShare.Droid.Resource.Attribute.thickness;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbColor = global::BookShare.Droid.Resource.Attribute.thumbColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbElevation = global::BookShare.Droid.Resource.Attribute.thumbElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbRadius = global::BookShare.Droid.Resource.Attribute.thumbRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbTextPadding = global::BookShare.Droid.Resource.Attribute.thumbTextPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbTint = global::BookShare.Droid.Resource.Attribute.thumbTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbTintMode = global::BookShare.Droid.Resource.Attribute.thumbTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickColor = global::BookShare.Droid.Resource.Attribute.tickColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickColorActive = global::BookShare.Droid.Resource.Attribute.tickColorActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickColorInactive = global::BookShare.Droid.Resource.Attribute.tickColorInactive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickMark = global::BookShare.Droid.Resource.Attribute.tickMark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickMarkTint = global::BookShare.Droid.Resource.Attribute.tickMarkTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickMarkTintMode = global::BookShare.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tint = global::BookShare.Droid.Resource.Attribute.tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tintMode = global::BookShare.Droid.Resource.Attribute.tintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.title = global::BookShare.Droid.Resource.Attribute.title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleEnabled = global::BookShare.Droid.Resource.Attribute.titleEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMargin = global::BookShare.Droid.Resource.Attribute.titleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMarginBottom = global::BookShare.Droid.Resource.Attribute.titleMarginBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMarginEnd = global::BookShare.Droid.Resource.Attribute.titleMarginEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMargins = global::BookShare.Droid.Resource.Attribute.titleMargins;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMarginStart = global::BookShare.Droid.Resource.Attribute.titleMarginStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMarginTop = global::BookShare.Droid.Resource.Attribute.titleMarginTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleTextAppearance = global::BookShare.Droid.Resource.Attribute.titleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleTextColor = global::BookShare.Droid.Resource.Attribute.titleTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleTextStyle = global::BookShare.Droid.Resource.Attribute.titleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.toolbarId = global::BookShare.Droid.Resource.Attribute.toolbarId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::BookShare.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.toolbarStyle = global::BookShare.Droid.Resource.Attribute.toolbarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipForegroundColor = global::BookShare.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipFrameBackground = global::BookShare.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipStyle = global::BookShare.Droid.Resource.Attribute.tooltipStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipText = global::BookShare.Droid.Resource.Attribute.tooltipText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.track = global::BookShare.Droid.Resource.Attribute.track;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackColor = global::BookShare.Droid.Resource.Attribute.trackColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackColorActive = global::BookShare.Droid.Resource.Attribute.trackColorActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackColorInactive = global::BookShare.Droid.Resource.Attribute.trackColorInactive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackHeight = global::BookShare.Droid.Resource.Attribute.trackHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackTint = global::BookShare.Droid.Resource.Attribute.trackTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackTintMode = global::BookShare.Droid.Resource.Attribute.trackTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.transitionShapeAppearance = global::BookShare.Droid.Resource.Attribute.transitionShapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ttcIndex = global::BookShare.Droid.Resource.Attribute.ttcIndex;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.useCompatPadding = global::BookShare.Droid.Resource.Attribute.useCompatPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.useMaterialThemeColors = global::BookShare.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.values = global::BookShare.Droid.Resource.Attribute.values;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.verticalOffset = global::BookShare.Droid.Resource.Attribute.verticalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.viewInflaterClass = global::BookShare.Droid.Resource.Attribute.viewInflaterClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.voiceIcon = global::BookShare.Droid.Resource.Attribute.voiceIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowActionBar = global::BookShare.Droid.Resource.Attribute.windowActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowActionBarOverlay = global::BookShare.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowActionModeOverlay = global::BookShare.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowFixedHeightMajor = global::BookShare.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowFixedHeightMinor = global::BookShare.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowFixedWidthMajor = global::BookShare.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowFixedWidthMinor = global::BookShare.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowMinWidthMajor = global::BookShare.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowMinWidthMinor = global::BookShare.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowNoTitle = global::BookShare.Droid.Resource.Attribute.windowNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.yearSelectedStyle = global::BookShare.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.yearStyle = global::BookShare.Droid.Resource.Attribute.yearStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.yearTodayStyle = global::BookShare.Droid.Resource.Attribute.yearTodayStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::BookShare.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::BookShare.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::BookShare.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::BookShare.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::BookShare.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::BookShare.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_btn_colored_text_material = global::BookShare.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_color_highlight_material = global::BookShare.Droid.Resource.Color.abc_color_highlight_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_decor_view_status_guard = global::BookShare.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_decor_view_status_guard_light = global::BookShare.Droid.Resource.Color.abc_decor_view_status_guard_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_hint_foreground_material_dark = global::BookShare.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_hint_foreground_material_light = global::BookShare.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::BookShare.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::BookShare.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_primary_text_material_dark = global::BookShare.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_primary_text_material_light = global::BookShare.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_search_url_text = global::BookShare.Droid.Resource.Color.abc_search_url_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_search_url_text_normal = global::BookShare.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_search_url_text_pressed = global::BookShare.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_search_url_text_selected = global::BookShare.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_secondary_text_material_dark = global::BookShare.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_secondary_text_material_light = global::BookShare.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_btn_checkable = global::BookShare.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_default = global::BookShare.Droid.Resource.Color.abc_tint_default;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_edittext = global::BookShare.Droid.Resource.Color.abc_tint_edittext;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_seek_thumb = global::BookShare.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_spinner = global::BookShare.Droid.Resource.Color.abc_tint_spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_switch_track = global::BookShare.Droid.Resource.Color.abc_tint_switch_track;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.accent_material_dark = global::BookShare.Droid.Resource.Color.accent_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.accent_material_light = global::BookShare.Droid.Resource.Color.accent_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.androidx_core_ripple_material_light = global::BookShare.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.androidx_core_secondary_text_default_material_light = global::BookShare.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_floating_material_dark = global::BookShare.Droid.Resource.Color.background_floating_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_floating_material_light = global::BookShare.Droid.Resource.Color.background_floating_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_material_dark = global::BookShare.Droid.Resource.Color.background_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_material_light = global::BookShare.Droid.Resource.Color.background_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::BookShare.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::BookShare.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::BookShare.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::BookShare.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_material_dark = global::BookShare.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_material_light = global::BookShare.Droid.Resource.Color.bright_foreground_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.browser_actions_bg_grey = global::BookShare.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.browser_actions_divider_color = global::BookShare.Droid.Resource.Color.browser_actions_divider_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.browser_actions_text_color = global::BookShare.Droid.Resource.Color.browser_actions_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.browser_actions_title_color = global::BookShare.Droid.Resource.Color.browser_actions_title_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.button_material_dark = global::BookShare.Droid.Resource.Color.button_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.button_material_light = global::BookShare.Droid.Resource.Color.button_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_dark_background = global::BookShare.Droid.Resource.Color.cardview_dark_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_light_background = global::BookShare.Droid.Resource.Color.cardview_light_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_shadow_end_color = global::BookShare.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_shadow_start_color = global::BookShare.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.checkbox_themeable_attribute_color = global::BookShare.Droid.Resource.Color.checkbox_themeable_attribute_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::BookShare.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_box_stroke_color = global::BookShare.Droid.Resource.Color.design_box_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_background = global::BookShare.Droid.Resource.Color.design_dark_default_color_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_error = global::BookShare.Droid.Resource.Color.design_dark_default_color_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_on_background = global::BookShare.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_on_error = global::BookShare.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_on_primary = global::BookShare.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_on_secondary = global::BookShare.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_on_surface = global::BookShare.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_primary = global::BookShare.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_primary_dark = global::BookShare.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_primary_variant = global::BookShare.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_secondary = global::BookShare.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_secondary_variant = global::BookShare.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_surface = global::BookShare.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_background = global::BookShare.Droid.Resource.Color.design_default_color_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_error = global::BookShare.Droid.Resource.Color.design_default_color_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_on_background = global::BookShare.Droid.Resource.Color.design_default_color_on_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_on_error = global::BookShare.Droid.Resource.Color.design_default_color_on_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_on_primary = global::BookShare.Droid.Resource.Color.design_default_color_on_primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_on_secondary = global::BookShare.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_on_surface = global::BookShare.Droid.Resource.Color.design_default_color_on_surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_primary = global::BookShare.Droid.Resource.Color.design_default_color_primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_primary_dark = global::BookShare.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_primary_variant = global::BookShare.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_secondary = global::BookShare.Droid.Resource.Color.design_default_color_secondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_secondary_variant = global::BookShare.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_surface = global::BookShare.Droid.Resource.Color.design_default_color_surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_error = global::BookShare.Droid.Resource.Color.design_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_shadow_end_color = global::BookShare.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_shadow_mid_color = global::BookShare.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_shadow_start_color = global::BookShare.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::BookShare.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::BookShare.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::BookShare.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::BookShare.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_icon_tint = global::BookShare.Droid.Resource.Color.design_icon_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_snackbar_background_color = global::BookShare.Droid.Resource.Color.design_snackbar_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::BookShare.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::BookShare.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.dim_foreground_material_dark = global::BookShare.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.dim_foreground_material_light = global::BookShare.Droid.Resource.Color.dim_foreground_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.error_color_material_dark = global::BookShare.Droid.Resource.Color.error_color_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.error_color_material_light = global::BookShare.Droid.Resource.Color.error_color_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.foreground_material_dark = global::BookShare.Droid.Resource.Color.foreground_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.foreground_material_light = global::BookShare.Droid.Resource.Color.foreground_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.highlighted_text_material_dark = global::BookShare.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.highlighted_text_material_light = global::BookShare.Droid.Resource.Color.highlighted_text_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_blue_grey_800 = global::BookShare.Droid.Resource.Color.material_blue_grey_800;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_blue_grey_900 = global::BookShare.Droid.Resource.Color.material_blue_grey_900;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_blue_grey_950 = global::BookShare.Droid.Resource.Color.material_blue_grey_950;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_deep_teal_200 = global::BookShare.Droid.Resource.Color.material_deep_teal_200;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_deep_teal_500 = global::BookShare.Droid.Resource.Color.material_deep_teal_500;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_100 = global::BookShare.Droid.Resource.Color.material_grey_100;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_300 = global::BookShare.Droid.Resource.Color.material_grey_300;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_50 = global::BookShare.Droid.Resource.Color.material_grey_50;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_600 = global::BookShare.Droid.Resource.Color.material_grey_600;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_800 = global::BookShare.Droid.Resource.Color.material_grey_800;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_850 = global::BookShare.Droid.Resource.Color.material_grey_850;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_900 = global::BookShare.Droid.Resource.Color.material_grey_900;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_background_disabled = global::BookShare.Droid.Resource.Color.material_on_background_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_background_emphasis_high_type = global::BookShare.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_background_emphasis_medium = global::BookShare.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_primary_disabled = global::BookShare.Droid.Resource.Color.material_on_primary_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_primary_emphasis_high_type = global::BookShare.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_primary_emphasis_medium = global::BookShare.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_surface_disabled = global::BookShare.Droid.Resource.Color.material_on_surface_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_surface_emphasis_high_type = global::BookShare.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_surface_emphasis_medium = global::BookShare.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_surface_stroke = global::BookShare.Droid.Resource.Color.material_on_surface_stroke;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_active_tick_marks_color = global::BookShare.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_active_track_color = global::BookShare.Droid.Resource.Color.material_slider_active_track_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_halo_color = global::BookShare.Droid.Resource.Color.material_slider_halo_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_inactive_tick_marks_color = global::BookShare.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_inactive_track_color = global::BookShare.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_thumb_color = global::BookShare.Droid.Resource.Color.material_slider_thumb_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::BookShare.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_ripple_color = global::BookShare.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::BookShare.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::BookShare.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::BookShare.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::BookShare.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_color_selector = global::BookShare.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::BookShare.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_calendar_item_stroke_color = global::BookShare.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_calendar_selected_range = global::BookShare.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_card_view_foreground = global::BookShare.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_card_view_ripple = global::BookShare.Droid.Resource.Color.mtrl_card_view_ripple;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_background_color = global::BookShare.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::BookShare.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_surface_color = global::BookShare.Droid.Resource.Color.mtrl_chip_surface_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_text_color = global::BookShare.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_choice_chip_background_color = global::BookShare.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_choice_chip_ripple_color = global::BookShare.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_choice_chip_text_color = global::BookShare.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_error = global::BookShare.Droid.Resource.Color.mtrl_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_fab_bg_color_selector = global::BookShare.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_fab_icon_text_color_selector = global::BookShare.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_fab_ripple_color = global::BookShare.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_filled_background_color = global::BookShare.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_filled_icon_tint = global::BookShare.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_filled_stroke_color = global::BookShare.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_indicator_text_color = global::BookShare.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_navigation_item_background_color = global::BookShare.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_navigation_item_icon_tint = global::BookShare.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_navigation_item_text_color = global::BookShare.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::BookShare.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_outlined_icon_tint = global::BookShare.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_outlined_stroke_color = global::BookShare.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_popupmenu_overlay_color = global::BookShare.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_scrim_color = global::BookShare.Droid.Resource.Color.mtrl_scrim_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::BookShare.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::BookShare.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::BookShare.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::BookShare.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_ripple_color = global::BookShare.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::BookShare.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_disabled_color = global::BookShare.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::BookShare.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::BookShare.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::BookShare.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::BookShare.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.notification_action_color_filter = global::BookShare.Droid.Resource.Color.notification_action_color_filter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.notification_icon_bg_color = global::BookShare.Droid.Resource.Color.notification_icon_bg_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.notification_material_background_media_default_color = global::BookShare.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_dark_material_dark = global::BookShare.Droid.Resource.Color.primary_dark_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_dark_material_light = global::BookShare.Droid.Resource.Color.primary_dark_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_material_dark = global::BookShare.Droid.Resource.Color.primary_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_material_light = global::BookShare.Droid.Resource.Color.primary_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_default_material_dark = global::BookShare.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_default_material_light = global::BookShare.Droid.Resource.Color.primary_text_default_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_disabled_material_dark = global::BookShare.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_disabled_material_light = global::BookShare.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.radiobutton_themeable_attribute_color = global::BookShare.Droid.Resource.Color.radiobutton_themeable_attribute_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.ripple_material_dark = global::BookShare.Droid.Resource.Color.ripple_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.ripple_material_light = global::BookShare.Droid.Resource.Color.ripple_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.secondary_text_default_material_dark = global::BookShare.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.secondary_text_default_material_light = global::BookShare.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::BookShare.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.secondary_text_disabled_material_light = global::BookShare.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::BookShare.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::BookShare.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_material_dark = global::BookShare.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_material_light = global::BookShare.Droid.Resource.Color.switch_thumb_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::BookShare.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_normal_material_light = global::BookShare.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.test_mtrl_calendar_day = global::BookShare.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.test_mtrl_calendar_day_selected = global::BookShare.Droid.Resource.Color.test_mtrl_calendar_day_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.tooltip_background_dark = global::BookShare.Droid.Resource.Color.tooltip_background_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.tooltip_background_light = global::BookShare.Droid.Resource.Color.tooltip_background_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::BookShare.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::BookShare.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::BookShare.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::BookShare.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::BookShare.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::BookShare.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::BookShare.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::BookShare.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::BookShare.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::BookShare.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::BookShare.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::BookShare.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::BookShare.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::BookShare.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::BookShare.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::BookShare.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::BookShare.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::BookShare.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::BookShare.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::BookShare.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::BookShare.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::BookShare.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::BookShare.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::BookShare.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_control_corner_material = global::BookShare.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_control_inset_material = global::BookShare.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_control_padding_material = global::BookShare.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::BookShare.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::BookShare.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::BookShare.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::BookShare.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::BookShare.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::BookShare.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::BookShare.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::BookShare.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::BookShare.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_padding_material = global::BookShare.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::BookShare.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::BookShare.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::BookShare.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::BookShare.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::BookShare.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::BookShare.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::BookShare.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::BookShare.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::BookShare.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::BookShare.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_floating_window_z = global::BookShare.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_list_item_height_large_material = global::BookShare.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_list_item_height_material = global::BookShare.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_list_item_height_small_material = global::BookShare.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::BookShare.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::BookShare.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_progress_bar_height_material = global::BookShare.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_search_view_preferred_height = global::BookShare.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::BookShare.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::BookShare.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::BookShare.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::BookShare.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_switch_padding = global::BookShare.Droid.Resource.Dimension.abc_switch_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_button_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_caption_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_headline_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_large_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_medium_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_menu_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_small_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::BookShare.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_title_material = global::BookShare.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::BookShare.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.action_bar_size = global::BookShare.Droid.Resource.Dimension.action_bar_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.appcompat_dialog_background_inset = global::BookShare.Droid.Resource.Dimension.appcompat_dialog_background_inset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::BookShare.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::BookShare.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::BookShare.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.cardview_default_elevation = global::BookShare.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.cardview_default_radius = global::BookShare.Droid.Resource.Dimension.cardview_default_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::BookShare.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::BookShare.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::BookShare.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::BookShare.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_control_corner_material = global::BookShare.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::BookShare.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::BookShare.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.default_dimension = global::BookShare.Droid.Resource.Dimension.default_dimension;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.def_drawer_elevation = global::BookShare.Droid.Resource.Dimension.def_drawer_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_appbar_elevation = global::BookShare.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_height = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_margin = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::BookShare.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_sheet_elevation = global::BookShare.Droid.Resource.Dimension.design_bottom_sheet_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::BookShare.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::BookShare.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_border_width = global::BookShare.Droid.Resource.Dimension.design_fab_border_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_elevation = global::BookShare.Droid.Resource.Dimension.design_fab_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_image_size = global::BookShare.Droid.Resource.Dimension.design_fab_image_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_size_mini = global::BookShare.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_size_normal = global::BookShare.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::BookShare.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::BookShare.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_elevation = global::BookShare.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_icon_padding = global::BookShare.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_icon_size = global::BookShare.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::BookShare.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::BookShare.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_max_width = global::BookShare.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::BookShare.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::BookShare.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::BookShare.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha = global::BookShare.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::BookShare.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_elevation = global::BookShare.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::BookShare.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_max_width = global::BookShare.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_min_width = global::BookShare.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::BookShare.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::BookShare.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::BookShare.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_text_size = global::BookShare.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_tab_max_width = global::BookShare.Droid.Resource.Dimension.design_tab_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::BookShare.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_tab_text_size = global::BookShare.Droid.Resource.Dimension.design_tab_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_tab_text_size_2line = global::BookShare.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::BookShare.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::BookShare.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.disabled_alpha_material_light = global::BookShare.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.fastscroll_default_thickness = global::BookShare.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.fastscroll_margin = global::BookShare.Droid.Resource.Dimension.fastscroll_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.fastscroll_minimum_range = global::BookShare.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::BookShare.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::BookShare.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.highlight_alpha_material_light = global::BookShare.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.hint_alpha_material_dark = global::BookShare.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.hint_alpha_material_light = global::BookShare.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::BookShare.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::BookShare.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::BookShare.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::BookShare.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::BookShare.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.material_emphasis_disabled = global::BookShare.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.material_emphasis_high_type = global::BookShare.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.material_emphasis_medium = global::BookShare.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.material_text_view_test_line_height = global::BookShare.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.material_text_view_test_line_height_override = global::BookShare.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::BookShare.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::BookShare.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::BookShare.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::BookShare.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::BookShare.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::BookShare.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::BookShare.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_radius = global::BookShare.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::BookShare.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_text_size = global::BookShare.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_with_text_radius = global::BookShare.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::BookShare.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::BookShare.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::BookShare.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::BookShare.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::BookShare.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::BookShare.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::BookShare.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::BookShare.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::BookShare.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::BookShare.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_elevation = global::BookShare.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_focused_z = global::BookShare.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::BookShare.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::BookShare.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::BookShare.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_inset = global::BookShare.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::BookShare.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::BookShare.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_padding_left = global::BookShare.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_padding_right = global::BookShare.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_padding_top = global::BookShare.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::BookShare.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::BookShare.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::BookShare.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::BookShare.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::BookShare.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_text_size = global::BookShare.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_z = global::BookShare.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_action_height = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_action_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_bottom_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_content_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_corner = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_height = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_width = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_content_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_height = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_text_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_navigation_height = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_year_corner = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_year_height = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_year_width = global::BookShare.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_checked_icon_margin = global::BookShare.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_checked_icon_size = global::BookShare.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_corner_radius = global::BookShare.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_dragged_z = global::BookShare.Droid.Resource.Dimension.mtrl_card_dragged_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_elevation = global::BookShare.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_spacing = global::BookShare.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::BookShare.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_chip_text_size = global::BookShare.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::BookShare.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::BookShare.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::BookShare.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::BookShare.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_elevation = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_end_padding = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_icon_size = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_min_height = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_min_width = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_start_padding = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_top_padding = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::BookShare.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_elevation = global::BookShare.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_min_touch_target = global::BookShare.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::BookShare.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::BookShare.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha = global::BookShare.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::BookShare.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::BookShare.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::BookShare.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_large_touch_target = global::BookShare.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha = global::BookShare.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::BookShare.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::BookShare.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::BookShare.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_min_touch_target_size = global::BookShare.Droid.Resource.Dimension.mtrl_min_touch_target_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_elevation = global::BookShare.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::BookShare.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::BookShare.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_icon_size = global::BookShare.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::BookShare.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::BookShare.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component = global::BookShare.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::BookShare.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component = global::BookShare.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_halo_radius = global::BookShare.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_label_padding = global::BookShare.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_label_radius = global::BookShare.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_label_square_side = global::BookShare.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_thumb_elevation = global::BookShare.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_thumb_radius = global::BookShare.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_track_height = global::BookShare.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_track_side_padding = global::BookShare.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_track_top = global::BookShare.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_widget_height = global::BookShare.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::BookShare.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::BookShare.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::BookShare.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_snackbar_margin = global::BookShare.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_switch_thumb_elevation = global::BookShare.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::BookShare.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::BookShare.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::BookShare.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::BookShare.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::BookShare.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start = global::BookShare.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::BookShare.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::BookShare.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::BookShare.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::BookShare.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_tooltip_arrowSize = global::BookShare.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_tooltip_cornerSize = global::BookShare.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_tooltip_minHeight = global::BookShare.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_tooltip_minWidth = global::BookShare.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_tooltip_padding = global::BookShare.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::BookShare.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_action_icon_size = global::BookShare.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_action_text_size = global::BookShare.Droid.Resource.Dimension.notification_action_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_big_circle_margin = global::BookShare.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_content_margin_start = global::BookShare.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_large_icon_height = global::BookShare.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_large_icon_width = global::BookShare.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_main_column_padding_top = global::BookShare.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_media_narrow_margin = global::BookShare.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_right_icon_size = global::BookShare.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_right_side_padding_top = global::BookShare.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_small_icon_background_padding = global::BookShare.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::BookShare.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_subtext_size = global::BookShare.Droid.Resource.Dimension.notification_subtext_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_top_pad = global::BookShare.Droid.Resource.Dimension.notification_top_pad;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_top_pad_large_text = global::BookShare.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::BookShare.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_corner_radius = global::BookShare.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_horizontal_padding = global::BookShare.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_margin = global::BookShare.Droid.Resource.Dimension.tooltip_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::BookShare.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::BookShare.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_vertical_padding = global::BookShare.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::BookShare.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_y_offset_touch = global::BookShare.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::BookShare.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_borderless_material = global::BookShare.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_check_material = global::BookShare.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_check_material_anim = global::BookShare.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::BookShare.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::BookShare.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_colored_material = global::BookShare.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::BookShare.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_radio_material = global::BookShare.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_radio_material_anim = global::BookShare.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::BookShare.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::BookShare.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::BookShare.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::BookShare.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::BookShare.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_cab_background_top_material = global::BookShare.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_control_background_material = global::BookShare.Droid.Resource.Drawable.abc_control_background_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_dialog_material_background = global::BookShare.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_edit_text_material = global::BookShare.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_ab_back_material = global::BookShare.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::BookShare.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_clear_material = global::BookShare.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::BookShare.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::BookShare.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::BookShare.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::BookShare.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_search_api_material = global::BookShare.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::BookShare.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::BookShare.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_item_background_holo_light = global::BookShare.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_divider_material = global::BookShare.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_focused_holo = global::BookShare.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::BookShare.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::BookShare.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::BookShare.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::BookShare.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::BookShare.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::BookShare.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::BookShare.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::BookShare.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::BookShare.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::BookShare.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::BookShare.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::BookShare.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ratingbar_material = global::BookShare.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::BookShare.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::BookShare.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::BookShare.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::BookShare.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::BookShare.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_seekbar_track_material = global::BookShare.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::BookShare.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::BookShare.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_switch_thumb_material = global::BookShare.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_tab_indicator_material = global::BookShare.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::BookShare.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_textfield_search_material = global::BookShare.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_text_cursor_material = global::BookShare.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_vector_test = global::BookShare.Droid.Resource.Drawable.abc_vector_test;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar1 = global::BookShare.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar10 = global::BookShare.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar11 = global::BookShare.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar12 = global::BookShare.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar13 = global::BookShare.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar14 = global::BookShare.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar15 = global::BookShare.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar16 = global::BookShare.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar17 = global::BookShare.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar18 = global::BookShare.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar19 = global::BookShare.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar2 = global::BookShare.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar20 = global::BookShare.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar21 = global::BookShare.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar22 = global::BookShare.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar23 = global::BookShare.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar24 = global::BookShare.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar25 = global::BookShare.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar26 = global::BookShare.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar27 = global::BookShare.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar28 = global::BookShare.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar29 = global::BookShare.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar3 = global::BookShare.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar30 = global::BookShare.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar4 = global::BookShare.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar5 = global::BookShare.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar6 = global::BookShare.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar7 = global::BookShare.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar8 = global::BookShare.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar9 = global::BookShare.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.avd_hide_password = global::BookShare.Droid.Resource.Drawable.avd_hide_password;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.avd_show_password = global::BookShare.Droid.Resource.Drawable.avd_show_password;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.btn_checkbox_checked_mtrl = global::BookShare.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::BookShare.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::BookShare.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::BookShare.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.btn_radio_off_mtrl = global::BookShare.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::BookShare.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.btn_radio_on_mtrl = global::BookShare.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::BookShare.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.clear_button_icon = global::BookShare.Droid.Resource.Drawable.clear_button_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_fab_background = global::BookShare.Droid.Resource.Drawable.design_fab_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_ic_visibility = global::BookShare.Droid.Resource.Drawable.design_ic_visibility;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_ic_visibility_off = global::BookShare.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_password_eye = global::BookShare.Droid.Resource.Drawable.design_password_eye;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_snackbar_background = global::BookShare.Droid.Resource.Drawable.design_snackbar_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_checked_circle = global::BookShare.Droid.Resource.Drawable.ic_mtrl_checked_circle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::BookShare.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::BookShare.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::BookShare.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.inputlayout_togglecollapseicon = global::BookShare.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.inputlayout_togglevisibleicon = global::BookShare.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.input_layout_drop_down_icon = global::BookShare.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_calendar_black_24dp = global::BookShare.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_clear_black_24dp = global::BookShare.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_edit_black_24dp = global::BookShare.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::BookShare.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::BookShare.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::BookShare.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::BookShare.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_dialog_background = global::BookShare.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_dropdown_arrow = global::BookShare.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down = global::BookShare.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up = global::BookShare.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_ic_cancel = global::BookShare.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_ic_error = global::BookShare.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_popupmenu_background = global::BookShare.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_popupmenu_background_dark = global::BookShare.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::BookShare.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.navigation_empty_icon = global::BookShare.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_action_background = global::BookShare.Droid.Resource.Drawable.notification_action_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg = global::BookShare.Droid.Resource.Drawable.notification_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg_low = global::BookShare.Droid.Resource.Drawable.notification_bg_low;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg_low_normal = global::BookShare.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg_low_pressed = global::BookShare.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg_normal = global::BookShare.Droid.Resource.Drawable.notification_bg_normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg_normal_pressed = global::BookShare.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_icon_background = global::BookShare.Droid.Resource.Drawable.notification_icon_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_template_icon_bg = global::BookShare.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_template_icon_low_bg = global::BookShare.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_tile_bg = global::BookShare.Droid.Resource.Drawable.notification_tile_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::BookShare.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.sfclosebutton = global::BookShare.Droid.Resource.Drawable.sfclosebutton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.styleinfo = global::BookShare.Droid.Resource.Drawable.styleinfo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.test_custom_background = global::BookShare.Droid.Resource.Drawable.test_custom_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.tooltip_frame_dark = global::BookShare.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.tooltip_frame_light = global::BookShare.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_action_clickable_span = global::BookShare.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_0 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_1 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_10 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_11 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_12 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_13 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_14 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_15 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_16 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_17 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_18 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_19 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_2 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_20 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_21 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_22 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_23 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_24 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_25 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_26 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_27 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_28 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_29 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_3 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_30 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_31 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_4 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_5 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_6 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_7 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_8 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_custom_action_9 = global::BookShare.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action0 = global::BookShare.Droid.Resource.Id.action0;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.actions = global::BookShare.Droid.Resource.Id.actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar = global::BookShare.Droid.Resource.Id.action_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_activity_content = global::BookShare.Droid.Resource.Id.action_bar_activity_content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_container = global::BookShare.Droid.Resource.Id.action_bar_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_root = global::BookShare.Droid.Resource.Id.action_bar_root;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_spinner = global::BookShare.Droid.Resource.Id.action_bar_spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_subtitle = global::BookShare.Droid.Resource.Id.action_bar_subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_title = global::BookShare.Droid.Resource.Id.action_bar_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_container = global::BookShare.Droid.Resource.Id.action_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_context_bar = global::BookShare.Droid.Resource.Id.action_context_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_divider = global::BookShare.Droid.Resource.Id.action_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_image = global::BookShare.Droid.Resource.Id.action_image;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_menu_divider = global::BookShare.Droid.Resource.Id.action_menu_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_menu_presenter = global::BookShare.Droid.Resource.Id.action_menu_presenter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_mode_bar = global::BookShare.Droid.Resource.Id.action_mode_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_mode_bar_stub = global::BookShare.Droid.Resource.Id.action_mode_bar_stub;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_mode_close_button = global::BookShare.Droid.Resource.Id.action_mode_close_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_text = global::BookShare.Droid.Resource.Id.action_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.activity_chooser_view_content = global::BookShare.Droid.Resource.Id.activity_chooser_view_content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.add = global::BookShare.Droid.Resource.Id.add;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.alertTitle = global::BookShare.Droid.Resource.Id.alertTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.all = global::BookShare.Droid.Resource.Id.all;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.ALT = global::BookShare.Droid.Resource.Id.ALT;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.always = global::BookShare.Droid.Resource.Id.always;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.async = global::BookShare.Droid.Resource.Id.async;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.auto = global::BookShare.Droid.Resource.Id.auto;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.beginning = global::BookShare.Droid.Resource.Id.beginning;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.blocking = global::BookShare.Droid.Resource.Id.blocking;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.bottom = global::BookShare.Droid.Resource.Id.bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.bottomtab_navarea = global::BookShare.Droid.Resource.Id.bottomtab_navarea;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.bottomtab_tabbar = global::BookShare.Droid.Resource.Id.bottomtab_tabbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.BOTTOM_END = global::BookShare.Droid.Resource.Id.BOTTOM_END;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.BOTTOM_START = global::BookShare.Droid.Resource.Id.BOTTOM_START;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_header_text = global::BookShare.Droid.Resource.Id.browser_actions_header_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_items = global::BookShare.Droid.Resource.Id.browser_actions_menu_items;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_item_icon = global::BookShare.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_item_text = global::BookShare.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_view = global::BookShare.Droid.Resource.Id.browser_actions_menu_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.buttonPanel = global::BookShare.Droid.Resource.Id.buttonPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.cancel_action = global::BookShare.Droid.Resource.Id.cancel_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.cancel_button = global::BookShare.Droid.Resource.Id.cancel_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.center = global::BookShare.Droid.Resource.Id.center;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.center_horizontal = global::BookShare.Droid.Resource.Id.center_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.center_vertical = global::BookShare.Droid.Resource.Id.center_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.checkbox = global::BookShare.Droid.Resource.Id.checkbox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.@checked = global::BookShare.Droid.Resource.Id.@checked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chip = global::BookShare.Droid.Resource.Id.chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chip1 = global::BookShare.Droid.Resource.Id.chip1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chip2 = global::BookShare.Droid.Resource.Id.chip2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chip3 = global::BookShare.Droid.Resource.Id.chip3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chip_group = global::BookShare.Droid.Resource.Id.chip_group;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chronometer = global::BookShare.Droid.Resource.Id.chronometer;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.clear_text = global::BookShare.Droid.Resource.Id.clear_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.clip_horizontal = global::BookShare.Droid.Resource.Id.clip_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.clip_vertical = global::BookShare.Droid.Resource.Id.clip_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.collapseActionView = global::BookShare.Droid.Resource.Id.collapseActionView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.confirm_button = global::BookShare.Droid.Resource.Id.confirm_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.container = global::BookShare.Droid.Resource.Id.container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.content = global::BookShare.Droid.Resource.Id.content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.contentPanel = global::BookShare.Droid.Resource.Id.contentPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.coordinator = global::BookShare.Droid.Resource.Id.coordinator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.CTRL = global::BookShare.Droid.Resource.Id.CTRL;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.custom = global::BookShare.Droid.Resource.Id.custom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.customPanel = global::BookShare.Droid.Resource.Id.customPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.cut = global::BookShare.Droid.Resource.Id.cut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.date_picker_actions = global::BookShare.Droid.Resource.Id.date_picker_actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.decor_content_parent = global::BookShare.Droid.Resource.Id.decor_content_parent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.default_activity_button = global::BookShare.Droid.Resource.Id.default_activity_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_bottom_sheet = global::BookShare.Droid.Resource.Id.design_bottom_sheet;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_menu_item_action_area = global::BookShare.Droid.Resource.Id.design_menu_item_action_area;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_menu_item_action_area_stub = global::BookShare.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_menu_item_text = global::BookShare.Droid.Resource.Id.design_menu_item_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_navigation_view = global::BookShare.Droid.Resource.Id.design_navigation_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.dialog_button = global::BookShare.Droid.Resource.Id.dialog_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.disableHome = global::BookShare.Droid.Resource.Id.disableHome;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.dropdown_menu = global::BookShare.Droid.Resource.Id.dropdown_menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.edit_query = global::BookShare.Droid.Resource.Id.edit_query;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.end = global::BookShare.Droid.Resource.Id.end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.end_padder = global::BookShare.Droid.Resource.Id.end_padder;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.enterAlways = global::BookShare.Droid.Resource.Id.enterAlways;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.enterAlwaysCollapsed = global::BookShare.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.exitUntilCollapsed = global::BookShare.Droid.Resource.Id.exitUntilCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.expanded_menu = global::BookShare.Droid.Resource.Id.expanded_menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.expand_activities_button = global::BookShare.Droid.Resource.Id.expand_activities_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fade = global::BookShare.Droid.Resource.Id.fade;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fill = global::BookShare.Droid.Resource.Id.fill;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.filled = global::BookShare.Droid.Resource.Id.filled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fill_horizontal = global::BookShare.Droid.Resource.Id.fill_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fill_vertical = global::BookShare.Droid.Resource.Id.fill_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fitToContents = global::BookShare.Droid.Resource.Id.fitToContents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.@fixed = global::BookShare.Droid.Resource.Id.@fixed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.floating = global::BookShare.Droid.Resource.Id.floating;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.flyoutcontent_appbar = global::BookShare.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.forever = global::BookShare.Droid.Resource.Id.forever;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fragment_container_view_tag = global::BookShare.Droid.Resource.Id.fragment_container_view_tag;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.FUNCTION = global::BookShare.Droid.Resource.Id.FUNCTION;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.ghost_view = global::BookShare.Droid.Resource.Id.ghost_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.ghost_view_holder = global::BookShare.Droid.Resource.Id.ghost_view_holder;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.gone = global::BookShare.Droid.Resource.Id.gone;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.group_divider = global::BookShare.Droid.Resource.Id.group_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.hideable = global::BookShare.Droid.Resource.Id.hideable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.home = global::BookShare.Droid.Resource.Id.home;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.homeAsUp = global::BookShare.Droid.Resource.Id.homeAsUp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.icon = global::BookShare.Droid.Resource.Id.icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.icon_group = global::BookShare.Droid.Resource.Id.icon_group;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.ifRoom = global::BookShare.Droid.Resource.Id.ifRoom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.image = global::BookShare.Droid.Resource.Id.image;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.info = global::BookShare.Droid.Resource.Id.info;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.italic = global::BookShare.Droid.Resource.Id.italic;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.Itemname = global::BookShare.Droid.Resource.Id.Itemname;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::BookShare.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.labeled = global::BookShare.Droid.Resource.Id.labeled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.left = global::BookShare.Droid.Resource.Id.left;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.line1 = global::BookShare.Droid.Resource.Id.line1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.line3 = global::BookShare.Droid.Resource.Id.line3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.listMode = global::BookShare.Droid.Resource.Id.listMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.list_item = global::BookShare.Droid.Resource.Id.list_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.main_appbar = global::BookShare.Droid.Resource.Id.main_appbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.main_tablayout = global::BookShare.Droid.Resource.Id.main_tablayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.main_toolbar = global::BookShare.Droid.Resource.Id.main_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.main_viewpager = global::BookShare.Droid.Resource.Id.main_viewpager;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.masked = global::BookShare.Droid.Resource.Id.masked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.media_actions = global::BookShare.Droid.Resource.Id.media_actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.media_controller_compat_view_tag = global::BookShare.Droid.Resource.Id.media_controller_compat_view_tag;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.message = global::BookShare.Droid.Resource.Id.message;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.META = global::BookShare.Droid.Resource.Id.META;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.middle = global::BookShare.Droid.Resource.Id.middle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mini = global::BookShare.Droid.Resource.Id.mini;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_grid = global::BookShare.Droid.Resource.Id.month_grid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_navigation_bar = global::BookShare.Droid.Resource.Id.month_navigation_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_navigation_fragment_toggle = global::BookShare.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_navigation_next = global::BookShare.Droid.Resource.Id.month_navigation_next;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_navigation_previous = global::BookShare.Droid.Resource.Id.month_navigation_previous;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_title = global::BookShare.Droid.Resource.Id.month_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_days_of_week = global::BookShare.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_day_selector_frame = global::BookShare.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_frame = global::BookShare.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_main_pane = global::BookShare.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_months = global::BookShare.Droid.Resource.Id.mtrl_calendar_months;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_selection_frame = global::BookShare.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_text_input_frame = global::BookShare.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_year_selector_frame = global::BookShare.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_card_checked_layer_id = global::BookShare.Droid.Resource.Id.mtrl_card_checked_layer_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_child_content_container = global::BookShare.Droid.Resource.Id.mtrl_child_content_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::BookShare.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_motion_snapshot_view = global::BookShare.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_fullscreen = global::BookShare.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_header = global::BookShare.Droid.Resource.Id.mtrl_picker_header;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_header_selection_text = global::BookShare.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_header_title_and_selection = global::BookShare.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_header_toggle = global::BookShare.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_text_input_date = global::BookShare.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_text_input_range_end = global::BookShare.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_text_input_range_start = global::BookShare.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_title_text = global::BookShare.Droid.Resource.Id.mtrl_picker_title_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.multiply = global::BookShare.Droid.Resource.Id.multiply;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.navigation_header_container = global::BookShare.Droid.Resource.Id.navigation_header_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.never = global::BookShare.Droid.Resource.Id.never;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.none = global::BookShare.Droid.Resource.Id.none;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.normal = global::BookShare.Droid.Resource.Id.normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.noScroll = global::BookShare.Droid.Resource.Id.noScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.notification_background = global::BookShare.Droid.Resource.Id.notification_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.notification_main_column = global::BookShare.Droid.Resource.Id.notification_main_column;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.notification_main_column_container = global::BookShare.Droid.Resource.Id.notification_main_column_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.off = global::BookShare.Droid.Resource.Id.off;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.on = global::BookShare.Droid.Resource.Id.on;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.outline = global::BookShare.Droid.Resource.Id.outline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.parallax = global::BookShare.Droid.Resource.Id.parallax;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.parentPanel = global::BookShare.Droid.Resource.Id.parentPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.parent_matrix = global::BookShare.Droid.Resource.Id.parent_matrix;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.password_toggle = global::BookShare.Droid.Resource.Id.password_toggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.peekHeight = global::BookShare.Droid.Resource.Id.peekHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.pin = global::BookShare.Droid.Resource.Id.pin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.progress_circular = global::BookShare.Droid.Resource.Id.progress_circular;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.progress_horizontal = global::BookShare.Droid.Resource.Id.progress_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.radio = global::BookShare.Droid.Resource.Id.radio;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.right = global::BookShare.Droid.Resource.Id.right;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.right_icon = global::BookShare.Droid.Resource.Id.right_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.right_side = global::BookShare.Droid.Resource.Id.right_side;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.rounded = global::BookShare.Droid.Resource.Id.rounded;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.row_index_key = global::BookShare.Droid.Resource.Id.row_index_key;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.save_non_transition_alpha = global::BookShare.Droid.Resource.Id.save_non_transition_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.save_overlay_view = global::BookShare.Droid.Resource.Id.save_overlay_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scale = global::BookShare.Droid.Resource.Id.scale;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.screen = global::BookShare.Droid.Resource.Id.screen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scroll = global::BookShare.Droid.Resource.Id.scroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scrollable = global::BookShare.Droid.Resource.Id.scrollable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scrollIndicatorDown = global::BookShare.Droid.Resource.Id.scrollIndicatorDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scrollIndicatorUp = global::BookShare.Droid.Resource.Id.scrollIndicatorUp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scrollView = global::BookShare.Droid.Resource.Id.scrollView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_badge = global::BookShare.Droid.Resource.Id.search_badge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_bar = global::BookShare.Droid.Resource.Id.search_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_button = global::BookShare.Droid.Resource.Id.search_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_close_btn = global::BookShare.Droid.Resource.Id.search_close_btn;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_edit_frame = global::BookShare.Droid.Resource.Id.search_edit_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_go_btn = global::BookShare.Droid.Resource.Id.search_go_btn;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_mag_icon = global::BookShare.Droid.Resource.Id.search_mag_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_plate = global::BookShare.Droid.Resource.Id.search_plate;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_src_text = global::BookShare.Droid.Resource.Id.search_src_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_voice_btn = global::BookShare.Droid.Resource.Id.search_voice_btn;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.selected = global::BookShare.Droid.Resource.Id.selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.select_dialog_listview = global::BookShare.Droid.Resource.Id.select_dialog_listview;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.shellcontent_appbar = global::BookShare.Droid.Resource.Id.shellcontent_appbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.shellcontent_toolbar = global::BookShare.Droid.Resource.Id.shellcontent_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.SHIFT = global::BookShare.Droid.Resource.Id.SHIFT;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.shortcut = global::BookShare.Droid.Resource.Id.shortcut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.showCustom = global::BookShare.Droid.Resource.Id.showCustom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.showHome = global::BookShare.Droid.Resource.Id.showHome;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.showTitle = global::BookShare.Droid.Resource.Id.showTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.skipCollapsed = global::BookShare.Droid.Resource.Id.skipCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.slide = global::BookShare.Droid.Resource.Id.slide;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.sliding_tabs = global::BookShare.Droid.Resource.Id.sliding_tabs;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.snackbar_action = global::BookShare.Droid.Resource.Id.snackbar_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.snackbar_text = global::BookShare.Droid.Resource.Id.snackbar_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.snap = global::BookShare.Droid.Resource.Id.snap;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.snapMargins = global::BookShare.Droid.Resource.Id.snapMargins;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.spacer = global::BookShare.Droid.Resource.Id.spacer;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.split_action_bar = global::BookShare.Droid.Resource.Id.split_action_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.src_atop = global::BookShare.Droid.Resource.Id.src_atop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.src_in = global::BookShare.Droid.Resource.Id.src_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.src_over = global::BookShare.Droid.Resource.Id.src_over;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.start = global::BookShare.Droid.Resource.Id.start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.status_bar_latest_event_content = global::BookShare.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.stretch = global::BookShare.Droid.Resource.Id.stretch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.submenuarrow = global::BookShare.Droid.Resource.Id.submenuarrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.submit_area = global::BookShare.Droid.Resource.Id.submit_area;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.SYM = global::BookShare.Droid.Resource.Id.SYM;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tabMode = global::BookShare.Droid.Resource.Id.tabMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_accessibility_actions = global::BookShare.Droid.Resource.Id.tag_accessibility_actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_accessibility_clickable_spans = global::BookShare.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_accessibility_heading = global::BookShare.Droid.Resource.Id.tag_accessibility_heading;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_accessibility_pane_title = global::BookShare.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_screen_reader_focusable = global::BookShare.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_transition_group = global::BookShare.Droid.Resource.Id.tag_transition_group;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_unhandled_key_event_manager = global::BookShare.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_unhandled_key_listeners = global::BookShare.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.test_checkbox_android_button_tint = global::BookShare.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.test_checkbox_app_button_tint = global::BookShare.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.test_radiobutton_android_button_tint = global::BookShare.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.test_radiobutton_app_button_tint = global::BookShare.Droid.Resource.Id.test_radiobutton_app_button_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text = global::BookShare.Droid.Resource.Id.text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text2 = global::BookShare.Droid.Resource.Id.text2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textEnd = global::BookShare.Droid.Resource.Id.textEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_counter = global::BookShare.Droid.Resource.Id.textinput_counter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_error = global::BookShare.Droid.Resource.Id.textinput_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_helper_text = global::BookShare.Droid.Resource.Id.textinput_helper_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_placeholder = global::BookShare.Droid.Resource.Id.textinput_placeholder;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_prefix_text = global::BookShare.Droid.Resource.Id.textinput_prefix_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_suffix_text = global::BookShare.Droid.Resource.Id.textinput_suffix_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textSpacerNoButtons = global::BookShare.Droid.Resource.Id.textSpacerNoButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textSpacerNoTitle = global::BookShare.Droid.Resource.Id.textSpacerNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textStart = global::BookShare.Droid.Resource.Id.textStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text_input_end_icon = global::BookShare.Droid.Resource.Id.text_input_end_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text_input_start_icon = global::BookShare.Droid.Resource.Id.text_input_start_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.time = global::BookShare.Droid.Resource.Id.time;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.title = global::BookShare.Droid.Resource.Id.title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.titleDividerNoCustom = global::BookShare.Droid.Resource.Id.titleDividerNoCustom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.title_template = global::BookShare.Droid.Resource.Id.title_template;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.toolbar = global::BookShare.Droid.Resource.Id.toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.top = global::BookShare.Droid.Resource.Id.top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.topPanel = global::BookShare.Droid.Resource.Id.topPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.TOP_END = global::BookShare.Droid.Resource.Id.TOP_END;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.TOP_START = global::BookShare.Droid.Resource.Id.TOP_START;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.touch_outside = global::BookShare.Droid.Resource.Id.touch_outside;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_current_scene = global::BookShare.Droid.Resource.Id.transition_current_scene;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_layout_save = global::BookShare.Droid.Resource.Id.transition_layout_save;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_position = global::BookShare.Droid.Resource.Id.transition_position;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_scene_layoutid_cache = global::BookShare.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_transform = global::BookShare.Droid.Resource.Id.transition_transform;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.@unchecked = global::BookShare.Droid.Resource.Id.@unchecked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.uniform = global::BookShare.Droid.Resource.Id.uniform;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.unlabeled = global::BookShare.Droid.Resource.Id.unlabeled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.up = global::BookShare.Droid.Resource.Id.up;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.useLogo = global::BookShare.Droid.Resource.Id.useLogo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.view_offset_helper = global::BookShare.Droid.Resource.Id.view_offset_helper;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.view_tree_lifecycle_owner = global::BookShare.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.view_tree_saved_state_registry_owner = global::BookShare.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.visible = global::BookShare.Droid.Resource.Id.visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.visible_removing_fragment_view_tag = global::BookShare.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.withinBounds = global::BookShare.Droid.Resource.Id.withinBounds;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.withText = global::BookShare.Droid.Resource.Id.withText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.wrap_content = global::BookShare.Droid.Resource.Id.wrap_content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.zero_corner_chip = global::BookShare.Droid.Resource.Id.zero_corner_chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::BookShare.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.abc_config_activityShortDur = global::BookShare.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::BookShare.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::BookShare.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.cancel_button_image_alpha = global::BookShare.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.config_tooltipAnimTime = global::BookShare.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::BookShare.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::BookShare.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.hide_password_duration = global::BookShare.Droid.Resource.Integer.hide_password_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_badge_max_character_count = global::BookShare.Droid.Resource.Integer.mtrl_badge_max_character_count;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::BookShare.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::BookShare.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_calendar_header_orientation = global::BookShare.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_calendar_selection_text_lines = global::BookShare.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_calendar_year_selector_span = global::BookShare.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_card_anim_delay_ms = global::BookShare.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_card_anim_duration_ms = global::BookShare.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_chip_anim_duration = global::BookShare.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::BookShare.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.show_password_duration = global::BookShare.Droid.Resource.Integer.show_password_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::BookShare.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::BookShare.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::BookShare.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::BookShare.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::BookShare.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::BookShare.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::BookShare.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.fast_out_slow_in = global::BookShare.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::BookShare.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::BookShare.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.mtrl_linear = global::BookShare.Droid.Resource.Interpolator.mtrl_linear;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::BookShare.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_bar_title_item = global::BookShare.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_bar_up_container = global::BookShare.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_menu_item_layout = global::BookShare.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_menu_layout = global::BookShare.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_mode_bar = global::BookShare.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::BookShare.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_activity_chooser_view = global::BookShare.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::BookShare.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::BookShare.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_alert_dialog_material = global::BookShare.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_alert_dialog_title_material = global::BookShare.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::BookShare.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_dialog_title_material = global::BookShare.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_expanded_menu_layout = global::BookShare.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::BookShare.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_list_menu_item_icon = global::BookShare.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_list_menu_item_layout = global::BookShare.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_list_menu_item_radio = global::BookShare.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::BookShare.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::BookShare.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_screen_content_include = global::BookShare.Droid.Resource.Layout.abc_screen_content_include;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_screen_simple = global::BookShare.Droid.Resource.Layout.abc_screen_simple;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::BookShare.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_screen_toolbar = global::BookShare.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::BookShare.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_search_view = global::BookShare.Droid.Resource.Layout.abc_search_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_select_dialog_material = global::BookShare.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_tooltip = global::BookShare.Droid.Resource.Layout.abc_tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.BottomTabLayout = global::BookShare.Droid.Resource.Layout.BottomTabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.browser_actions_context_menu_page = global::BookShare.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.browser_actions_context_menu_row = global::BookShare.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.CustomizedView = global::BookShare.Droid.Resource.Layout.CustomizedView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.CustomizedView1 = global::BookShare.Droid.Resource.Layout.CustomizedView1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.custom_dialog = global::BookShare.Droid.Resource.Layout.custom_dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_bottom_navigation_item = global::BookShare.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::BookShare.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_layout_snackbar = global::BookShare.Droid.Resource.Layout.design_layout_snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_layout_snackbar_include = global::BookShare.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_layout_tab_icon = global::BookShare.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_layout_tab_text = global::BookShare.Droid.Resource.Layout.design_layout_tab_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_menu_item_action_area = global::BookShare.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_item = global::BookShare.Droid.Resource.Layout.design_navigation_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_item_header = global::BookShare.Droid.Resource.Layout.design_navigation_item_header;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_item_separator = global::BookShare.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_item_subheader = global::BookShare.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_menu = global::BookShare.Droid.Resource.Layout.design_navigation_menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_menu_item = global::BookShare.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_text_input_end_icon = global::BookShare.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_text_input_start_icon = global::BookShare.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.FallbackTabbarDoNotUse = global::BookShare.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.FallbackToolbarDoNotUse = global::BookShare.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.FlyoutContent = global::BookShare.Droid.Resource.Layout.FlyoutContent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_dialog = global::BookShare.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_dialog_actions = global::BookShare.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_dialog_title = global::BookShare.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_select_dialog_item = global::BookShare.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::BookShare.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::BookShare.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_day = global::BookShare.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_days_of_week = global::BookShare.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_day_of_week = global::BookShare.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_horizontal = global::BookShare.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_month = global::BookShare.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_months = global::BookShare.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_month_labeled = global::BookShare.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_month_navigation = global::BookShare.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_vertical = global::BookShare.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_year = global::BookShare.Droid.Resource.Layout.mtrl_calendar_year;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_layout_snackbar = global::BookShare.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::BookShare.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_actions = global::BookShare.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_dialog = global::BookShare.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_fullscreen = global::BookShare.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_header_dialog = global::BookShare.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_header_fullscreen = global::BookShare.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_header_selection_text = global::BookShare.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_header_title_text = global::BookShare.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_header_toggle = global::BookShare.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_text_input_date = global::BookShare.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_text_input_date_range = global::BookShare.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_action = global::BookShare.Droid.Resource.Layout.notification_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_action_tombstone = global::BookShare.Droid.Resource.Layout.notification_action_tombstone;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_media_action = global::BookShare.Droid.Resource.Layout.notification_media_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_media_cancel_action = global::BookShare.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_big_media = global::BookShare.Droid.Resource.Layout.notification_template_big_media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_big_media_custom = global::BookShare.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_big_media_narrow = global::BookShare.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::BookShare.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_custom_big = global::BookShare.Droid.Resource.Layout.notification_template_custom_big;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_icon_group = global::BookShare.Droid.Resource.Layout.notification_template_icon_group;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_lines_media = global::BookShare.Droid.Resource.Layout.notification_template_lines_media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_media = global::BookShare.Droid.Resource.Layout.notification_template_media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_media_custom = global::BookShare.Droid.Resource.Layout.notification_template_media_custom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_part_chronometer = global::BookShare.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_part_time = global::BookShare.Droid.Resource.Layout.notification_template_part_time;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.RootLayout = global::BookShare.Droid.Resource.Layout.RootLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.select_dialog_item_material = global::BookShare.Droid.Resource.Layout.select_dialog_item_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.select_dialog_multichoice_material = global::BookShare.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::BookShare.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.sfautocomplete_layout = global::BookShare.Droid.Resource.Layout.sfautocomplete_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.ShellContent = global::BookShare.Droid.Resource.Layout.ShellContent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::BookShare.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.Tabbar = global::BookShare.Droid.Resource.Layout.Tabbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_action_chip = global::BookShare.Droid.Resource.Layout.test_action_chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_chip_zero_corner_radius = global::BookShare.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_design_checkbox = global::BookShare.Droid.Resource.Layout.test_design_checkbox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_design_radiobutton = global::BookShare.Droid.Resource.Layout.test_design_radiobutton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_reflow_chipgroup = global::BookShare.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_toolbar = global::BookShare.Droid.Resource.Layout.test_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_toolbar_custom_background = global::BookShare.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_toolbar_elevation = global::BookShare.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_toolbar_surface = global::BookShare.Droid.Resource.Layout.test_toolbar_surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.text_view_without_line_height = global::BookShare.Droid.Resource.Layout.text_view_without_line_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.text_view_with_line_height_from_appearance = global::BookShare.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.text_view_with_line_height_from_layout = global::BookShare.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.text_view_with_line_height_from_style = global::BookShare.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.text_view_with_theme_line_height = global::BookShare.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.Toolbar = global::BookShare.Droid.Resource.Layout.Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Plurals.mtrl_badge_content_description = global::BookShare.Droid.Resource.Plurals.mtrl_badge_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_bar_home_description = global::BookShare.Droid.Resource.String.abc_action_bar_home_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_bar_up_description = global::BookShare.Droid.Resource.String.abc_action_bar_up_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_menu_overflow_description = global::BookShare.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_mode_done = global::BookShare.Droid.Resource.String.abc_action_mode_done;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_activitychooserview_choose_application = global::BookShare.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::BookShare.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_capital_off = global::BookShare.Droid.Resource.String.abc_capital_off;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_capital_on = global::BookShare.Droid.Resource.String.abc_capital_on;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_alt_shortcut_label = global::BookShare.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::BookShare.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_delete_shortcut_label = global::BookShare.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_enter_shortcut_label = global::BookShare.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_function_shortcut_label = global::BookShare.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_meta_shortcut_label = global::BookShare.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_shift_shortcut_label = global::BookShare.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_space_shortcut_label = global::BookShare.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_sym_shortcut_label = global::BookShare.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_prepend_shortcut_label = global::BookShare.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_searchview_description_clear = global::BookShare.Droid.Resource.String.abc_searchview_description_clear;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_searchview_description_query = global::BookShare.Droid.Resource.String.abc_searchview_description_query;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_searchview_description_search = global::BookShare.Droid.Resource.String.abc_searchview_description_search;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_searchview_description_submit = global::BookShare.Droid.Resource.String.abc_searchview_description_submit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_searchview_description_voice = global::BookShare.Droid.Resource.String.abc_searchview_description_voice;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_search_hint = global::BookShare.Droid.Resource.String.abc_search_hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_shareactionprovider_share_with = global::BookShare.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::BookShare.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_toolbar_collapse_description = global::BookShare.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.appbar_scrolling_view_behavior = global::BookShare.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.bottom_sheet_behavior = global::BookShare.Droid.Resource.String.bottom_sheet_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.character_counter_content_description = global::BookShare.Droid.Resource.String.character_counter_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.character_counter_overflowed_content_description = global::BookShare.Droid.Resource.String.character_counter_overflowed_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.character_counter_pattern = global::BookShare.Droid.Resource.String.character_counter_pattern;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.chip_text = global::BookShare.Droid.Resource.String.chip_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.clear_text_end_icon_content_description = global::BookShare.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.copy_toast_msg = global::BookShare.Droid.Resource.String.copy_toast_msg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.error_icon_content_description = global::BookShare.Droid.Resource.String.error_icon_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.exposed_dropdown_menu_content_description = global::BookShare.Droid.Resource.String.exposed_dropdown_menu_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fab_transformation_scrim_behavior = global::BookShare.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fab_transformation_sheet_behavior = global::BookShare.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fallback_menu_item_copy_link = global::BookShare.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fallback_menu_item_open_in_browser = global::BookShare.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fallback_menu_item_share_link = global::BookShare.Droid.Resource.String.fallback_menu_item_share_link;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::BookShare.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.icon_content_description = global::BookShare.Droid.Resource.String.icon_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.item_view_role_description = global::BookShare.Droid.Resource.String.item_view_role_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.material_slider_range_end = global::BookShare.Droid.Resource.String.material_slider_range_end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.material_slider_range_start = global::BookShare.Droid.Resource.String.material_slider_range_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_badge_numberless_content_description = global::BookShare.Droid.Resource.String.mtrl_badge_numberless_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::BookShare.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description = global::BookShare.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix = global::BookShare.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_a11y_next_month = global::BookShare.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_a11y_prev_month = global::BookShare.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_announce_current_selection = global::BookShare.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_cancel = global::BookShare.Droid.Resource.String.mtrl_picker_cancel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_confirm = global::BookShare.Droid.Resource.String.mtrl_picker_confirm;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_date_header_selected = global::BookShare.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_date_header_title = global::BookShare.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_date_header_unselected = global::BookShare.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_day_of_week_column_header = global::BookShare.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_invalid_format = global::BookShare.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_invalid_format_example = global::BookShare.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_invalid_format_use = global::BookShare.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_invalid_range = global::BookShare.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_navigate_to_year_description = global::BookShare.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_out_of_range = global::BookShare.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_range_header_only_end_selected = global::BookShare.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_range_header_only_start_selected = global::BookShare.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_range_header_selected = global::BookShare.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_range_header_title = global::BookShare.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_range_header_unselected = global::BookShare.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_save = global::BookShare.Droid.Resource.String.mtrl_picker_save;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_date_hint = global::BookShare.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::BookShare.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::BookShare.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_day_abbr = global::BookShare.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_month_abbr = global::BookShare.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_year_abbr = global::BookShare.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::BookShare.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_toggle_to_day_selection = global::BookShare.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::BookShare.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_toggle_to_year_selection = global::BookShare.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.overflow_tab_title = global::BookShare.Droid.Resource.String.overflow_tab_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.password_toggle_content_description = global::BookShare.Droid.Resource.String.password_toggle_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.path_password_eye = global::BookShare.Droid.Resource.String.path_password_eye;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.path_password_eye_mask_strike_through = global::BookShare.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.path_password_eye_mask_visible = global::BookShare.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.path_password_strike_through = global::BookShare.Droid.Resource.String.path_password_strike_through;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.search_menu_title = global::BookShare.Droid.Resource.String.search_menu_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.status_bar_notification_info_overflow = global::BookShare.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.AlertDialog_AppCompat = global::BookShare.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::BookShare.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.AndroidThemeColorAccentYellow = global::BookShare.Droid.Resource.Style.AndroidThemeColorAccentYellow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::BookShare.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::BookShare.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::BookShare.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::BookShare.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::BookShare.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.AppCompatDialogStyle = global::BookShare.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::BookShare.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::BookShare.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::BookShare.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::BookShare.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::BookShare.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_CardView = global::BookShare.Droid.Resource.Style.Base_CardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::BookShare.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::BookShare.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::BookShare.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::BookShare.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::BookShare.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BookShare.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::BookShare.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::BookShare.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::BookShare.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::BookShare.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BookShare.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BookShare.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::BookShare.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::BookShare.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::BookShare.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::BookShare.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::BookShare.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::BookShare.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::BookShare.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::BookShare.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::BookShare.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::BookShare.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::BookShare.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::BookShare.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::BookShare.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BookShare.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::BookShare.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::BookShare.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::BookShare.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::BookShare.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::BookShare.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::BookShare.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::BookShare.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_MaterialComponents = global::BookShare.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::BookShare.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::BookShare.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::BookShare.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::BookShare.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::BookShare.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::BookShare.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::BookShare.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::BookShare.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::BookShare.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::BookShare.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::BookShare.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::BookShare.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::BookShare.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::BookShare.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::BookShare.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::BookShare.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::BookShare.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::BookShare.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::BookShare.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::BookShare.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_TextView = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::BookShare.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::BookShare.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView = global::BookShare.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.CardView = global::BookShare.Droid.Resource.Style.CardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.CardView_Dark = global::BookShare.Droid.Resource.Style.CardView_Dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.CardView_Light = global::BookShare.Droid.Resource.Style.CardView_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.collectionViewTheme = global::BookShare.Droid.Resource.Style.collectionViewTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.EmptyTheme = global::BookShare.Droid.Resource.Style.EmptyTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MainTheme = global::BookShare.Droid.Resource.Style.MainTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MainTheme_Base = global::BookShare.Droid.Resource.Style.MainTheme_Base;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents = global::BookShare.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::BookShare.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::BookShare.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::BookShare.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::BookShare.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::BookShare.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::BookShare.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::BookShare.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::BookShare.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::BookShare.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_AppCompat = global::BookShare.Droid.Resource.Style.Platform_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_AppCompat_Light = global::BookShare.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_MaterialComponents = global::BookShare.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::BookShare.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_MaterialComponents_Light = global::BookShare.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::BookShare.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::BookShare.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::BookShare.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::BookShare.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_V21_AppCompat = global::BookShare.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::BookShare.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_V25_AppCompat = global::BookShare.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::BookShare.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::BookShare.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::BookShare.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::BookShare.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::BookShare.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::BookShare.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.scrollViewScrollBars = global::BookShare.Droid.Resource.Style.scrollViewScrollBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.scrollViewTheme = global::BookShare.Droid.Resource.Style.scrollViewTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_Cut = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::BookShare.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents = global::BookShare.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::BookShare.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::BookShare.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::BookShare.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::BookShare.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::BookShare.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestStyleWithLineHeight = global::BookShare.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestStyleWithLineHeightAppearance = global::BookShare.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestStyleWithoutLineHeight = global::BookShare.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::BookShare.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestThemeWithLineHeight = global::BookShare.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestThemeWithLineHeightDisabled = global::BookShare.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::BookShare.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::BookShare.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::BookShare.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::BookShare.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::BookShare.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BookShare.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification = global::BookShare.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::BookShare.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::BookShare.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::BookShare.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::BookShare.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::BookShare.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::BookShare.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::BookShare.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::BookShare.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::BookShare.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::BookShare.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Counter = global::BookShare.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::BookShare.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Error = global::BookShare.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_HelperText = global::BookShare.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Hint = global::BookShare.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Placeholder = global::BookShare.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Prefix = global::BookShare.Droid.Resource.Style.TextAppearance_Design_Prefix;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::BookShare.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Suffix = global::BookShare.Droid.Resource.Style.TextAppearance_Design_Suffix;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Tab = global::BookShare.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::BookShare.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BookShare.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BookShare.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::BookShare.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlayColorAccentRed = global::BookShare.Droid.Resource.Style.ThemeOverlayColorAccentRed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::BookShare.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::BookShare.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::BookShare.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::BookShare.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::BookShare.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::BookShare.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::BookShare.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::BookShare.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::BookShare.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::BookShare.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::BookShare.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat = global::BookShare.Droid.Resource.Style.Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::BookShare.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::BookShare.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::BookShare.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::BookShare.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::BookShare.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::BookShare.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::BookShare.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::BookShare.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::BookShare.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Empty = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Empty;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::BookShare.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::BookShare.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design = global::BookShare.Droid.Resource.Style.Theme_Design;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::BookShare.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design_Light = global::BookShare.Droid.Resource.Style.Theme_Design_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::BookShare.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::BookShare.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design_NoActionBar = global::BookShare.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::BookShare.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::BookShare.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::BookShare.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::BookShare.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::BookShare.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::BookShare.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_EditText = global::BookShare.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ListView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::BookShare.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::BookShare.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::BookShare.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::BookShare.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::BookShare.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::BookShare.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::BookShare.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_TextView = global::BookShare.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::BookShare.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::BookShare.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::BookShare.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::BookShare.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::BookShare.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::BookShare.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::BookShare.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::BookShare.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::BookShare.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_NavigationView = global::BookShare.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::BookShare.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_Snackbar = global::BookShare.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_TabLayout = global::BookShare.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_TextInputEditText = global::BookShare.Droid.Resource.Style.Widget_Design_TextInputEditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::BookShare.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Badge = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Badge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Slider = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Slider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextView = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_TextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Tooltip = global::BookShare.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::BookShare.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar = global::BookShare.Droid.Resource.Styleable.ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBarLayout = global::BookShare.Droid.Resource.Styleable.ActionBarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::BookShare.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_background = global::BookShare.Droid.Resource.Styleable.ActionBar_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::BookShare.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::BookShare.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::BookShare.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::BookShare.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::BookShare.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::BookShare.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::BookShare.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::BookShare.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::BookShare.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_displayOptions = global::BookShare.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_divider = global::BookShare.Droid.Resource.Styleable.ActionBar_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_elevation = global::BookShare.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_height = global::BookShare.Droid.Resource.Styleable.ActionBar_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::BookShare.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::BookShare.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_homeLayout = global::BookShare.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_icon = global::BookShare.Droid.Resource.Styleable.ActionBar_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::BookShare.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_itemPadding = global::BookShare.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_logo = global::BookShare.Droid.Resource.Styleable.ActionBar_logo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_navigationMode = global::BookShare.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_popupTheme = global::BookShare.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::BookShare.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::BookShare.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_subtitle = global::BookShare.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::BookShare.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_title = global::BookShare.Droid.Resource.Styleable.ActionBar_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::BookShare.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMenuItemView = global::BookShare.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::BookShare.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMenuView = global::BookShare.Droid.Resource.Styleable.ActionMenuView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode = global::BookShare.Droid.Resource.Styleable.ActionMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_background = global::BookShare.Droid.Resource.Styleable.ActionMode_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::BookShare.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::BookShare.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_height = global::BookShare.Droid.Resource.Styleable.ActionMode_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::BookShare.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::BookShare.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActivityChooserView = global::BookShare.Droid.Resource.Styleable.ActivityChooserView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::BookShare.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::BookShare.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog = global::BookShare.Droid.Resource.Styleable.AlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_android_layout = global::BookShare.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::BookShare.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::BookShare.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::BookShare.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_listLayout = global::BookShare.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::BookShare.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_showTitle = global::BookShare.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::BookShare.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::BookShare.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout = global::BookShare.Droid.Resource.Styleable.AppBarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayoutStates = global::BookShare.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::BookShare.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::BookShare.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::BookShare.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::BookShare.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_android_background = global::BookShare.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::BookShare.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::BookShare.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_elevation = global::BookShare.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_expanded = global::BookShare.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_Layout = global::BookShare.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::BookShare.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::BookShare.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::BookShare.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::BookShare.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_statusBarForeground = global::BookShare.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView = global::BookShare.Droid.Resource.Styleable.AppCompatImageView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::BookShare.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::BookShare.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView_tint = global::BookShare.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::BookShare.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatSeekBar = global::BookShare.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::BookShare.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::BookShare.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::BookShare.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::BookShare.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper = global::BookShare.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::BookShare.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::BookShare.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::BookShare.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::BookShare.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::BookShare.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::BookShare.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::BookShare.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView = global::BookShare.Droid.Resource.Styleable.AppCompatTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_drawableTint = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_textLocale = global::BookShare.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme = global::BookShare.Droid.Resource.Styleable.AppCompatTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorError = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::BookShare.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge = global::BookShare.Droid.Resource.Styleable.Badge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_backgroundColor = global::BookShare.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_badgeGravity = global::BookShare.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_badgeTextColor = global::BookShare.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_horizontalOffset = global::BookShare.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_maxCharacterCount = global::BookShare.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_number = global::BookShare.Droid.Resource.Styleable.Badge_number;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_verticalOffset = global::BookShare.Droid.Resource.Styleable.Badge_verticalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar = global::BookShare.Droid.Resource.Styleable.BottomAppBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::BookShare.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_elevation = global::BookShare.Droid.Resource.Styleable.BottomAppBar_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::BookShare.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode = global::BookShare.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::BookShare.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::BookShare.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::BookShare.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::BookShare.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::BookShare.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::BookShare.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::BookShare.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView = global::BookShare.Droid.Resource.Styleable.BottomNavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::BookShare.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::BookShare.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ButtonBarLayout = global::BookShare.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::BookShare.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView = global::BookShare.Droid.Resource.Styleable.CardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_android_minHeight = global::BookShare.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_android_minWidth = global::BookShare.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::BookShare.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::BookShare.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardElevation = global::BookShare.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::BookShare.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::BookShare.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::BookShare.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_contentPadding = global::BookShare.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::BookShare.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::BookShare.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::BookShare.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::BookShare.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip = global::BookShare.Droid.Resource.Styleable.Chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup = global::BookShare.Droid.Resource.Styleable.ChipGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_checkedChip = global::BookShare.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::BookShare.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::BookShare.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::BookShare.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_selectionRequired = global::BookShare.Droid.Resource.Styleable.ChipGroup_selectionRequired;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_singleLine = global::BookShare.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_singleSelection = global::BookShare.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_checkable = global::BookShare.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_ellipsize = global::BookShare.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_maxWidth = global::BookShare.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_text = global::BookShare.Droid.Resource.Styleable.Chip_android_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_textAppearance = global::BookShare.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_textColor = global::BookShare.Droid.Resource.Styleable.Chip_android_textColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIcon = global::BookShare.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::BookShare.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIconTint = global::BookShare.Droid.Resource.Styleable.Chip_checkedIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIconVisible = global::BookShare.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::BookShare.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipCornerRadius = global::BookShare.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipEndPadding = global::BookShare.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIcon = global::BookShare.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIconEnabled = global::BookShare.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIconSize = global::BookShare.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIconTint = global::BookShare.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIconVisible = global::BookShare.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipMinHeight = global::BookShare.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize = global::BookShare.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipStartPadding = global::BookShare.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipStrokeColor = global::BookShare.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::BookShare.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipSurfaceColor = global::BookShare.Droid.Resource.Styleable.Chip_chipSurfaceColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIcon = global::BookShare.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconEnabled = global::BookShare.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::BookShare.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconSize = global::BookShare.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::BookShare.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconTint = global::BookShare.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconVisible = global::BookShare.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::BookShare.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_hideMotionSpec = global::BookShare.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_iconEndPadding = global::BookShare.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_iconStartPadding = global::BookShare.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_rippleColor = global::BookShare.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_shapeAppearance = global::BookShare.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay = global::BookShare.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_showMotionSpec = global::BookShare.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_textEndPadding = global::BookShare.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_textStartPadding = global::BookShare.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::BookShare.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ColorStateListItem = global::BookShare.Droid.Resource.Styleable.ColorStateListItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ColorStateListItem_alpha = global::BookShare.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::BookShare.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ColorStateListItem_android_color = global::BookShare.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CompoundButton = global::BookShare.Droid.Resource.Styleable.CompoundButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CompoundButton_android_button = global::BookShare.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CompoundButton_buttonCompat = global::BookShare.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::BookShare.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::BookShare.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::BookShare.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle = global::BookShare.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::BookShare.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::BookShare.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::BookShare.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::BookShare.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::BookShare.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::BookShare.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::BookShare.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::BookShare.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerLayout = global::BookShare.Droid.Resource.Styleable.DrawerLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerLayout_elevation = global::BookShare.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton = global::BookShare.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::BookShare.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::BookShare.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::BookShare.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::BookShare.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::BookShare.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::BookShare.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::BookShare.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::BookShare.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton = global::BookShare.Droid.Resource.Styleable.FloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_android_enabled = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::BookShare.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FlowLayout = global::BookShare.Droid.Resource.Styleable.FlowLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::BookShare.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::BookShare.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily = global::BookShare.Droid.Resource.Styleable.FontFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont = global::BookShare.Droid.Resource.Styleable.FontFamilyFont;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_android_font = global::BookShare.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::BookShare.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::BookShare.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::BookShare.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::BookShare.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_font = global::BookShare.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::BookShare.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::BookShare.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::BookShare.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::BookShare.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::BookShare.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::BookShare.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::BookShare.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::BookShare.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::BookShare.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::BookShare.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout = global::BookShare.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::BookShare.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::BookShare.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::BookShare.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Fragment = global::BookShare.Droid.Resource.Styleable.Fragment;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FragmentContainerView = global::BookShare.Droid.Resource.Styleable.FragmentContainerView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FragmentContainerView_android_name = global::BookShare.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FragmentContainerView_android_tag = global::BookShare.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Fragment_android_id = global::BookShare.Droid.Resource.Styleable.Fragment_android_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Fragment_android_name = global::BookShare.Droid.Resource.Styleable.Fragment_android_name;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Fragment_android_tag = global::BookShare.Droid.Resource.Styleable.Fragment_android_tag;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor = global::BookShare.Droid.Resource.Styleable.GradientColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColorItem = global::BookShare.Droid.Resource.Styleable.GradientColorItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColorItem_android_color = global::BookShare.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColorItem_android_offset = global::BookShare.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_centerColor = global::BookShare.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_centerX = global::BookShare.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_centerY = global::BookShare.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_endColor = global::BookShare.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_endX = global::BookShare.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_endY = global::BookShare.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::BookShare.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_startColor = global::BookShare.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_startX = global::BookShare.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_startY = global::BookShare.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_tileMode = global::BookShare.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_type = global::BookShare.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Insets = global::BookShare.Droid.Resource.Styleable.Insets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::BookShare.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::BookShare.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::BookShare.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ItemsViewRendererTheme = global::BookShare.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::BookShare.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::BookShare.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ListPopupWindow = global::BookShare.Droid.Resource.Styleable.ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::BookShare.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::BookShare.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialog = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::BookShare.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAutoCompleteTextView = global::BookShare.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::BookShare.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton = global::BookShare.Droid.Resource.Styleable.MaterialButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButtonToggleGroup = global::BookShare.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::BookShare.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::BookShare.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::BookShare.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_background = global::BookShare.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_checkable = global::BookShare.Droid.Resource.Styleable.MaterialButton_android_checkable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::BookShare.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::BookShare.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::BookShare.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::BookShare.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::BookShare.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::BookShare.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::BookShare.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_elevation = global::BookShare.Droid.Resource.Styleable.MaterialButton_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_icon = global::BookShare.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconGravity = global::BookShare.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconPadding = global::BookShare.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconSize = global::BookShare.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconTint = global::BookShare.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::BookShare.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_rippleColor = global::BookShare.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_shapeAppearance = global::BookShare.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::BookShare.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_strokeColor = global::BookShare.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::BookShare.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar = global::BookShare.Droid.Resource.Styleable.MaterialCalendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::BookShare.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::BookShare.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::BookShare.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::BookShare.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_dayStyle = global::BookShare.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::BookShare.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor = global::BookShare.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::BookShare.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_yearStyle = global::BookShare.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::BookShare.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView = global::BookShare.Droid.Resource.Styleable.MaterialCardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_android_checkable = global::BookShare.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor = global::BookShare.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_checkedIcon = global::BookShare.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_checkedIconTint = global::BookShare.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_rippleColor = global::BookShare.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_shapeAppearance = global::BookShare.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::BookShare.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_state_dragged = global::BookShare.Droid.Resource.Styleable.MaterialCardView_state_dragged;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::BookShare.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::BookShare.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCheckBox = global::BookShare.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCheckBox_buttonTint = global::BookShare.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::BookShare.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialRadioButton = global::BookShare.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialRadioButton_buttonTint = global::BookShare.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::BookShare.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialShape = global::BookShare.Droid.Resource.Styleable.MaterialShape;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialShape_shapeAppearance = global::BookShare.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::BookShare.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextAppearance = global::BookShare.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::BookShare.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight = global::BookShare.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextView = global::BookShare.Droid.Resource.Styleable.MaterialTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextView_android_lineHeight = global::BookShare.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextView_android_textAppearance = global::BookShare.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextView_lineHeight = global::BookShare.Droid.Resource.Styleable.MaterialTextView_lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup = global::BookShare.Droid.Resource.Styleable.MenuGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::BookShare.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::BookShare.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_id = global::BookShare.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::BookShare.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::BookShare.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_visible = global::BookShare.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem = global::BookShare.Droid.Resource.Styleable.MenuItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_actionLayout = global::BookShare.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::BookShare.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::BookShare.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::BookShare.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::BookShare.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_checkable = global::BookShare.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_checked = global::BookShare.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_enabled = global::BookShare.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_icon = global::BookShare.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_id = global::BookShare.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::BookShare.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::BookShare.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_onClick = global::BookShare.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::BookShare.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_title = global::BookShare.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::BookShare.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_visible = global::BookShare.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_contentDescription = global::BookShare.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_iconTint = global::BookShare.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_iconTintMode = global::BookShare.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_numericModifiers = global::BookShare.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_showAsAction = global::BookShare.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_tooltipText = global::BookShare.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView = global::BookShare.Droid.Resource.Styleable.MenuView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::BookShare.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::BookShare.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::BookShare.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::BookShare.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::BookShare.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::BookShare.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::BookShare.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::BookShare.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_subMenuArrow = global::BookShare.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView = global::BookShare.Droid.Resource.Styleable.NavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_android_background = global::BookShare.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::BookShare.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::BookShare.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_elevation = global::BookShare.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_headerLayout = global::BookShare.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemBackground = global::BookShare.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::BookShare.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::BookShare.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemIconSize = global::BookShare.Droid.Resource.Styleable.NavigationView_itemIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::BookShare.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemMaxLines = global::BookShare.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeAppearance = global::BookShare.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::BookShare.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeFillColor = global::BookShare.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::BookShare.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::BookShare.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart = global::BookShare.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop = global::BookShare.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::BookShare.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::BookShare.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_menu = global::BookShare.Droid.Resource.Styleable.NavigationView_menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow = global::BookShare.Droid.Resource.Styleable.PopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::BookShare.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::BookShare.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::BookShare.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::BookShare.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::BookShare.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RangeSlider = global::BookShare.Droid.Resource.Styleable.RangeSlider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RangeSlider_values = global::BookShare.Droid.Resource.Styleable.RangeSlider_values;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecycleListView = global::BookShare.Droid.Resource.Styleable.RecycleListView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::BookShare.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::BookShare.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView = global::BookShare.Droid.Resource.Styleable.RecyclerView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_android_clipToPadding = global::BookShare.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::BookShare.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::BookShare.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::BookShare.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::BookShare.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::BookShare.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::BookShare.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::BookShare.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::BookShare.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::BookShare.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_spanCount = global::BookShare.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::BookShare.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::BookShare.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::BookShare.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::BookShare.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::BookShare.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrollViewRendererTheme = global::BookShare.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::BookShare.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView = global::BookShare.Droid.Resource.Styleable.SearchView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_android_focusable = global::BookShare.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::BookShare.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_android_inputType = global::BookShare.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::BookShare.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_closeIcon = global::BookShare.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_commitIcon = global::BookShare.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::BookShare.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_goIcon = global::BookShare.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::BookShare.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_layout = global::BookShare.Droid.Resource.Styleable.SearchView_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_queryBackground = global::BookShare.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_queryHint = global::BookShare.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::BookShare.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_searchIcon = global::BookShare.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_submitBackground = global::BookShare.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::BookShare.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_voiceIcon = global::BookShare.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeableImageView = global::BookShare.Droid.Resource.Styleable.ShapeableImageView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance = global::BookShare.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::BookShare.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeableImageView_strokeColor = global::BookShare.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeableImageView_strokeWidth = global::BookShare.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance = global::BookShare.Droid.Resource.Styleable.ShapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamily = global::BookShare.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::BookShare.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::BookShare.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::BookShare.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::BookShare.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerSize = global::BookShare.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::BookShare.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::BookShare.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::BookShare.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::BookShare.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider = global::BookShare.Droid.Resource.Styleable.Slider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_android_enabled = global::BookShare.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_android_stepSize = global::BookShare.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_android_value = global::BookShare.Droid.Resource.Styleable.Slider_android_value;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_android_valueFrom = global::BookShare.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_android_valueTo = global::BookShare.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_haloColor = global::BookShare.Droid.Resource.Styleable.Slider_haloColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_haloRadius = global::BookShare.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_labelBehavior = global::BookShare.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_labelStyle = global::BookShare.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_thumbColor = global::BookShare.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_thumbElevation = global::BookShare.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_thumbRadius = global::BookShare.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_tickColor = global::BookShare.Droid.Resource.Styleable.Slider_tickColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_tickColorActive = global::BookShare.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_tickColorInactive = global::BookShare.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_trackColor = global::BookShare.Droid.Resource.Styleable.Slider_trackColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_trackColorActive = global::BookShare.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_trackColorInactive = global::BookShare.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_trackHeight = global::BookShare.Droid.Resource.Styleable.Slider_trackHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar = global::BookShare.Droid.Resource.Styleable.Snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout = global::BookShare.Droid.Resource.Styleable.SnackbarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::BookShare.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::BookShare.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_animationMode = global::BookShare.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::BookShare.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_backgroundTint = global::BookShare.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::BookShare.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::BookShare.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::BookShare.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::BookShare.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::BookShare.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::BookShare.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner = global::BookShare.Droid.Resource.Styleable.Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::BookShare.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_android_entries = global::BookShare.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::BookShare.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_android_prompt = global::BookShare.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_popupTheme = global::BookShare.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable = global::BookShare.Droid.Resource.Styleable.StateListDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawableItem = global::BookShare.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::BookShare.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::BookShare.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_dither = global::BookShare.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::BookShare.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::BookShare.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::BookShare.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_visible = global::BookShare.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwipeRefreshLayout = global::BookShare.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::BookShare.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat = global::BookShare.Droid.Resource.Styleable.SwitchCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::BookShare.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::BookShare.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::BookShare.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_showText = global::BookShare.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::BookShare.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::BookShare.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::BookShare.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::BookShare.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::BookShare.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::BookShare.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::BookShare.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_track = global::BookShare.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_trackTint = global::BookShare.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::BookShare.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchMaterial = global::BookShare.Droid.Resource.Styleable.SwitchMaterial;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::BookShare.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem = global::BookShare.Droid.Resource.Styleable.TabItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem_android_icon = global::BookShare.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem_android_layout = global::BookShare.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem_android_text = global::BookShare.Droid.Resource.Styleable.TabItem_android_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout = global::BookShare.Droid.Resource.Styleable.TabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabBackground = global::BookShare.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::BookShare.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabGravity = global::BookShare.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIconTint = global::BookShare.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::BookShare.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicator = global::BookShare.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::BookShare.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::BookShare.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::BookShare.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::BookShare.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::BookShare.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::BookShare.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::BookShare.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::BookShare.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabMode = global::BookShare.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabPadding = global::BookShare.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::BookShare.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::BookShare.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::BookShare.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::BookShare.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::BookShare.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::BookShare.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::BookShare.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::BookShare.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::BookShare.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance = global::BookShare.Droid.Resource.Styleable.TextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textFontWeight = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::BookShare.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_fontFamily = global::BookShare.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_fontVariationSettings = global::BookShare.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::BookShare.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_textLocale = global::BookShare.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputEditText = global::BookShare.Droid.Resource.Styleable.TextInputEditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::BookShare.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout = global::BookShare.Droid.Resource.Styleable.TextInputLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_android_enabled = global::BookShare.Droid.Resource.Styleable.TextInputLayout_android_enabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::BookShare.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::BookShare.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::BookShare.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::BookShare.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::BookShare.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::BookShare.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::BookShare.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterTextColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconCheckable = global::BookShare.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription = global::BookShare.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconDrawable = global::BookShare.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconMode = global::BookShare.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconTint = global::BookShare.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconTintMode = global::BookShare.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorContentDescription = global::BookShare.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::BookShare.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable = global::BookShare.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorIconTint = global::BookShare.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode = global::BookShare.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::BookShare.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorTextColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperText = global::BookShare.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::BookShare.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::BookShare.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::BookShare.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::BookShare.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::BookShare.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintTextColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::BookShare.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::BookShare.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::BookShare.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::BookShare.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::BookShare.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_placeholderText = global::BookShare.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::BookShare.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_prefixText = global::BookShare.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::BookShare.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_prefixTextColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_shapeAppearance = global::BookShare.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::BookShare.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_startIconCheckable = global::BookShare.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription = global::BookShare.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_startIconDrawable = global::BookShare.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_startIconTint = global::BookShare.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_startIconTintMode = global::BookShare.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_suffixText = global::BookShare.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::BookShare.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_suffixTextColor = global::BookShare.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement = global::BookShare.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::BookShare.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::BookShare.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::BookShare.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar = global::BookShare.Droid.Resource.Styleable.Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_android_gravity = global::BookShare.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::BookShare.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_buttonGravity = global::BookShare.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::BookShare.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::BookShare.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::BookShare.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::BookShare.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::BookShare.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::BookShare.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::BookShare.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::BookShare.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_logo = global::BookShare.Droid.Resource.Styleable.Toolbar_logo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_logoDescription = global::BookShare.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::BookShare.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_menu = global::BookShare.Droid.Resource.Styleable.Toolbar_menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::BookShare.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::BookShare.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_popupTheme = global::BookShare.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_subtitle = global::BookShare.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::BookShare.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::BookShare.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_title = global::BookShare.Droid.Resource.Styleable.Toolbar_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMargin = global::BookShare.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::BookShare.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::BookShare.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMargins = global::BookShare.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::BookShare.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::BookShare.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::BookShare.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::BookShare.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip = global::BookShare.Droid.Resource.Styleable.Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_layout_margin = global::BookShare.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_minHeight = global::BookShare.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_minWidth = global::BookShare.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_padding = global::BookShare.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_text = global::BookShare.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_textAppearance = global::BookShare.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_backgroundTint = global::BookShare.Droid.Resource.Styleable.Tooltip_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View = global::BookShare.Droid.Resource.Styleable.View;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper = global::BookShare.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::BookShare.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::BookShare.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::BookShare.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewPager2 = global::BookShare.Droid.Resource.Styleable.ViewPager2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewPager2_android_orientation = global::BookShare.Droid.Resource.Styleable.ViewPager2_android_orientation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat = global::BookShare.Droid.Resource.Styleable.ViewStubCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::BookShare.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::BookShare.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::BookShare.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_android_focusable = global::BookShare.Droid.Resource.Styleable.View_android_focusable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_android_theme = global::BookShare.Droid.Resource.Styleable.View_android_theme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_paddingEnd = global::BookShare.Droid.Resource.Styleable.View_paddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_paddingStart = global::BookShare.Droid.Resource.Styleable.View_paddingStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_theme = global::BookShare.Droid.Resource.Styleable.View_theme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.image_share_filepaths = global::BookShare.Droid.Resource.Xml.image_share_filepaths;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.standalone_badge = global::BookShare.Droid.Resource.Xml.standalone_badge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.standalone_badge_gravity_bottom_end = global::BookShare.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.standalone_badge_gravity_bottom_start = global::BookShare.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.standalone_badge_gravity_top_start = global::BookShare.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.standalone_badge_offset = global::BookShare.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::BookShare.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::BookShare.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::BookShare.Droid.Resource.Attribute.fontProviderAuthority;
@@ -16493,193 +20171,304 @@ namespace BookShare.Droid
 			public const int abc_vector_test = 2131165268;
 			
 			// aapt resource value: 0x7F070055
-			public const int avd_hide_password = 2131165269;
+			public const int Avatar1 = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int avd_show_password = 2131165270;
+			public const int Avatar10 = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int btn_checkbox_checked_mtrl = 2131165271;
+			public const int Avatar11 = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165272;
+			public const int Avatar12 = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public const int btn_checkbox_unchecked_mtrl = 2131165273;
+			public const int Avatar13 = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165274;
+			public const int Avatar14 = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int btn_radio_off_mtrl = 2131165275;
+			public const int Avatar15 = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165276;
+			public const int Avatar16 = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int btn_radio_on_mtrl = 2131165277;
+			public const int Avatar17 = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165278;
+			public const int Avatar18 = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int design_fab_background = 2131165279;
+			public const int Avatar19 = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int design_ic_visibility = 2131165280;
+			public const int Avatar2 = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int design_ic_visibility_off = 2131165281;
+			public const int Avatar20 = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int design_password_eye = 2131165282;
+			public const int Avatar21 = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int design_snackbar_background = 2131165283;
-			
-			// aapt resource value: 0x7F07006B
-			public const int icon_about = 2131165291;
-			
-			// aapt resource value: 0x7F07006C
-			public const int icon_feed = 2131165292;
+			public const int Avatar22 = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_arrow_down_24dp = 2131165284;
+			public const int Avatar23 = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int ic_clock_black_24dp = 2131165285;
+			public const int Avatar24 = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int ic_keyboard_black_24dp = 2131165286;
+			public const int Avatar25 = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int ic_mtrl_checked_circle = 2131165287;
+			public const int Avatar26 = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int ic_mtrl_chip_checked_black = 2131165288;
+			public const int Avatar27 = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int ic_mtrl_chip_checked_circle = 2131165289;
+			public const int Avatar28 = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_mtrl_chip_close_circle = 2131165290;
+			public const int Avatar29 = 2131165290;
+			
+			// aapt resource value: 0x7F07006B
+			public const int Avatar3 = 2131165291;
+			
+			// aapt resource value: 0x7F07006C
+			public const int Avatar30 = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int male = 2131165293;
+			public const int Avatar4 = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int material_cursor_drawable = 2131165294;
+			public const int Avatar5 = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int material_ic_calendar_black_24dp = 2131165295;
+			public const int Avatar6 = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int material_ic_clear_black_24dp = 2131165296;
+			public const int Avatar7 = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int material_ic_edit_black_24dp = 2131165297;
+			public const int Avatar8 = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165298;
+			public const int Avatar9 = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165299;
+			public const int avd_hide_password = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165300;
+			public const int avd_show_password = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165301;
+			public const int btn_checkbox_checked_mtrl = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165302;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165303;
+			public const int btn_checkbox_unchecked_mtrl = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int mtrl_dialog_background = 2131165304;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int mtrl_dropdown_arrow = 2131165305;
+			public const int btn_radio_off_mtrl = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_ic_arrow_drop_down = 2131165306;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_ic_arrow_drop_up = 2131165307;
+			public const int btn_radio_on_mtrl = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_ic_cancel = 2131165308;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_ic_error = 2131165309;
+			public const int circum_search = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_navigation_bar_item_background = 2131165310;
+			public const int clear_button_icon = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_popupmenu_background = 2131165311;
+			public const int design_fab_background = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_popupmenu_background_dark = 2131165312;
+			public const int design_ic_visibility = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_tabs_default_indicator = 2131165313;
+			public const int design_ic_visibility_off = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int navigation_empty_icon = 2131165314;
+			public const int design_password_eye = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_action_background = 2131165315;
-			
-			// aapt resource value: 0x7F070084
-			public const int notification_bg = 2131165316;
-			
-			// aapt resource value: 0x7F070085
-			public const int notification_bg_low = 2131165317;
-			
-			// aapt resource value: 0x7F070086
-			public const int notification_bg_low_normal = 2131165318;
-			
-			// aapt resource value: 0x7F070087
-			public const int notification_bg_low_pressed = 2131165319;
-			
-			// aapt resource value: 0x7F070088
-			public const int notification_bg_normal = 2131165320;
-			
-			// aapt resource value: 0x7F070089
-			public const int notification_bg_normal_pressed = 2131165321;
-			
-			// aapt resource value: 0x7F07008A
-			public const int notification_icon_background = 2131165322;
+			public const int design_snackbar_background = 2131165315;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_template_icon_bg = 2131165323;
+			public const int icon_about = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_template_icon_low_bg = 2131165324;
+			public const int icon_feed = 2131165324;
 			
-			// aapt resource value: 0x7F07008D
-			public const int notification_tile_bg = 2131165325;
+			// aapt resource value: 0x7F070084
+			public const int ic_arrow_down_24dp = 2131165316;
+			
+			// aapt resource value: 0x7F070085
+			public const int ic_clock_black_24dp = 2131165317;
+			
+			// aapt resource value: 0x7F070086
+			public const int ic_keyboard_black_24dp = 2131165318;
+			
+			// aapt resource value: 0x7F070087
+			public const int ic_mtrl_checked_circle = 2131165319;
+			
+			// aapt resource value: 0x7F070088
+			public const int ic_mtrl_chip_checked_black = 2131165320;
+			
+			// aapt resource value: 0x7F070089
+			public const int ic_mtrl_chip_checked_circle = 2131165321;
+			
+			// aapt resource value: 0x7F07008A
+			public const int ic_mtrl_chip_close_circle = 2131165322;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notify_panel_notification_icon_bg = 2131165326;
+			public const int inputlayout_togglecollapseicon = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int preference_list_divider_material = 2131165327;
+			public const int inputlayout_togglevisibleicon = 2131165327;
+			
+			// aapt resource value: 0x7F07008D
+			public const int input_layout_drop_down_icon = 2131165325;
 			
 			// aapt resource value: 0x7F070090
-			public const int test_custom_background = 2131165328;
+			public const int male = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int tooltip_frame_dark = 2131165329;
+			public const int material_cursor_drawable = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int tooltip_frame_light = 2131165330;
+			public const int material_ic_calendar_black_24dp = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int xamarin_logo = 2131165331;
+			public const int material_ic_clear_black_24dp = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int material_ic_edit_black_24dp = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int mtrl_dialog_background = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int mtrl_dropdown_arrow = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int mtrl_ic_arrow_drop_down = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int mtrl_ic_arrow_drop_up = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int mtrl_ic_cancel = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int mtrl_ic_error = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int mtrl_navigation_bar_item_background = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int mtrl_popupmenu_background = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int mtrl_popupmenu_background_dark = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int mtrl_tabs_default_indicator = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int navigation_empty_icon = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int notification_action_background = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int notification_bg = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int notification_bg_low = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int notification_bg_low_normal = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int notification_bg_low_pressed = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int notification_bg_normal = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int notification_bg_normal_pressed = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int notification_icon_background = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int notification_template_icon_bg = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int notification_template_icon_low_bg = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int notification_tile_bg = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int notify_panel_notification_icon_bg = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int preference_list_divider_material = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int sfclosebutton = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int styleinfo = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int test_custom_background = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int tooltip_frame_dark = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int tooltip_frame_light = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int xamarin_logo = 2131165368;
 			
 			static Drawable()
 			{
@@ -16694,257 +20483,257 @@ namespace BookShare.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F08000E
-			public const int accelerate = 2131230734;
-			
 			// aapt resource value: 0x7F08000F
-			public const int accessibility_action_clickable_span = 2131230735;
+			public const int accelerate = 2131230735;
 			
 			// aapt resource value: 0x7F080010
-			public const int accessibility_custom_action_0 = 2131230736;
+			public const int accessibility_action_clickable_span = 2131230736;
 			
 			// aapt resource value: 0x7F080011
-			public const int accessibility_custom_action_1 = 2131230737;
+			public const int accessibility_custom_action_0 = 2131230737;
 			
 			// aapt resource value: 0x7F080012
-			public const int accessibility_custom_action_10 = 2131230738;
+			public const int accessibility_custom_action_1 = 2131230738;
 			
 			// aapt resource value: 0x7F080013
-			public const int accessibility_custom_action_11 = 2131230739;
+			public const int accessibility_custom_action_10 = 2131230739;
 			
 			// aapt resource value: 0x7F080014
-			public const int accessibility_custom_action_12 = 2131230740;
+			public const int accessibility_custom_action_11 = 2131230740;
 			
 			// aapt resource value: 0x7F080015
-			public const int accessibility_custom_action_13 = 2131230741;
+			public const int accessibility_custom_action_12 = 2131230741;
 			
 			// aapt resource value: 0x7F080016
-			public const int accessibility_custom_action_14 = 2131230742;
+			public const int accessibility_custom_action_13 = 2131230742;
 			
 			// aapt resource value: 0x7F080017
-			public const int accessibility_custom_action_15 = 2131230743;
+			public const int accessibility_custom_action_14 = 2131230743;
 			
 			// aapt resource value: 0x7F080018
-			public const int accessibility_custom_action_16 = 2131230744;
+			public const int accessibility_custom_action_15 = 2131230744;
 			
 			// aapt resource value: 0x7F080019
-			public const int accessibility_custom_action_17 = 2131230745;
+			public const int accessibility_custom_action_16 = 2131230745;
 			
 			// aapt resource value: 0x7F08001A
-			public const int accessibility_custom_action_18 = 2131230746;
+			public const int accessibility_custom_action_17 = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int accessibility_custom_action_19 = 2131230747;
+			public const int accessibility_custom_action_18 = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int accessibility_custom_action_2 = 2131230748;
+			public const int accessibility_custom_action_19 = 2131230748;
 			
 			// aapt resource value: 0x7F08001D
-			public const int accessibility_custom_action_20 = 2131230749;
+			public const int accessibility_custom_action_2 = 2131230749;
 			
 			// aapt resource value: 0x7F08001E
-			public const int accessibility_custom_action_21 = 2131230750;
+			public const int accessibility_custom_action_20 = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int accessibility_custom_action_22 = 2131230751;
+			public const int accessibility_custom_action_21 = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int accessibility_custom_action_23 = 2131230752;
+			public const int accessibility_custom_action_22 = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int accessibility_custom_action_24 = 2131230753;
+			public const int accessibility_custom_action_23 = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int accessibility_custom_action_25 = 2131230754;
+			public const int accessibility_custom_action_24 = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int accessibility_custom_action_26 = 2131230755;
+			public const int accessibility_custom_action_25 = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int accessibility_custom_action_27 = 2131230756;
+			public const int accessibility_custom_action_26 = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int accessibility_custom_action_28 = 2131230757;
+			public const int accessibility_custom_action_27 = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int accessibility_custom_action_29 = 2131230758;
+			public const int accessibility_custom_action_28 = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int accessibility_custom_action_3 = 2131230759;
+			public const int accessibility_custom_action_29 = 2131230759;
 			
 			// aapt resource value: 0x7F080028
-			public const int accessibility_custom_action_30 = 2131230760;
+			public const int accessibility_custom_action_3 = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int accessibility_custom_action_31 = 2131230761;
+			public const int accessibility_custom_action_30 = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int accessibility_custom_action_4 = 2131230762;
+			public const int accessibility_custom_action_31 = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int accessibility_custom_action_5 = 2131230763;
+			public const int accessibility_custom_action_4 = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int accessibility_custom_action_6 = 2131230764;
+			public const int accessibility_custom_action_5 = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int accessibility_custom_action_7 = 2131230765;
+			public const int accessibility_custom_action_6 = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int accessibility_custom_action_8 = 2131230766;
+			public const int accessibility_custom_action_7 = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int accessibility_custom_action_9 = 2131230767;
+			public const int accessibility_custom_action_8 = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int action0 = 2131230768;
+			public const int accessibility_custom_action_9 = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int actionDown = 2131230769;
+			public const int action0 = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int actionDownUp = 2131230770;
-			
-			// aapt resource value: 0x7F080045
-			public const int actions = 2131230789;
+			public const int actionDown = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int actionUp = 2131230771;
-			
-			// aapt resource value: 0x7F080034
-			public const int action_bar = 2131230772;
-			
-			// aapt resource value: 0x7F080035
-			public const int action_bar_activity_content = 2131230773;
-			
-			// aapt resource value: 0x7F080036
-			public const int action_bar_container = 2131230774;
-			
-			// aapt resource value: 0x7F080037
-			public const int action_bar_root = 2131230775;
-			
-			// aapt resource value: 0x7F080038
-			public const int action_bar_spinner = 2131230776;
-			
-			// aapt resource value: 0x7F080039
-			public const int action_bar_subtitle = 2131230777;
-			
-			// aapt resource value: 0x7F08003A
-			public const int action_bar_title = 2131230778;
-			
-			// aapt resource value: 0x7F08003B
-			public const int action_container = 2131230779;
-			
-			// aapt resource value: 0x7F08003C
-			public const int action_context_bar = 2131230780;
-			
-			// aapt resource value: 0x7F08003D
-			public const int action_divider = 2131230781;
-			
-			// aapt resource value: 0x7F08003E
-			public const int action_image = 2131230782;
-			
-			// aapt resource value: 0x7F08003F
-			public const int action_menu_divider = 2131230783;
-			
-			// aapt resource value: 0x7F080040
-			public const int action_menu_presenter = 2131230784;
-			
-			// aapt resource value: 0x7F080041
-			public const int action_mode_bar = 2131230785;
-			
-			// aapt resource value: 0x7F080042
-			public const int action_mode_bar_stub = 2131230786;
-			
-			// aapt resource value: 0x7F080043
-			public const int action_mode_close_button = 2131230787;
-			
-			// aapt resource value: 0x7F080044
-			public const int action_text = 2131230788;
+			public const int actionDownUp = 2131230771;
 			
 			// aapt resource value: 0x7F080046
-			public const int activity_chooser_view_content = 2131230790;
+			public const int actions = 2131230790;
+			
+			// aapt resource value: 0x7F080034
+			public const int actionUp = 2131230772;
+			
+			// aapt resource value: 0x7F080035
+			public const int action_bar = 2131230773;
+			
+			// aapt resource value: 0x7F080036
+			public const int action_bar_activity_content = 2131230774;
+			
+			// aapt resource value: 0x7F080037
+			public const int action_bar_container = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int action_bar_root = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int action_bar_spinner = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int action_bar_subtitle = 2131230778;
+			
+			// aapt resource value: 0x7F08003B
+			public const int action_bar_title = 2131230779;
+			
+			// aapt resource value: 0x7F08003C
+			public const int action_container = 2131230780;
+			
+			// aapt resource value: 0x7F08003D
+			public const int action_context_bar = 2131230781;
+			
+			// aapt resource value: 0x7F08003E
+			public const int action_divider = 2131230782;
+			
+			// aapt resource value: 0x7F08003F
+			public const int action_image = 2131230783;
+			
+			// aapt resource value: 0x7F080040
+			public const int action_menu_divider = 2131230784;
+			
+			// aapt resource value: 0x7F080041
+			public const int action_menu_presenter = 2131230785;
+			
+			// aapt resource value: 0x7F080042
+			public const int action_mode_bar = 2131230786;
+			
+			// aapt resource value: 0x7F080043
+			public const int action_mode_bar_stub = 2131230787;
+			
+			// aapt resource value: 0x7F080044
+			public const int action_mode_close_button = 2131230788;
+			
+			// aapt resource value: 0x7F080045
+			public const int action_text = 2131230789;
 			
 			// aapt resource value: 0x7F080047
-			public const int add = 2131230791;
+			public const int activity_chooser_view_content = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int alertTitle = 2131230792;
+			public const int add = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int aligned = 2131230793;
+			public const int alertTitle = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int all = 2131230794;
+			public const int aligned = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int allStates = 2131230795;
+			public const int all = 2131230795;
+			
+			// aapt resource value: 0x7F08004C
+			public const int allStates = 2131230796;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
-			// aapt resource value: 0x7F08004C
-			public const int always = 2131230796;
-			
 			// aapt resource value: 0x7F08004D
-			public const int animateToEnd = 2131230797;
+			public const int always = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int animateToStart = 2131230798;
-			
-			// aapt resource value: 0x7F080050
-			public const int anticipate = 2131230800;
+			public const int animateToEnd = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int antiClockwise = 2131230799;
+			public const int animateToStart = 2131230799;
 			
 			// aapt resource value: 0x7F080051
-			public const int arc = 2131230801;
+			public const int anticipate = 2131230801;
+			
+			// aapt resource value: 0x7F080050
+			public const int antiClockwise = 2131230800;
 			
 			// aapt resource value: 0x7F080052
-			public const int asConfigured = 2131230802;
+			public const int arc = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int async = 2131230803;
+			public const int asConfigured = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int auto = 2131230804;
+			public const int async = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int autoComplete = 2131230805;
+			public const int auto = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int autoCompleteToEnd = 2131230806;
+			public const int autoComplete = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int autoCompleteToStart = 2131230807;
+			public const int autoCompleteToEnd = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int barrier = 2131230808;
+			public const int autoCompleteToStart = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int baseline = 2131230809;
-			
-			// aapt resource value: 0x7F08005B
-			public const int beginning = 2131230811;
+			public const int barrier = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int beginOnFirstDraw = 2131230810;
+			public const int baseline = 2131230810;
 			
 			// aapt resource value: 0x7F08005C
-			public const int bestChoice = 2131230812;
+			public const int beginning = 2131230812;
+			
+			// aapt resource value: 0x7F08005B
+			public const int beginOnFirstDraw = 2131230811;
 			
 			// aapt resource value: 0x7F08005D
-			public const int blocking = 2131230813;
+			public const int bestChoice = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int bottom = 2131230814;
+			public const int blocking = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int bottomtab_navarea = 2131230815;
+			public const int bottom = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int bottomtab_tabbar = 2131230816;
+			public const int bottomtab_navarea = 2131230816;
+			
+			// aapt resource value: 0x7F080061
+			public const int bottomtab_tabbar = 2131230817;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
@@ -16952,1232 +20741,1235 @@ namespace BookShare.Droid
 			// aapt resource value: 0x7F080002
 			public const int BOTTOM_START = 2131230722;
 			
-			// aapt resource value: 0x7F080061
-			public const int bounce = 2131230817;
-			
 			// aapt resource value: 0x7F080062
-			public const int bounceBoth = 2131230818;
+			public const int bounce = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int bounceEnd = 2131230819;
+			public const int bounceBoth = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int bounceStart = 2131230820;
+			public const int bounceEnd = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int browser_actions_header_text = 2131230821;
-			
-			// aapt resource value: 0x7F080068
-			public const int browser_actions_menu_items = 2131230824;
+			public const int bounceStart = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int browser_actions_menu_item_icon = 2131230822;
-			
-			// aapt resource value: 0x7F080067
-			public const int browser_actions_menu_item_text = 2131230823;
+			public const int browser_actions_header_text = 2131230822;
 			
 			// aapt resource value: 0x7F080069
-			public const int browser_actions_menu_view = 2131230825;
+			public const int browser_actions_menu_items = 2131230825;
+			
+			// aapt resource value: 0x7F080067
+			public const int browser_actions_menu_item_icon = 2131230823;
+			
+			// aapt resource value: 0x7F080068
+			public const int browser_actions_menu_item_text = 2131230824;
 			
 			// aapt resource value: 0x7F08006A
-			public const int buttonPanel = 2131230826;
+			public const int browser_actions_menu_view = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int cache_measures = 2131230827;
+			public const int buttonPanel = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int cancel_action = 2131230828;
+			public const int cache_measures = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int cancel_button = 2131230829;
+			public const int cancel_action = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int carryVelocity = 2131230830;
+			public const int cancel_button = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int center = 2131230831;
+			public const int carryVelocity = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int center_horizontal = 2131230832;
+			public const int center = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int center_vertical = 2131230833;
+			public const int center_horizontal = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int chain = 2131230834;
+			public const int center_vertical = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int chains = 2131230835;
+			public const int chain = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int checkbox = 2131230836;
+			public const int chains = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int @checked = 2131230837;
+			public const int checkbox = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int chip = 2131230838;
+			public const int @checked = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int chip1 = 2131230839;
+			public const int chip = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int chip2 = 2131230840;
+			public const int chip1 = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int chip3 = 2131230841;
+			public const int chip2 = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int chip_group = 2131230842;
+			public const int chip3 = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int chronometer = 2131230843;
+			public const int chip_group = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int circle_center = 2131230844;
+			public const int chronometer = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int clear_text = 2131230845;
+			public const int circle_center = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int clip_horizontal = 2131230846;
+			public const int clear_text = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int clip_vertical = 2131230847;
+			public const int clip_horizontal = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int clockwise = 2131230848;
+			public const int clip_vertical = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int closest = 2131230849;
+			public const int clockwise = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int collapseActionView = 2131230850;
+			public const int closest = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int confirm_button = 2131230851;
+			public const int collapseActionView = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int constraint = 2131230852;
+			public const int confirm_button = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int container = 2131230853;
+			public const int constraint = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int content = 2131230854;
+			public const int container = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int contentPanel = 2131230855;
+			public const int content = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int contiguous = 2131230856;
+			public const int contentPanel = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int continuousVelocity = 2131230857;
+			public const int contiguous = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int coordinator = 2131230858;
+			public const int continuousVelocity = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int cos = 2131230859;
+			public const int coordinator = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int counterclockwise = 2131230860;
+			public const int cos = 2131230860;
+			
+			// aapt resource value: 0x7F08008D
+			public const int counterclockwise = 2131230861;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
-			// aapt resource value: 0x7F08008D
-			public const int currentState = 2131230861;
-			
 			// aapt resource value: 0x7F08008E
-			public const int custom = 2131230862;
+			public const int currentState = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int customPanel = 2131230863;
+			public const int custom = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int cut = 2131230864;
+			public const int customPanel = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int date_picker_actions = 2131230865;
+			public const int cut = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int decelerate = 2131230866;
+			public const int date_picker_actions = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int decelerateAndComplete = 2131230867;
+			public const int decelerate = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int decor_content_parent = 2131230868;
+			public const int decelerateAndComplete = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int default_activity_button = 2131230869;
+			public const int decor_content_parent = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int deltaRelative = 2131230870;
+			public const int default_activity_button = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int dependency_ordering = 2131230871;
+			public const int deltaRelative = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int design_bottom_sheet = 2131230872;
+			public const int dependency_ordering = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int design_menu_item_action_area = 2131230873;
+			public const int design_bottom_sheet = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int design_menu_item_action_area_stub = 2131230874;
+			public const int design_menu_item_action_area = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int design_menu_item_text = 2131230875;
+			public const int design_menu_item_action_area_stub = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int design_navigation_view = 2131230876;
+			public const int design_menu_item_text = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int dialog_button = 2131230877;
+			public const int design_navigation_view = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int dimensions = 2131230878;
+			public const int dialog_button = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int direct = 2131230879;
+			public const int dimensions = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int disableHome = 2131230880;
+			public const int direct = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int disableIntraAutoTransition = 2131230881;
+			public const int disableHome = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int disablePostScroll = 2131230882;
+			public const int disableIntraAutoTransition = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int disableScroll = 2131230883;
+			public const int disablePostScroll = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int disjoint = 2131230884;
+			public const int disableScroll = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int dragAnticlockwise = 2131230885;
+			public const int disjoint = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int dragClockwise = 2131230886;
+			public const int dragAnticlockwise = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int dragDown = 2131230887;
+			public const int dragClockwise = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int dragEnd = 2131230888;
+			public const int dragDown = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int dragLeft = 2131230889;
+			public const int dragEnd = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int dragRight = 2131230890;
+			public const int dragLeft = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int dragStart = 2131230891;
+			public const int dragRight = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int dragUp = 2131230892;
+			public const int dragStart = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int dropdown_menu = 2131230893;
+			public const int dragUp = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int easeIn = 2131230894;
+			public const int dropdown_menu = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int easeInOut = 2131230895;
+			public const int easeIn = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int easeOut = 2131230896;
+			public const int easeInOut = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int east = 2131230897;
+			public const int easeOut = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int edit_query = 2131230898;
+			public const int east = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int elastic = 2131230899;
+			public const int edit_query = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int end = 2131230900;
+			public const int elastic = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int endToStart = 2131230901;
+			public const int end = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int end_padder = 2131230902;
+			public const int endToStart = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int enterAlways = 2131230903;
+			public const int end_padder = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int enterAlwaysCollapsed = 2131230904;
+			public const int enterAlways = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int exitUntilCollapsed = 2131230905;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int expanded_menu = 2131230907;
+			public const int enterAlwaysCollapsed = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int expand_activities_button = 2131230906;
+			public const int exitUntilCollapsed = 2131230906;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int fade = 2131230908;
+			public const int expanded_menu = 2131230908;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int expand_activities_button = 2131230907;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int fill = 2131230909;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int filled = 2131230912;
+			public const int fade = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int fill_horizontal = 2131230910;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int fill_vertical = 2131230911;
+			public const int fill = 2131230910;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int fitToContents = 2131230913;
+			public const int filled = 2131230913;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int fill_horizontal = 2131230911;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int fill_vertical = 2131230912;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int @fixed = 2131230914;
+			public const int fitToContents = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int flip = 2131230915;
+			public const int @fixed = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int floating = 2131230916;
+			public const int flip = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int flyoutcontent_appbar = 2131230917;
+			public const int floating = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int forever = 2131230918;
+			public const int flyoutcontent_appbar = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int fragment_container_view_tag = 2131230919;
+			public const int forever = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int frost = 2131230920;
+			public const int fragment_container_view_tag = 2131230920;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int frost = 2131230921;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
-			// aapt resource value: 0x7F0800C9
-			public const int ghost_view = 2131230921;
-			
 			// aapt resource value: 0x7F0800CA
-			public const int ghost_view_holder = 2131230922;
+			public const int ghost_view = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int gone = 2131230923;
+			public const int ghost_view_holder = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int graph = 2131230924;
+			public const int gone = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int graph_wrap = 2131230925;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int grouping = 2131230927;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int groups = 2131230928;
+			public const int graph = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int group_divider = 2131230926;
+			public const int graph_wrap = 2131230926;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int grouping = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int guideline = 2131230929;
+			public const int groups = 2131230929;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int group_divider = 2131230927;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int header_title = 2131230930;
+			public const int guideline = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int hideable = 2131230931;
+			public const int header_title = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int home = 2131230932;
+			public const int hideable = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int homeAsUp = 2131230933;
+			public const int home = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int honorRequest = 2131230934;
+			public const int homeAsUp = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int horizontal_only = 2131230935;
+			public const int honorRequest = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int icon = 2131230936;
+			public const int horizontal_only = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int icon_frame = 2131230937;
+			public const int icon = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int icon_group = 2131230938;
+			public const int icon_frame = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int ifRoom = 2131230939;
+			public const int icon_group = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int ignore = 2131230940;
+			public const int ifRoom = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int ignoreRequest = 2131230941;
+			public const int ignore = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int image = 2131230942;
+			public const int ignoreRequest = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int immediateStop = 2131230943;
+			public const int image = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int included = 2131230944;
+			public const int immediateStop = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int info = 2131230945;
+			public const int included = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int invisible = 2131230946;
+			public const int info = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int inward = 2131230947;
+			public const int invisible = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int italic = 2131230948;
+			public const int inward = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int item_touch_helper_previous_elevation = 2131230949;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int jumpToEnd = 2131230950;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int jumpToStart = 2131230951;
-			
-			// aapt resource value: 0x7F0800E8
-			public const int labeled = 2131230952;
-			
-			// aapt resource value: 0x7F0800E9
-			public const int layout = 2131230953;
-			
-			// aapt resource value: 0x7F0800EA
-			public const int left = 2131230954;
-			
-			// aapt resource value: 0x7F0800EB
-			public const int leftToRight = 2131230955;
-			
-			// aapt resource value: 0x7F0800EC
-			public const int legacy = 2131230956;
-			
-			// aapt resource value: 0x7F0800ED
-			public const int line1 = 2131230957;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int line3 = 2131230958;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int linear = 2131230959;
-			
-			// aapt resource value: 0x7F0800F0
-			public const int listMode = 2131230960;
-			
-			// aapt resource value: 0x7F0800F1
-			public const int list_item = 2131230961;
-			
-			// aapt resource value: 0x7F0800F2
-			public const int main_appbar = 2131230962;
-			
-			// aapt resource value: 0x7F0800F3
-			public const int main_tablayout = 2131230963;
-			
-			// aapt resource value: 0x7F0800F4
-			public const int main_toolbar = 2131230964;
-			
-			// aapt resource value: 0x7F0800F5
-			public const int main_viewpager = 2131230965;
-			
-			// aapt resource value: 0x7F0800F6
-			public const int masked = 2131230966;
-			
-			// aapt resource value: 0x7F0800F7
-			public const int match_constraint = 2131230967;
-			
-			// aapt resource value: 0x7F0800F8
-			public const int match_parent = 2131230968;
-			
-			// aapt resource value: 0x7F0800F9
-			public const int material_clock_display = 2131230969;
-			
-			// aapt resource value: 0x7F0800FA
-			public const int material_clock_face = 2131230970;
-			
-			// aapt resource value: 0x7F0800FB
-			public const int material_clock_hand = 2131230971;
-			
-			// aapt resource value: 0x7F0800FC
-			public const int material_clock_period_am_button = 2131230972;
-			
-			// aapt resource value: 0x7F0800FD
-			public const int material_clock_period_pm_button = 2131230973;
-			
-			// aapt resource value: 0x7F0800FE
-			public const int material_clock_period_toggle = 2131230974;
-			
-			// aapt resource value: 0x7F0800FF
-			public const int material_hour_text_input = 2131230975;
-			
-			// aapt resource value: 0x7F080100
-			public const int material_hour_tv = 2131230976;
-			
-			// aapt resource value: 0x7F080101
-			public const int material_label = 2131230977;
-			
-			// aapt resource value: 0x7F080102
-			public const int material_minute_text_input = 2131230978;
-			
-			// aapt resource value: 0x7F080103
-			public const int material_minute_tv = 2131230979;
-			
-			// aapt resource value: 0x7F080104
-			public const int material_textinput_timepicker = 2131230980;
-			
-			// aapt resource value: 0x7F080105
-			public const int material_timepicker_cancel_button = 2131230981;
-			
-			// aapt resource value: 0x7F080106
-			public const int material_timepicker_container = 2131230982;
-			
-			// aapt resource value: 0x7F080107
-			public const int material_timepicker_edit_text = 2131230983;
-			
-			// aapt resource value: 0x7F080108
-			public const int material_timepicker_mode_button = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int material_timepicker_ok_button = 2131230985;
-			
-			// aapt resource value: 0x7F08010A
-			public const int material_timepicker_view = 2131230986;
-			
-			// aapt resource value: 0x7F08010B
-			public const int material_value_index = 2131230987;
-			
-			// aapt resource value: 0x7F08010C
-			public const int media_actions = 2131230988;
-			
-			// aapt resource value: 0x7F08010D
-			public const int media_controller_compat_view_tag = 2131230989;
-			
-			// aapt resource value: 0x7F08010E
-			public const int message = 2131230990;
+			public const int italic = 2131230949;
 			
 			// aapt resource value: 0x7F080005
-			public const int META = 2131230725;
+			public const int Itemname = 2131230725;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int item_touch_helper_previous_elevation = 2131230950;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int jumpToEnd = 2131230951;
+			
+			// aapt resource value: 0x7F0800E8
+			public const int jumpToStart = 2131230952;
+			
+			// aapt resource value: 0x7F0800E9
+			public const int labeled = 2131230953;
+			
+			// aapt resource value: 0x7F0800EA
+			public const int layout = 2131230954;
+			
+			// aapt resource value: 0x7F0800EB
+			public const int left = 2131230955;
+			
+			// aapt resource value: 0x7F0800EC
+			public const int leftToRight = 2131230956;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int legacy = 2131230957;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int line1 = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int line3 = 2131230959;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int linear = 2131230960;
+			
+			// aapt resource value: 0x7F0800F1
+			public const int listMode = 2131230961;
+			
+			// aapt resource value: 0x7F0800F2
+			public const int list_item = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int main_appbar = 2131230963;
+			
+			// aapt resource value: 0x7F0800F4
+			public const int main_tablayout = 2131230964;
+			
+			// aapt resource value: 0x7F0800F5
+			public const int main_toolbar = 2131230965;
+			
+			// aapt resource value: 0x7F0800F6
+			public const int main_viewpager = 2131230966;
+			
+			// aapt resource value: 0x7F0800F7
+			public const int masked = 2131230967;
+			
+			// aapt resource value: 0x7F0800F8
+			public const int match_constraint = 2131230968;
+			
+			// aapt resource value: 0x7F0800F9
+			public const int match_parent = 2131230969;
+			
+			// aapt resource value: 0x7F0800FA
+			public const int material_clock_display = 2131230970;
+			
+			// aapt resource value: 0x7F0800FB
+			public const int material_clock_face = 2131230971;
+			
+			// aapt resource value: 0x7F0800FC
+			public const int material_clock_hand = 2131230972;
+			
+			// aapt resource value: 0x7F0800FD
+			public const int material_clock_period_am_button = 2131230973;
+			
+			// aapt resource value: 0x7F0800FE
+			public const int material_clock_period_pm_button = 2131230974;
+			
+			// aapt resource value: 0x7F0800FF
+			public const int material_clock_period_toggle = 2131230975;
+			
+			// aapt resource value: 0x7F080100
+			public const int material_hour_text_input = 2131230976;
+			
+			// aapt resource value: 0x7F080101
+			public const int material_hour_tv = 2131230977;
+			
+			// aapt resource value: 0x7F080102
+			public const int material_label = 2131230978;
+			
+			// aapt resource value: 0x7F080103
+			public const int material_minute_text_input = 2131230979;
+			
+			// aapt resource value: 0x7F080104
+			public const int material_minute_tv = 2131230980;
+			
+			// aapt resource value: 0x7F080105
+			public const int material_textinput_timepicker = 2131230981;
+			
+			// aapt resource value: 0x7F080106
+			public const int material_timepicker_cancel_button = 2131230982;
+			
+			// aapt resource value: 0x7F080107
+			public const int material_timepicker_container = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int material_timepicker_edit_text = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int material_timepicker_mode_button = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int material_timepicker_ok_button = 2131230986;
+			
+			// aapt resource value: 0x7F08010B
+			public const int material_timepicker_view = 2131230987;
+			
+			// aapt resource value: 0x7F08010C
+			public const int material_value_index = 2131230988;
+			
+			// aapt resource value: 0x7F08010D
+			public const int media_actions = 2131230989;
+			
+			// aapt resource value: 0x7F08010E
+			public const int media_controller_compat_view_tag = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int middle = 2131230991;
-			
-			// aapt resource value: 0x7F080110
-			public const int mini = 2131230992;
-			
-			// aapt resource value: 0x7F080111
-			public const int month_grid = 2131230993;
-			
-			// aapt resource value: 0x7F080112
-			public const int month_navigation_bar = 2131230994;
-			
-			// aapt resource value: 0x7F080113
-			public const int month_navigation_fragment_toggle = 2131230995;
-			
-			// aapt resource value: 0x7F080114
-			public const int month_navigation_next = 2131230996;
-			
-			// aapt resource value: 0x7F080115
-			public const int month_navigation_previous = 2131230997;
-			
-			// aapt resource value: 0x7F080116
-			public const int month_title = 2131230998;
-			
-			// aapt resource value: 0x7F080117
-			public const int motion_base = 2131230999;
-			
-			// aapt resource value: 0x7F080118
-			public const int mtrl_anchor_parent = 2131231000;
-			
-			// aapt resource value: 0x7F08011A
-			public const int mtrl_calendar_days_of_week = 2131231002;
-			
-			// aapt resource value: 0x7F080119
-			public const int mtrl_calendar_day_selector_frame = 2131231001;
-			
-			// aapt resource value: 0x7F08011B
-			public const int mtrl_calendar_frame = 2131231003;
-			
-			// aapt resource value: 0x7F08011C
-			public const int mtrl_calendar_main_pane = 2131231004;
-			
-			// aapt resource value: 0x7F08011D
-			public const int mtrl_calendar_months = 2131231005;
-			
-			// aapt resource value: 0x7F08011E
-			public const int mtrl_calendar_selection_frame = 2131231006;
-			
-			// aapt resource value: 0x7F08011F
-			public const int mtrl_calendar_text_input_frame = 2131231007;
-			
-			// aapt resource value: 0x7F080120
-			public const int mtrl_calendar_year_selector_frame = 2131231008;
-			
-			// aapt resource value: 0x7F080121
-			public const int mtrl_card_checked_layer_id = 2131231009;
-			
-			// aapt resource value: 0x7F080122
-			public const int mtrl_child_content_container = 2131231010;
-			
-			// aapt resource value: 0x7F080123
-			public const int mtrl_internal_children_alpha_tag = 2131231011;
-			
-			// aapt resource value: 0x7F080124
-			public const int mtrl_motion_snapshot_view = 2131231012;
-			
-			// aapt resource value: 0x7F080125
-			public const int mtrl_picker_fullscreen = 2131231013;
-			
-			// aapt resource value: 0x7F080126
-			public const int mtrl_picker_header = 2131231014;
-			
-			// aapt resource value: 0x7F080127
-			public const int mtrl_picker_header_selection_text = 2131231015;
-			
-			// aapt resource value: 0x7F080128
-			public const int mtrl_picker_header_title_and_selection = 2131231016;
-			
-			// aapt resource value: 0x7F080129
-			public const int mtrl_picker_header_toggle = 2131231017;
-			
-			// aapt resource value: 0x7F08012A
-			public const int mtrl_picker_text_input_date = 2131231018;
-			
-			// aapt resource value: 0x7F08012B
-			public const int mtrl_picker_text_input_range_end = 2131231019;
-			
-			// aapt resource value: 0x7F08012C
-			public const int mtrl_picker_text_input_range_start = 2131231020;
-			
-			// aapt resource value: 0x7F08012D
-			public const int mtrl_picker_title_text = 2131231021;
-			
-			// aapt resource value: 0x7F08012E
-			public const int mtrl_view_tag_bottom_padding = 2131231022;
-			
-			// aapt resource value: 0x7F08012F
-			public const int multiply = 2131231023;
-			
-			// aapt resource value: 0x7F080131
-			public const int navigation_bar_item_icon_view = 2131231025;
-			
-			// aapt resource value: 0x7F080132
-			public const int navigation_bar_item_labels_group = 2131231026;
-			
-			// aapt resource value: 0x7F080133
-			public const int navigation_bar_item_large_label_view = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int navigation_bar_item_small_label_view = 2131231028;
-			
-			// aapt resource value: 0x7F080135
-			public const int navigation_header_container = 2131231029;
-			
-			// aapt resource value: 0x7F080130
-			public const int nav_controller_view_tag = 2131231024;
-			
-			// aapt resource value: 0x7F080136
-			public const int never = 2131231030;
-			
-			// aapt resource value: 0x7F080137
-			public const int neverCompleteToEnd = 2131231031;
-			
-			// aapt resource value: 0x7F080138
-			public const int neverCompleteToStart = 2131231032;
-			
-			// aapt resource value: 0x7F08013B
-			public const int none = 2131231035;
-			
-			// aapt resource value: 0x7F08013C
-			public const int normal = 2131231036;
-			
-			// aapt resource value: 0x7F08013D
-			public const int north = 2131231037;
-			
-			// aapt resource value: 0x7F080139
-			public const int noScroll = 2131231033;
-			
-			// aapt resource value: 0x7F08013A
-			public const int noState = 2131231034;
-			
-			// aapt resource value: 0x7F08013E
-			public const int notification_background = 2131231038;
-			
-			// aapt resource value: 0x7F08013F
-			public const int notification_main_column = 2131231039;
-			
-			// aapt resource value: 0x7F080140
-			public const int notification_main_column_container = 2131231040;
+			public const int message = 2131230991;
 			
 			// aapt resource value: 0x7F080006
-			public const int NO_DEBUG = 2131230726;
+			public const int META = 2131230726;
+			
+			// aapt resource value: 0x7F080110
+			public const int middle = 2131230992;
+			
+			// aapt resource value: 0x7F080111
+			public const int mini = 2131230993;
+			
+			// aapt resource value: 0x7F080112
+			public const int month_grid = 2131230994;
+			
+			// aapt resource value: 0x7F080113
+			public const int month_navigation_bar = 2131230995;
+			
+			// aapt resource value: 0x7F080114
+			public const int month_navigation_fragment_toggle = 2131230996;
+			
+			// aapt resource value: 0x7F080115
+			public const int month_navigation_next = 2131230997;
+			
+			// aapt resource value: 0x7F080116
+			public const int month_navigation_previous = 2131230998;
+			
+			// aapt resource value: 0x7F080117
+			public const int month_title = 2131230999;
+			
+			// aapt resource value: 0x7F080118
+			public const int motion_base = 2131231000;
+			
+			// aapt resource value: 0x7F080119
+			public const int mtrl_anchor_parent = 2131231001;
+			
+			// aapt resource value: 0x7F08011B
+			public const int mtrl_calendar_days_of_week = 2131231003;
+			
+			// aapt resource value: 0x7F08011A
+			public const int mtrl_calendar_day_selector_frame = 2131231002;
+			
+			// aapt resource value: 0x7F08011C
+			public const int mtrl_calendar_frame = 2131231004;
+			
+			// aapt resource value: 0x7F08011D
+			public const int mtrl_calendar_main_pane = 2131231005;
+			
+			// aapt resource value: 0x7F08011E
+			public const int mtrl_calendar_months = 2131231006;
+			
+			// aapt resource value: 0x7F08011F
+			public const int mtrl_calendar_selection_frame = 2131231007;
+			
+			// aapt resource value: 0x7F080120
+			public const int mtrl_calendar_text_input_frame = 2131231008;
+			
+			// aapt resource value: 0x7F080121
+			public const int mtrl_calendar_year_selector_frame = 2131231009;
+			
+			// aapt resource value: 0x7F080122
+			public const int mtrl_card_checked_layer_id = 2131231010;
+			
+			// aapt resource value: 0x7F080123
+			public const int mtrl_child_content_container = 2131231011;
+			
+			// aapt resource value: 0x7F080124
+			public const int mtrl_internal_children_alpha_tag = 2131231012;
+			
+			// aapt resource value: 0x7F080125
+			public const int mtrl_motion_snapshot_view = 2131231013;
+			
+			// aapt resource value: 0x7F080126
+			public const int mtrl_picker_fullscreen = 2131231014;
+			
+			// aapt resource value: 0x7F080127
+			public const int mtrl_picker_header = 2131231015;
+			
+			// aapt resource value: 0x7F080128
+			public const int mtrl_picker_header_selection_text = 2131231016;
+			
+			// aapt resource value: 0x7F080129
+			public const int mtrl_picker_header_title_and_selection = 2131231017;
+			
+			// aapt resource value: 0x7F08012A
+			public const int mtrl_picker_header_toggle = 2131231018;
+			
+			// aapt resource value: 0x7F08012B
+			public const int mtrl_picker_text_input_date = 2131231019;
+			
+			// aapt resource value: 0x7F08012C
+			public const int mtrl_picker_text_input_range_end = 2131231020;
+			
+			// aapt resource value: 0x7F08012D
+			public const int mtrl_picker_text_input_range_start = 2131231021;
+			
+			// aapt resource value: 0x7F08012E
+			public const int mtrl_picker_title_text = 2131231022;
+			
+			// aapt resource value: 0x7F08012F
+			public const int mtrl_view_tag_bottom_padding = 2131231023;
+			
+			// aapt resource value: 0x7F080130
+			public const int multiply = 2131231024;
+			
+			// aapt resource value: 0x7F080132
+			public const int navigation_bar_item_icon_view = 2131231026;
+			
+			// aapt resource value: 0x7F080133
+			public const int navigation_bar_item_labels_group = 2131231027;
+			
+			// aapt resource value: 0x7F080134
+			public const int navigation_bar_item_large_label_view = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int navigation_bar_item_small_label_view = 2131231029;
+			
+			// aapt resource value: 0x7F080136
+			public const int navigation_header_container = 2131231030;
+			
+			// aapt resource value: 0x7F080131
+			public const int nav_controller_view_tag = 2131231025;
+			
+			// aapt resource value: 0x7F080137
+			public const int never = 2131231031;
+			
+			// aapt resource value: 0x7F080138
+			public const int neverCompleteToEnd = 2131231032;
+			
+			// aapt resource value: 0x7F080139
+			public const int neverCompleteToStart = 2131231033;
+			
+			// aapt resource value: 0x7F08013C
+			public const int none = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int normal = 2131231037;
+			
+			// aapt resource value: 0x7F08013E
+			public const int north = 2131231038;
+			
+			// aapt resource value: 0x7F08013A
+			public const int noScroll = 2131231034;
+			
+			// aapt resource value: 0x7F08013B
+			public const int noState = 2131231035;
+			
+			// aapt resource value: 0x7F08013F
+			public const int notification_background = 2131231039;
+			
+			// aapt resource value: 0x7F080140
+			public const int notification_main_column = 2131231040;
 			
 			// aapt resource value: 0x7F080141
-			public const int off = 2131231041;
-			
-			// aapt resource value: 0x7F080142
-			public const int on = 2131231042;
-			
-			// aapt resource value: 0x7F080143
-			public const int outline = 2131231043;
-			
-			// aapt resource value: 0x7F080144
-			public const int outward = 2131231044;
-			
-			// aapt resource value: 0x7F080145
-			public const int overshoot = 2131231045;
-			
-			// aapt resource value: 0x7F080146
-			public const int packed = 2131231046;
-			
-			// aapt resource value: 0x7F080147
-			public const int parallax = 2131231047;
-			
-			// aapt resource value: 0x7F080148
-			public const int parent = 2131231048;
-			
-			// aapt resource value: 0x7F080149
-			public const int parentPanel = 2131231049;
-			
-			// aapt resource value: 0x7F08014A
-			public const int parentRelative = 2131231050;
-			
-			// aapt resource value: 0x7F08014B
-			public const int parent_matrix = 2131231051;
-			
-			// aapt resource value: 0x7F08014C
-			public const int password_toggle = 2131231052;
-			
-			// aapt resource value: 0x7F08014D
-			public const int path = 2131231053;
-			
-			// aapt resource value: 0x7F08014E
-			public const int pathRelative = 2131231054;
-			
-			// aapt resource value: 0x7F08014F
-			public const int peekHeight = 2131231055;
-			
-			// aapt resource value: 0x7F080150
-			public const int percent = 2131231056;
-			
-			// aapt resource value: 0x7F080151
-			public const int pin = 2131231057;
-			
-			// aapt resource value: 0x7F080152
-			public const int position = 2131231058;
-			
-			// aapt resource value: 0x7F080153
-			public const int postLayout = 2131231059;
-			
-			// aapt resource value: 0x7F080154
-			public const int progress_circular = 2131231060;
-			
-			// aapt resource value: 0x7F080155
-			public const int progress_horizontal = 2131231061;
-			
-			// aapt resource value: 0x7F080156
-			public const int radio = 2131231062;
-			
-			// aapt resource value: 0x7F080157
-			public const int ratio = 2131231063;
-			
-			// aapt resource value: 0x7F080158
-			public const int rectangles = 2131231064;
-			
-			// aapt resource value: 0x7F080159
-			public const int recycler_view = 2131231065;
-			
-			// aapt resource value: 0x7F08015A
-			public const int reverseSawtooth = 2131231066;
-			
-			// aapt resource value: 0x7F08015B
-			public const int right = 2131231067;
-			
-			// aapt resource value: 0x7F08015C
-			public const int rightToLeft = 2131231068;
-			
-			// aapt resource value: 0x7F08015D
-			public const int right_icon = 2131231069;
-			
-			// aapt resource value: 0x7F08015E
-			public const int right_side = 2131231070;
-			
-			// aapt resource value: 0x7F08015F
-			public const int rounded = 2131231071;
-			
-			// aapt resource value: 0x7F080160
-			public const int row_index_key = 2131231072;
-			
-			// aapt resource value: 0x7F080161
-			public const int save_non_transition_alpha = 2131231073;
-			
-			// aapt resource value: 0x7F080162
-			public const int save_overlay_view = 2131231074;
-			
-			// aapt resource value: 0x7F080163
-			public const int sawtooth = 2131231075;
-			
-			// aapt resource value: 0x7F080164
-			public const int scale = 2131231076;
-			
-			// aapt resource value: 0x7F080165
-			public const int screen = 2131231077;
-			
-			// aapt resource value: 0x7F080166
-			public const int scroll = 2131231078;
-			
-			// aapt resource value: 0x7F08016A
-			public const int scrollable = 2131231082;
-			
-			// aapt resource value: 0x7F080167
-			public const int scrollIndicatorDown = 2131231079;
-			
-			// aapt resource value: 0x7F080168
-			public const int scrollIndicatorUp = 2131231080;
-			
-			// aapt resource value: 0x7F080169
-			public const int scrollView = 2131231081;
-			
-			// aapt resource value: 0x7F08016B
-			public const int search_badge = 2131231083;
-			
-			// aapt resource value: 0x7F08016C
-			public const int search_bar = 2131231084;
-			
-			// aapt resource value: 0x7F08016D
-			public const int search_button = 2131231085;
-			
-			// aapt resource value: 0x7F08016E
-			public const int search_close_btn = 2131231086;
-			
-			// aapt resource value: 0x7F08016F
-			public const int search_edit_frame = 2131231087;
-			
-			// aapt resource value: 0x7F080170
-			public const int search_go_btn = 2131231088;
-			
-			// aapt resource value: 0x7F080171
-			public const int search_mag_icon = 2131231089;
-			
-			// aapt resource value: 0x7F080172
-			public const int search_plate = 2131231090;
-			
-			// aapt resource value: 0x7F080173
-			public const int search_src_text = 2131231091;
-			
-			// aapt resource value: 0x7F080174
-			public const int search_voice_btn = 2131231092;
-			
-			// aapt resource value: 0x7F080175
-			public const int seekbar = 2131231093;
-			
-			// aapt resource value: 0x7F080176
-			public const int seekbar_value = 2131231094;
-			
-			// aapt resource value: 0x7F080178
-			public const int selected = 2131231096;
-			
-			// aapt resource value: 0x7F080179
-			public const int selection_type = 2131231097;
-			
-			// aapt resource value: 0x7F080177
-			public const int select_dialog_listview = 2131231095;
-			
-			// aapt resource value: 0x7F08017A
-			public const int sharedValueSet = 2131231098;
-			
-			// aapt resource value: 0x7F08017B
-			public const int sharedValueUnset = 2131231099;
-			
-			// aapt resource value: 0x7F08017C
-			public const int shellcontent_appbar = 2131231100;
-			
-			// aapt resource value: 0x7F08017D
-			public const int shellcontent_toolbar = 2131231101;
+			public const int notification_main_column_container = 2131231041;
 			
 			// aapt resource value: 0x7F080007
-			public const int SHIFT = 2131230727;
+			public const int NO_DEBUG = 2131230727;
+			
+			// aapt resource value: 0x7F080142
+			public const int off = 2131231042;
+			
+			// aapt resource value: 0x7F080143
+			public const int on = 2131231043;
+			
+			// aapt resource value: 0x7F080144
+			public const int outline = 2131231044;
+			
+			// aapt resource value: 0x7F080145
+			public const int outward = 2131231045;
+			
+			// aapt resource value: 0x7F080146
+			public const int overshoot = 2131231046;
+			
+			// aapt resource value: 0x7F080147
+			public const int packed = 2131231047;
+			
+			// aapt resource value: 0x7F080148
+			public const int parallax = 2131231048;
+			
+			// aapt resource value: 0x7F080149
+			public const int parent = 2131231049;
+			
+			// aapt resource value: 0x7F08014A
+			public const int parentPanel = 2131231050;
+			
+			// aapt resource value: 0x7F08014B
+			public const int parentRelative = 2131231051;
+			
+			// aapt resource value: 0x7F08014C
+			public const int parent_matrix = 2131231052;
+			
+			// aapt resource value: 0x7F08014D
+			public const int password_toggle = 2131231053;
+			
+			// aapt resource value: 0x7F08014E
+			public const int path = 2131231054;
+			
+			// aapt resource value: 0x7F08014F
+			public const int pathRelative = 2131231055;
+			
+			// aapt resource value: 0x7F080150
+			public const int peekHeight = 2131231056;
+			
+			// aapt resource value: 0x7F080151
+			public const int percent = 2131231057;
+			
+			// aapt resource value: 0x7F080152
+			public const int pin = 2131231058;
+			
+			// aapt resource value: 0x7F080153
+			public const int position = 2131231059;
+			
+			// aapt resource value: 0x7F080154
+			public const int postLayout = 2131231060;
+			
+			// aapt resource value: 0x7F080155
+			public const int progress_circular = 2131231061;
+			
+			// aapt resource value: 0x7F080156
+			public const int progress_horizontal = 2131231062;
+			
+			// aapt resource value: 0x7F080157
+			public const int radio = 2131231063;
+			
+			// aapt resource value: 0x7F080158
+			public const int ratio = 2131231064;
+			
+			// aapt resource value: 0x7F080159
+			public const int rectangles = 2131231065;
+			
+			// aapt resource value: 0x7F08015A
+			public const int recycler_view = 2131231066;
+			
+			// aapt resource value: 0x7F08015B
+			public const int reverseSawtooth = 2131231067;
+			
+			// aapt resource value: 0x7F08015C
+			public const int right = 2131231068;
+			
+			// aapt resource value: 0x7F08015D
+			public const int rightToLeft = 2131231069;
+			
+			// aapt resource value: 0x7F08015E
+			public const int right_icon = 2131231070;
+			
+			// aapt resource value: 0x7F08015F
+			public const int right_side = 2131231071;
+			
+			// aapt resource value: 0x7F080160
+			public const int rounded = 2131231072;
+			
+			// aapt resource value: 0x7F080161
+			public const int row_index_key = 2131231073;
+			
+			// aapt resource value: 0x7F080162
+			public const int save_non_transition_alpha = 2131231074;
+			
+			// aapt resource value: 0x7F080163
+			public const int save_overlay_view = 2131231075;
+			
+			// aapt resource value: 0x7F080164
+			public const int sawtooth = 2131231076;
+			
+			// aapt resource value: 0x7F080165
+			public const int scale = 2131231077;
+			
+			// aapt resource value: 0x7F080166
+			public const int screen = 2131231078;
+			
+			// aapt resource value: 0x7F080167
+			public const int scroll = 2131231079;
+			
+			// aapt resource value: 0x7F08016B
+			public const int scrollable = 2131231083;
+			
+			// aapt resource value: 0x7F080168
+			public const int scrollIndicatorDown = 2131231080;
+			
+			// aapt resource value: 0x7F080169
+			public const int scrollIndicatorUp = 2131231081;
+			
+			// aapt resource value: 0x7F08016A
+			public const int scrollView = 2131231082;
+			
+			// aapt resource value: 0x7F08016C
+			public const int search_badge = 2131231084;
+			
+			// aapt resource value: 0x7F08016D
+			public const int search_bar = 2131231085;
+			
+			// aapt resource value: 0x7F08016E
+			public const int search_button = 2131231086;
+			
+			// aapt resource value: 0x7F08016F
+			public const int search_close_btn = 2131231087;
+			
+			// aapt resource value: 0x7F080170
+			public const int search_edit_frame = 2131231088;
+			
+			// aapt resource value: 0x7F080171
+			public const int search_go_btn = 2131231089;
+			
+			// aapt resource value: 0x7F080172
+			public const int search_mag_icon = 2131231090;
+			
+			// aapt resource value: 0x7F080173
+			public const int search_plate = 2131231091;
+			
+			// aapt resource value: 0x7F080174
+			public const int search_src_text = 2131231092;
+			
+			// aapt resource value: 0x7F080175
+			public const int search_voice_btn = 2131231093;
+			
+			// aapt resource value: 0x7F080176
+			public const int seekbar = 2131231094;
+			
+			// aapt resource value: 0x7F080177
+			public const int seekbar_value = 2131231095;
+			
+			// aapt resource value: 0x7F080179
+			public const int selected = 2131231097;
+			
+			// aapt resource value: 0x7F08017A
+			public const int selection_type = 2131231098;
+			
+			// aapt resource value: 0x7F080178
+			public const int select_dialog_listview = 2131231096;
+			
+			// aapt resource value: 0x7F08017B
+			public const int sharedValueSet = 2131231099;
+			
+			// aapt resource value: 0x7F08017C
+			public const int sharedValueUnset = 2131231100;
+			
+			// aapt resource value: 0x7F08017D
+			public const int shellcontent_appbar = 2131231101;
 			
 			// aapt resource value: 0x7F08017E
-			public const int shortcut = 2131231102;
-			
-			// aapt resource value: 0x7F08017F
-			public const int showCustom = 2131231103;
-			
-			// aapt resource value: 0x7F080180
-			public const int showHome = 2131231104;
-			
-			// aapt resource value: 0x7F080181
-			public const int showTitle = 2131231105;
+			public const int shellcontent_toolbar = 2131231102;
 			
 			// aapt resource value: 0x7F080008
-			public const int SHOW_ALL = 2131230728;
+			public const int SHIFT = 2131230728;
 			
-			// aapt resource value: 0x7F080009
-			public const int SHOW_PATH = 2131230729;
+			// aapt resource value: 0x7F08017F
+			public const int shortcut = 2131231103;
 			
-			// aapt resource value: 0x7F08000A
-			public const int SHOW_PROGRESS = 2131230730;
+			// aapt resource value: 0x7F080180
+			public const int showCustom = 2131231104;
+			
+			// aapt resource value: 0x7F080181
+			public const int showHome = 2131231105;
 			
 			// aapt resource value: 0x7F080182
-			public const int sin = 2131231106;
+			public const int showTitle = 2131231106;
 			
-			// aapt resource value: 0x7F080183
-			public const int skipCollapsed = 2131231107;
+			// aapt resource value: 0x7F080009
+			public const int SHOW_ALL = 2131230729;
 			
-			// aapt resource value: 0x7F080184
-			public const int skipped = 2131231108;
-			
-			// aapt resource value: 0x7F080185
-			public const int slide = 2131231109;
-			
-			// aapt resource value: 0x7F080186
-			public const int sliding_tabs = 2131231110;
-			
-			// aapt resource value: 0x7F080187
-			public const int snackbar_action = 2131231111;
-			
-			// aapt resource value: 0x7F080188
-			public const int snackbar_text = 2131231112;
-			
-			// aapt resource value: 0x7F080189
-			public const int snap = 2131231113;
-			
-			// aapt resource value: 0x7F08018A
-			public const int snapMargins = 2131231114;
-			
-			// aapt resource value: 0x7F08018B
-			public const int south = 2131231115;
-			
-			// aapt resource value: 0x7F08018C
-			public const int spacer = 2131231116;
-			
-			// aapt resource value: 0x7F08018D
-			public const int special_effects_controller_view_tag = 2131231117;
-			
-			// aapt resource value: 0x7F08018E
-			public const int spinner = 2131231118;
-			
-			// aapt resource value: 0x7F08018F
-			public const int spline = 2131231119;
-			
-			// aapt resource value: 0x7F080190
-			public const int split_action_bar = 2131231120;
-			
-			// aapt resource value: 0x7F080191
-			public const int spread = 2131231121;
-			
-			// aapt resource value: 0x7F080192
-			public const int spread_inside = 2131231122;
-			
-			// aapt resource value: 0x7F080193
-			public const int spring = 2131231123;
-			
-			// aapt resource value: 0x7F080194
-			public const int square = 2131231124;
-			
-			// aapt resource value: 0x7F080195
-			public const int src_atop = 2131231125;
-			
-			// aapt resource value: 0x7F080196
-			public const int src_in = 2131231126;
-			
-			// aapt resource value: 0x7F080197
-			public const int src_over = 2131231127;
-			
-			// aapt resource value: 0x7F080198
-			public const int standard = 2131231128;
-			
-			// aapt resource value: 0x7F080199
-			public const int start = 2131231129;
-			
-			// aapt resource value: 0x7F08019A
-			public const int startHorizontal = 2131231130;
-			
-			// aapt resource value: 0x7F08019B
-			public const int startToEnd = 2131231131;
-			
-			// aapt resource value: 0x7F08019C
-			public const int startVertical = 2131231132;
-			
-			// aapt resource value: 0x7F08019D
-			public const int staticLayout = 2131231133;
-			
-			// aapt resource value: 0x7F08019E
-			public const int staticPostLayout = 2131231134;
-			
-			// aapt resource value: 0x7F08019F
-			public const int status_bar_latest_event_content = 2131231135;
-			
-			// aapt resource value: 0x7F0801A0
-			public const int stop = 2131231136;
-			
-			// aapt resource value: 0x7F0801A1
-			public const int stretch = 2131231137;
-			
-			// aapt resource value: 0x7F0801A2
-			public const int submenuarrow = 2131231138;
-			
-			// aapt resource value: 0x7F0801A3
-			public const int submit_area = 2131231139;
-			
-			// aapt resource value: 0x7F0801A4
-			public const int supportScrollUp = 2131231140;
-			
-			// aapt resource value: 0x7F0801A5
-			public const int switchWidget = 2131231141;
+			// aapt resource value: 0x7F08000A
+			public const int SHOW_PATH = 2131230730;
 			
 			// aapt resource value: 0x7F08000B
-			public const int SYM = 2131230731;
+			public const int SHOW_PROGRESS = 2131230731;
+			
+			// aapt resource value: 0x7F080183
+			public const int sin = 2131231107;
+			
+			// aapt resource value: 0x7F080184
+			public const int skipCollapsed = 2131231108;
+			
+			// aapt resource value: 0x7F080185
+			public const int skipped = 2131231109;
+			
+			// aapt resource value: 0x7F080186
+			public const int slide = 2131231110;
+			
+			// aapt resource value: 0x7F080187
+			public const int sliding_tabs = 2131231111;
+			
+			// aapt resource value: 0x7F080188
+			public const int snackbar_action = 2131231112;
+			
+			// aapt resource value: 0x7F080189
+			public const int snackbar_text = 2131231113;
+			
+			// aapt resource value: 0x7F08018A
+			public const int snap = 2131231114;
+			
+			// aapt resource value: 0x7F08018B
+			public const int snapMargins = 2131231115;
+			
+			// aapt resource value: 0x7F08018C
+			public const int south = 2131231116;
+			
+			// aapt resource value: 0x7F08018D
+			public const int spacer = 2131231117;
+			
+			// aapt resource value: 0x7F08018E
+			public const int special_effects_controller_view_tag = 2131231118;
+			
+			// aapt resource value: 0x7F08018F
+			public const int spinner = 2131231119;
+			
+			// aapt resource value: 0x7F080190
+			public const int spline = 2131231120;
+			
+			// aapt resource value: 0x7F080191
+			public const int split_action_bar = 2131231121;
+			
+			// aapt resource value: 0x7F080192
+			public const int spread = 2131231122;
+			
+			// aapt resource value: 0x7F080193
+			public const int spread_inside = 2131231123;
+			
+			// aapt resource value: 0x7F080194
+			public const int spring = 2131231124;
+			
+			// aapt resource value: 0x7F080195
+			public const int square = 2131231125;
+			
+			// aapt resource value: 0x7F080196
+			public const int src_atop = 2131231126;
+			
+			// aapt resource value: 0x7F080197
+			public const int src_in = 2131231127;
+			
+			// aapt resource value: 0x7F080198
+			public const int src_over = 2131231128;
+			
+			// aapt resource value: 0x7F080199
+			public const int standard = 2131231129;
+			
+			// aapt resource value: 0x7F08019A
+			public const int start = 2131231130;
+			
+			// aapt resource value: 0x7F08019B
+			public const int startHorizontal = 2131231131;
+			
+			// aapt resource value: 0x7F08019C
+			public const int startToEnd = 2131231132;
+			
+			// aapt resource value: 0x7F08019D
+			public const int startVertical = 2131231133;
+			
+			// aapt resource value: 0x7F08019E
+			public const int staticLayout = 2131231134;
+			
+			// aapt resource value: 0x7F08019F
+			public const int staticPostLayout = 2131231135;
+			
+			// aapt resource value: 0x7F0801A0
+			public const int status_bar_latest_event_content = 2131231136;
+			
+			// aapt resource value: 0x7F0801A1
+			public const int stop = 2131231137;
+			
+			// aapt resource value: 0x7F0801A2
+			public const int stretch = 2131231138;
+			
+			// aapt resource value: 0x7F0801A3
+			public const int submenuarrow = 2131231139;
+			
+			// aapt resource value: 0x7F0801A4
+			public const int submit_area = 2131231140;
+			
+			// aapt resource value: 0x7F0801A5
+			public const int supportScrollUp = 2131231141;
 			
 			// aapt resource value: 0x7F0801A6
-			public const int tabMode = 2131231142;
-			
-			// aapt resource value: 0x7F0801A7
-			public const int tag_accessibility_actions = 2131231143;
-			
-			// aapt resource value: 0x7F0801A8
-			public const int tag_accessibility_clickable_spans = 2131231144;
-			
-			// aapt resource value: 0x7F0801A9
-			public const int tag_accessibility_heading = 2131231145;
-			
-			// aapt resource value: 0x7F0801AA
-			public const int tag_accessibility_pane_title = 2131231146;
-			
-			// aapt resource value: 0x7F0801AB
-			public const int tag_on_apply_window_listener = 2131231147;
-			
-			// aapt resource value: 0x7F0801AC
-			public const int tag_on_receive_content_listener = 2131231148;
-			
-			// aapt resource value: 0x7F0801AD
-			public const int tag_on_receive_content_mime_types = 2131231149;
-			
-			// aapt resource value: 0x7F0801AE
-			public const int tag_screen_reader_focusable = 2131231150;
-			
-			// aapt resource value: 0x7F0801AF
-			public const int tag_state_description = 2131231151;
-			
-			// aapt resource value: 0x7F0801B0
-			public const int tag_transition_group = 2131231152;
-			
-			// aapt resource value: 0x7F0801B1
-			public const int tag_unhandled_key_event_manager = 2131231153;
-			
-			// aapt resource value: 0x7F0801B2
-			public const int tag_unhandled_key_listeners = 2131231154;
-			
-			// aapt resource value: 0x7F0801B3
-			public const int tag_window_insets_animation_callback = 2131231155;
-			
-			// aapt resource value: 0x7F0801B4
-			public const int test_checkbox_android_button_tint = 2131231156;
-			
-			// aapt resource value: 0x7F0801B5
-			public const int test_checkbox_app_button_tint = 2131231157;
-			
-			// aapt resource value: 0x7F0801B6
-			public const int test_radiobutton_android_button_tint = 2131231158;
-			
-			// aapt resource value: 0x7F0801B7
-			public const int test_radiobutton_app_button_tint = 2131231159;
-			
-			// aapt resource value: 0x7F0801B8
-			public const int text = 2131231160;
-			
-			// aapt resource value: 0x7F0801B9
-			public const int text2 = 2131231161;
-			
-			// aapt resource value: 0x7F0801BA
-			public const int textEnd = 2131231162;
-			
-			// aapt resource value: 0x7F0801C2
-			public const int textinput_counter = 2131231170;
-			
-			// aapt resource value: 0x7F0801C3
-			public const int textinput_error = 2131231171;
-			
-			// aapt resource value: 0x7F0801C4
-			public const int textinput_helper_text = 2131231172;
-			
-			// aapt resource value: 0x7F0801C5
-			public const int textinput_placeholder = 2131231173;
-			
-			// aapt resource value: 0x7F0801C6
-			public const int textinput_prefix_text = 2131231174;
-			
-			// aapt resource value: 0x7F0801C7
-			public const int textinput_suffix_text = 2131231175;
-			
-			// aapt resource value: 0x7F0801BB
-			public const int textSpacerNoButtons = 2131231163;
-			
-			// aapt resource value: 0x7F0801BC
-			public const int textSpacerNoTitle = 2131231164;
-			
-			// aapt resource value: 0x7F0801BD
-			public const int textStart = 2131231165;
-			
-			// aapt resource value: 0x7F0801BE
-			public const int textTop = 2131231166;
-			
-			// aapt resource value: 0x7F0801BF
-			public const int text_input_end_icon = 2131231167;
-			
-			// aapt resource value: 0x7F0801C0
-			public const int text_input_error_icon = 2131231168;
-			
-			// aapt resource value: 0x7F0801C1
-			public const int text_input_start_icon = 2131231169;
-			
-			// aapt resource value: 0x7F0801C8
-			public const int time = 2131231176;
-			
-			// aapt resource value: 0x7F0801C9
-			public const int title = 2131231177;
-			
-			// aapt resource value: 0x7F0801CA
-			public const int titleDividerNoCustom = 2131231178;
-			
-			// aapt resource value: 0x7F0801CB
-			public const int title_template = 2131231179;
-			
-			// aapt resource value: 0x7F0801CC
-			public const int toggle = 2131231180;
-			
-			// aapt resource value: 0x7F0801CD
-			public const int toolbar = 2131231181;
-			
-			// aapt resource value: 0x7F0801CE
-			public const int top = 2131231182;
-			
-			// aapt resource value: 0x7F0801CF
-			public const int topPanel = 2131231183;
+			public const int switchWidget = 2131231142;
 			
 			// aapt resource value: 0x7F08000C
-			public const int TOP_END = 2131230732;
+			public const int SYM = 2131230732;
 			
-			// aapt resource value: 0x7F08000D
-			public const int TOP_START = 2131230733;
+			// aapt resource value: 0x7F0801A7
+			public const int tabMode = 2131231143;
+			
+			// aapt resource value: 0x7F0801A8
+			public const int tag_accessibility_actions = 2131231144;
+			
+			// aapt resource value: 0x7F0801A9
+			public const int tag_accessibility_clickable_spans = 2131231145;
+			
+			// aapt resource value: 0x7F0801AA
+			public const int tag_accessibility_heading = 2131231146;
+			
+			// aapt resource value: 0x7F0801AB
+			public const int tag_accessibility_pane_title = 2131231147;
+			
+			// aapt resource value: 0x7F0801AC
+			public const int tag_on_apply_window_listener = 2131231148;
+			
+			// aapt resource value: 0x7F0801AD
+			public const int tag_on_receive_content_listener = 2131231149;
+			
+			// aapt resource value: 0x7F0801AE
+			public const int tag_on_receive_content_mime_types = 2131231150;
+			
+			// aapt resource value: 0x7F0801AF
+			public const int tag_screen_reader_focusable = 2131231151;
+			
+			// aapt resource value: 0x7F0801B0
+			public const int tag_state_description = 2131231152;
+			
+			// aapt resource value: 0x7F0801B1
+			public const int tag_transition_group = 2131231153;
+			
+			// aapt resource value: 0x7F0801B2
+			public const int tag_unhandled_key_event_manager = 2131231154;
+			
+			// aapt resource value: 0x7F0801B3
+			public const int tag_unhandled_key_listeners = 2131231155;
+			
+			// aapt resource value: 0x7F0801B4
+			public const int tag_window_insets_animation_callback = 2131231156;
+			
+			// aapt resource value: 0x7F0801B5
+			public const int test_checkbox_android_button_tint = 2131231157;
+			
+			// aapt resource value: 0x7F0801B6
+			public const int test_checkbox_app_button_tint = 2131231158;
+			
+			// aapt resource value: 0x7F0801B7
+			public const int test_radiobutton_android_button_tint = 2131231159;
+			
+			// aapt resource value: 0x7F0801B8
+			public const int test_radiobutton_app_button_tint = 2131231160;
+			
+			// aapt resource value: 0x7F0801B9
+			public const int text = 2131231161;
+			
+			// aapt resource value: 0x7F0801BA
+			public const int text2 = 2131231162;
+			
+			// aapt resource value: 0x7F0801BB
+			public const int textEnd = 2131231163;
+			
+			// aapt resource value: 0x7F0801C3
+			public const int textinput_counter = 2131231171;
+			
+			// aapt resource value: 0x7F0801C4
+			public const int textinput_error = 2131231172;
+			
+			// aapt resource value: 0x7F0801C5
+			public const int textinput_helper_text = 2131231173;
+			
+			// aapt resource value: 0x7F0801C6
+			public const int textinput_placeholder = 2131231174;
+			
+			// aapt resource value: 0x7F0801C7
+			public const int textinput_prefix_text = 2131231175;
+			
+			// aapt resource value: 0x7F0801C8
+			public const int textinput_suffix_text = 2131231176;
+			
+			// aapt resource value: 0x7F0801BC
+			public const int textSpacerNoButtons = 2131231164;
+			
+			// aapt resource value: 0x7F0801BD
+			public const int textSpacerNoTitle = 2131231165;
+			
+			// aapt resource value: 0x7F0801BE
+			public const int textStart = 2131231166;
+			
+			// aapt resource value: 0x7F0801BF
+			public const int textTop = 2131231167;
+			
+			// aapt resource value: 0x7F0801C0
+			public const int text_input_end_icon = 2131231168;
+			
+			// aapt resource value: 0x7F0801C1
+			public const int text_input_error_icon = 2131231169;
+			
+			// aapt resource value: 0x7F0801C2
+			public const int text_input_start_icon = 2131231170;
+			
+			// aapt resource value: 0x7F0801C9
+			public const int time = 2131231177;
+			
+			// aapt resource value: 0x7F0801CA
+			public const int title = 2131231178;
+			
+			// aapt resource value: 0x7F0801CB
+			public const int titleDividerNoCustom = 2131231179;
+			
+			// aapt resource value: 0x7F0801CC
+			public const int title_template = 2131231180;
+			
+			// aapt resource value: 0x7F0801CD
+			public const int toggle = 2131231181;
+			
+			// aapt resource value: 0x7F0801CE
+			public const int toolbar = 2131231182;
+			
+			// aapt resource value: 0x7F0801CF
+			public const int top = 2131231183;
 			
 			// aapt resource value: 0x7F0801D0
-			public const int touch_outside = 2131231184;
+			public const int topPanel = 2131231184;
+			
+			// aapt resource value: 0x7F08000D
+			public const int TOP_END = 2131230733;
+			
+			// aapt resource value: 0x7F08000E
+			public const int TOP_START = 2131230734;
 			
 			// aapt resource value: 0x7F0801D1
-			public const int transitionToEnd = 2131231185;
+			public const int touch_outside = 2131231185;
 			
 			// aapt resource value: 0x7F0801D2
-			public const int transitionToStart = 2131231186;
+			public const int transitionToEnd = 2131231186;
 			
 			// aapt resource value: 0x7F0801D3
-			public const int transition_current_scene = 2131231187;
+			public const int transitionToStart = 2131231187;
 			
 			// aapt resource value: 0x7F0801D4
-			public const int transition_layout_save = 2131231188;
+			public const int transition_current_scene = 2131231188;
 			
 			// aapt resource value: 0x7F0801D5
-			public const int transition_position = 2131231189;
+			public const int transition_layout_save = 2131231189;
 			
 			// aapt resource value: 0x7F0801D6
-			public const int transition_scene_layoutid_cache = 2131231190;
+			public const int transition_position = 2131231190;
 			
 			// aapt resource value: 0x7F0801D7
-			public const int transition_transform = 2131231191;
+			public const int transition_scene_layoutid_cache = 2131231191;
 			
 			// aapt resource value: 0x7F0801D8
-			public const int triangle = 2131231192;
+			public const int transition_transform = 2131231192;
 			
 			// aapt resource value: 0x7F0801D9
-			public const int @unchecked = 2131231193;
+			public const int triangle = 2131231193;
 			
 			// aapt resource value: 0x7F0801DA
-			public const int uniform = 2131231194;
+			public const int @unchecked = 2131231194;
 			
 			// aapt resource value: 0x7F0801DB
-			public const int unlabeled = 2131231195;
+			public const int uniform = 2131231195;
 			
 			// aapt resource value: 0x7F0801DC
-			public const int up = 2131231196;
+			public const int unlabeled = 2131231196;
 			
 			// aapt resource value: 0x7F0801DD
-			public const int useLogo = 2131231197;
+			public const int up = 2131231197;
 			
 			// aapt resource value: 0x7F0801DE
-			public const int vertical_only = 2131231198;
+			public const int useLogo = 2131231198;
 			
 			// aapt resource value: 0x7F0801DF
-			public const int view_offset_helper = 2131231199;
+			public const int vertical_only = 2131231199;
 			
 			// aapt resource value: 0x7F0801E0
-			public const int view_transition = 2131231200;
+			public const int view_offset_helper = 2131231200;
 			
 			// aapt resource value: 0x7F0801E1
-			public const int view_tree_lifecycle_owner = 2131231201;
+			public const int view_transition = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int view_tree_saved_state_registry_owner = 2131231202;
+			public const int view_tree_lifecycle_owner = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int view_tree_view_model_store_owner = 2131231203;
+			public const int view_tree_saved_state_registry_owner = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int visible = 2131231204;
+			public const int view_tree_view_model_store_owner = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int visible_removing_fragment_view_tag = 2131231205;
+			public const int visible = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int west = 2131231206;
-			
-			// aapt resource value: 0x7F0801E8
-			public const int withinBounds = 2131231208;
+			public const int visible_removing_fragment_view_tag = 2131231206;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int withText = 2131231207;
+			public const int west = 2131231207;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int wrap = 2131231209;
+			public const int withinBounds = 2131231209;
+			
+			// aapt resource value: 0x7F0801E8
+			public const int withText = 2131231208;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int wrap_content = 2131231210;
+			public const int wrap = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int wrap_content_constrained = 2131231211;
+			public const int wrap_content = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int x_left = 2131231212;
+			public const int wrap_content_constrained = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int x_right = 2131231213;
+			public const int x_left = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int zero_corner_chip = 2131231214;
+			public const int x_right = 2131231214;
+			
+			// aapt resource value: 0x7F0801EF
+			public const int zero_corner_chip = 2131231215;
 			
 			static Id()
 			{
@@ -18431,359 +22223,368 @@ namespace BookShare.Droid
 			// aapt resource value: 0x7F0B001E
 			public const int browser_actions_context_menu_row = 2131427358;
 			
+			// aapt resource value: 0x7F0B0020
+			public const int CustomizedView = 2131427360;
+			
+			// aapt resource value: 0x7F0B0021
+			public const int CustomizedView1 = 2131427361;
+			
 			// aapt resource value: 0x7F0B001F
 			public const int custom_dialog = 2131427359;
 			
-			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_navigation_item = 2131427360;
-			
-			// aapt resource value: 0x7F0B0021
-			public const int design_bottom_sheet_dialog = 2131427361;
-			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar = 2131427362;
+			public const int design_bottom_navigation_item = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_snackbar_include = 2131427363;
+			public const int design_bottom_sheet_dialog = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_icon = 2131427364;
+			public const int design_layout_snackbar = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_tab_text = 2131427365;
+			public const int design_layout_snackbar_include = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_menu_item_action_area = 2131427366;
+			public const int design_layout_tab_icon = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item = 2131427367;
+			public const int design_layout_tab_text = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_header = 2131427368;
+			public const int design_menu_item_action_area = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_separator = 2131427369;
+			public const int design_navigation_item = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_subheader = 2131427370;
+			public const int design_navigation_item_header = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu = 2131427371;
+			public const int design_navigation_item_separator = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_menu_item = 2131427372;
+			public const int design_navigation_item_subheader = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_text_input_end_icon = 2131427373;
+			public const int design_navigation_menu = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int design_text_input_start_icon = 2131427374;
+			public const int design_navigation_menu_item = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int expand_button = 2131427375;
+			public const int design_text_input_end_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int FallbackTabbarDoNotUse = 2131427376;
+			public const int design_text_input_start_icon = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int FallbackToolbarDoNotUse = 2131427377;
+			public const int expand_button = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int FlyoutContent = 2131427378;
+			public const int FallbackTabbarDoNotUse = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int image_frame = 2131427379;
+			public const int FallbackToolbarDoNotUse = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int material_chip_input_combo = 2131427380;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int material_clockface_textview = 2131427385;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int material_clockface_view = 2131427386;
+			public const int FlyoutContent = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int material_clock_display = 2131427381;
+			public const int image_frame = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int material_clock_display_divider = 2131427382;
-			
-			// aapt resource value: 0x7F0B0037
-			public const int material_clock_period_toggle = 2131427383;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int material_clock_period_toggle_land = 2131427384;
+			public const int material_chip_input_combo = 2131427382;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int material_radial_view_group = 2131427387;
+			public const int material_clockface_textview = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int material_textinput_timepicker = 2131427388;
+			public const int material_clockface_view = 2131427388;
 			
-			// aapt resource value: 0x7F0B003F
-			public const int material_timepicker = 2131427391;
+			// aapt resource value: 0x7F0B0037
+			public const int material_clock_display = 2131427383;
 			
-			// aapt resource value: 0x7F0B0040
-			public const int material_timepicker_dialog = 2131427392;
+			// aapt resource value: 0x7F0B0038
+			public const int material_clock_display_divider = 2131427384;
 			
-			// aapt resource value: 0x7F0B0041
-			public const int material_timepicker_textinput_display = 2131427393;
+			// aapt resource value: 0x7F0B0039
+			public const int material_clock_period_toggle = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int material_clock_period_toggle_land = 2131427386;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int material_time_chip = 2131427389;
+			public const int material_radial_view_group = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int material_time_input = 2131427390;
+			public const int material_textinput_timepicker = 2131427390;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int material_timepicker = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int mtrl_alert_dialog = 2131427394;
+			public const int material_timepicker_dialog = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mtrl_alert_dialog_actions = 2131427395;
+			public const int material_timepicker_textinput_display = 2131427395;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int material_time_chip = 2131427391;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int material_time_input = 2131427392;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mtrl_alert_dialog_title = 2131427396;
+			public const int mtrl_alert_dialog = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mtrl_alert_select_dialog_item = 2131427397;
+			public const int mtrl_alert_dialog_actions = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_alert_select_dialog_multichoice = 2131427398;
+			public const int mtrl_alert_dialog_title = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427399;
+			public const int mtrl_alert_select_dialog_item = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int mtrl_calendar_day = 2131427400;
-			
-			// aapt resource value: 0x7F0B004A
-			public const int mtrl_calendar_days_of_week = 2131427402;
+			public const int mtrl_alert_select_dialog_multichoice = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int mtrl_calendar_day_of_week = 2131427401;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427401;
 			
-			// aapt resource value: 0x7F0B004B
-			public const int mtrl_calendar_horizontal = 2131427403;
+			// aapt resource value: 0x7F0B004A
+			public const int mtrl_calendar_day = 2131427402;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int mtrl_calendar_month = 2131427404;
+			public const int mtrl_calendar_days_of_week = 2131427404;
 			
-			// aapt resource value: 0x7F0B004F
-			public const int mtrl_calendar_months = 2131427407;
+			// aapt resource value: 0x7F0B004B
+			public const int mtrl_calendar_day_of_week = 2131427403;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int mtrl_calendar_month_labeled = 2131427405;
+			public const int mtrl_calendar_horizontal = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int mtrl_calendar_month_navigation = 2131427406;
-			
-			// aapt resource value: 0x7F0B0050
-			public const int mtrl_calendar_vertical = 2131427408;
+			public const int mtrl_calendar_month = 2131427406;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int mtrl_calendar_year = 2131427409;
+			public const int mtrl_calendar_months = 2131427409;
+			
+			// aapt resource value: 0x7F0B004F
+			public const int mtrl_calendar_month_labeled = 2131427407;
+			
+			// aapt resource value: 0x7F0B0050
+			public const int mtrl_calendar_month_navigation = 2131427408;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int mtrl_layout_snackbar = 2131427410;
+			public const int mtrl_calendar_vertical = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int mtrl_layout_snackbar_include = 2131427411;
+			public const int mtrl_calendar_year = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int mtrl_navigation_rail_item = 2131427412;
+			public const int mtrl_layout_snackbar = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int mtrl_picker_actions = 2131427413;
+			public const int mtrl_layout_snackbar_include = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int mtrl_picker_dialog = 2131427414;
+			public const int mtrl_navigation_rail_item = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int mtrl_picker_fullscreen = 2131427415;
+			public const int mtrl_picker_actions = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int mtrl_picker_header_dialog = 2131427416;
+			public const int mtrl_picker_dialog = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int mtrl_picker_header_fullscreen = 2131427417;
+			public const int mtrl_picker_fullscreen = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int mtrl_picker_header_selection_text = 2131427418;
+			public const int mtrl_picker_header_dialog = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int mtrl_picker_header_title_text = 2131427419;
+			public const int mtrl_picker_header_fullscreen = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int mtrl_picker_header_toggle = 2131427420;
+			public const int mtrl_picker_header_selection_text = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int mtrl_picker_text_input_date = 2131427421;
+			public const int mtrl_picker_header_title_text = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int mtrl_picker_text_input_date_range = 2131427422;
+			public const int mtrl_picker_header_toggle = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int notification_action = 2131427423;
+			public const int mtrl_picker_text_input_date = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int notification_action_tombstone = 2131427424;
+			public const int mtrl_picker_text_input_date_range = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int notification_media_action = 2131427425;
+			public const int notification_action = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int notification_media_cancel_action = 2131427426;
+			public const int notification_action_tombstone = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int notification_template_big_media = 2131427427;
+			public const int notification_media_action = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int notification_template_big_media_custom = 2131427428;
+			public const int notification_media_cancel_action = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int notification_template_big_media_narrow = 2131427429;
+			public const int notification_template_big_media = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int notification_template_big_media_narrow_custom = 2131427430;
+			public const int notification_template_big_media_custom = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int notification_template_custom_big = 2131427431;
+			public const int notification_template_big_media_narrow = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int notification_template_icon_group = 2131427432;
+			public const int notification_template_big_media_narrow_custom = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int notification_template_lines_media = 2131427433;
+			public const int notification_template_custom_big = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int notification_template_media = 2131427434;
+			public const int notification_template_icon_group = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int notification_template_media_custom = 2131427435;
+			public const int notification_template_lines_media = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int notification_template_part_chronometer = 2131427436;
+			public const int notification_template_media = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int notification_template_part_time = 2131427437;
+			public const int notification_template_media_custom = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
-			public const int preference = 2131427438;
+			public const int notification_template_part_chronometer = 2131427438;
 			
 			// aapt resource value: 0x7F0B006F
-			public const int preference_category = 2131427439;
+			public const int notification_template_part_time = 2131427439;
 			
 			// aapt resource value: 0x7F0B0070
-			public const int preference_category_material = 2131427440;
+			public const int preference = 2131427440;
 			
 			// aapt resource value: 0x7F0B0071
-			public const int preference_dialog_edittext = 2131427441;
+			public const int preference_category = 2131427441;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int preference_dropdown = 2131427442;
+			public const int preference_category_material = 2131427442;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int preference_dropdown_material = 2131427443;
+			public const int preference_dialog_edittext = 2131427443;
 			
 			// aapt resource value: 0x7F0B0074
-			public const int preference_information = 2131427444;
+			public const int preference_dropdown = 2131427444;
 			
 			// aapt resource value: 0x7F0B0075
-			public const int preference_information_material = 2131427445;
+			public const int preference_dropdown_material = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int preference_list_fragment = 2131427446;
+			public const int preference_information = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int preference_material = 2131427447;
+			public const int preference_information_material = 2131427447;
 			
 			// aapt resource value: 0x7F0B0078
-			public const int preference_recyclerview = 2131427448;
+			public const int preference_list_fragment = 2131427448;
 			
 			// aapt resource value: 0x7F0B0079
-			public const int preference_widget_checkbox = 2131427449;
+			public const int preference_material = 2131427449;
 			
 			// aapt resource value: 0x7F0B007A
-			public const int preference_widget_seekbar = 2131427450;
+			public const int preference_recyclerview = 2131427450;
 			
 			// aapt resource value: 0x7F0B007B
-			public const int preference_widget_seekbar_material = 2131427451;
+			public const int preference_widget_checkbox = 2131427451;
 			
 			// aapt resource value: 0x7F0B007C
-			public const int preference_widget_switch = 2131427452;
+			public const int preference_widget_seekbar = 2131427452;
 			
 			// aapt resource value: 0x7F0B007D
-			public const int preference_widget_switch_compat = 2131427453;
+			public const int preference_widget_seekbar_material = 2131427453;
 			
 			// aapt resource value: 0x7F0B007E
-			public const int RootLayout = 2131427454;
+			public const int preference_widget_switch = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
-			public const int select_dialog_item_material = 2131427455;
+			public const int preference_widget_switch_compat = 2131427455;
 			
 			// aapt resource value: 0x7F0B0080
-			public const int select_dialog_multichoice_material = 2131427456;
+			public const int RootLayout = 2131427456;
 			
 			// aapt resource value: 0x7F0B0081
-			public const int select_dialog_singlechoice_material = 2131427457;
+			public const int select_dialog_item_material = 2131427457;
 			
 			// aapt resource value: 0x7F0B0082
-			public const int ShellContent = 2131427458;
+			public const int select_dialog_multichoice_material = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int support_simple_spinner_dropdown_item = 2131427459;
+			public const int select_dialog_singlechoice_material = 2131427459;
 			
 			// aapt resource value: 0x7F0B0084
-			public const int Tabbar = 2131427460;
+			public const int sfautocomplete_layout = 2131427460;
 			
 			// aapt resource value: 0x7F0B0085
-			public const int test_action_chip = 2131427461;
+			public const int ShellContent = 2131427461;
 			
 			// aapt resource value: 0x7F0B0086
-			public const int test_chip_zero_corner_radius = 2131427462;
+			public const int support_simple_spinner_dropdown_item = 2131427462;
 			
 			// aapt resource value: 0x7F0B0087
-			public const int test_design_checkbox = 2131427463;
+			public const int Tabbar = 2131427463;
 			
 			// aapt resource value: 0x7F0B0088
-			public const int test_design_radiobutton = 2131427464;
+			public const int test_action_chip = 2131427464;
 			
 			// aapt resource value: 0x7F0B0089
-			public const int test_navigation_bar_item_layout = 2131427465;
+			public const int test_chip_zero_corner_radius = 2131427465;
 			
 			// aapt resource value: 0x7F0B008A
-			public const int test_reflow_chipgroup = 2131427466;
+			public const int test_design_checkbox = 2131427466;
 			
 			// aapt resource value: 0x7F0B008B
-			public const int test_toolbar = 2131427467;
+			public const int test_design_radiobutton = 2131427467;
 			
 			// aapt resource value: 0x7F0B008C
-			public const int test_toolbar_custom_background = 2131427468;
+			public const int test_navigation_bar_item_layout = 2131427468;
 			
 			// aapt resource value: 0x7F0B008D
-			public const int test_toolbar_elevation = 2131427469;
+			public const int test_reflow_chipgroup = 2131427469;
 			
 			// aapt resource value: 0x7F0B008E
-			public const int test_toolbar_surface = 2131427470;
-			
-			// aapt resource value: 0x7F0B0093
-			public const int text_view_without_line_height = 2131427475;
+			public const int test_toolbar = 2131427470;
 			
 			// aapt resource value: 0x7F0B008F
-			public const int text_view_with_line_height_from_appearance = 2131427471;
+			public const int test_toolbar_custom_background = 2131427471;
 			
 			// aapt resource value: 0x7F0B0090
-			public const int text_view_with_line_height_from_layout = 2131427472;
+			public const int test_toolbar_elevation = 2131427472;
 			
 			// aapt resource value: 0x7F0B0091
-			public const int text_view_with_line_height_from_style = 2131427473;
+			public const int test_toolbar_surface = 2131427473;
+			
+			// aapt resource value: 0x7F0B0096
+			public const int text_view_without_line_height = 2131427478;
 			
 			// aapt resource value: 0x7F0B0092
-			public const int text_view_with_theme_line_height = 2131427474;
+			public const int text_view_with_line_height_from_appearance = 2131427474;
+			
+			// aapt resource value: 0x7F0B0093
+			public const int text_view_with_line_height_from_layout = 2131427475;
 			
 			// aapt resource value: 0x7F0B0094
-			public const int Toolbar = 2131427476;
+			public const int text_view_with_line_height_from_style = 2131427476;
+			
+			// aapt resource value: 0x7F0B0095
+			public const int text_view_with_theme_line_height = 2131427477;
+			
+			// aapt resource value: 0x7F0B0097
+			public const int Toolbar = 2131427479;
 			
 			static Layout()
 			{

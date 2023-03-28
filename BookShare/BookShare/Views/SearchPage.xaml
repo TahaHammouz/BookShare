@@ -1,6 +1,7 @@
 ﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewmodels="clr-namespace:BookShare.ViewModels"
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels" 
+             xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              x:Class="BookShare.Views.SearchPage">
     <ContentPage.BindingContext>
         <viewmodels:SearchViewModel />
@@ -12,9 +13,40 @@
                 <viewmodels:SearchViewModel x:Key="SearchViewModel" />
             </ResourceDictionary>
         </StackLayout.Resources>
-        
-        <CollectionView ItemsSource="{Binding Books}">
+
+
+<Frame Margin="10,13,16,10" Padding="10,0,0,0"  BorderColor="#D9D9D9" CornerRadius="7">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="40"/>
+        </Grid.ColumnDefinitions>
+
+        <autocomplete:SfAutoComplete 
+            VerticalOptions="Center" 
+            Watermark="Search Books..."
+            ShowBorder="False"
+            Text="{Binding FilterText}"
+            
+            />
+
+        <ImageButton 
+            Grid.Column="1"
+            Source="circum_search"
+            WidthRequest="43"
+            BackgroundColor="#F4717F"
+            HorizontalOptions="End"
+            Aspect="AspectFit"
+            Padding="8,8,8,4"
+            CornerRadius="4"
+        />
+    </Grid>
+</Frame>
           
+           <CollectionView ItemsSource="{Binding FilteredBooks}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Frame Margin="10" BackgroundColor="white" Padding="10" HasShadow="True">
