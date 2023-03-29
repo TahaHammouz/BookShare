@@ -22,8 +22,12 @@ namespace BookShare.Views
         private async void OnItemTapped(object sender, EventArgs e)
         {
 
-            var contentPage = new ContentPage();
-            await Navigation.PushAsync(contentPage);
+            var selectedItem = (sender as Frame)?.BindingContext as Book;
+            if (selectedItem != null)
+            {
+                // Navigate to the ContactPage and pass the selected book as parameter
+                await Navigation.PushAsync(new ContactPage(selectedItem));
+            }
         }
         
 

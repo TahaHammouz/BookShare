@@ -13,11 +13,19 @@ namespace BookShare.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ContactPage : ContentPage
+
     {
-        public ContactPage()
+        private readonly Book _selectedBook;
+
+        public ContactPage(Book selectedItem)
         {
             InitializeComponent();
+            _selectedBook = selectedItem;
+
+            // Set the BindingContext to the selected book
+            BindingContext = _selectedBook;
         }
+
 
         public ContactPage(SearchViewModel book)
         {
@@ -25,3 +33,4 @@ namespace BookShare.Views
         }
     }
 }
+
