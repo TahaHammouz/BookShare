@@ -6,5 +6,7 @@ namespace BookShare.ViewModels
 {
     internal class ContactViewModel
     {
+        
+        
     }
 }

@@ -1,6 +1,9 @@
-﻿using System;
+﻿using BookShare.Models;
+using BookShare.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,11 +19,13 @@ namespace BookShare.Views
         {
             InitializeComponent();
         }
-        private void OnItemTapped(object sender, EventArgs e)
+        private async void OnItemTapped(object sender, EventArgs e)
         {
-            Console.WriteLine("Clicked!");
-        }
 
+            var contentPage = new ContentPage();
+            await Navigation.PushAsync(contentPage);
+        }
+        
 
 
     }

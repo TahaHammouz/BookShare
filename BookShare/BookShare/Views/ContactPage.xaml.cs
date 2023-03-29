@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BookShare.Models;
+using BookShare.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +15,11 @@ namespace BookShare.Views
     public partial class ContactPage : ContentPage
     {
         public ContactPage()
+        {
+            InitializeComponent();
+        }
+
+        public ContactPage(SearchViewModel book)
         {
             InitializeComponent();
         }

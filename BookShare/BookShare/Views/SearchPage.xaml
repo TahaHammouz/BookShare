@@ -45,15 +45,15 @@
         />
     </Grid>
 </Frame>
-          
-           <CollectionView ItemsSource="{Binding FilteredBooks}">
+
+        <CollectionView ItemsSource="{Binding FilteredBooks}" >
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Frame Margin="10" BackgroundColor="white" Padding="10" HasShadow="True">
                         <Frame.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnItemTapped" />
                         </Frame.GestureRecognizers>
-                        <Frame BorderColor="#E2E2E2">
+                        <Frame BorderColor="#E2E2E2" >
                             <StackLayout Orientation="Vertical" Spacing="7" WidthRequest="405" HeightRequest="110">
                                 <StackLayout Orientation="Horizontal">
                                     <Image Source="male.png" HeightRequest="50" WidthRequest="50" Aspect="AspectFill">
