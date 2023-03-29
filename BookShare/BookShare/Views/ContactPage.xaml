@@ -22,11 +22,11 @@
                 </Frame>
 
 
-                <Frame BorderColor="Black" CornerRadius="10" Padding="5" >
-                    <StackLayout Orientation="Horizontal" HeightRequest="55">
-                        <Label Text="Binding Username" FontSize="Small"   TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Margin="20,0"/>
+                <Frame BorderColor="Black" CornerRadius="10" Padding="5" Margin="0,40">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="facebook_logo" HeightRequest="55"  Aspect="Fill"/>
+                        <Label Text="Binding Username" FontSize="Small"   TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
-
                 </Frame>
 
             </StackLayout>
