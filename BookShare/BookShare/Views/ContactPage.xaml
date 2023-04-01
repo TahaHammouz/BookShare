@@ -13,7 +13,7 @@
             <StackLayout Orientation="Vertical" Margin="50,100,40,50">
                 <Frame BorderColor="Black" CornerRadius="10" Padding="5" >
                     <StackLayout Orientation="Horizontal">
-                        <Image Source="BookShare_logo" HeightRequest="55"  Aspect="Fill"/>
+                        <Image Source="BookShare_logo" HeightRequest="55"  Aspect="AspectFit"/>
                         <Label Text="{Binding SelectedBook.Username}" FontSize="Small"   TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
 
@@ -21,7 +21,7 @@
 
                 <Frame BorderColor="Black" CornerRadius="10" Padding="5" Margin="0,40">
                     <StackLayout Orientation="Horizontal">
-                        <Image Source="facebook_logo" HeightRequest="55"  Aspect="Fill"/>
+                        <Image Source="facebook_logo" HeightRequest="55"  Aspect="AspectFit"/>
                         <Label Text="{Binding SelectedBook.Contactlink}" FontSize="Small"   TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
 
@@ -30,7 +30,7 @@
 
                 <Frame BorderColor="Black" CornerRadius="10" Padding="5">
                     <StackLayout Orientation="Horizontal">
-                        <Image Source="icon_about" HeightRequest="55"  Aspect="Fill"/>
+                        <Image Source="icon_about" HeightRequest="55"  Aspect="AspectFit"/>
                         <Label Text="{Binding SelectedBook.Status}" FontSize="Small"   TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
                 </Frame>
