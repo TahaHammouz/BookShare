@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shapes:Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:local="clr-namespace:BookShare.Views"
+       xmlns:local="clr-namespace:BookShare.Views" xmlns:shapes="http://xamarin.com/schemas/2014/forms/design"
        Title="BookShare"
        x:Class="BookShare.AppShell">
 
@@ -21,8 +21,8 @@
                 <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
                 <Setter Property="Shell.TabBarBackgroundColor" Value="#E9E3E3" />
                 <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
-                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource Active}"/>
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
@@ -30,11 +30,11 @@
     </Shell.Resources>
 
     <TabBar>
-        <ShellContent Title="Buy" Icon="" Route="BuyPage" ContentTemplate="{DataTemplate local:BuyPage}" />
-        <ShellContent Title="Order" Icon="" Route="OrderPage" ContentTemplate="{DataTemplate local:OrderPage}" />
-        <ShellContent Title="Search" Icon="" Route="SearchPage" ContentTemplate="{DataTemplate local:SearchPage}" />
-        <ShellContent Title="Donate" Icon="" Route="DonatePage" ContentTemplate="{DataTemplate local:DonatePage}" />
-        <ShellContent Title="Profile" Icon="" Route="ProfilePage" ContentTemplate="{DataTemplate local:ProfilePage}" />
+        <ShellContent Title="Buy" Icon="buy" Route="BuyPage" ContentTemplate="{DataTemplate local:BuyPage}" />
+        <ShellContent Title="Order" Icon="askme" Route="OrderPage" ContentTemplate="{DataTemplate local:OrderPage}" />
+        <ShellContent Title="Search" Icon="icon_feed.png" Route="SearchPage" ContentTemplate="{DataTemplate local:SearchPage}" />
+        <ShellContent Title="Donate" Icon="donater" Route="DonatePage" ContentTemplate="{DataTemplate local:DonatePage}" />
+        <ShellContent Title="Profile" Icon="profile" Route="ProfilePage" ContentTemplate="{DataTemplate local:ProfilePage}" />
     </TabBar>
 
     <!--
@@ -46,4 +46,4 @@
     </TabBar>
 
 
-</Shell>
+</shapes:Shell>
