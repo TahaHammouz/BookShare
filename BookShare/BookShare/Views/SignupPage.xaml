@@ -1,12 +1,177 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  xmlns:viewmodels="clr-namespace:BookShare.ViewModels"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BookShare.Views.SignupPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+               xmlns:xct="http://xamarin.com/schemas/2020/toolkit"  x:DataType="viewmodels:SignupViewModel"
+             x:Class="BookShare.Views.SignupPage"  NavigationPage.HasNavigationBar="False"
+             Visual="Material"
+             >
+    <ContentPage.BindingContext>
+        <viewmodels:SignupViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <Style x:Key="InvalidEntryStyle" TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="Red" />
+
+        </Style>
+
+
+
+    </ContentPage.Resources>
+
+    <StackLayout BackgroundColor="White">
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+
+            <Image Source="Logo.png" Margin="50,0,59,500" HeightRequest="150" WidthRequest="300" />
+
+            <StackLayout Margin="30,200,30,0" Spacing="20" >
+                <Frame  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+
+                    <Entry  
+                   PlaceholderColor="Gray"
+                   Placeholder="Email@stu.najah.edu"
+                   Keyboard="Email"
+                   BackgroundColor="Transparent"
+                   WidthRequest="300"
+                   TextColor="Black"  
+                   Text="{Binding bindingUser.Email}"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                        <Entry.Behaviors>
+
+                            <xct:EmailValidationBehavior
+                       RegexPattern="^[a-z][0-9a-z]*@stu\.najah\.edu$"
+                    IsValid="{Binding IsValidInput}"
+                  InvalidStyle="{StaticResource InvalidEntryStyle}"
+/>
+                        </Entry.Behaviors>
+                    </Entry>
+
+                </Frame>
+
+
+                <Frame  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                    <Entry 
+                   PlaceholderColor="Gray"
+                   Placeholder="Username"
+                   BackgroundColor="Transparent"
+                   Text="{Binding bindingUser.Name}"
+                   WidthRequest="300"
+                   TextColor="Black"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+                </Frame>
+
+                <Frame  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+                        <Entry  
+                            Placeholder="Password"
+                            IsPassword="{Binding IsPasswordVisible}"
+                            PlaceholderColor="Gray"
+                            BackgroundColor="Transparent"
+                            Text="{Binding bindingUser.Password}"
+                            WidthRequest="300"
+                            TextColor="Black"
+                            FontSize="18"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            Grid.ColumnSpan="2">
+                            <Entry.Behaviors>
+                                <xct:TextValidationBehavior MinimumLength="5" InvalidStyle="{StaticResource InvalidEntryStyle}" IsValid="{Binding IsValidInput}" />
+                            </Entry.Behaviors>
+                        </Entry>
+                        <Image Grid.Column="1" Source="{Binding PasswordIcon}" WidthRequest="24" HeightRequest="24" >
+                            <Image.Behaviors>
+                            </Image.Behaviors>
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding TogglePasswordCommand}"  />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Grid>
+                </Frame>
+
+
+
+                <Frame  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                    <Picker 
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="White"
+                        WidthRequest="300"
+                        Title="Faculty"
+                        TitleColor="Gray">
+
+                        <Picker.ItemsSource>
+
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Engineering and Information Technology</x:String>
+                                <x:String>College of Law</x:String>
+                                <x:String>Faculty of Fine Arts</x:String>
+                                <x:String>Faculty of Science</x:String>
+                                <x:String>Faculty of Humanities</x:String>
+                                <x:String>Faculty of Educational Sciences and Teacher Preparation</x:String>
+                                <x:String>Faculty of Sharia</x:String>
+                                <x:String>Faculty of Medicine and Health Sciences</x:String>
+                                <x:String>Faculty of Agriculture and Veterinary Medicine</x:String>
+                                <x:String>Faculty of Economics and Social Sciences</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Frame>
+                <Frame   BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                    <Picker 
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+              BackgroundColor="White"
+                WidthRequest="300"
+                Title="Gender"
+                TitleColor="Gray">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Male</x:String>
+                                <x:String>Female</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Frame>
+                <Button  
+                   WidthRequest="200"
+                   Text="Sign in"
+                   BackgroundColor="#F4717F"
+                   TextColor="Black"
+                   FontSize="20"
+                    Margin="50"
+                    CornerRadius="10"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                     Command="{Binding CreateAcount}"/>
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Already have an account ?" HorizontalOptions="Center" VerticalOptions="Center"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Sign In" TextColor="#F4717F">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding LogInPageCommand}" />
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+
+    </StackLayout>
+</ContentPage> 
