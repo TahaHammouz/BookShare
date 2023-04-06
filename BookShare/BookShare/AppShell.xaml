@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:BookShare.Views"
@@ -30,7 +30,7 @@
     </Shell.Resources>
 
     <TabBar>
-        <ShellContent Title="Buy" Icon="" Route="BuyPage" ContentTemplate="{DataTemplate local:BuyPage}" />
+        <ShellContent Title="Buy" Icon="" Route="BuyPage" ContentTemplate="{DataTemplate local:LoginPage}" />
         <ShellContent Title="Order" Icon="" Route="OrderPage" ContentTemplate="{DataTemplate local:OrderPage}" />
         <ShellContent Title="Search" Icon="" Route="SearchPage" ContentTemplate="{DataTemplate local:SearchPage}" />
         <ShellContent Title="Donate" Icon="" Route="DonatePage" ContentTemplate="{DataTemplate local:DonatePage}" />

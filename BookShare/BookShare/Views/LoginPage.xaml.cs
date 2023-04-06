@@ -16,6 +16,11 @@ namespace BookShare.Views
         {
             InitializeComponent();
             this.BindingContext = new LoginViewModel();
+            NavigationPage.SetHasNavigationBar(this, false);
+            Shell.SetTabBarIsVisible(this, false);
+
         }
+
+
     }
 }

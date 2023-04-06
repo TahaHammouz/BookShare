@@ -9,13 +9,15 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Linq;
 using Firebase.Database.Query;
+using BookShare.Views;
+using System.Diagnostics;
+using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace BookShare.Services
 {
     public class BookShareDB
     {
-        private HttpClient httpClient;
-        private FirebaseClient firebaseClient;
         private static readonly string _apiKey = "AIzaSyD-Qf4rSCuiatxgta-6e93RR_rBJ5hWjR0";
 
         private static readonly string _authDomain = "bookshare-33c3f.firebaseapp.com";
@@ -31,8 +33,11 @@ namespace BookShare.Services
                 new EmailProvider()
             },
         };
+        private HttpClient httpClient;
+        private FirebaseClient firebaseClient;
 
-        private static readonly FirebaseAuthClient userAuth = new FirebaseAuthClient(_config);
+
+        private static readonly FirebaseAuthClient userAuthentication = new FirebaseAuthClient(_config);
         private static readonly FirebaseClient fireBaseBase = new FirebaseClient(_baseUrl);
         public BookShareDB(string url)
         {
@@ -53,7 +58,7 @@ namespace BookShare.Services
             }
 
 
-            var user = await userAuth.CreateUserWithEmailAndPasswordAsync(bindingUser.Email, bindingUser.Password);
+            var user = await userAuthentication.CreateUserWithEmailAndPasswordAsync(bindingUser.Email, bindingUser.Password);
             await fireBaseBase.Child("Users").PostAsync(new UserDatabase
             {
                 Uid = user.User.Uid,
@@ -77,7 +82,55 @@ namespace BookShare.Services
 
             return books;
         }
+        public async Task Login(string email, string password)
+        {
+            try
+            {
+                var user = await userAuthentication.SignInWithEmailAndPasswordAsync(email, password);
+                string token = user?.User?.Uid;
+                Console.WriteLine("The token is " + token);
+                if (!string.IsNullOrEmpty(token))
+                {
+                    await SecureStorage.SetAsync("auth_token", token);
+                    await SecureStorage.SetAsync("issignin", "true");
+                    Application.Current.MainPage = new AppShell();
 
+                    var shell = (Shell)Application.Current.MainPage;
+                    var searchPage = new SearchPage();
+                    await shell.GoToAsync($"//{nameof(SearchPage)}");
+                    shell.CurrentItem.CurrentItem = searchPage;
+
+                }
+                else
+                {
+                    await Application.Current.MainPage.DisplayAlert("Failed", "Email or Password is Empty", "ok");
+                }
+            }
+            catch (FirebaseAuthException ex) when (ex.Reason == AuthErrorReason.InvalidEmailAddress || ex.Reason == AuthErrorReason.WrongPassword)
+            {
+                await Application.Current.MainPage.DisplayAlert("Failed", "Email or Password is wrong", "ok");
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                await Application.Current.MainPage.DisplayAlert("Failed", "An error occurred while signing in", "ok");
+            }
+        }
+        private async Task accessToken()
+        {
+            try
+            {
+                var oauthToken = await SecureStorage.GetAsync("oauth_token");
+                var oname = await SecureStorage.GetAsync("NameUser");
+                userAccessToken = oauthToken;
+                Console.WriteLine("The token is" + oauthToken);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
         internal object GetHttpClient()
         {
             throw new NotImplementedException();
