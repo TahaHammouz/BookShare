@@ -89,13 +89,20 @@ namespace BookShare.Services
                 var user = await userAuthentication.SignInWithEmailAndPasswordAsync(email, password);
                 string token = user?.User?.Uid;
                 Console.WriteLine("The token is " + token);
-                await SecureStorage.SetAsync("auth_token", token);
-                await SecureStorage.SetAsync("issignin", "true");
+                if (!string.IsNullOrEmpty(token))
+                {
+                    await SecureStorage.SetAsync("auth_token", token);
+                    await SecureStorage.SetAsync("issignin", "true");
 
-                var shell = new AppShell();
-                Application.Current.MainPage = shell;
+                    var shell = new AppShell();
+                    Application.Current.MainPage = shell;
 
-                await shell.GoToAsync($"//{nameof(SearchPage)}");
+                    await shell.GoToAsync($"//{nameof(SearchPage)}");
+                }
+                else
+                {
+                    await Application.Current.MainPage.DisplayAlert("Failed", "Email or Password is Empty", "ok");
+                }
             }
             catch (FirebaseAuthException ex) when (ex.Reason == AuthErrorReason.InvalidEmailAddress || ex.Reason == AuthErrorReason.WrongPassword)
             {

@@ -11,6 +11,12 @@
         <viewmodels:SignupViewModel />
     </ContentPage.BindingContext>
 
+    <ContentPage.Resources>
+    <Style x:Key="InvalidEntryStyle" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="Red" />
+    </Style>
+</ContentPage.Resources>
+
     
     <ScrollView>
 
@@ -158,14 +164,15 @@
                     <Label TextColor="red" Text="{Binding SelectedGender}"></Label>
 
                     <Button 
-                        WidthRequest="200"
+                        WidthRequest="207"
+                        HeightRequest="46"
                         Text="Sign up"
                         BackgroundColor="#F4717F"
-                        TextColor="Black"
+                        TextColor="#FFFFFF"
                         FontSize="20"
-                        Margin="50"
+                        Margin="20"
                         CornerRadius="10"
-                        HorizontalOptions="Center"
+                        HorizontalOptions="CenterAndExpand"
                         VerticalOptions="Center"
                         Command="{Binding CreateAcount}"/>
                 </StackLayout>

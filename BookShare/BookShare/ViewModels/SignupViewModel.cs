@@ -16,8 +16,8 @@ namespace BookShare.ViewModels
 {
     public static class ImageSourceConstants
     {
-        public static ImageSource Eye => ImageSource.FromFile("eye_open.png");
-        public static ImageSource EyeOff => ImageSource.FromFile("closed_eye.png");
+        public static ImageSource Eye => ImageSource.FromFile("view.png");
+        public static ImageSource EyeOff => ImageSource.FromFile("closeeye.png");
     }
 
     public class SignupViewModel : INotifyPropertyChanged
@@ -194,6 +194,7 @@ namespace BookShare.ViewModels
                 catch (Exception ex)
                 {
                     EmailText = "use your unversity email / example@stu.najah.edu";
+                    Debug.WriteLine(ex);
                 }
             }
         }
