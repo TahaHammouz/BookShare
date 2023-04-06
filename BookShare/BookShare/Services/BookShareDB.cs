@@ -59,6 +59,7 @@ namespace BookShare.Services
                     Gender = bindingUser.Gender
                 });
 
+
                 await App.Current.MainPage.DisplayAlert("Success", "User registered successfully.", "OK");
 
             }
@@ -78,7 +79,7 @@ namespace BookShare.Services
                 }
             }
         }
-           
+
         public async Task<List<Book>> GetBooksAsync()
         {
             var firebaseUrl = "https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/books.json";
