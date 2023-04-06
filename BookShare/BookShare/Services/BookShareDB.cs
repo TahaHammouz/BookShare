@@ -67,18 +67,15 @@ namespace BookShare.Services
             {
                 if (ex.Reason == AuthErrorReason.EmailExists)
                 {
-                    // Display an error message to the user indicating that the email already exists
                     await App.Current.MainPage.DisplayAlert("Error", "Email already exists", "OK");
                 }
-                else if (ex.Reason == AuthErrorReason.WrongPassword)
+                else if (ex.Reason == AuthErrorReason.WeakPassword)
                 {
-                    // Display an error message to the user indicating that the password is incorrect
                     await App.Current.MainPage.DisplayAlert("Error", "Incorrect password", "OK");
                 }
                 else
                 {
-                    // Display a generic error message to the user for any other exceptions
-                    await App.Current.MainPage.DisplayAlert("Error", "An error occurred", "OK");
+                    await App.Current.MainPage.DisplayAlert("Error", "An error occurred" + ex.Message, "OK");
                 }
             }
         }

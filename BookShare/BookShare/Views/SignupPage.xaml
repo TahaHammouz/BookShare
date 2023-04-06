@@ -58,7 +58,7 @@
                             />
                             </Entry.Behaviors>
                         </Entry>
-                    </Frame>
+                    </Frame>    
                     <Label TextColor="red" Text="{Binding EmailText}"></Label>
 
 

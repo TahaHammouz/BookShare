@@ -156,7 +156,7 @@ namespace BookShare.ViewModels
         public async Task CreateAccount()
         {
             EmailText = UsernameText = PasswordText = SelectedFaculty = SelectedGender = string.Empty;
-            IsValidInput = IsValidInput;
+            
             if (IsEmailEntryEmpty)
             {
                 EmailText = "please write your Email !";
@@ -179,7 +179,9 @@ namespace BookShare.ViewModels
             }
             else if (!IsValidInput)
             {
+                
                 EmailText = "Please use your unversity email, example@stu.najah.edu";
+                
             }
             else
             {
