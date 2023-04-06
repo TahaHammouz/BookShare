@@ -8,7 +8,6 @@ namespace BookShare.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ContactPage : ContentPage
     {
-        private Book _selectedBook;
 
         public ContactPage(Book selectedBook)
         {

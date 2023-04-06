@@ -49,7 +49,8 @@ namespace BookShare.ViewModels
 
         private async Task SignIn(string email, string password)
         {
-            _services.Login(email, password);
+            await _services.Login(email, password);
+
         }
 
         private void NavigateToSignUpPage()

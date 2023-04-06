@@ -93,13 +93,13 @@ namespace BookShare.Services
                 {
                     await SecureStorage.SetAsync("auth_token", token);
                     await SecureStorage.SetAsync("issignin", "true");
-                    Application.Current.MainPage = new AppShell();
 
-                    var shell = (Shell)Application.Current.MainPage;
-                    var searchPage = new SearchPage();
+                    // Create a new shell instance and set it as the main page
+                    var shell = new AppShell();
+                    Application.Current.MainPage = shell;
+
+                    // Navigate to the search page
                     await shell.GoToAsync($"//{nameof(SearchPage)}");
-                    shell.CurrentItem.CurrentItem = searchPage;
-
                 }
                 else
                 {
@@ -116,6 +116,8 @@ namespace BookShare.Services
                 await Application.Current.MainPage.DisplayAlert("Failed", "An error occurred while signing in", "ok");
             }
         }
+
+
         private async Task accessToken()
         {
             try

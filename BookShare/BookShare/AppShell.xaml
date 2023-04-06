@@ -2,7 +2,7 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:BookShare.Views"
-       xmlns:shapes="http://xamarin.com/schemas/2014/forms/design"
+       xmlns:shapes="http://xamarin.com/schemas/2014/forms/design" xmlns:bookshare="clr-namespace:BookShare" x:DataType="bookshare:AppShell"
        Title="BookShare"
        x:Class="BookShare.AppShell">
 

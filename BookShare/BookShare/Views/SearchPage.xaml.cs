@@ -18,6 +18,7 @@ namespace BookShare.Views
         public SearchPage()
         {
             InitializeComponent();
+
         }
         private async void OnItemTapped(object sender, EventArgs e)
         {
