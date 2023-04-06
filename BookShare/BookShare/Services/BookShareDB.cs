@@ -47,30 +47,42 @@ namespace BookShare.Services
         public static async Task CreateUser(Models.User bindingUser)
         {
 
-            var users = await fireBaseBase.Child("Users").OnceAsync<UserDatabase>();
-            bool emailExists = users.Any(u => u.Object.Email == bindingUser.Email);
-
-            if (emailExists)
+            try
             {
+                var user = await userAuthentication.CreateUserWithEmailAndPasswordAsync(bindingUser.Email, bindingUser.Password);
+                await fireBaseBase.Child("Users").PostAsync(new UserDatabase
+                {
+                    Uid = user.User.Uid,
+                    Email = user.User.Info.Email,
+                    Faculty = bindingUser.Faculty,
+                    Name = bindingUser.Name,
+                    Gender = bindingUser.Gender
+                });
 
-                await App.Current.MainPage.DisplayAlert("Error", "This email is already registered.", "OK");
-                return;
+
+                await App.Current.MainPage.DisplayAlert("Success", "User registered successfully.", "OK");
+
             }
-
-
-            var user = await userAuthentication.CreateUserWithEmailAndPasswordAsync(bindingUser.Email, bindingUser.Password);
-            await fireBaseBase.Child("Users").PostAsync(new UserDatabase
+            catch (FirebaseAuthException ex)
             {
-                Uid = user.User.Uid,
-                Email = user.User.Info.Email,
-                Faculty = bindingUser.Faculty,
-                Name = bindingUser.Name,
-                Gender = bindingUser.Gender
-            });
-
-
-            await App.Current.MainPage.DisplayAlert("Success", "User registered successfully.", "OK");
+                if (ex.Reason == AuthErrorReason.EmailExists)
+                {
+                    // Display an error message to the user indicating that the email already exists
+                    await App.Current.MainPage.DisplayAlert("Error", "Email already exists", "OK");
+                }
+                else if (ex.Reason == AuthErrorReason.WrongPassword)
+                {
+                    // Display an error message to the user indicating that the password is incorrect
+                    await App.Current.MainPage.DisplayAlert("Error", "Incorrect password", "OK");
+                }
+                else
+                {
+                    // Display a generic error message to the user for any other exceptions
+                    await App.Current.MainPage.DisplayAlert("Error", "An error occurred", "OK");
+                }
+            }
         }
+           
         public async Task<List<Book>> GetBooksAsync()
         {
             var firebaseUrl = "https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/books.json";

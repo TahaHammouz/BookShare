@@ -177,26 +177,17 @@ namespace BookShare.ViewModels
             {
                 SelectedGender = "please select your Gender !";
             }
-
+            else if (!IsValidInput)
+            {
+                EmailText = "Please use your unversity email, example@stu.najah.edu";
+            }
             else
             {
-                try
-                {
-                    if (IsValidInput)
-                    {
-                        await BookShareDB.CreateUser(BindingUser);
-                    }
-                    else
-                    {
-                        EmailText = "use your unversity email / example@stu.najah.edu";
-                    }
-                }
-                catch (Exception ex)
-                {
-                    EmailText = "use your unversity email / example@stu.najah.edu";
-                    Debug.WriteLine(ex);
-                }
+               
+                await BookShareDB.CreateUser(BindingUser);
+               
             }
+            
         }
 
         public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
