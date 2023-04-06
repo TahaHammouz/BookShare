@@ -32,7 +32,20 @@ namespace BookShare.ViewModels
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Email)));
             }
         }
-
+        private string _emailText;
+        public string EmailText
+        {
+            get { return _emailText; }
+            set
+            {
+                if (_emailText != value)
+                {
+                    _emailText = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(EmailText)));
+                }
+            }
+        }
+        public bool IsEmailEntryEmpty => string.IsNullOrEmpty(Email);
         public string Password
         {
             get { return _password; }
@@ -43,13 +56,42 @@ namespace BookShare.ViewModels
             }
         }
 
+        private string _passwordText;
+        public string PasswordText
+        {
+            get { return _passwordText; }
+            set
+            {
+                if (_passwordText != value)
+                {
+                    _passwordText = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(PasswordText)));
+                }
+            }
+        }
+        public bool IsPasswordEntryEmpty => string.IsNullOrEmpty(Password);
+
         private readonly BookShareDB _services;
 
 
 
         private async Task SignIn(string email, string password)
         {
-            await _services.Login(email, password);
+
+            EmailText = PasswordText = String.Empty;
+
+            if (IsEmailEntryEmpty)
+            {
+                EmailText = "please write your Email !";
+            }
+            else if (IsPasswordEntryEmpty)
+            {
+                PasswordText = "please write your Password !";
+            }
+            else
+            {
+                await _services.Login(email, password);
+            }
 
         }
 

@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels" 
+             x:DataType="viewmodels:LoginViewModel"
              NavigationPage.HasNavigationBar="False"
              x:Class="BookShare.Views.LoginPage"  
              Visual="Material" >
@@ -22,11 +24,13 @@
                     <StackLayout Orientation="Vertical" Margin="30">
 
                         <Frame BorderColor="Black" CornerRadius="10" Padding="0" WidthRequest="150" BackgroundColor="Transparent">
-                            <Entry Text="{Binding Email}" Placeholder="Email" Keyboard="Email"/>
+                            <Entry Text="{Binding Email}" Placeholder="Email" Keyboard="Email" BackgroundColor="White"/>
                         </Frame>
+                        <Label Text="{Binding EmailText}" TextColor="Red"/>
                         <Frame BorderColor="Black" CornerRadius="10" Padding="0" WidthRequest="150" Margin="0,15,0,0" BackgroundColor="Transparent">
-                            <Entry Text="{Binding Password}" Placeholder="Password" IsPassword="True" />
+                            <Entry Text="{Binding Password}" Placeholder="Password" IsPassword="True" BackgroundColor="White"/>
                         </Frame>
+                        <Label Text="{Binding PasswordText}" TextColor="Red"/>
 
                     </StackLayout>
                     <Button Margin="20"
@@ -56,9 +60,6 @@
                         </StackLayout>
                     </StackLayout>
                 </StackLayout>
-            </StackLayout>
-            <StackLayout Margin="20,15,20,25">
-                <ActivityIndicator IsRunning="{Binding IsBusy}" Color="#F4717F"  />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

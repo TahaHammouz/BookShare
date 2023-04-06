@@ -7,23 +7,28 @@ using System.Windows.Input;
 using Xamarin.CommunityToolkit.ObjectModel;
 using BookShare.Models;
 using BookShare.Services;
+using System;
+using static BookShare.Views.SignupPage;
+using Xamarin.Essentials;
 using BookShare.Views;
 
 namespace BookShare.ViewModels
 {
     public static class ImageSourceConstants
     {
-        public static ImageSource Eye => ImageSource.FromFile("view.png");
-        public static ImageSource EyeOff => ImageSource.FromFile("closeeye.png");
+        public static ImageSource Eye => ImageSource.FromFile("eye_open.png");
+        public static ImageSource EyeOff => ImageSource.FromFile("closed_eye.png");
     }
+
     public class SignupViewModel : INotifyPropertyChanged
     {
         public ICommand CreateAcount { set; get; }
-        public Command LogInPageCommand { get; }
 
         public ICommand TogglePasswordCommand { get; }
 
-        public Models.User bindingUser { set; get; }
+        public Command LogInPageCommand { get; }
+
+        public Models.User BindingUser { set; get; }
 
         private bool _isPasswordVisible;
         public bool IsPasswordVisible
@@ -35,7 +40,84 @@ namespace BookShare.ViewModels
                 OnPropertyChanged(nameof(IsPasswordVisible));
                 OnPropertyChanged(nameof(PasswordIcon));
             }
+
         }
+        private string _emailText;
+        public string EmailText
+        {
+            get { return _emailText; }
+            set
+            {
+                if (_emailText != value)
+                {
+                    _emailText = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(EmailText)));
+                }
+            }
+        }
+        public bool IsEmailEntryEmpty => string.IsNullOrEmpty(BindingUser.Email);
+
+
+        private string _usernameText;
+        public string UsernameText
+        {
+            get { return _usernameText; }
+            set
+            {
+                if (_usernameText != value)
+                {
+                    _usernameText = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(UsernameText)));
+                }
+            }
+        }
+        public bool IsUsernameEntryEmpty => string.IsNullOrEmpty(BindingUser.Name);
+
+        private string _passwordText;
+        public string PasswordText
+        {
+            get { return _passwordText; }
+            set
+            {
+                if (_passwordText != value)
+                {
+                    _passwordText = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(PasswordText)));
+                }
+            }
+        }
+        public bool IsPasswordEntryEmpty => string.IsNullOrEmpty(BindingUser.Password);
+
+
+        private string _selectedFaculty;
+        public string SelectedFaculty
+        {
+            get { return _selectedFaculty; }
+            set
+            {
+                if (_selectedFaculty != value)
+                {
+                    _selectedFaculty = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedFaculty)));
+                }
+            }
+        }
+        public bool IsSelectedFacultyEmpty => string.IsNullOrEmpty(BindingUser.Faculty);
+
+        private string _selectedGender;
+        public string SelectedGender
+        {
+            get { return _selectedGender; }
+            set
+            {
+                if (_selectedGender != value)
+                {
+                    _selectedGender = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedGender)));
+                }
+            }
+        }
+        public bool IsSelectedGenderEmpty => string.IsNullOrEmpty(BindingUser.Gender);
 
         private bool _isvalidInput;
 
@@ -49,46 +131,81 @@ namespace BookShare.ViewModels
                 _isvalidInput = value;
                 OnPropertyChanged(nameof(IsValidInput));
             }
+
         }
 
         public ImageSource PasswordIcon => IsPasswordVisible ? ImageSourceConstants.Eye : ImageSourceConstants.EyeOff;
 
-
-
-
-        public SignupViewModel()
-        {
-            bindingUser = new User();
-
-            CreateAcount = new AsyncCommand(CreateAccount);
-            IsPasswordVisible = false;
-            TogglePasswordCommand = new MvvmHelpers.Commands.Command(() => IsPasswordVisible = !IsPasswordVisible);
-            LogInPageCommand = new Command(NavigateToLogInPage);
-        }
-
-        public async Task CreateAccount()
-        {
-
-            if (IsValidInput)
-            {
-
-                await BookShareDB.CreateUser(bindingUser);
-
-            }
-            else
-            {
-                Debug.WriteLine("Invalid");
-            }
-
-        }
         private void NavigateToLogInPage()
         {
             App.Current.MainPage.Navigation.PushAsync(new LoginPage());
         }
+
+
+        public SignupViewModel()
+        {
+            BindingUser = new User();
+            CreateAcount = new AsyncCommand(CreateAccount);
+            IsPasswordVisible = true;
+            TogglePasswordCommand = new MvvmHelpers.Commands.Command(() => IsPasswordVisible = !IsPasswordVisible);
+            LogInPageCommand = new Command(NavigateToLogInPage);
+
+        }
+
+
+        public async Task CreateAccount()
+        {
+            EmailText = UsernameText = PasswordText = SelectedFaculty = SelectedGender = string.Empty;
+            IsValidInput = IsValidInput;
+            if (IsEmailEntryEmpty)
+            {
+                EmailText = "please write your Email !";
+            }
+            else if (IsUsernameEntryEmpty)
+            {
+                UsernameText = "please write your Username !";
+            }
+            else if (IsPasswordEntryEmpty)
+            {
+                PasswordText = "please write your Password !";
+            }
+            else if (IsSelectedFacultyEmpty)
+            {
+                SelectedFaculty = "please select your Faculty !";
+            }
+            else if (IsSelectedGenderEmpty)
+            {
+                SelectedGender = "please select your Gender !";
+            }
+
+            else
+            {
+                try
+                {
+                    if (IsValidInput)
+                    {
+                        await BookShareDB.CreateUser(BindingUser);
+                    }
+                    else
+                    {
+                        EmailText = "use your unversity email / example@stu.najah.edu";
+                    }
+                }
+                catch (Exception ex)
+                {
+                    EmailText = "use your unversity email / example@stu.najah.edu";
+                }
+            }
+        }
+
         public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+
+
+
 
     }
 }
