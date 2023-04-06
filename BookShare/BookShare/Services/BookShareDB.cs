@@ -59,7 +59,6 @@ namespace BookShare.Services
                     Gender = bindingUser.Gender
                 });
 
-
                 await App.Current.MainPage.DisplayAlert("Success", "User registered successfully.", "OK");
 
             }
