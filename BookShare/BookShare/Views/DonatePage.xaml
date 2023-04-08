@@ -1,12 +1,163 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BookShare.Views.DonatePage">
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels"
+             x:Class="BookShare.Views.DonatePage"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="False"
+             x:DataType="viewmodels:DonateViewModel"
+             Visual="Material" 
+             >
+    <ContentPage.BindingContext>
+        <viewmodels:DonateViewModel />
+    </ContentPage.BindingContext>
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Grid.Row="1" Padding="20" Margin="10">
+            <Image Source="logo" 
+                       WidthRequest="100"
+                       HeightRequest="100"
+                       Margin="0,0,0,0"
+                       Aspect="AspectFit" 
+                       />
+            <Label Text="Donate Your Book!"
+                   TextColor="Black"
+                   FontSize="30"
+                   HorizontalTextAlignment="Center"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,5"
+                   />
+            <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0,0,0,10" >
+
+                <Entry  
+                            PlaceholderColor="Gray"
+                            Placeholder="Book Name"
+                            BackgroundColor="Transparent"
+                            WidthRequest="300"
+                            TextColor="Black"  
+                            Text="{Binding BindingBook.Bookname}"
+                            FontSize="18"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            x:Name="email_entry"
+                    />
+            </Frame>
+
+
+
+            <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0,0,0,10" >
+              
+                <Picker 
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="CenterAndExpand"
+                            WidthRequest="300"
+                            Title="Status"
+                            TitleColor="Gray"
+                            SelectedItem="{Binding BindingBook.Status}"
+                            BackgroundColor="White"
+                             >
+                    <Picker.ItemsSource>
+
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Excellent</x:String>
+                            <x:String>Very Good</x:String>
+                            <x:String>Good</x:String>
+                            <x:String>Not Bad</x:String>
+                            <x:String>Scarred</x:String>
+                            </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+                
+            </Frame>
+
+            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
+                <Editor Placeholder="Description"                        
+                        BackgroundColor="White"
+                        Text="{Binding BindingBook.Details}"
+                        WidthRequest="300"
+                        TextColor="Black"
+                        FontSize="18"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        />
+
+            </Frame>
+
+
+
+
+
+            <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0,0,0,10" >
+                <Picker 
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="CenterAndExpand"
+                            WidthRequest="300"
+                            Title="Contact me"
+                            TitleColor="Gray"
+                            SelectedItem="{Binding SelectedContactMethod}"                      
+                            BackgroundColor="White"
+                            >
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Facebook</x:String>
+                            <x:String>WhatsApp</x:String>
+                            <x:String>LinkedIn</x:String>
+                           
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </Frame>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Frame BackgroundColor="White" Grid.ColumnSpan="1"  IsVisible="{Binding IsContactInputVisible}" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="50,0,0,0" >
+                    
+             
+               
+                    <Entry
+                      PlaceholderColor="Gray"
+                            Placeholder="Contact Method"
+                            BackgroundColor="White"
+                            WidthRequest="250"
+                            TextColor="Black"  
+                            Keyboard="{Binding ContactInputType}"
+                            FontSize="18"
+                            Text="{Binding BindingBook.ContactMethod}"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" 
+                    />
+
+             </Frame>
+                <Image Grid.Column="0" 
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"
+                       BackgroundColor="Transparent"
+                       Source="{Binding ContactIcon}"  
+                       WidthRequest="48" HeightRequest="48"
+                        Aspect="AspectFill"
+                       />
+
+
+            </Grid>
+            <Button 
+                        WidthRequest="188"
+                        HeightRequest="63"
+                        Text="Donate"
+                        BackgroundColor="#F4717F"
+                        TextColor="#FFFFFF"
+                        FontSize="20"
+                        Margin="50,20,50,0"
+                        CornerRadius="10"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Center"
+                        Command="{Binding Donate}"/>
         </StackLayout>
+     
+
+               
+
+     
     </ContentPage.Content>
 </ContentPage>
