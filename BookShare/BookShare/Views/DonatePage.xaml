@@ -46,7 +46,7 @@
                         WidthRequest="300"
                         Title="Status"
                         TitleColor="Gray"
-                        SelectedItem="{Binding BindingBook.Status}"
+                        SelectedItem="{Binding Status}"
                         BackgroundColor="White"
                             >
                     <Picker.ItemsSource>
