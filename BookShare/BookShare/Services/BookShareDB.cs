@@ -140,6 +140,34 @@ namespace BookShare.Services
                 Console.WriteLine(ex.Message);
             }
         }
+
+        public async Task AddBook(Models.Book bindingBook)
+        {
+            string _acessToken = await SecureStorage.GetAsync("auth_token");
+            Console.WriteLine("The token is" + _acessToken);
+            var informationUser = (await fireBaseBase.Child("Users").OnceAsync<Models.User>())
+                .FirstOrDefault(item => item.Object.Uid == _acessToken);
+            Console.WriteLine("User information = " + informationUser);
+            var books = await fireBaseBase.Child("books").OnceAsync<Book>();
+            if (informationUser != null)
+            {
+                var book = await firebaseClient.Child("books").PostAsync(new Book
+                {
+                    Bookname = bindingBook.Bookname,
+                    Status = bindingBook.Status,
+                    Details = bindingBook.Details,
+                    Contactlink = bindingBook.Contactlink,
+                    Username = informationUser.Object.Name.ToString(),
+                    ContactMethod = bindingBook.ContactMethod
+                });
+
+                await App.Current.MainPage.DisplayAlert("Success", "Book Donated successfully!", "OK");
+            }
+            else
+            {
+                Console.WriteLine("nullllllllllllll");
+            }
+        }
         internal object GetHttpClient()
         {
             throw new NotImplementedException();
