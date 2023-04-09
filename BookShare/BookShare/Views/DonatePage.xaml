@@ -25,72 +25,110 @@
                        HorizontalOptions="Center"
                        Margin="0,0,0,5"
                        />
-            <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0,0,0,10" >
-                <Entry  
-                        PlaceholderColor="Gray"
-                        Placeholder="Book Name"
-                        BackgroundColor="Transparent"
-                        WidthRequest="300"
-                        TextColor="Black"  
-                        Text="{Binding BindingBook.Bookname}"
-                        FontSize="18"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        x:Name="email_entry"
-                    />
-            </Frame>
-            <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0,0,0,10" >
-                <Picker 
-                        VerticalOptions="CenterAndExpand"
-                        HorizontalOptions="CenterAndExpand"
-                        WidthRequest="300"
-                        Title="Status"
-                        TitleColor="Gray"
-                        SelectedItem="{Binding Status}"
-                        BackgroundColor="White"
-                            >
-                    <Picker.ItemsSource>
-                        <x:Array Type="{x:Type x:String}">
-                            <x:String>Excellent</x:String>
-                            <x:String>Very Good</x:String>
-                            <x:String>Good</x:String>
-                            <x:String>Not Bad</x:String>
-                            <x:String>Scarred</x:String>
-                        </x:Array>
-                    </Picker.ItemsSource>
-                </Picker>
-            </Frame>
-            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
-                <Editor Placeholder="Description"                        
-                        BackgroundColor="White"
-                        Text="{Binding BindingBook.Details}"
-                        WidthRequest="300"
-                        TextColor="Black"
-                        FontSize="18"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        />
-            </Frame>
-            <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0,0,0,10" >
-                <Picker 
-                        VerticalOptions="CenterAndExpand"
-                        HorizontalOptions="CenterAndExpand"
-                        WidthRequest="300"
-                        Title="Contact me"
-                        TitleColor="Gray"
-                        SelectedItem="{Binding SelectedContactMethod}"                      
-                        BackgroundColor="White"
-                        >
-                    <Picker.ItemsSource>
-                        <x:Array Type="{x:Type x:String}">
-                            <x:String>Facebook</x:String>
-                            <x:String>WhatsApp</x:String>
-                            <x:String>LinkedIn</x:String>
+<Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
 
-                        </x:Array>
-                    </Picker.ItemsSource>
-                </Picker>
+        <Image Grid.Column="0" Source="Black_book_icon.png" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
+
+        <Entry Grid.Column="1"
+               PlaceholderColor="Gray"
+               Placeholder="Book Name"
+               BackgroundColor="Transparent"
+               WidthRequest="300"
+               TextColor="Black"
+               Text="{Binding BindingBook.Bookname}"
+               FontSize="18"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               x:Name="email_entry" />
+    </Grid>
+</Frame>
+
+<Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Column="0" Source="bookstatus.png" HeightRequest="24" WidthRequest="24" Margin="10,0,0,0" />
+
+        <Picker Grid.Column="1"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="300"
+                Title="Status"
+                TitleColor="Gray"
+                SelectedItem="{Binding Status}"
+                BackgroundColor="White">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Excellent</x:String>
+                    <x:String>Very Good</x:String>
+                    <x:String>Good</x:String>
+                    <x:String>Not Bad</x:String>
+                    <x:String>Scarred</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+    </Grid>
+</Frame>
+
+            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Column="0" Source="desc.png" HeightRequest="24" WidthRequest="24" Margin="10,0,0,0" />
+
+                    <Editor Grid.Column="1"
+                            Placeholder="Description"
+                            BackgroundColor="White"
+                            Text="{Binding BindingBook.Details}"
+                            WidthRequest="300"
+                            TextColor="Black"
+                            FontSize="18"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+                </Grid>
             </Frame>
+
+                <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Source="contact.png" HeightRequest="24" WidthRequest="24" Margin="10,0,0,0" />
+
+                        <Picker Grid.Column="1"
+                                VerticalOptions="CenterAndExpand"
+                                HorizontalOptions="CenterAndExpand"
+                                WidthRequest="300"
+                                Title="Contact me"
+                                TitleColor="Gray"
+                                SelectedItem="{Binding SelectedContactMethod}"
+                                BackgroundColor="White">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Facebook</x:String>
+                                    <x:String>WhatsApp</x:String>
+                                    <x:String>LinkedIn</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </Grid>
+                </Frame>
+
+
+
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto" />
