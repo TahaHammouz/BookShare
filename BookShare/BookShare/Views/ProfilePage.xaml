@@ -18,7 +18,7 @@
 
                     <Image Source="icon_edit.xml" VerticalOptions="Fill">
                         <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="editProfile" />
+                            <TapGestureRecognizer Tapped="EditProfile" />
                             <!--on icon clicked is created in code behind you can move it to veiw model-->
                         </Image.GestureRecognizers>
                     </Image>
@@ -41,7 +41,7 @@
                         </Grid.RowDefinitions>
                             <Image Source="icon_ellipses" HeightRequest="20" WidthRequest="20" HorizontalOptions="End">
                                 <Image.GestureRecognizers>
-                                    <TapGestureRecognizer Tapped="ellipesesTapped"  />
+                                    <TapGestureRecognizer Tapped="EllipesesTapped"  />
                                 </Image.GestureRecognizers>
                             </Image>
                         <Label Grid.Row="1" Text="Card 1" FontSize="Large" VerticalTextAlignment="Center" />
@@ -59,7 +59,7 @@
                         </Grid.RowDefinitions>
                         <Image Source="icon_ellipses" HeightRequest="20" WidthRequest="20" HorizontalOptions="End">
                             <Image.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="ellipesesTapped" />
+                                <TapGestureRecognizer Tapped="EllipesesTapped" />
                             </Image.GestureRecognizers>
                         </Image>
                         <Label Grid.Row="1" Text="Card 2" FontSize="Large" VerticalTextAlignment="Center" />
@@ -83,7 +83,7 @@
                         </Grid.RowDefinitions>
                         <Image Source="icon_ellipses" HeightRequest="20" WidthRequest="20" HorizontalOptions="End">
                             <Image.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="ellipesesTapped"  />
+                                <TapGestureRecognizer Tapped="EllipesesTapped"  />
                             </Image.GestureRecognizers>
                         </Image>
                         <Label Grid.Row="1" Text="Card 3" FontSize="Large" VerticalTextAlignment="Center" />
@@ -101,7 +101,7 @@
                         </Grid.RowDefinitions>
                         <Image Source="icon_ellipses" HeightRequest="20" WidthRequest="20" HorizontalOptions="End">
                             <Image.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="ellipesesTapped" />
+                                <TapGestureRecognizer Tapped="EllipesesTapped" />
                             </Image.GestureRecognizers>
                         </Image>
                         <Label Grid.Row="1" Text="Card 4" FontSize="Large" VerticalTextAlignment="Center" />

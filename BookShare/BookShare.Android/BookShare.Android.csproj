@@ -155,7 +155,7 @@
     <AndroidResource Include="Resources\drawable\icon_edit.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\icon__ellipses.xml" />
+    <AndroidResource Include="Resources\drawable\icon_ellipses.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
