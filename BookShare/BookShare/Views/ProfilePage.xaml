@@ -1,12 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels"
+             x:DataType="viewmodels:SearchViewModel"
              x:Class="BookShare.Views.ProfilePage">
+
+    <ContentPage.BindingContext>
+        <viewmodels:SearchViewModel />
+    </ContentPage.BindingContext>
     <ContentPage.Content>
+        
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame CornerRadius="100" HasShadow="False" Padding="0" Margin="0,30,0,0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="250" WidthRequest="140" >
+            <Image Source="male.xml" 
+                   Aspect="AspectFill"
+                   />
+            </Frame>
+            <StackLayout  Orientation="Horizontal" HorizontalOptions="Center" >
+                <Label Text="User name"
+                       Margin="30,15,0,0"
+                       FontSize="Medium"
+                       />
+                <Frame BackgroundColor="#fafafa"  HasShadow="False"  Padding="0" Margin="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="70" WidthRequest="80" >
+
+                    <Image Source="icon_edit.xml" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="EditProfile" />
+                            <!--on icon clicked is created in code behind you can move it to veiw model-->
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+            </StackLayout>
+
+
+            <CollectionView ItemsSource="{Binding FilteredBooks}" Margin="15,0,15,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout  BackgroundColor="LightGray" HeightRequest="120" >
+                            <Grid Padding="8">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <Image Source="icon_ellipses" HeightRequest="20" WidthRequest="20" HorizontalOptions="End">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="EllipesesTapped" />
+                                    </Image.GestureRecognizers>
+                                </Image>
+
+                                <Label Grid.Row="1" Text="Bookname" FontSize="Large" VerticalTextAlignment="Center" />
+                                <Label Grid.Row="2" Text="status" FontSize="Medium" VerticalTextAlignment="Center" />
+                            </Grid>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                         Span="2"
+                         HorizontalItemSpacing="10"
+                         VerticalItemSpacing="10" />
+                </CollectionView.ItemsLayout>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
