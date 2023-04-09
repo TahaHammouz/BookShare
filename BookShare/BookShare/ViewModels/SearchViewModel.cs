@@ -17,13 +17,22 @@ namespace BookShare.ViewModels
 
         public SearchViewModel()
         {
-
             try
             {
                 firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
                 _ = LoadBooksAsync();
             }
-            catch (Exception e) { e.Source = "SearchViewModel"; }
+            catch (Exception e)
+            {
+                e.Source = "SearchViewModel";
+            }
+
+            RefreshCommand = new Command(async () =>
+            {
+                IsRefreshing = true;
+                await LoadBooksAsync();
+                IsRefreshing = false;
+            });
         }
 
         private ObservableCollection<Book> books;
@@ -55,6 +64,15 @@ namespace BookShare.ViewModels
             set { filteredBooks = value; OnPropertyChanged(); }
         }
 
+        private bool isRefreshing;
+        public bool IsRefreshing
+        {
+            get { return isRefreshing; }
+            set { isRefreshing = value; OnPropertyChanged(); }
+        }
+
+        public Command RefreshCommand { get; }
+
         private async Task LoadBooksAsync()
         {
             try
@@ -80,7 +98,6 @@ namespace BookShare.ViewModels
                 FilteredBooks = new ObservableCollection<Book>(filtered);
             }
         }
-
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
