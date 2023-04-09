@@ -46,7 +46,19 @@ namespace BookShare.ViewModels
         public bool IsStatusEmpty => string.IsNullOrEmpty(BindingBook.Status);
 
 
-
+        private string _publisherGender;
+        public string PublisherGender
+        {
+            get { return _publisherGender; }
+            set
+            {
+                if (_publisherGender != value)
+                {
+                    _publisherGender = value;
+                    OnPropertyChanged(nameof(PublisherGender));
+                }
+            }
+        }
         private string _userName;
 
         public string UserName
@@ -90,7 +102,6 @@ namespace BookShare.ViewModels
             }
         }
 
-
         private string _status;
         public string Status
         {
@@ -106,7 +117,7 @@ namespace BookShare.ViewModels
         public string ContactIcon => SelectedContactMethod switch
         {
             "Facebook" => "facebook_icon.png",
-            "WhatsApp" => "WhatsApp.png",
+            "WhatsApp" => "whatsapp_icon.png",
             "LinkedIn" => "linkedin_icon.png",
             _ => "",
         };

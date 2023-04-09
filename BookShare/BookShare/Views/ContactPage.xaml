@@ -11,26 +11,30 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Orientation="Vertical" Margin="50,100,40,50">
+                 <Image Source="logo" 
+                       WidthRequest="100"
+                       HeightRequest="100"
+                       Margin="0,0,0,0"
+                       Aspect="AspectFit" 
+                    />
                 <Frame BorderColor="Black" CornerRadius="10" Padding="5" >
                     <StackLayout Orientation="Horizontal">
-                        <Image Source="logo" HeightRequest="55" WidthRequest="55"  Aspect="AspectFit"/>
+                        <Label Text="{Binding SelectedBook.PublisherGender}" IsVisible="False"/>
+                        <Image Source="{Binding SelectedBook.ProfileIcon}"/>
                         <Label Text="{Binding SelectedBook.Username}" FontSize="Small"   TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
-
                 </Frame>
 
                 <Frame BorderColor="Black" CornerRadius="10" Padding="5" Margin="0,40">
                     <StackLayout Orientation="Horizontal">
-                        <Image Source="facebook_logo" HeightRequest="55"  Aspect="AspectFit"/>
-                        <Label Text="{Binding SelectedBook.Contactlink}" FontSize="Small"   TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                        <Image Source="{Binding SelectedBook.ContactIcon}" HeightRequest="55"  Aspect="AspectFit"/>
+                        <Label Text="{Binding SelectedBook.ContactMethod}" FontSize="Small"   TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
-
                 </Frame>
-
 
                 <Frame BorderColor="Black" CornerRadius="10" Padding="5">
                     <StackLayout Orientation="Horizontal">
-                        <Image Source="icon_about" HeightRequest="55"  Aspect="AspectFit"/>
+                        <Image Source="icon_feed" HeightRequest="55"  Aspect="AspectFit"/>
                         <Label Text="{Binding SelectedBook.Status}" FontSize="Small"   TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
                 </Frame>

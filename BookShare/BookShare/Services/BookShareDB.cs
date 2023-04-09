@@ -85,12 +85,11 @@ namespace BookShare.Services
             var firebaseUrl = "https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/books.json";
             var response = await httpClient.GetAsync(firebaseUrl);
             var content = await response.Content.ReadAsStringAsync();
-
             var booksDict = JsonConvert.DeserializeObject<Dictionary<string, Book>>(content);
             var books = new List<Book>(booksDict.Values);
-
             return books;
         }
+
         public async Task Login(string email, string password)
         {
             try
@@ -158,6 +157,7 @@ namespace BookShare.Services
                     Details = bindingBook.Details,
                     Contactlink = bindingBook.Contactlink,
                     Username = informationUser.Object.Name.ToString(),
+                    PublisherGender = informationUser.Object.Gender,
                     ContactMethod = bindingBook.ContactMethod
                 });
 
