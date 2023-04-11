@@ -18,7 +18,7 @@ namespace BookShare.Views
             // Handle the tap event here
         }
 
-        
+
         private async void EllipesesTapped(object sender, EventArgs e)
         {
             string action = await DisplayActionSheet("Menu", "Cancel", null, "edit", "delete");
@@ -27,6 +27,7 @@ namespace BookShare.Views
             {
                 case "edit":
                     await Navigation.PushAsync(new SearchPage());
+
                     break;
                 case "delete":
                     // Handle option 2

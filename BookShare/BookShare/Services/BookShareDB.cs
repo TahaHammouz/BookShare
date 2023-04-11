@@ -58,8 +58,6 @@ namespace BookShare.Services
                     Name = bindingUser.Name,
                     Gender = bindingUser.Gender
                 });
-
-
                 await App.Current.MainPage.DisplayAlert("Success", "User registered successfully.", "OK");
 
             }
@@ -140,6 +138,8 @@ namespace BookShare.Services
             }
         }
 
+
+
         public async Task AddBook(Models.Book bindingBook)
         {
             string _acessToken = await SecureStorage.GetAsync("auth_token");
@@ -152,6 +152,8 @@ namespace BookShare.Services
             {
                 var book = await firebaseClient.Child("books").PostAsync(new Book
                 {
+                    BookId = Guid.NewGuid().ToString(),
+                    UserId = _acessToken,
                     Bookname = bindingBook.Bookname,
                     Status = bindingBook.Status,
                     Details = bindingBook.Details,
@@ -160,12 +162,11 @@ namespace BookShare.Services
                     PublisherGender = informationUser.Object.Gender,
                     ContactMethod = bindingBook.ContactMethod
                 });
-
                 await App.Current.MainPage.DisplayAlert("Success", "Book Donated successfully!", "OK");
             }
             else
             {
-                Console.WriteLine("nullllllllllllll");
+                await App.Current.MainPage.DisplayAlert("Failed", "Book Donation Failed!", "OK");
             }
         }
         internal object GetHttpClient()

@@ -2,6 +2,7 @@
 {
     public class Book
     {
+        public string BookId { get; set; }
         public string Username { get; set; }
         public string Bookname { get; set; }
         public string Details { get; set; }
@@ -10,6 +11,8 @@
         public string ContactIcon { get; set; }
         public string ProfileIcon { get; set; }
         public string Status { get; set; }
+        public string UserId { get; set; }
         public string PublisherGender { get; set; }
+
     }
 }

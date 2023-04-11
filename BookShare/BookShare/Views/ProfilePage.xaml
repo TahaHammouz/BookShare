@@ -2,17 +2,24 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:viewmodels="clr-namespace:BookShare.ViewModels"
-             x:DataType="viewmodels:SearchViewModel"
+             x:DataType="viewmodels:ProfileViewModel"
+             Visual = "Material"
+             xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              x:Class="BookShare.Views.ProfilePage">
 
     <ContentPage.BindingContext>
-        <viewmodels:SearchViewModel />
+        <viewmodels:ProfileViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        
+
         <StackLayout>
+            <StackLayout.Resources>
+                <ResourceDictionary>
+                    <viewmodels:ProfileViewModel x:Key="ProfileViewModel" />
+                </ResourceDictionary>
+            </StackLayout.Resources>
             <Frame CornerRadius="100" HasShadow="False" Padding="0" Margin="0,30,0,0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="250" WidthRequest="140" >
-            <Image Source="male.xml" 
+                <Image Source="male.xml" 
                    Aspect="AspectFill"
                    />
             </Frame>
@@ -33,7 +40,7 @@
             </StackLayout>
 
 
-            <CollectionView ItemsSource="{Binding FilteredBooks}" Margin="15,0,15,0">
+            <CollectionView ItemsSource="{Binding UserPosts}" Margin="15,0,15,0">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout  BackgroundColor="LightGray" HeightRequest="120" >
@@ -50,7 +57,7 @@
                                     </Image.GestureRecognizers>
                                 </Image>
 
-                                <Label Grid.Row="1" Text="Bookname" FontSize="Large" VerticalTextAlignment="Center" />
+                                <Label Grid.Row="1" Text="" FontSize="Large" VerticalTextAlignment="Center" />
                                 <Label Grid.Row="2" Text="status" FontSize="Medium" VerticalTextAlignment="Center" />
                             </Grid>
                         </StackLayout>
