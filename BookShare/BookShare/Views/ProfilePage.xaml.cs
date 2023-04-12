@@ -16,8 +16,6 @@ namespace BookShare.Views
         public ProfilePage()
         {
             InitializeComponent();
-
-
         }
         private void EditProfile(object sender, EventArgs e)
         {

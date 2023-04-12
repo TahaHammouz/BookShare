@@ -47,16 +47,6 @@ namespace BookShare.ViewModels
             }
         }
 
-
-        private ObservableCollection<Book> books;
-        public ObservableCollection<Book> Books
-        {
-            get { return books; }
-            set { books = value; OnPropertyChanged(); }
-        }
-
-
-
         private ObservableCollection<Book> userposts;
         public ObservableCollection<Book> UserPosts
         {
