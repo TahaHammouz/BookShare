@@ -44,24 +44,10 @@ namespace BookShare.ViewModels
         {
             
         }
-        public Book book1 = new Book
+        
+        public async Task UpdatePost (Book book)
         {
-            BookId = "sdfsdf",
-            Username = "ioio",
-            Bookname = "math ",
-            Details = "sdfdsfsdf",
-            Contactlink ="WhatsApp",
-            ContactMethod = "05655959",
-            ContactIcon = "",
-            ProfileIcon = "",
-            Status = "VerryGood" ,
-            UserId = "0855222",
-            PublisherGender = "Male"    
-
-        };
-        public async Task UpdatePost (Book book1)
-        {
-            if ((selectedBook.Equals(book1)))
+            if ((selectedBook.Equals(book)))
             {
                 try
                 {
