@@ -11,6 +11,7 @@ using BookShare.Models;
 using BookShare.Services;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using System.Windows.Input;
 
 namespace BookShare.ViewModels
 {
@@ -25,9 +26,27 @@ namespace BookShare.ViewModels
             {
                 firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
                 _ = LoadPostsAsync();
+                DeleteBookCommand = new Command(async () => await firebaseDataService.DeletePost(selectedBook));
+
             }
             catch (Exception e) { e.Source = "ProfileViewModel"; }
         }
+        public ICommand DeleteBookCommand { get; set; }
+
+        private Book selectedBook;
+        public Book SelectedBook
+        {
+            get { return selectedBook; }
+            set
+            {
+                if (selectedBook != value)
+                {
+                    selectedBook = value;
+                    OnPropertyChanged(nameof(SelectedBook));
+                }
+            }
+        }
+
 
         private ObservableCollection<Book> books;
         public ObservableCollection<Book> Books

@@ -120,7 +120,46 @@ namespace BookShare.Services
                 await Application.Current.MainPage.DisplayAlert("Failed", "An error occurred while signing in", "ok");
             }
         }
+        public async Task UpdateBook(Book b)
+        {
+            var books = await firebaseClient
+                        .Child("books")
+                        .OnceAsync<Book>();
+            foreach (var book in books)
+            {
+                if (book.Object.BookId == b.BookId)
+                {
+                    await firebaseClient.Child("books").Child(book.Key).PutAsync(b);
+                }
+            }
+        }
+        public async Task DeletePost(Book book)
+        {
+            bool response = await App.Current.MainPage.DisplayAlert("Alert", "Do you want to delete this post ?", "Yes", "No");
 
+            if (response)
+            {
+                var books = await firebaseClient
+                            .Child("books")
+                            .OnceAsync<Book>();
+
+                foreach (var x in books)
+                {
+                    if (x.Object.BookId == book.BookId)
+                    {
+                        await firebaseClient
+                            .Child("books")
+                            .Child(x.Key)
+                            .DeleteAsync();
+                    }
+                }
+                await App.Current.MainPage.DisplayAlert("Success", "Book Deleted Successfly", "OK");
+            }
+            else
+            {
+                await App.Current.MainPage.DisplayAlert("Failed", "Book Deleting Failed", "OK");
+            }
+        }
 
         private async Task accessToken()
         {

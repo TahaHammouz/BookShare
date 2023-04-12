@@ -1,4 +1,6 @@
-﻿namespace BookShare.Models
+﻿using System;
+
+namespace BookShare.Models
 {
     public class Book
     {
@@ -13,6 +15,30 @@
         public string Status { get; set; }
         public string UserId { get; set; }
         public string PublisherGender { get; set; }
+
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null || !(obj is Book))
+            {
+                return false;
+            }
+            else
+            {
+                Book other = (Book)obj;
+               bool value= this.Bookname == other.Bookname &&
+                    this.Details == other.Details &&
+                    this.Status == other.Status &&
+                    this.ContactMethod==other.ContactMethod&&
+                    this.Contactlink==other.Contactlink;
+                Console.WriteLine("n" + value + "n");
+                return value;
+            }
+        }
+        public override int GetHashCode()
+        {
+            return (Bookname + Details + Status + ContactMethod + Contactlink).GetHashCode();
+        }
 
     }
 }

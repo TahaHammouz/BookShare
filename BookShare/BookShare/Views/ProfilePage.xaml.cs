@@ -1,4 +1,8 @@
-﻿using System;
+﻿using BookShare.Models;
+using BookShare.Services;
+using BookShare.ViewModels;
+using BookShare.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,6 +11,8 @@ namespace BookShare.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProfilePage : ContentPage
     {
+        BookShareDB firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
+
         public ProfilePage()
         {
             InitializeComponent();
@@ -26,11 +32,18 @@ namespace BookShare.Views
             switch (action)
             {
                 case "edit":
-                    await Navigation.PushAsync(new SearchPage());
-
+                    Book selectedItem = (sender as Image)?.BindingContext as Book;
+                    if (selectedItem != null)
+                    {
+                        await Navigation.PushAsync(new EditDonatePage(selectedItem));
+                    }
                     break;
                 case "delete":
-                    // Handle option 2
+                    Book selectedItem1 = (sender as Image)?.BindingContext as Book;
+                    if (selectedItem1 != null)
+                    {
+                        await firebaseDataService.DeletePost(selectedItem1);
+                    }
                     break;
                 default:
                     // Handle cancel or unknown option
