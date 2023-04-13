@@ -1,34 +1,30 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodels="clr-namespace:BookShare.ViewModels"
-             x:DataType="viewmodels:ProfileViewModel"
              Visual = "Material"
-             xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              x:Class="BookShare.Views.ProfilePage">
-
     <ContentPage.BindingContext>
         <viewmodels:ProfileViewModel />
     </ContentPage.BindingContext>
-    <ContentPage.Content>
 
-        <StackLayout>
-            <StackLayout.Resources>
-                <ResourceDictionary>
-                    <viewmodels:ProfileViewModel x:Key="ProfileViewModel" />
-                </ResourceDictionary>
-            </StackLayout.Resources>
+    <StackLayout Spacing="10">
+        <StackLayout.Resources>
+            <ResourceDictionary>
+                <viewmodels:ProfileViewModel x:Key="ProfileViewModel" />
+            </ResourceDictionary>
+        </StackLayout.Resources>
+<StackLayout>
             <Frame CornerRadius="100" HasShadow="False" Padding="0" Margin="0,30,0,0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="250" WidthRequest="140" >
-                <Image Source="male.xml" 
+                <Image Source="{Binding PublisherImageSource}" 
                    Aspect="AspectFill"
                    />
             </Frame>
             <StackLayout  Orientation="Horizontal" HorizontalOptions="Center" >
-                <Label Text="User name"
+                <Label Text="{Binding Username}"
                        Margin="30,15,0,0"
                        FontSize="Medium"
                        />
-                <Frame BackgroundColor="#fafafa"  HasShadow="False"  Padding="0" Margin="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="70" WidthRequest="80" >
+                <Frame  HasShadow="False"  Padding="0" Margin="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="70" WidthRequest="80" >
 
                     <Image Source="icon_edit.xml" Aspect="AspectFill">
                         <Image.GestureRecognizers>
@@ -38,38 +34,39 @@
                     </Image>
                 </Frame>
             </StackLayout>
+<CollectionView ItemsSource="{Binding UserPosts}">
+    <CollectionView.ItemsLayout>
+        <GridItemsLayout Orientation="Vertical"
+                          Span="2" />
+    </CollectionView.ItemsLayout>
 
-
-            <CollectionView ItemsSource="{Binding UserPosts}" Margin="15,0,15,0">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout  BackgroundColor="LightGray" HeightRequest="120" >
-                            <Grid Padding="8">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
-                                    <RowDefinition Height="*" />
-                                    <RowDefinition Height="*" />
-                                </Grid.RowDefinitions>
-
-                                <Image Source="icon_ellipses" HeightRequest="20" WidthRequest="20" HorizontalOptions="End">
-                                    <Image.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="EllipesesTapped" />
-                                    </Image.GestureRecognizers>
-                                </Image>
-
-                                <Label Grid.Row="1" Text="" FontSize="Large" VerticalTextAlignment="Center" />
-                                <Label Grid.Row="2" Text="status" FontSize="Medium" VerticalTextAlignment="Center" />
-                            </Grid>
-                        </StackLayout>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-                <CollectionView.ItemsLayout>
-                    <GridItemsLayout Orientation="Vertical"
-                         Span="2"
-                         HorizontalItemSpacing="10"
-                         VerticalItemSpacing="10" />
-                </CollectionView.ItemsLayout>
-            </CollectionView>
-        </StackLayout>
-    </ContentPage.Content>
+    <CollectionView.ItemTemplate>
+        <DataTemplate>
+            <Frame Margin="10" BackgroundColor="white" Padding="10" HasShadow="True">
+                <Frame BorderColor="#E2E2E2">
+                    <StackLayout Orientation="Vertical" Spacing="7" WidthRequest="405" HeightRequest="50">
+                        <Label FontSize="16" Margin="10,0,0,0">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Book  " FontSize="16" TextColor="Gray" />
+                                    <Span Text="{Binding Bookname}" FontSize="16" TextColor="#544E50" FontAttributes="Bold" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Label FontSize="14" Margin="10,0,0,0">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Details  " FontSize="16" TextColor="Gray" />
+                                    <Span Text="{Binding Details}" FontSize="14" TextColor="#544E50" FontAttributes="Bold" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </Frame>
+            </Frame>
+        </DataTemplate>
+    </CollectionView.ItemTemplate>
+</CollectionView>
+    </StackLayout>
+    </StackLayout>
 </ContentPage>

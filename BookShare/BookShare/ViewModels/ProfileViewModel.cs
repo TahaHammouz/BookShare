@@ -68,23 +68,78 @@ namespace BookShare.ViewModels
             }
         }
 
+        private string publisherGender;
+        public string PublisherGender
+        {
+            get { return publisherGender; }
+            set
+            {
+                if (publisherGender != value)
+                {
+                    publisherGender = value;
+                    OnPropertyChanged(nameof(PublisherGender));
+                    OnPropertyChanged(nameof(PublisherImageSource));
+                }
+            }
+        }
+
+        public string PublisherImageSource
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(PublisherGender))
+                    return null;
+
+                if (PublisherGender.Equals("Male", StringComparison.OrdinalIgnoreCase))
+                    return "scholar.png";
+                else if (PublisherGender.Equals("Female", StringComparison.OrdinalIgnoreCase))
+                    return "profile_female.png";
+                else
+                    return null;
+            }
+        }
+
+        private string username;
+        public string Username
+        {
+            get { return username; }
+            set
+            {
+                if (username != value)
+                {
+                    username = value;
+                    OnPropertyChanged(nameof(Username));
+                }
+            }
+        }
+
+
         private async void FilterBooks()
         {
             if (userBooks != null)
             {
                 string id = await SecureStorage.GetAsync("auth_token");
                 var filtered = userBooks.Where(b =>
-                     string.IsNullOrEmpty(id) ||
+                    string.IsNullOrEmpty(id) ||
                     !string.IsNullOrEmpty(b.UserId) && b.UserId.ToLower().Contains(id.ToLower()));
+
                 UserPosts = new ObservableCollection<Book>(filtered);
+
+                if (UserPosts != null && UserPosts.Count > 0)
+                {
+                    PublisherGender = UserPosts[0].PublisherGender;
+                    Username = UserPosts[0].Username;
+                }
             }
         }
+
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
     }
 
 }
