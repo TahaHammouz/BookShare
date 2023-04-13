@@ -83,6 +83,52 @@ namespace BookShare.ViewModels
             }
         }
 
+        private string publisherGender;
+        public string PublisherGender
+        {
+            get { return publisherGender; }
+            set
+            {
+                if (publisherGender != value)
+                {
+                    publisherGender = value;
+                    OnPropertyChanged(nameof(PublisherGender));
+                    OnPropertyChanged(nameof(PublisherImageSource));
+                }
+            }
+        }
+
+        public string PublisherImageSource
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(PublisherGender))
+                    return null;
+
+                if (PublisherGender.Equals("Male", StringComparison.OrdinalIgnoreCase))
+                    return "scholar.png";
+                else if (PublisherGender.Equals("Female", StringComparison.OrdinalIgnoreCase))
+                    return "profile_female.png";
+                else
+                    return null;
+            }
+        }
+
+        private string username;
+        public string Username
+        {
+            get { return username; }
+            set
+            {
+                if (username != value)
+                {
+                    username = value;
+                    OnPropertyChanged(nameof(Username));
+                }
+            }
+        }
+
+
         private async void FilterBooks()
         {
             if (userBooks != null)
@@ -93,14 +139,22 @@ namespace BookShare.ViewModels
                     !string.IsNullOrEmpty(b.UserId) && b.UserId.ToLower().Equals(id.ToLower()));
                 UserPosts = new ObservableCollection<Book>(filtered);
                 ReversedPosts = new ObservableCollection<Book>(UserPosts.Reverse());
+
+                if (UserPosts != null && UserPosts.Count > 0)
+                {
+                    PublisherGender = UserPosts[0].PublisherGender;
+                    Username = UserPosts[0].Username;
+                }
             }
         }
+
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
     }
 
 }
