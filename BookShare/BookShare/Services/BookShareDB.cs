@@ -155,7 +155,6 @@ namespace BookShare.Services
                     }
                 }
                 await App.Current.MainPage.DisplayAlert("Success", "Book Deleted Successfly", "OK");
-                MessagingCenter.Send(this, "NavigateTooooNewPage");
             }
             else
             {
