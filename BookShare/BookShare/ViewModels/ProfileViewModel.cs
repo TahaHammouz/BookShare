@@ -26,7 +26,7 @@ namespace BookShare.ViewModels
             {
                 firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
                 _ = LoadPostsAsync();
-                //DeleteBookCommand = new Command(async () => await DeleteAndRefresh());
+                _=LoadUserAsync();
             }
             catch (Exception e) { e.Source = "ProfileViewModel"; }
         }
@@ -53,6 +53,12 @@ namespace BookShare.ViewModels
             set { userposts = value; OnPropertyChanged(nameof(UserPosts)); }
         }
 
+        private ObservableCollection<Models.User> users;
+        public ObservableCollection<Models.User> Users
+        {
+            get { return users; }
+            set { users = value; OnPropertyChanged(nameof(Users)); }
+        }
 
         private ObservableCollection<Book> reversedPosts;
         public ObservableCollection<Book> ReversedPosts
@@ -80,6 +86,21 @@ namespace BookShare.ViewModels
             catch (Exception e)
             {
                 e.Source = "LoadBooksAsync";
+            }
+        }
+
+        public async Task LoadUserAsync()
+        {
+            try
+            {
+                var users = await firebaseDataService.GetUsersAsync();
+                Users = new ObservableCollection<Models.User>(users);
+                FilterUsers();
+                GetUser();
+            }
+            catch (Exception e)
+            {
+                e.Source = "LoadUsersAsync";
             }
         }
 
@@ -127,6 +148,16 @@ namespace BookShare.ViewModels
                 }
             }
         }
+        public  void GetUser()
+        {
+
+            if (users != null && users.Count > 0)
+            {
+                PublisherGender = users[0].Gender;
+                Username = users[0].Name;
+            }
+
+        }
 
 
         private async void FilterBooks()
@@ -140,11 +171,19 @@ namespace BookShare.ViewModels
                 UserPosts = new ObservableCollection<Book>(filtered);
                 ReversedPosts = new ObservableCollection<Book>(UserPosts.Reverse());
 
-                if (ReversedPosts != null && ReversedPosts.Count > 0)
-                {
-                    PublisherGender = ReversedPosts[0].PublisherGender;
-                    Username = ReversedPosts[0].Username;
-                }
+            }
+        }
+
+        private async void FilterUsers()
+        {
+            if (users != null)
+            {
+                string id = await SecureStorage.GetAsync("auth_token");
+                var filtered = users.Where(b =>
+                     string.IsNullOrEmpty(id) ||
+                    !string.IsNullOrEmpty(b.Uid) && b.Uid.ToLower().Equals(id.ToLower()));
+                users = new ObservableCollection<Models.User>(filtered);
+
             }
         }
 

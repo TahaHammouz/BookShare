@@ -89,6 +89,16 @@ namespace BookShare.Services
             return books;
         }
 
+        public async Task<List<Models.User>> GetUsersAsync()
+        {
+            var firebaseUrl = "https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/Users.json";
+            var response = await httpClient.GetAsync(firebaseUrl);
+            var content = await response.Content.ReadAsStringAsync();
+            var UsersDict = JsonConvert.DeserializeObject<Dictionary<string, Models.User>>(content);
+            var Users = new List<Models.User>(UsersDict.Values);
+            return Users;
+        }
+
         public async Task Login(string email, string password)
         {
             try
