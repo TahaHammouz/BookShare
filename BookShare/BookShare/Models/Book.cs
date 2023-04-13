@@ -2,7 +2,7 @@
 
 namespace BookShare.Models
 {
-    public class Book
+    public class Book : IComparable<Book>
     {
         public string BookId { get; set; }
         public string Username { get; set; }
@@ -16,6 +16,14 @@ namespace BookShare.Models
         public string UserId { get; set; }
         public string PublisherGender { get; set; }
 
+
+        public int CompareTo(Book other)
+        {
+            
+                if (other == null) return 1;
+                return string.Compare(this.Bookname, other.Bookname);
+            
+        }
 
         public override bool Equals(object obj)
         {

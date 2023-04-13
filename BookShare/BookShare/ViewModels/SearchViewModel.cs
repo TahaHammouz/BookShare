@@ -64,6 +64,14 @@ namespace BookShare.ViewModels
             set { filteredBooks = value; OnPropertyChanged(); }
         }
 
+
+        private ObservableCollection<Book> reverseBooks;
+        public ObservableCollection<Book> ReverseBooks
+        {
+            get { return reverseBooks; }
+            set { reverseBooks = value; OnPropertyChanged(); }
+        }
+
         private bool isRefreshing;
         public bool IsRefreshing
         {
@@ -86,6 +94,7 @@ namespace BookShare.ViewModels
                 e.Source = "LoadBooksAsync";
             }
         }
+        
 
         private void FilterBooks()
         {
@@ -96,6 +105,7 @@ namespace BookShare.ViewModels
                     b.Bookname.ToLower().Contains(filterText.ToLower()) ||
                     b.Details.ToLower().Contains(filterText.ToLower()));
                 FilteredBooks = new ObservableCollection<Book>(filtered);
+                ReverseBooks = new ObservableCollection<Book>(FilteredBooks.Reverse());
             }
         }
 

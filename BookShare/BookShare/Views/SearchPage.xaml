@@ -48,7 +48,7 @@
         </Frame>
         <RefreshView IsRefreshing="{Binding IsRefreshing}"
              Command="{Binding RefreshCommand}">
-            <CollectionView ItemsSource="{Binding FilteredBooks}" >
+            <CollectionView ItemsSource="{Binding ReverseBooks}" >
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame Margin="10" BackgroundColor="white" Padding="10" HasShadow="True">

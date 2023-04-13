@@ -27,7 +27,7 @@ namespace BookShare.ViewModels
                 firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
                 _ = LoadPostsAsync();
                 DeleteBookCommand = new Command(async () => await firebaseDataService.DeletePost(selectedBook));
-
+                SelectedBook = userBooks.First();
             }
             catch (Exception e) { e.Source = "ProfileViewModel"; }
         }
@@ -46,12 +46,20 @@ namespace BookShare.ViewModels
                 }
             }
         }
-
+        
         private ObservableCollection<Book> userposts;
         public ObservableCollection<Book> UserPosts
         {
             get { return userposts; }
             set { userposts = value; OnPropertyChanged(); }
+        }
+
+
+        private ObservableCollection<Book> reversedPosts;
+        public ObservableCollection<Book> ReversedPosts
+        {
+            get { return reversedPosts; }
+            set { reversedPosts = value; OnPropertyChanged(); }
         }
 
         private async Task LoadPostsAsync()
@@ -75,8 +83,11 @@ namespace BookShare.ViewModels
                 string id = await SecureStorage.GetAsync("auth_token");
                 var filtered = userBooks.Where(b =>
                      string.IsNullOrEmpty(id) ||
-                    !string.IsNullOrEmpty(b.UserId) && b.UserId.ToLower().Contains(id.ToLower()));
+                    !string.IsNullOrEmpty(b.UserId) && b.UserId.ToLower().Equals(id.ToLower()));
                 UserPosts = new ObservableCollection<Book>(filtered);
+                ReversedPosts = new ObservableCollection<Book>(UserPosts.Reverse());
+               
+
             }
         }
 
