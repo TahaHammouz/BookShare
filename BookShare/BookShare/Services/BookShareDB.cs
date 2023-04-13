@@ -13,6 +13,7 @@ using BookShare.Views;
 using System.Diagnostics;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using BookShare.ViewModels;
 
 namespace BookShare.Services
 {
@@ -154,6 +155,7 @@ namespace BookShare.Services
                     }
                 }
                 await App.Current.MainPage.DisplayAlert("Success", "Book Deleted Successfly", "OK");
+                MessagingCenter.Send(this, "NavigateTooooNewPage");
             }
             else
             {

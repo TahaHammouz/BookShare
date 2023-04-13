@@ -26,8 +26,7 @@ namespace BookShare.ViewModels
             {
                 firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
                 _ = LoadPostsAsync();
-                DeleteBookCommand = new Command(async () => await firebaseDataService.DeletePost(selectedBook));
-                SelectedBook = userBooks.First();
+                //DeleteBookCommand = new Command(async () => await DeleteAndRefresh());
             }
             catch (Exception e) { e.Source = "ProfileViewModel"; }
         }
@@ -51,7 +50,7 @@ namespace BookShare.ViewModels
         public ObservableCollection<Book> UserPosts
         {
             get { return userposts; }
-            set { userposts = value; OnPropertyChanged(); }
+            set { userposts = value; OnPropertyChanged(nameof(UserPosts)); }
         }
 
 
@@ -59,10 +58,18 @@ namespace BookShare.ViewModels
         public ObservableCollection<Book> ReversedPosts
         {
             get { return reversedPosts; }
-            set { reversedPosts = value; OnPropertyChanged(); }
+            set { reversedPosts = value; OnPropertyChanged(nameof(ReversedPosts)); }
         }
 
-        private async Task LoadPostsAsync()
+        public async Task DeleteAndRefresh(Book book)
+        {
+            await firebaseDataService.DeletePost(book);
+            await LoadPostsAsync();
+            FilterBooks();
+            OnPropertyChanged(nameof(UserPosts));
+        }
+
+        public async Task LoadPostsAsync()
         {
             try
             {
@@ -86,8 +93,6 @@ namespace BookShare.ViewModels
                     !string.IsNullOrEmpty(b.UserId) && b.UserId.ToLower().Equals(id.ToLower()));
                 UserPosts = new ObservableCollection<Book>(filtered);
                 ReversedPosts = new ObservableCollection<Book>(UserPosts.Reverse());
-               
-
             }
         }
 

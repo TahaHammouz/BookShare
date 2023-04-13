@@ -12,10 +12,23 @@ namespace BookShare.Views
     public partial class ProfilePage : ContentPage
     {
         BookShareDB firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
-
+        private ProfileViewModel _viewModel;
         public ProfilePage()
         {
             InitializeComponent();
+            _viewModel = new ProfileViewModel();
+            BindingContext = _viewModel;
+            MessagingCenter.Subscribe<ProfileViewModel>(this, "NavigateToSearchPage", async (sender) =>
+            {
+                await Navigation.PushAsync(new SearchPage());
+            });
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            await _viewModel.LoadPostsAsync();
         }
         private void EditProfile(object sender, EventArgs e)
         {
@@ -40,7 +53,7 @@ namespace BookShare.Views
                     Book selectedItem1 = (sender as Image)?.BindingContext as Book;
                     if (selectedItem1 != null)
                     {
-                        await firebaseDataService.DeletePost(selectedItem1);
+                        await _viewModel.DeleteAndRefresh(selectedItem1);
                     }
                     break;
                 default:
