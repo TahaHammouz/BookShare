@@ -140,10 +140,10 @@ namespace BookShare.ViewModels
                 UserPosts = new ObservableCollection<Book>(filtered);
                 ReversedPosts = new ObservableCollection<Book>(UserPosts.Reverse());
 
-                if (UserPosts != null && UserPosts.Count > 0)
+                if (ReversedPosts != null && ReversedPosts.Count > 0)
                 {
-                    PublisherGender = UserPosts[0].PublisherGender;
-                    Username = UserPosts[0].Username;
+                    PublisherGender = ReversedPosts[0].PublisherGender;
+                    Username = ReversedPosts[0].Username;
                 }
             }
         }
