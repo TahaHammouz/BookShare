@@ -123,7 +123,24 @@ namespace BookShare.Services
                 await Application.Current.MainPage.DisplayAlert("Failed", "An error occurred while signing in", "ok");
             }
         }
+        public static async Task<string> GetUserEmail()
+        {
+            string _accessToken = await SecureStorage.GetAsync("auth_token");
+            Console.WriteLine("The token is" + _accessToken);
+            var informationUser = (await fireBaseBase.Child("Users").OnceAsync<Models.User>())
+                .FirstOrDefault(item => item.Object.Uid == _accessToken);
+            Console.WriteLine("User information = " + informationUser);
 
+            if (informationUser != null)
+            {
+                return informationUser.Object.Email.ToString();
+            }
+            else
+            {
+                Console.WriteLine("User not found");
+                return null;
+            }
+        }
 
         private async Task accessToken()
         {
