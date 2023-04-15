@@ -34,16 +34,16 @@
                    WidthRequest="300"
                    TextColor="Gray"  
                    x:Name="emailEntry"
-                       Placeholder="Email"
+                   Placeholder="Email"
                    Text="{Binding EmailEntery}"
-                            IsEnabled="False"
-                    HorizontalTextAlignment="Start"
-                             HorizontalOptions="Center"
-               VerticalOptions="Center"
-                            FontSize="18"
+                   IsEnabled="False"
+                   HorizontalTextAlignment="Start"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="18"
                 
                     />
-                        <Image Grid.Column="1" Source="padlock" HeightRequest="20" WidthRequest="20" Margin="10,0,0,0"  />
+                        <Image Grid.Column="1" Source="padlock" HeightRequest="10" WidthRequest="10" Margin="10"  />
 
 
                     </Grid>
@@ -55,7 +55,7 @@
                             <ColumnDefinition Width="auto" />
                         </Grid.ColumnDefinitions>
 
-                        <Image Grid.Column="0" Source="bookname.png" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
+                        <Image Grid.Column="0" Source="bookname.png" HeightRequest="30" WidthRequest="30" Margin="10" />
                     <Entry  Grid.Column="1"
                    PlaceholderColor="Gray"
                    Placeholder="Book Name"
@@ -80,10 +80,10 @@
                             <ColumnDefinition Width="auto" />
                         </Grid.ColumnDefinitions>
 
-                        <Image Grid.Column="0" Source="online.png" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
+                        <Image Grid.Column="0" Source="online.png" HeightRequest="30" WidthRequest="30" Margin="10" />
                       
                     <Picker Grid.Column="1"
-                    BackgroundColor="White"
+                        BackgroundColor="White"
                         VerticalOptions="CenterAndExpand"
                         HorizontalOptions="CenterAndExpand"
                         WidthRequest="300"
@@ -115,7 +115,7 @@
                             <ColumnDefinition Width="auto" />
                         </Grid.ColumnDefinitions>
 
-                        <Image Grid.Column="0" Source="id.png" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
+                        <Image Grid.Column="0" Source="id.png" HeightRequest="30" WidthRequest="30" Margin="10" />
                         <Entry  Grid.Column="1"
                    PlaceholderColor="Gray"
                    Placeholder="Student ID"
@@ -139,7 +139,7 @@
                             <ColumnDefinition Width="auto" />
                         </Grid.ColumnDefinitions>
 
-                        <Image Grid.Column="0" Source="description.png" HeightRequest="20" WidthRequest="30" Margin="10,0,0,0" />
+                        <Image Grid.Column="0" Source="description.png" HeightRequest="20" WidthRequest="30" Margin="10" />
                         <Entry  Grid.Column="1"
                     
                    PlaceholderColor="Gray"
@@ -165,7 +165,7 @@
                             <ColumnDefinition Width="auto" />
                         </Grid.ColumnDefinitions>
 
-                        <Image Grid.Column="0" Source="telephone.png" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
+                        <Image Grid.Column="0" Source="telephone.png" HeightRequest="30" WidthRequest="30" Margin="10" />
                         <Entry  Grid.Column="1"
                 
                    PlaceholderColor="Gray"

@@ -203,8 +203,8 @@ namespace BookShare.ViewModels
                             "Phone: " + PhoneNumber + "\n";
 
                 MailMessage mail = new MailMessage();
-                mail.From = new MailAddress("najahbookshare@gmail.com");
-                mail.To.Add(new MailAddress(recipient));
+                mail.From = new MailAddress(recipient);
+                mail.To.Add(new MailAddress("najahbookshare@gmail.com"));
                 mail.Subject = subject;
                 mail.Body = body;
 
