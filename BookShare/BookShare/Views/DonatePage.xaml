@@ -41,7 +41,7 @@
                            BackgroundColor="Transparent"
                            WidthRequest="300"
                            TextColor="Black"
-                           Text="{Binding Bookname}"
+                           Text="{Binding BindingBook.Bookname}"
                            FontSize="18"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"

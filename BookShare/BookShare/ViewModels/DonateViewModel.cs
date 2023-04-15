@@ -87,20 +87,7 @@ namespace BookShare.ViewModels
                 }
             }
         }
-        private string _bookname;
-
-        public string Bookname
-        {
-            get { return _bookname; }
-            set
-            {
-                if (_bookname != value)
-                {
-                    _bookname = value;
-                    OnPropertyChanged(nameof(Bookname));
-                }
-            }
-        }
+      
         private bool _isContactInputVisible;
         public bool IsContactInputVisible
         {
@@ -126,7 +113,7 @@ namespace BookShare.ViewModels
                 OnPropertyChanged(nameof(SelectedContactMethod));
                 OnPropertyChanged(nameof(ContactIcon));
                 OnPropertyChanged(nameof(ContactInputType));
-                OnSelectedContactMethodChanged(); // added call to update visibility
+                OnSelectedContactMethodChanged();
             }
         }
     
