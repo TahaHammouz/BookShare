@@ -58,7 +58,7 @@
                             <Frame BorderColor="#E2E2E2" >
                                 <StackLayout Orientation="Vertical" Spacing="7" WidthRequest="405" HeightRequest="110">
                                     <StackLayout Orientation="Horizontal">
-                                        <Image Source="male.png" HeightRequest="50" WidthRequest="50" Aspect="AspectFill">
+                                        <Image Source="{Binding PublisherGender}" HeightRequest="50" WidthRequest="50" Aspect="AspectFill">
                                             <Image.Clip>
                                                 <EllipseGeometry Center="25,25" RadiusX="25" RadiusY="25" />
                                             </Image.Clip>

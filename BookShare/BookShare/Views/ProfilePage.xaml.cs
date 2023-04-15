@@ -58,9 +58,7 @@ namespace BookShare.Views
                         await _viewModel.DeleteAndRefresh(selectedItem1);
                     }
                     break;
-                default:
-                    // Handle cancel or unknown option
-                    break;
+
             }
         }
 

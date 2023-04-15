@@ -14,7 +14,8 @@
                    WidthRequest="100"
                    HeightRequest="100"
                    Margin="0,0,0,40"
-                   Aspect="AspectFit" 
+                   Aspect="AspectFit"
+                   
                 />
             <Label Text="📞 Contact Me"
                    TextColor="Black"
