@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using BookShare.Models;
 using Xamarin.Forms;
 
@@ -22,13 +23,60 @@ namespace BookShare.ViewModels
             }
         }
 
+      
+        private string genderImageSource;
+        public string GenderImageSource
+        {
+            get { return genderImageSource; }
+            set
+            {
+                if (genderImageSource != value)
+                {
+                    genderImageSource = value;
+                    OnPropertyChanged(nameof(GenderImageSource));
+                }
+            }
+        }
+
         public ContactViewModel()
         {
+            
+        }
+        public void contact()
+        {
+            if (selectedBook.Contactlink == "WhatsApp")
+            {
+                selectedBook.ContactIcon = "WhatsApp.png";
+            }
+            if (selectedBook.Contactlink == "Facebook")
+            {
+                selectedBook.ContactIcon = "facebook_icon.png";
+            }
+            if (selectedBook.Contactlink == "LinkedIn")
+            {
+                selectedBook.ContactIcon = "linkedin.png";
+            }
 
         }
+        public void publisherGender()
+        {
+            if (selectedBook.PublisherGender == "Male")
+            {
+                selectedBook.ProfileIcon = "male.png";
+            }
+            if(selectedBook.PublisherGender =="Female")
+            {
+                selectedBook.ProfileIcon = "female.png";
+            }
+        }
+
+
         public ContactViewModel(Book selectedBook)
         {
             SelectedBook = selectedBook;
+          
+            contact(); 
+            publisherGender();
         }
 
         protected virtual void OnPropertyChanged(string propertyName)

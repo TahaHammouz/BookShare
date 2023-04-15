@@ -13,6 +13,7 @@ using BookShare.Views;
 using System.Diagnostics;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using BookShare.ViewModels;
 
 namespace BookShare.Services
 {
@@ -58,8 +59,6 @@ namespace BookShare.Services
                     Name = bindingUser.Name,
                     Gender = bindingUser.Gender
                 });
-
-
                 await App.Current.MainPage.DisplayAlert("Success", "User registered successfully.", "OK");
 
             }
@@ -85,12 +84,21 @@ namespace BookShare.Services
             var firebaseUrl = "https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/books.json";
             var response = await httpClient.GetAsync(firebaseUrl);
             var content = await response.Content.ReadAsStringAsync();
-
             var booksDict = JsonConvert.DeserializeObject<Dictionary<string, Book>>(content);
             var books = new List<Book>(booksDict.Values);
-
             return books;
         }
+
+        public async Task<List<Models.User>> GetUsersAsync()
+        {
+            var firebaseUrl = "https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/Users.json";
+            var response = await httpClient.GetAsync(firebaseUrl);
+            var content = await response.Content.ReadAsStringAsync();
+            var UsersDict = JsonConvert.DeserializeObject<Dictionary<string, Models.User>>(content);
+            var Users = new List<Models.User>(UsersDict.Values);
+            return Users;
+        }
+
         public async Task Login(string email, string password)
         {
             try
@@ -123,6 +131,7 @@ namespace BookShare.Services
                 await Application.Current.MainPage.DisplayAlert("Failed", "An error occurred while signing in", "ok");
             }
         }
+
         public static async Task<string> GetUserEmail()
         {
             string _accessToken = await SecureStorage.GetAsync("auth_token");
@@ -142,7 +151,48 @@ namespace BookShare.Services
             }
         }
 
-        private async Task accessToken()
+        public async Task UpdateBook(Book b)
+        {
+            var books = await firebaseClient
+                        .Child("books")
+                        .OnceAsync<Book>();
+            foreach (var book in books)
+            {
+                if (book.Object.BookId == b.BookId)
+                {
+                    await firebaseClient.Child("books").Child(book.Key).PutAsync(b);
+                }
+            }
+        }
+        public async Task DeletePost(Book book)
+        {
+            bool response = await App.Current.MainPage.DisplayAlert("Alert", "Do you want to delete this post ?", "Yes", "No");
+
+            if (response)
+            {
+                var books = await firebaseClient
+                            .Child("books")
+                            .OnceAsync<Book>();
+
+                foreach (var x in books)
+                {
+                    if (x.Object.BookId == book.BookId)
+                    {
+                        await firebaseClient
+                            .Child("books")
+                            .Child(x.Key)
+                            .DeleteAsync();
+                    }
+                }
+                await App.Current.MainPage.DisplayAlert("Success", "Book Deleted Successfly", "OK");
+            }
+            else
+            {
+                await App.Current.MainPage.DisplayAlert("Failed", "Book Deleting Failed", "OK");
+            }
+        }
+
+        private async Task AccessToken()
         {
             try
             {
@@ -155,6 +205,38 @@ namespace BookShare.Services
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+            }
+        }
+
+
+
+        public async Task AddBook(Models.Book bindingBook)
+        {
+            string _acessToken = await SecureStorage.GetAsync("auth_token");
+            Console.WriteLine("The token is" + _acessToken);
+            var informationUser = (await fireBaseBase.Child("Users").OnceAsync<Models.User>())
+                .FirstOrDefault(item => item.Object.Uid == _acessToken);
+            Console.WriteLine("User information = " + informationUser);
+            var books = await fireBaseBase.Child("books").OnceAsync<Book>();
+            if (informationUser != null)
+            {
+                var book = await firebaseClient.Child("books").PostAsync(new Book
+                {
+                    BookId = Guid.NewGuid().ToString(),
+                    UserId = _acessToken,
+                    Bookname = bindingBook.Bookname,
+                    Status = bindingBook.Status,
+                    Details = bindingBook.Details,
+                    Contactlink = bindingBook.Contactlink,
+                    Username = informationUser.Object.Name.ToString(),
+                    PublisherGender = informationUser.Object.Gender,
+                    ContactMethod = bindingBook.ContactMethod
+                });
+                await App.Current.MainPage.DisplayAlert("Success", "Book Donated successfully!", "OK");
+            }
+            else
+            {
+                await App.Current.MainPage.DisplayAlert("Failed", "Book Donation Failed!", "OK");
             }
         }
         internal object GetHttpClient()

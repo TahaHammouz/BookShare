@@ -1,12 +1,173 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"   
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels"   
+             x:DataType="viewmodels:EditDonateViewModel"
+             Visual="Material" 
              x:Class="BookShare.Views.EditDonatePage">
+
+    <ContentPage.BindingContext>
+        <viewmodels:EditDonateViewModel />
+    </ContentPage.BindingContext>
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Grid.Row="1" Padding="20" Margin="10" >
+            <Image Source="logo" 
+                       WidthRequest="100"
+                       HeightRequest="100"
+                       Margin="0,0,0,0"
+                       Aspect="AspectFit" 
+                       />
+            <Label Text="Edit Your Book"
+                       TextColor="Black"
+                       FontSize="30"
+                       HorizontalTextAlignment="Center"
+                       HorizontalOptions="Center"
+                       Margin="0,0,0,5"
+                       />
+            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Column="0" Source="Black_book_icon.png" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
+
+                    <Editor Grid.Column="1"
+                                Placeholder="Book Name"
+                                BackgroundColor="White"
+                                Text="{Binding SelectedBook.Bookname}"
+                                WidthRequest="300"
+                                TextColor="Black"
+                                FontSize="18"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Column="0" Source="bookstatus.png" HeightRequest="24" WidthRequest="24" Margin="10,0,0,0" />
+
+                    <Picker Grid.Column="1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="300"
+                    Title="Status"
+                    TitleColor="Gray"
+                    SelectedItem="{Binding SelectedBook.Status}"
+                    BackgroundColor="White">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Excellent</x:String>
+                                <x:String>Very Good</x:String>
+                                <x:String>Good</x:String>
+                                <x:String>Not Bad</x:String>
+                                <x:String>Scarred</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Grid>
+            </Frame>
+
+            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Column="0" Source="desc.png" HeightRequest="24" WidthRequest="24" Margin="10,0,0,0" />
+
+                    <Editor Grid.Column="1"
+                                Placeholder="Description"
+                                BackgroundColor="White"
+                                Text="{Binding SelectedBook.Details}"
+                                WidthRequest="300"
+                                TextColor="Black"
+                                FontSize="18"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Column="0" Source="contact.png" HeightRequest="24" WidthRequest="24" Margin="10,0,0,0" />
+
+                    <Picker Grid.Column="1"
+                                    VerticalOptions="CenterAndExpand"
+                                    HorizontalOptions="CenterAndExpand"
+                                    WidthRequest="300"
+                                    Title="Contact me"
+                                    TitleColor="Gray"
+                                    SelectedItem="{Binding SelectedBook.Contactlink}"
+                                    BackgroundColor="White">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Facebook</x:String>
+                                <x:String>WhatsApp</x:String>
+                                <x:String>LinkedIn</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Grid>
+            </Frame>
+
+
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Frame BackgroundColor="White" Grid.ColumnSpan="1"   BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="50,0,0,0" >
+                    <Entry
+                            PlaceholderColor="Gray"
+                            Placeholder="Contact Method"
+                            BackgroundColor="White"
+                            WidthRequest="250"
+                            TextColor="Black"  
+                            Keyboard="Email" 
+                            FontSize="18"
+                            Text="{Binding SelectedBook.ContactMethod}"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+                </Frame>
+
+                <Image Grid.Column="0" 
+                           VerticalOptions="Center"
+                           HorizontalOptions="Start"
+                           BackgroundColor="Transparent"
+                           Source=""  
+                           WidthRequest="48" HeightRequest="48"
+                            Aspect="AspectFill"
+                           />
+            </Grid>
+            <Button 
+                            WidthRequest="188"
+                            HeightRequest="63"
+                            Text="Save"
+                            BackgroundColor="#F4717F"
+                            TextColor="#FFFFFF"
+                            FontSize="20"
+                            Margin="50,20,50,0"
+                            CornerRadius="10"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="Center"
+                            Command="{Binding SaveCommand}"
+                            />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -12,7 +12,7 @@
 
             <StackLayout>
                 <StackLayout>
-                    <StackLayout Padding="30" Orientation="Horizontal">
+                    <StackLayout Padding="50" Orientation="Horizontal">
                         <Image Source="Logo" VerticalOptions="Center" HorizontalOptions="Center"
                                HeightRequest="150" WidthRequest="300" Margin="0,50,0,0" />
                     </StackLayout>
@@ -63,5 +63,4 @@
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
-
 </ContentPage>

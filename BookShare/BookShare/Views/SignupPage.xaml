@@ -52,7 +52,7 @@
                             >
                             <Entry.Behaviors>
                                 <xct:EmailValidationBehavior
-                                    RegexPattern="^[a-z][0-9a-z]*@stu\.najah\.edu$"
+                                    RegexPattern="^.*@([a-z]+.)?stu.najah.edu$"
                                     IsValid="{Binding IsValidInput}"
                                     InvalidStyle="{StaticResource InvalidEntryStyle}"
                             />

@@ -133,10 +133,6 @@ namespace BookShare.ViewModels
                 }
             }
         }
-        private ICommand _orderClicked;
-
-        public ICommand OrderClicked;
-
 
         public async void SetEmailEntry()
         {
