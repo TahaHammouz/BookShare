@@ -30,27 +30,29 @@ namespace BookShare.Views
 
             await _viewModel.LoadPostsAsync();
         }
-        private void EditProfile(object sender, EventArgs e)
+
+
+        private async void EditProfile(object sender, EventArgs e)
         {
-            // Handle the tap event here
+            await Navigation.PushAsync(new EditDonatePage());
+
         }
 
-
-        private async void EllipesesTapped(object sender, EventArgs e)
+        private async void OnItemTapped(object sender, EventArgs e)
         {
             string action = await DisplayActionSheet("Menu", "Cancel", null, "edit", "delete");
 
             switch (action)
             {
                 case "edit":
-                    Book selectedItem = (sender as Image)?.BindingContext as Book;
+                    Book selectedItem = (sender as Frame)?.BindingContext as Book;
                     if (selectedItem != null)
                     {
                         await Navigation.PushAsync(new EditDonatePage(selectedItem));
                     }
                     break;
                 case "delete":
-                    Book selectedItem1 = (sender as Image)?.BindingContext as Book;
+                    Book selectedItem1 = (sender as Frame)?.BindingContext as Book;
                     if (selectedItem1 != null)
                     {
                         await _viewModel.DeleteAndRefresh(selectedItem1);
