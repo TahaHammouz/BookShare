@@ -43,7 +43,7 @@
                             FontSize="18"
                 
                     />
-                        <Image Grid.Column="1" Source="padlock" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0"  />
+                        <Image Grid.Column="1" Source="padlock" HeightRequest="20" WidthRequest="20" Margin="10,0,0,0"  />
 
 
                     </Grid>
@@ -123,14 +123,13 @@
                    BackgroundColor="Transparent"
                    WidthRequest="300"
                    TextColor="Black"  
-                    x:Name="studentId"
-                          Text="{Binding StudentId}"
+                   x:Name="studentId"
+                   Text="{Binding StudentId}"
                    FontSize="18"
                    HorizontalOptions="Center"
                    VerticalOptions="Center">
-
                     </Entry>
-</Grid>
+                      </Grid>
                 </Frame>
 
                 <Frame  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
@@ -140,7 +139,7 @@
                             <ColumnDefinition Width="auto" />
                         </Grid.ColumnDefinitions>
 
-                        <Image Grid.Column="0" Source="description.png" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
+                        <Image Grid.Column="0" Source="description.png" HeightRequest="20" WidthRequest="30" Margin="10,0,0,0" />
                         <Entry  Grid.Column="1"
                     
                    PlaceholderColor="Gray"
@@ -149,9 +148,9 @@
                    BackgroundColor="Transparent"
                    WidthRequest="300"
                    TextColor="Black"  
-                    x:Name="bookDescription"
+                   x:Name="bookDescription"
                    FontSize="18"
-                      Text="{Binding BookDescription}"
+                   Text="{Binding BookDescription}"
                    HorizontalOptions="Center"
                    VerticalOptions="Center">
 
@@ -183,7 +182,7 @@
                     >
 
                     </Entry>
-</Grid>
+                        </Grid>
                 </Frame>
                 <Frame CornerRadius="5"
       
