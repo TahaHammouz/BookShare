@@ -13,7 +13,7 @@
                 <viewmodels:ProfileViewModel x:Key="ProfileViewModel" />
             </ResourceDictionary>
         </StackLayout.Resources>
-<StackLayout>
+        <StackLayout>
             <Frame CornerRadius="100" HasShadow="False" Padding="0" Margin="0,30,0,0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="250" WidthRequest="140" >
                 <Image Source="{Binding PublisherImageSource}" 
                    Aspect="AspectFill"
@@ -29,44 +29,46 @@
                     <Image Source="icon_edit.xml" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="EditProfile" />
-                            <!--on icon clicked is created in code behind you can move it to veiw model-->
                         </Image.GestureRecognizers>
                     </Image>
                 </Frame>
             </StackLayout>
-<CollectionView ItemsSource="{Binding ReversedPosts}">
-    <CollectionView.ItemsLayout>
-        <GridItemsLayout Orientation="Vertical"
+            <CollectionView ItemsSource="{Binding ReversedPosts}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
                           Span="2" />
-    </CollectionView.ItemsLayout>
+                </CollectionView.ItemsLayout>
 
-    <CollectionView.ItemTemplate>
-        <DataTemplate>
-            <Frame Margin="10" BackgroundColor="white" Padding="10" HasShadow="True">
-                <Frame BorderColor="#E2E2E2">
-                    <StackLayout Orientation="Vertical" Spacing="7" WidthRequest="405" HeightRequest="50">
-                        <Label FontSize="16" Margin="10,0,0,0">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <Span Text="Book  " FontSize="16" TextColor="Gray" />
-                                    <Span Text="{Binding Bookname}" FontSize="16" TextColor="#544E50" FontAttributes="Bold" />
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
-                        <Label FontSize="14" Margin="10,0,0,0">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <Span Text="Details  " FontSize="16" TextColor="Gray" />
-                                    <Span Text="{Binding Details}" FontSize="14" TextColor="#544E50" FontAttributes="Bold" />
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
-                    </StackLayout>
-                </Frame>
-            </Frame>
-        </DataTemplate>
-    </CollectionView.ItemTemplate>
-</CollectionView>
-    </StackLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="10" BackgroundColor="white" Padding="10" HasShadow="True">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnItemTapped" />
+                            </Frame.GestureRecognizers>
+                            <Frame BorderColor="#E2E2E2">
+                                <StackLayout Orientation="Vertical" Spacing="7" WidthRequest="405" HeightRequest="50">
+                                    <Label FontSize="16" Margin="10,0,0,0">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Book  " FontSize="16" TextColor="Gray" />
+                                                <Span Text="{Binding Bookname}" FontSize="16" TextColor="#544E50" FontAttributes="Bold" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label FontSize="14" Margin="10,0,0,0">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Details  " FontSize="16" TextColor="Gray" />
+                                                <Span Text="{Binding Details}" FontSize="14" TextColor="#544E50" FontAttributes="Bold" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </StackLayout>
+                            </Frame>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
     </StackLayout>
 </ContentPage>
