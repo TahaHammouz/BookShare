@@ -11,93 +11,99 @@
     </ContentPage.BindingContext>
 
     <ContentPage.Content>
-        <StackLayout Grid.Row="1" Padding="20" Margin="10">
-            <Image Source="logo" 
+     
+            <StackLayout Grid.Row="1" Padding="20" Margin="10">
+
+                <Image Source="logo" 
                        WidthRequest="100"
                        HeightRequest="100"
-                       Margin="0,0,0,0"
                        Aspect="AspectFit" 
                        />
-            <Label Text="Donate Your Book!"
+                <Label Text="Donate Your Book!"
                        TextColor="Black"
                        FontSize="30"
                        HorizontalTextAlignment="Center"
                        HorizontalOptions="Center"
-                       Margin="0,0,0,5"
                        />
-<Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
+                <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
 
-        <Image Grid.Column="0" Source="Black_book_icon.png" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
+                        <Image Grid.Column="0" Source="Black_book_icon.png" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
 
-        <Entry Grid.Column="1"
-               PlaceholderColor="Gray"
-               Placeholder="Book Name"
-               BackgroundColor="Transparent"
-               WidthRequest="300"
-               TextColor="Black"
-               Text="{Binding BindingBook.Bookname}"
-               FontSize="18"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               x:Name="email_entry" />
-    </Grid>
-</Frame>
+                        <Entry Grid.Column="1"
+                           PlaceholderColor="Gray"
+                           Placeholder="Book Name"
+                           HeightRequest="80"
+                           BackgroundColor="Transparent"
+                           WidthRequest="300"
+                           TextColor="Black"
+                           Text="{Binding Bookname}"
+                           FontSize="18"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           />
+                    </Grid>
+                </Frame>
+                <Label TextColor="red" Text="{Binding BooknameText}" HeightRequest="18" ></Label>
 
-<Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
+                <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
 
-        <Image Grid.Column="0" Source="bookstatus.png" HeightRequest="24" WidthRequest="24" Margin="10,0,0,0" />
+                        <Image Grid.Column="0" Source="bookstatus.png" HeightRequest="24" WidthRequest="24" Margin="10,0,0,0" />
 
-        <Picker Grid.Column="1"
-                VerticalOptions="CenterAndExpand"
-                HorizontalOptions="CenterAndExpand"
-                WidthRequest="300"
-                Title="Status"
-                TitleColor="Gray"
-                SelectedItem="{Binding Status}"
-                BackgroundColor="White">
-            <Picker.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Excellent</x:String>
-                    <x:String>Very Good</x:String>
-                    <x:String>Good</x:String>
-                    <x:String>Not Bad</x:String>
-                    <x:String>Scarred</x:String>
-                </x:Array>
-            </Picker.ItemsSource>
-        </Picker>
-    </Grid>
-</Frame>
+                        <Picker Grid.Column="1"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="CenterAndExpand"
+                            WidthRequest="300"
+                            HeightRequest="80"
+                            Title="Status"
+                            TitleColor="Gray"
+                            SelectedItem="{Binding Status}"
+                            BackgroundColor="White">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Excellent</x:String>
+                                    <x:String>Very Good</x:String>
+                                    <x:String>Good</x:String>
+                                    <x:String>Not Bad</x:String>
+                                    <x:String>Scarred</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </Grid>
+                </Frame>
+                <Label TextColor="red" Text="{Binding SelectedStatus}" HeightRequest="18"></Label>
 
-            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
+                <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
 
-                    <Image Grid.Column="0" Source="desc.png" HeightRequest="24" WidthRequest="24" Margin="10,0,0,0" />
+                        <Image Grid.Column="0" Source="desc.png" HeightRequest="24" WidthRequest="24" Margin="10,0,0,0" />
 
-                    <Editor Grid.Column="1"
+                        <Editor Grid.Column="1"
                             Placeholder="Description"
                             BackgroundColor="White"
+                            HeightRequest="80"
                             Text="{Binding BindingBook.Details}"
                             WidthRequest="300"
                             TextColor="Black"
                             FontSize="18"
                             HorizontalOptions="Center"
                             VerticalOptions="Center" />
-                </Grid>
-            </Frame>
+                    </Grid>
+                </Frame>
+                <Label TextColor="red" Text="{Binding DetailsText}" HeightRequest="18"></Label>
 
                 <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10">
                     <Grid>
@@ -112,6 +118,7 @@
                                 VerticalOptions="CenterAndExpand"
                                 HorizontalOptions="CenterAndExpand"
                                 WidthRequest="300"
+                                HeightRequest="80"
                                 Title="Contact me"
                                 TitleColor="Gray"
                                 SelectedItem="{Binding SelectedContactMethod}"
@@ -127,19 +134,21 @@
                     </Grid>
                 </Frame>
 
+                <Label TextColor="red" Text="{Binding SelectedContact}" HeightRequest="18" ></Label>
 
 
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="auto" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Frame BackgroundColor="White" Grid.ColumnSpan="1"  IsVisible="{Binding IsContactInputVisible}" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="50,0,0,0" >
-                    <Entry
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Frame BackgroundColor="White" Grid.ColumnSpan="1"  IsVisible="{Binding IsContactInputVisible}" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="50,0,0,0" >
+                        <Entry
                         PlaceholderColor="Gray"
                         Placeholder="Contact Method"
                         BackgroundColor="White"
                         WidthRequest="250"
+                        HeightRequest="80"
                         TextColor="Black"  
                         Keyboard="{Binding ContactInputType}"
                         FontSize="18"
@@ -147,8 +156,8 @@
                         HorizontalOptions="Center"
                         VerticalOptions="Center" 
                     />
-                </Frame>
-                <Image Grid.Column="0" 
+                    </Frame>
+                    <Image Grid.Column="0" 
                        VerticalOptions="Center"
                        HorizontalOptions="Start"
                        BackgroundColor="Transparent"
@@ -156,19 +165,21 @@
                        WidthRequest="48" HeightRequest="48"
                         Aspect="AspectFill"
                        />
-            </Grid>
-            <Button 
+                </Grid>
+
+                <Button 
                         WidthRequest="188"
                         HeightRequest="63"
                         Text="Donate"
                         BackgroundColor="#F4717F"
                         TextColor="#FFFFFF"
                         FontSize="20"
-                        Margin="50,20,50,0"
+                        Margin="40,10,40,0"
                         CornerRadius="10"
                         HorizontalOptions="CenterAndExpand"
                         VerticalOptions="Center"
                         Command="{Binding Donate}"/>
-        </StackLayout>
+            </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>
