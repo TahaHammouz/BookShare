@@ -1,12 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"   
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels"   
+             x:DataType="viewmodels:EditProfileViewModel"
+             Visual="Material" 
              x:Class="BookShare.Views.EditProfilePage">
+
+    <ContentPage.BindingContext>
+        <viewmodels:EditProfileViewModel />
+    </ContentPage.BindingContext>
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Grid.Row="1" Padding="20" Margin="10" >
+            <Image Source="logo" 
+                       WidthRequest="100"
+                       HeightRequest="100"
+                       Margin="0,0,0,0"
+                       Aspect="AspectFit" 
+                       />
+            <Label Text="Edit Your info"
+                       TextColor="Black"
+                       FontSize="30"
+                       HorizontalTextAlignment="Center"
+                       HorizontalOptions="Center"
+                       Margin="0,0,0,5"
+                       />
+            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Column="0" Source="scholar.png" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
+
+                    <Editor Grid.Column="1"
+                                Placeholder="Username"
+                                BackgroundColor="White"
+                                Text="{Binding SelectedUser.Name}"
+                                WidthRequest="300"
+                                TextColor="Black"
+                                FontSize="18"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+         
+
+                    <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                        <Picker 
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="CenterAndExpand"
+                            WidthRequest="300"
+                            Title="Faculty"
+                            TitleColor="Gray"
+                            SelectedItem="{Binding SelectedUser.Faculty}"
+                            BackgroundColor="White"
+                             >
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Engineering and Information Technology</x:String>
+                                    <x:String>College of Law</x:String>
+                                    <x:String>Faculty of Fine Arts</x:String>
+                                    <x:String>Faculty of Science</x:String>
+                                    <x:String>Faculty of Humanities</x:String>
+                                    <x:String>Faculty of Educational Sciences and Teacher Preparation</x:String>
+                                    <x:String>Faculty of Sharia</x:String>
+                                    <x:String>Faculty of Medicine and Health Sciences</x:String>
+                                    <x:String>Faculty of Agriculture and Veterinary Medicine</x:String>
+                                    <x:String>Faculty of Economics and Social Sciences</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </Frame>
+
+                        <Button 
+                            WidthRequest="188"
+                            HeightRequest="63"
+                            Text="Save"
+                            BackgroundColor="#F4717F"
+                            TextColor="#FFFFFF"
+                            FontSize="20"
+                            Margin="50,20,50,0"
+                            CornerRadius="10"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="Center"
+                            Command="{Binding SaveCommand}"
+                            />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -178,6 +178,19 @@ namespace BookShare.ViewModels
             }
 
         }
+        public Models.User user = new Models.User { };
+        public Models.User GetUserInfo()
+        {
+            if (users != null && users.Count > 0)
+            {
+                user.Name = users[0].Name;
+                user.Gender = users[0].Gender;
+                user.Email = users[0].Email;
+                user.Faculty = users[0].Faculty;
+                user.Uid = users[0].Uid;
+            }
+            return user;
+        }
 
 
         private async void FilterBooks()
