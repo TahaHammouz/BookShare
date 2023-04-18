@@ -1,12 +1,54 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels"
+             Visual="Material"
              x:Class="BookShare.Views.BuyPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Buy page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <ContentPage.BindingContext>
+        <viewmodels:BuyViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Spacing="10" BackgroundColor="#White">
+        <StackLayout.Resources>
+            <ResourceDictionary>
+                <viewmodels:BuyViewModel x:Key="BuyViewModel" />
+            </ResourceDictionary>
+        </StackLayout.Resources>
+        <StackLayout BackgroundColor="White">
+            <CollectionView ItemsSource="{Binding BookList}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                          Span="2" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Vertical" BackgroundColor="Transparent">
+                            <Frame Margin="5,15,5,5" HasShadow="False">
+
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" Command="{Binding Source={StaticResource BuyViewModel}, Path=ExpandBookNameCommand}" CommandParameter="{Binding .}" />
+                                </Frame.GestureRecognizers>
+
+                                <Image Source="{Binding URL}"
+                                       Aspect="AspectFit"
+                                       HeightRequest="157"
+                                       VerticalOptions="Fill"
+                                       HorizontalOptions="Fill"/>
+                            </Frame>
+                            <Label FontSize="16" Margin="25,-20,0,0"
+                                   Text="{Binding ShortenedName}" 
+                                   LineBreakMode="TailTruncation"
+                                   TextColor="Black" 
+                                    />
+                            <Label FontSize="16" 
+                                   Margin="150,-28,0,0" 
+                                   Text="{Binding BookPrice}" 
+                                   TextColor="#F4717F" 
+                                   />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
-    </ContentPage.Content>
+    </StackLayout>
 </ContentPage>
