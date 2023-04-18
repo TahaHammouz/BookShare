@@ -150,7 +150,19 @@ namespace BookShare.Services
                 return null;
             }
         }
+        public async Task UpdateUser(Models.User u)
+        {
+            var users = await firebaseClient
+                        .Child("Users")
+                        .OnceAsync<Models.User>();
 
+            foreach (var user in users)
+            {
+
+                await firebaseClient.Child("Users").Child(user.Key).PutAsync(u);
+
+            }
+        }
         public async Task UpdateBook(Book b)
         {
             var books = await firebaseClient
