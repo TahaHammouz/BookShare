@@ -34,8 +34,17 @@ namespace BookShare.Views
 
         private async void EditProfile(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new EditDonatePage());
 
+
+            User selectedItem = _viewModel.GetUserInfo();
+            if (selectedItem != null)
+            {
+
+                await Navigation.PushAsync(new EditProfilePage(selectedItem));
+
+
+            }
+            else { Console.WriteLine("bad sender"); }
         }
 
         private async void OnItemTapped(object sender, EventArgs e)

@@ -46,26 +46,7 @@
                 </Grid>
             </Frame>
 
-            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10" >
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-
-                    <Image Grid.Column="0" Source="contact" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
-
-                    <Entry Grid.Column="1"
-                           Placeholder="Email"
-                           BackgroundColor="White"
-                           Text="{Binding SelectedUser.Email}"
-                           WidthRequest="300"
-                           TextColor="Black"
-                           FontSize="18"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center" />
-                </Grid>
-            </Frame>
+         
 
                     <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
                         <Picker 
@@ -74,7 +55,7 @@
                             WidthRequest="300"
                             Title="Faculty"
                             TitleColor="Gray"
-                            SelectedItem="{Binding BindingUser.Faculty}"
+                            SelectedItem="{Binding SelectedUser.Faculty}"
                             BackgroundColor="White"
                              >
                             <Picker.ItemsSource>
@@ -94,28 +75,6 @@
                         </Picker>
                     </Frame>
 
-
-
-            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,10" >
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-
-                    <Image Grid.Column="0" Source="padlock" HeightRequest="30" WidthRequest="30" Margin="10,0,0,0" />
-
-                    <Editor Grid.Column="1"
-                                Placeholder="Password"
-                                BackgroundColor="White"
-                                Text=""
-                                WidthRequest="300"
-                                TextColor="Black"
-                                FontSize="18"
-                                HorizontalOptions="Center"
-                                VerticalOptions="Center" />
-                    </Grid>
-                        </Frame>
                         <Button 
                             WidthRequest="188"
                             HeightRequest="63"
