@@ -33,6 +33,10 @@
                     </Image>
                 </Frame>
             </StackLayout>
+        <StackLayout IsVisible="{Binding IsBusy}" HorizontalOptions="Center" VerticalOptions="Center">
+            <ActivityIndicator Color="black" IsRunning="{Binding IsBusy}" />
+            <Label Text="Loading data..." HorizontalOptions="Center" VerticalOptions="Center" />
+        </StackLayout>
             <CollectionView ItemsSource="{Binding ReversedPosts}">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"

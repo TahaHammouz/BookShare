@@ -20,6 +20,7 @@ namespace BookShare.ViewModels
             try
             {
                 firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
+                IsLoading = true;
                 _ = LoadBooksAsync();
             }
             catch (Exception e)
@@ -72,6 +73,13 @@ namespace BookShare.ViewModels
             set { reverseBooks = value; OnPropertyChanged(); }
         }
 
+        private bool isLoading;
+        public bool IsLoading
+        {
+            get { return isLoading; }
+            set { isLoading = value; OnPropertyChanged(); }
+        }
+
         private bool isRefreshing;
         public bool IsRefreshing
         {
@@ -88,13 +96,14 @@ namespace BookShare.ViewModels
                 var books = await firebaseDataService.GetBooksAsync();
                 allBooks = new ObservableCollection<Book>(books);
                 FilterBooks();
+                IsLoading = false;
             }
             catch (Exception e)
             {
                 e.Source = "LoadBooksAsync";
             }
         }
-        
+
 
         private void FilterBooks()
         {
