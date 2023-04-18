@@ -26,7 +26,7 @@
                             <Frame Margin="5,15,5,5" HasShadow="False">
 
                                 <Frame.GestureRecognizers>
-                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" Command="{Binding Source={StaticResource BuyViewModel}, Path=ExpandBookNameCommand}" CommandParameter="{Binding .}" />
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
                                 </Frame.GestureRecognizers>
 
                                 <Image Source="{Binding URL}"

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
@@ -24,6 +24,11 @@ namespace BookShare.ViewModels
             }
         }
 
+        public BuyViewModel()
+        {
+            LoadBooks();
+        }
+
         private int _maxTextLength = 13;
         public int MaxTextLength
         {
@@ -34,12 +39,6 @@ namespace BookShare.ViewModels
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(MaxTextLength)));
             }
         }
-
-        public BuyViewModel()
-        {
-            LoadBooks();
-        }
-
         private async void LoadBooks()
         {
             var firebaseClient = new FirebaseClient("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
@@ -48,7 +47,17 @@ namespace BookShare.ViewModels
             BookList = new ObservableCollection<Order>();
             foreach (var book in orders)
             {
-                BookList.Add(new Order { Bookname = book.Object.Bookname, BookPrice = book.Object.BookPrice, URL = book.Object.URL });
+                BookList.Add(new Order
+                {
+                    Bookname = book.Object.Bookname,
+                    BookPrice = book.Object.BookPrice,
+                    Description = book.Object.Description,
+                    Publisher = book.Object.Publisher,
+                    Language = book.Object.Language,
+                    NumberOfPages = book.Object.NumberOfPages,
+                    Dimensions = book.Object.Dimensions,
+                    URL = book.Object.URL
+                });
             }
 
             foreach (var book in BookList)
