@@ -46,6 +46,20 @@ namespace BookShare.ViewModels
             }
         }
 
+        private bool isBusy;
+        public bool IsBusy
+        {
+            get { return isBusy; }
+            set
+            {
+                if (isBusy != value)
+                {
+                    isBusy = value;
+                    OnPropertyChanged(nameof(IsBusy));
+                }
+            }
+        }
+
         private ObservableCollection<Book> userposts;
         public ObservableCollection<Book> UserPosts
         {
@@ -79,6 +93,7 @@ namespace BookShare.ViewModels
         {
             try
             {
+                IsBusy = true;
                 var books = await firebaseDataService.GetBooksAsync();
                 userBooks = new ObservableCollection<Book>(books);
                 FilterBooks();
@@ -87,7 +102,12 @@ namespace BookShare.ViewModels
             {
                 e.Source = "LoadBooksAsync";
             }
+            finally
+            {
+                IsBusy = false;
+            }
         }
+
 
         public async Task LoadUserAsync()
         {

@@ -14,6 +14,9 @@ namespace BookShare.ViewModels
 
         private string _email;
         private string _password;
+        private bool _isLoading;
+        private readonly BookShareDB _services;
+
         public LoginViewModel()
         {
             _services = new BookShareDB("https://book-share-9ab66-default-rtdb.firebaseio.com/");
@@ -32,6 +35,7 @@ namespace BookShare.ViewModels
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Email)));
             }
         }
+
         private string _emailText;
         public string EmailText
         {
@@ -45,7 +49,9 @@ namespace BookShare.ViewModels
                 }
             }
         }
+
         public bool IsEmailEntryEmpty => string.IsNullOrEmpty(Email);
+
         public string Password
         {
             get { return _password; }
@@ -69,15 +75,21 @@ namespace BookShare.ViewModels
                 }
             }
         }
+
         public bool IsPasswordEntryEmpty => string.IsNullOrEmpty(Password);
 
-        private readonly BookShareDB _services;
-
-
+        public bool IsLoading
+        {
+            get { return _isLoading; }
+            set
+            {
+                _isLoading = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(IsLoading)));
+            }
+        }
 
         private async Task SignIn(string email, string password)
         {
-
             EmailText = PasswordText = String.Empty;
 
             if (IsEmailEntryEmpty)
@@ -90,9 +102,16 @@ namespace BookShare.ViewModels
             }
             else
             {
-                await _services.Login(email, password);
+                try
+                {
+                    IsLoading = true;
+                    await _services.Login(email, password);
+                }
+                finally
+                {
+                    IsLoading = false;
+                }
             }
-
         }
 
         private void NavigateToSignUpPage()
