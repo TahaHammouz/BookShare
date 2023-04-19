@@ -16,6 +16,7 @@ namespace BookShare.Views
         public ProfilePage()
         {
             InitializeComponent();
+            BindingContext = new ProfileViewModel();
             _viewModel = new ProfileViewModel();
             BindingContext = _viewModel;
             MessagingCenter.Subscribe<ProfileViewModel>(this, "NavigateToSearchPage", async (sender) =>

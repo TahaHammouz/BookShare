@@ -12,15 +12,33 @@ using BookShare.Services;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using System.Windows.Input;
+using BookShare.Views;
+using System.Diagnostics;
+using FirebaseAdmin.Auth;
 
 namespace BookShare.ViewModels
 {
     public class ProfileViewModel : INotifyPropertyChanged
     {
+        private readonly FirebaseAuth _auth;
+        public ICommand Logout { get; set; }
+
+        private string _buttonImageSource = "logoutFrom";
+        public string ButtonImageSource
+        {
+            get { return _buttonImageSource; }
+            set
+            {
+                _buttonImageSource = value;
+                OnPropertyChanged(nameof(ButtonImageSource));
+            }
+        }
         private BookShareDB firebaseDataService;
         private ObservableCollection<Book> userBooks;
         public ProfileViewModel()
         {
+            _auth = FirebaseAuth.DefaultInstance;
+            Logout = new Command(async () => await DisplayActionSheet());
 
             try
             {
@@ -206,6 +224,50 @@ namespace BookShare.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        private async Task DisplayActionSheet()
+        {
+            var buttons = new List<string>
+            {
+                "Yes",
+                "NO",
+
+            };
+
+
+            string action = await Application.Current.MainPage.DisplayActionSheet("Are you sure you want to log out?", "Cancel", null, buttons.ToArray());
+            Debug.WriteLine("Action: " + action);
+
+
+            switch (action)
+            {
+                case "Yes":
+                    await LogoutFromApp();
+                    break;
+                case "No":
+                    await SatyInTheApp();
+                    break;
+
+            }
+        }
+
+        private async Task LogoutFromApp()
+        {
+
+            await SecureStorage.SetAsync("auth_token", "");
+            await SecureStorage.SetAsync("issignin", "false");
+
+            var loginPage = new LoginPage();
+
+            await Application.Current.MainPage.Navigation.PushModalAsync(loginPage);
+        }
+
+
+        private async Task SatyInTheApp()
+        {
+
+        }
+
 
     }
 
