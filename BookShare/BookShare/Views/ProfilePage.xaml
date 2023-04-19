@@ -14,7 +14,15 @@
             </ResourceDictionary>
         </StackLayout.Resources>
         <StackLayout>
-            <Frame CornerRadius="100" HasShadow="False" Padding="0" Margin="0,30,0,0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="250" WidthRequest="140" >
+            <Frame  HasShadow="False"  Padding="10" Margin="0"   HorizontalOptions="End">
+                <Button BackgroundColor="White" Command="{Binding Logout}" Text="logout" TextColor="Black" HeightRequest="40"  >
+                    <Button.ImageSource>
+                        <FileImageSource File="logoutFrom" />
+                    </Button.ImageSource>
+
+                </Button>
+            </Frame>
+            <Frame CornerRadius="100" HasShadow="False" Padding="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="410" WidthRequest="140" >
                 <Image Source="{Binding PublisherImageSource}" 
                    Aspect="AspectFill"
                    />
@@ -33,6 +41,10 @@
                     </Image>
                 </Frame>
             </StackLayout>
+        <StackLayout IsVisible="{Binding IsBusy}" HorizontalOptions="Center" VerticalOptions="Center">
+            <ActivityIndicator Color="black" IsRunning="{Binding IsBusy}" />
+            <Label Text="Loading data..." HorizontalOptions="Center" VerticalOptions="Center" />
+        </StackLayout>
             <CollectionView ItemsSource="{Binding ReversedPosts}">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"

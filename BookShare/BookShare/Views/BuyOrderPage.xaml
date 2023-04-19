@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BookShare.Views.BuyOrderPage"
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels"
+             x:DataType="viewmodels:ItemToSellViewModel"
+               Visual="Material">
+
+    <ContentPage.BindingContext>
+        <viewmodels:ItemToSellViewModel/>
+    </ContentPage.BindingContext>
+    <ScrollView Orientation="Vertical">
+        <StackLayout>
+            <StackLayout.Resources>
+                <ResourceDictionary>
+                    <viewmodels:ItemToSellViewModel x:Key="ItemToSellViewModel" />
+                </ResourceDictionary>
+            </StackLayout.Resources>
+            <StackLayout Margin="30,0,30,0" Spacing="20">
+                <Image Source="logo" WidthRequest="100"
+                       HeightRequest="100"
+                       Margin="0,0,0,0"
+                       Aspect="AspectFit" 
+                       />
+                <Label Text="Order Your University Book Today" HorizontalTextAlignment="Center" FontSize="30" TextColor="Black"/>
+
+                <Frame  BorderColor="#EBEBE4" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" BackgroundColor="#D9D9D9">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+
+                        <Entry 
+                   PlaceholderColor="Gray"
+                   BackgroundColor="#D9D9D9"
+                   WidthRequest="300"
+                   TextColor="Gray"  
+                   x:Name="emailEntry"
+                   Placeholder="Email"
+                   Text="{Binding EmailEntery}"
+                   IsEnabled="False"
+                   HorizontalTextAlignment="Start"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="18"
+                
+                    />
+                        <Image Grid.Column="1" Source="padlock" HeightRequest="10" WidthRequest="10" Margin="10"  />
+
+
+                    </Grid>
+                </Frame>
+                <Frame                      BackgroundColor="#D9D9D9"
+ BorderColor="#EBEBE4" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image   Grid.Column="0" Source="bookname.png" HeightRequest="30" WidthRequest="30" Margin="10" />
+                        <Entry  Grid.Column="1"
+                   PlaceholderColor="Gray"
+                   Placeholder="Book Name"
+                   Keyboard="Text"
+                   BackgroundColor="#D9D9D9"
+                   WidthRequest="300"
+                   TextColor="Gray"
+                   IsEnabled="False"
+                   FontSize="18"
+                   HorizontalOptions="Center" 
+                   x:Name="bookName"
+                   VerticalOptions="Center"
+                         Text="{Binding BookName}">
+
+
+                        </Entry>
+                    </Grid>
+                </Frame>
+                <Frame BackgroundColor="#D9D9D9" BorderColor="#EBEBE4" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Source="id.png" HeightRequest="30" WidthRequest="30" Margin="10" />
+                        <Entry  Grid.Column="1"
+                   PlaceholderColor="Gray"
+                   Placeholder="price"
+                   Keyboard="Numeric"
+                   BackgroundColor="#D9D9D9"
+                   WidthRequest="300"
+                   TextColor="Gray"
+                   IsEnabled="False"
+                   x:Name="studentId"
+                   Text="{Binding Price}"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                        </Entry>
+                    </Grid>
+
+                </Frame>
+                <Frame BackgroundColor="#D9D9D9" BorderColor="#EBEBE4" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Source="description.png" HeightRequest="20" WidthRequest="30" Margin="10" />
+                        <Entry  Grid.Column="1"
+                    
+                   PlaceholderColor="Gray"
+                   Placeholder="Description"
+                   Keyboard="Text"
+                   BackgroundColor="#D9D9D9"
+                   WidthRequest="300"
+                   TextColor="Gray"
+                   IsEnabled="False"
+                   x:Name="bookDescription"
+                   FontSize="18"
+                   Text="{Binding Desc}"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+
+                        </Entry>
+                    </Grid>
+                </Frame>
+                <Frame  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Source="id.png" HeightRequest="30" WidthRequest="30" Margin="10" />
+                        <Entry  Grid.Column="1"
+                   PlaceholderColor="Gray"
+                   Placeholder="Student ID"
+                   Keyboard="Numeric"
+                   BackgroundColor="Transparent"
+                   WidthRequest="300"
+                   TextColor="Black"  
+                   Text="{Binding StudentId}"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                        </Entry>
+                    </Grid>
+                </Frame>
+
+
+                <Frame  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Source="location.png" HeightRequest="30" WidthRequest="30" Margin="10" />
+                        <Entry  Grid.Column="1"
+                
+                   PlaceholderColor="Gray"
+                   Placeholder="Address"
+                   BackgroundColor="Transparent"
+                   WidthRequest="300"
+                   TextColor="Black"  
+                  x:Name="Address"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                         Text="{Binding Address}"
+                    >
+
+                        </Entry>
+                    </Grid>
+                </Frame>
+
+                <Frame  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Source="telephone.png" HeightRequest="30" WidthRequest="30" Margin="10" />
+                        <Entry  Grid.Column="1"
+                
+                   PlaceholderColor="Gray"
+                   Placeholder="Phone Number"
+                   Keyboard="Telephone"
+                   BackgroundColor="Transparent"
+                   WidthRequest="300"
+                   TextColor="Black"  
+                  x:Name="phoneNumber"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                         Text="{Binding PhoneNumber}"
+                    >
+
+                        </Entry>
+                    </Grid>
+                </Frame>
+                <Frame CornerRadius="5"
+      
+                   Padding="0" Margin="0"
+       BackgroundColor="#D9D9D9"
+       >
+
+                    <StackLayout Orientation="Horizontal"
+                 VerticalOptions="Center">
+                        <CheckBox x:Name="checkBox"
+                                   IsChecked="{Binding IsChecked}" 
+                                  
+                  VerticalOptions="Center" />
+                        <Label Text="I accept that the book reaches me via e-mail" TextColor="Black"
+               VerticalOptions="Center" />
+
+                    </StackLayout>
+
+                </Frame>
+
+                <Button  
+                   WidthRequest="200"
+                   Text="order"
+                   BackgroundColor="#F4717F"
+                   TextColor="White"
+                   FontSize="20"
+                    CornerRadius="10"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" 
+                    Command="{Binding OrderCommand}"
+                     />
+            </StackLayout>
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
