@@ -1,8 +1,8 @@
 ﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewmodels="clr-namespace:BookShare.ViewModels"
-             Visual="Material"
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels" xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              x:Class="BookShare.Views.BuyPage">
+ 
     <ContentPage.BindingContext>
         <viewmodels:BuyViewModel />
     </ContentPage.BindingContext>
@@ -13,6 +13,67 @@
                 <viewmodels:BuyViewModel x:Key="BuyViewModel" />
             </ResourceDictionary>
         </StackLayout.Resources>
+
+     
+            <Frame Margin="10,13,10,0" Padding="10,0,0,0"  BorderColor="#D9D9D9" CornerRadius="7">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                    </Grid.ColumnDefinitions>
+
+                    <autocomplete:SfAutoComplete 
+                        VerticalOptions="Center" 
+                        Watermark="Search Books..."
+                        ShowBorder="False" />
+
+                    <ImageButton 
+                        Grid.Column="1"
+                        Source="circum_search"
+                        WidthRequest="43"
+                        BackgroundColor="#F4717F"
+                        HorizontalOptions="End"
+                        Aspect="AspectFit"
+                        Padding="8,8,8,4"
+                        CornerRadius="4" />
+                </Grid>
+            </Frame>
+
+
+
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="120" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="50 Products found" Grid.Column="0" Padding="30,15" FontSize="16" TextColor="Black" />
+            <Frame   HasShadow="False" Grid.Column="1" Padding="5" >
+                <Button Text="Filter" Command="{Binding DisplayActionSheetCommand}" BackgroundColor="White"  TextColor="Black" BorderWidth="0">
+                    <Button.ImageSource>
+                        <FileImageSource File="gray"/>
+                    </Button.ImageSource>
+                </Button>
+                </Frame>
+            </Grid>
+            <BoxView Color="#E2E2E2"  HeightRequest="0.3" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+
+
+
+
+
+
+
+ 
+
+
+
         <StackLayout BackgroundColor="White">
             <CollectionView ItemsSource="{Binding BookList}">
                 <CollectionView.ItemsLayout>

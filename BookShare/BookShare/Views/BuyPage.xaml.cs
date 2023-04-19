@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using BookShare.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +15,8 @@ namespace BookShare.Views
         public BuyPage()
         {
             InitializeComponent();
+
+            BindingContext = new BuyViewModel();
         }
 
         void TapGestureRecognizer_Tapped(System.Object sender, System.EventArgs e)
