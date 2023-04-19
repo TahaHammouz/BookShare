@@ -18,6 +18,7 @@ namespace BookShare.Views
             InitializeComponent();
 
             BindingContext = new BuyViewModel();
+                
         }
 
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)

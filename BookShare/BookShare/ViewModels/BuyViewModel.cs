@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 
 namespace BookShare.ViewModels
 {
@@ -31,14 +32,14 @@ namespace BookShare.ViewModels
             }
         }
 
-        private ObservableCollection<Order> _bookList;
-        public ObservableCollection<Order> BookList
+        private ObservableCollection<Order> _orderList;
+        public ObservableCollection<Order> OrderList
         {
-            get { return _bookList; }
+            get { return _orderList; }
             set
             {
-                _bookList = value;
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(BookList)));
+                _orderList = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(OrderList)));
             }
         }
 
@@ -64,39 +65,45 @@ namespace BookShare.ViewModels
             switch (action)
             {
                 case "Price (High to Low)":
-                    await SortByPriceHighToLow();
+                    SortOrdersByPriceHighToLow();
                     break;
                 case "Price (Low to High)":
-                    await SortByPriceLowToHigh();
+                    SortOrdersByPriceLowToHigh();
                     break;
                 case "Alphabetically":
-                    await SortAlphabetically();
+                    SortOrdersAlphabetically();
                     break;
             }
         }
 
-        private async Task SortByPriceHighToLow()
+        private void SortOrdersByPriceHighToLow()
         {
-            // Sort items by price high to low
+            OrderList = new ObservableCollection<Order>(OrderList.OrderByDescending(book => book.BookPrice));
+            FilterBooks();
+
+
         }
 
-        private async Task SortByPriceLowToHigh()
+        private void SortOrdersByPriceLowToHigh()
         {
-            // Sort items by price low to high
+            OrderList = new ObservableCollection<Order>(OrderList.OrderBy(book => book.BookPrice));
+            FilterBooks();
         }
 
-        private async Task SortAlphabetically()
+        private void SortOrdersAlphabetically()
         {
-            // Sort items alphabetically
+            OrderList = new ObservableCollection<Order>(OrderList.OrderBy(book => book.Bookname));
+            FilterBooks();
         }
+
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-    
 
 
-    private int _maxTextLength = 13;
+
+        private int _maxTextLength = 13;
         public int MaxTextLength
         {
             get { return _maxTextLength; }
@@ -110,11 +117,10 @@ namespace BookShare.ViewModels
         {
             var firebaseClient = new FirebaseClient("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
             var orders = await firebaseClient.Child("List").OnceAsync<Order>();
-
-            BookList = new ObservableCollection<Order>();
+            OrderList = new ObservableCollection<Order>();
             foreach (var book in orders)
             {
-                BookList.Add(new Order
+                OrderList.Add(new Order
                 {
                     Bookname = book.Object.Bookname,
                     BookPrice = book.Object.BookPrice,
@@ -127,10 +133,12 @@ namespace BookShare.ViewModels
                 });
             }
 
-            foreach (var book in BookList)
+            foreach (var book in OrderList)
             {
                 book.ShortenedName = ShortenText(book.Bookname);
             }
+
+            FilterBooks();
         }
 
         private string ShortenText(string text)
@@ -142,5 +150,42 @@ namespace BookShare.ViewModels
 
             return text;
         }
+        private ObservableCollection<Order> filteredBooks;
+        public ObservableCollection<Order> FilteredBooks
+        {
+            get { return filteredBooks; }
+            set { filteredBooks = value; OnPropertyChanged(); }
+        }
+
+        private string filterText = "";
+        public string FilterText
+        {
+            get { return filterText; }
+            set
+            {
+                if (filterText != value)
+                {
+                    filterText = value;
+                    OnPropertyChanged();
+                    FilterBooks();
+                }
+            }
+        }
+
+        private void FilterBooks()
+        {
+            if (OrderList != null)
+            {
+                var filtered = OrderList.Where(b =>
+                    string.IsNullOrEmpty(filterText) ||
+                    b.Bookname.ToLower().Contains(filterText.ToLower()) ||
+                    b.BookPrice.Contains(filterText)
+                    );
+
+                FilteredBooks = new ObservableCollection<Order>(filtered);
+            }
+        }
+
     }
 }
+
