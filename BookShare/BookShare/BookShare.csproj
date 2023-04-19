@@ -41,10 +41,10 @@
     <EmbeddedResource Update="Views\EditProfilePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\OrderPage.xaml">
+    <EmbeddedResource Update="Views\ItemToSellPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ItemToSellPage.xaml">
+    <EmbeddedResource Update="Views\OrderPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ProfilePage.xaml">
@@ -63,11 +63,5 @@
 
   <ItemGroup>
     <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Views\ItemToSellPage.xaml.cs">
-      <DependentUpon>ItemToSellPage.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
 </Project>

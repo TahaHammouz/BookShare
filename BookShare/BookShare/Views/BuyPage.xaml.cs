@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookShare.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,8 +18,14 @@ namespace BookShare.Views
             InitializeComponent();
         }
 
-        void TapGestureRecognizer_Tapped(System.Object sender, System.EventArgs e)
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
+            var selectedItem = (sender as Frame)?.BindingContext as Order;
+            if (selectedItem != null)
+            {
+                await Navigation.PushAsync(new ItemToSellPage(selectedItem));
+            }
+
         }
     }
 }
