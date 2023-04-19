@@ -254,8 +254,14 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logoutFrom.png" />
   </ItemGroup>
-    <ItemGroup>
-      <AndroidResource Include="Resources\drawable\gray.png" />
-    </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\address.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\location.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -52,8 +52,8 @@
 
                     </Grid>
                 </Frame>
-                <Frame                      BackgroundColor="#D9D9D9"
- BorderColor="#EBEBE4" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
+                <Frame BackgroundColor="#D9D9D9"
+                    BorderColor="#EBEBE4" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="50" />
@@ -161,7 +161,7 @@
                             <ColumnDefinition Width="auto" />
                         </Grid.ColumnDefinitions>
 
-                        <Image Grid.Column="0" Source="telephone.png" HeightRequest="30" WidthRequest="30" Margin="10" />
+                        <Image Grid.Column="0" Source="location.png" HeightRequest="30" WidthRequest="30" Margin="10" />
                         <Entry  Grid.Column="1"
                 
                    PlaceholderColor="Gray"
