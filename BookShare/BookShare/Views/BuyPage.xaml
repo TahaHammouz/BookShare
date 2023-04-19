@@ -1,12 +1,112 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels" xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              x:Class="BookShare.Views.BuyPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Buy page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+ 
+    <ContentPage.BindingContext>
+        <viewmodels:BuyViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Spacing="10" BackgroundColor="#White">
+        <StackLayout.Resources>
+            <ResourceDictionary>
+                <viewmodels:BuyViewModel x:Key="BuyViewModel" />
+            </ResourceDictionary>
+        </StackLayout.Resources>
+
+     
+            <Frame Margin="10,13,10,0" Padding="10,0,0,0"  BorderColor="#D9D9D9" CornerRadius="7">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                    </Grid.ColumnDefinitions>
+
+                    <autocomplete:SfAutoComplete 
+                        VerticalOptions="Center" 
+                        Watermark="Search Books..."
+                        ShowBorder="False" 
+                        Text="{Binding FilterText}"
+                       
+                        />
+
+                    <ImageButton 
+                        Grid.Column="1"
+                        Source="circum_search"
+                        WidthRequest="43"
+                        BackgroundColor="#F4717F"
+                        HorizontalOptions="End"
+                        Aspect="AspectFit"
+                        Padding="8,8,8,4"
+                        CornerRadius="4" />
+                </Grid>
+            </Frame>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="120" />
+                </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Padding="30,15" FontSize="16" TextColor="Black">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Number of books : " />
+                        <Span Text="{Binding FilteredBooks.Count}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Frame   HasShadow="False" Grid.Column="1" Padding="5" >
+                <Button Text="Filter" Command="{Binding DisplayActionSheetCommand}" BackgroundColor="White"  TextColor="Black" BorderWidth="0">
+                    <Button.ImageSource>
+                        <FileImageSource File="gray"/>
+                    </Button.ImageSource>
+                </Button>
+                </Frame>
+            </Grid>
+            <BoxView Color="#E2E2E2"  HeightRequest="0.3" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+        <StackLayout BackgroundColor="White">
+            <CollectionView ItemsSource="{Binding FilteredBooks}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                          Span="2" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Vertical" BackgroundColor="Transparent">
+                            <Frame Margin="5,15,5,5" HasShadow="False">
+
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                                </Frame.GestureRecognizers>
+
+                                <Image Source="{Binding URL}"
+                                       Aspect="AspectFit"
+                                       HeightRequest="157"
+                                       VerticalOptions="Fill"
+                                       HorizontalOptions="Fill"/>
+                            </Frame>
+                            <Label FontSize="16" Margin="25,-20,0,0"
+                                   Text="{Binding ShortenedName}" 
+                                   LineBreakMode="TailTruncation"
+                                   TextColor="Black" 
+                                    />
+                            <Label FontSize="16" 
+                                   Margin="150,-28,0,0" 
+                                   Text="{Binding BookPrice}" 
+                                   TextColor="#F4717F" 
+                                   />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
-    </ContentPage.Content>
+    </StackLayout>
 </ContentPage>

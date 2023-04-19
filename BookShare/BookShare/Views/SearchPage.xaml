@@ -46,6 +46,11 @@
         />
             </Grid>
         </Frame>
+        <StackLayout IsVisible="{Binding IsLoading}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <ActivityIndicator IsRunning="{Binding IsLoading}" />
+            <Label Text="Loading..." />
+        </StackLayout>
+
         <RefreshView IsRefreshing="{Binding IsRefreshing}"
              Command="{Binding RefreshCommand}">
             <CollectionView ItemsSource="{Binding ReverseBooks}" >

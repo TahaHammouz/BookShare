@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:BookShare.ViewModels"   
+             xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
+             x:Class="BookShare.Views.ItemToSellPage"
+             x:DataType="viewmodels:ItemToSellViewModel"
+             Visual="Material"
+             >
+
+    <ContentPage.BindingContext>
+        <viewmodels:ItemToSellViewModel />
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <StackLayout Spacing="10">
+            <StackLayout.Resources>
+                <ResourceDictionary>
+                    <viewmodels:ItemToSellViewModel x:Key="ItemToSellViewModel" />
+                </ResourceDictionary>
+            </StackLayout.Resources>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="20,50,20,0" >
+                    <Label Text="{Binding SelectedItem.Bookname}" TextColor="Black" FontSize="26" FontAttributes="Bold" HorizontalOptions="StartAndExpand"/>
+                    <Label Text="{Binding SelectedItem.BookPrice}" TextColor="Black" FontSize="26" FontAttributes="Bold" HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+                <Image HeightRequest="300" WidthRequest="200" Source="{Binding SelectedItem.URL}" Margin="20"/>
+                <StackLayout Margin="20,0">
+                    <Label Text="Description" TextColor="#544E50" FontSize="20" />
+                    <Label Text="{Binding SelectedItem.Description}" TextColor="#544E50" FontSize="16" />
+                </StackLayout>
+                <Label Background="#E2E2E2" HeightRequest="10" />
+                <StackLayout Margin="20,0">
+                    <Label Text="Product details" TextColor="#544E50" FontSize="20" />
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Publisher " TextColor="#544E50" FontSize="12" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="{Binding SelectedItem.Publisher}" TextColor="#544E50" FontSize="12" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Language " TextColor="#544E50" FontSize="12" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="{Binding SelectedItem.Language}" TextColor="#544E50" FontSize="12" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Dimensions " TextColor="#544E50" FontSize="12" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="{Binding SelectedItem.Dimensions}" TextColor="#544E50" FontSize="12" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Number of pages " TextColor="#544E50" FontSize="12" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="{Binding SelectedItem.NumberOfPages}" TextColor="#544E50" FontSize="12" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <Button  
+                        WidthRequest="200"
+                        Text="order now"
+                        BackgroundColor="#F4717F"
+                        TextColor="White"
+                        FontSize="20"
+                        CornerRadius="10"
+                        Margin="0,30"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" 
+                        Clicked="TapGestureRecognizer_Tapped"
+                     />
+
+                </StackLayout>
+
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+            
