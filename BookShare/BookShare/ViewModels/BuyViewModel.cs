@@ -6,12 +6,30 @@ using Xamarin.Forms;
 using Firebase.Database;
 using Firebase.Database.Query;
 using BookShare.Models;
+using System.Windows.Input;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 
 namespace BookShare.ViewModels
 {
     public class BuyViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public ICommand DisplayActionSheetCommand { get; set; }
+
+        private string _buttonImageSource = "gray";
+        public string ButtonImageSource
+        {
+            get { return _buttonImageSource; }
+            set
+            {
+                _buttonImageSource = value;
+                OnPropertyChanged(nameof(ButtonImageSource));
+            }
+        }
 
         private ObservableCollection<Order> _bookList;
         public ObservableCollection<Order> BookList
@@ -26,10 +44,59 @@ namespace BookShare.ViewModels
 
         public BuyViewModel()
         {
+            DisplayActionSheetCommand = new Command(async () => await DisplayActionSheet());
             LoadBooks();
         }
+        private async Task DisplayActionSheet()
+        {
+            var buttons = new List<string>
+            {
+                "Price (High to Low)",
+                "Price (Low to High)",
+                "Alphabetically"
+            };
 
-        private int _maxTextLength = 13;
+
+            string action = await Application.Current.MainPage.DisplayActionSheet("Sort By", "Cancel", null, buttons.ToArray());
+            Debug.WriteLine("Action: " + action);
+
+
+            switch (action)
+            {
+                case "Price (High to Low)":
+                    await SortByPriceHighToLow();
+                    break;
+                case "Price (Low to High)":
+                    await SortByPriceLowToHigh();
+                    break;
+                case "Alphabetically":
+                    await SortAlphabetically();
+                    break;
+            }
+        }
+
+        private async Task SortByPriceHighToLow()
+        {
+            // Sort items by price high to low
+        }
+
+        private async Task SortByPriceLowToHigh()
+        {
+            // Sort items by price low to high
+        }
+
+        private async Task SortAlphabetically()
+        {
+            // Sort items alphabetically
+        }
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+    
+
+
+    private int _maxTextLength = 13;
         public int MaxTextLength
         {
             get { return _maxTextLength; }
