@@ -28,7 +28,10 @@
                     <autocomplete:SfAutoComplete 
                         VerticalOptions="Center" 
                         Watermark="Search Books..."
-                        ShowBorder="False" />
+                        ShowBorder="False" 
+                        Text="{Binding FilterText}"
+                       
+                        />
 
                     <ImageButton 
                         Grid.Column="1"
@@ -42,9 +45,7 @@
                 </Grid>
             </Frame>
 
-
-
-            <Grid >
+            <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
@@ -53,7 +54,14 @@
                     <ColumnDefinition Width="120" />
                 </Grid.ColumnDefinitions>
 
-                <Label Text="50 Products found" Grid.Column="0" Padding="30,15" FontSize="16" TextColor="Black" />
+            <Label Grid.Column="0" Padding="30,15" FontSize="16" TextColor="Black">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Number of books : " />
+                        <Span Text="{Binding FilteredBooks.Count}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
             <Frame   HasShadow="False" Grid.Column="1" Padding="5" >
                 <Button Text="Filter" Command="{Binding DisplayActionSheetCommand}" BackgroundColor="White"  TextColor="Black" BorderWidth="0">
                     <Button.ImageSource>
@@ -63,19 +71,8 @@
                 </Frame>
             </Grid>
             <BoxView Color="#E2E2E2"  HeightRequest="0.3" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
-
-
-
-
-
-
-
- 
-
-
-
         <StackLayout BackgroundColor="White">
-            <CollectionView ItemsSource="{Binding BookList}">
+            <CollectionView ItemsSource="{Binding FilteredBooks}">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"
                           Span="2" />

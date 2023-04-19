@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 
 namespace BookShare.ViewModels
 {
@@ -78,25 +79,31 @@ namespace BookShare.ViewModels
         private void SortOrdersByPriceHighToLow()
         {
             OrderList = new ObservableCollection<Order>(OrderList.OrderByDescending(book => book.BookPrice));
+            FilterBooks();
+
+
         }
 
         private void SortOrdersByPriceLowToHigh()
         {
             OrderList = new ObservableCollection<Order>(OrderList.OrderBy(book => book.BookPrice));
+            FilterBooks();
         }
 
         private void SortOrdersAlphabetically()
         {
             OrderList = new ObservableCollection<Order>(OrderList.OrderBy(book => book.Bookname));
+            FilterBooks();
         }
+
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-    
 
 
-    private int _maxTextLength = 13;
+
+        private int _maxTextLength = 13;
         public int MaxTextLength
         {
             get { return _maxTextLength; }
@@ -110,7 +117,6 @@ namespace BookShare.ViewModels
         {
             var firebaseClient = new FirebaseClient("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
             var orders = await firebaseClient.Child("List").OnceAsync<Order>();
-            FilterBooks();
             OrderList = new ObservableCollection<Order>();
             foreach (var book in orders)
             {
@@ -131,6 +137,8 @@ namespace BookShare.ViewModels
             {
                 book.ShortenedName = ShortenText(book.Bookname);
             }
+
+            FilterBooks();
         }
 
         private string ShortenText(string text)
@@ -149,7 +157,6 @@ namespace BookShare.ViewModels
             set { filteredBooks = value; OnPropertyChanged(); }
         }
 
-        
         private string filterText = "";
         public string FilterText
         {
@@ -164,20 +171,21 @@ namespace BookShare.ViewModels
                 }
             }
         }
+
         private void FilterBooks()
         {
             if (OrderList != null)
             {
                 var filtered = OrderList.Where(b =>
                     string.IsNullOrEmpty(filterText) ||
-                    b.Bookname.ToLower().Contains(filterText.ToLower()));
+                    b.Bookname.ToLower().Contains(filterText.ToLower()) ||
+                    b.BookPrice.Contains(filterText)
+                    );
 
                 FilteredBooks = new ObservableCollection<Order>(filtered);
             }
         }
-       
 
     }
 }
-         
-         
+
