@@ -236,23 +236,15 @@ namespace BookShare.ViewModels
                 return;
             }
 
-            await SendEmail();
-            CleanFields();
-        }
-        public async Task SendEmail()
-        {
+
+
             try
             {
                 var recipient = EmailEntery;
-                var subject = "New Order";
-                var body = "Order a book\n\n" +
-                            "Name: " + BookName + "\n" +
-                            "Price: " + Price + "\n" +
-                            "Address: " + Address + "\n" +
-                            "Student ID: " + StudentId + "\n" +
-                            "Book Description: " + Desc + "\n" +
-                            "Contact number: " + PhoneNumber + "\n" +
-                            "Our team will contact you soon " + "\n";
+                var subject = "Book order";
+                string body = "Your order has been received successfully\n\n";
+
+
                 MailMessage mail = new MailMessage();
                 mail.From = new MailAddress("najahbookshare@gmail.com");
                 mail.To.Add(new MailAddress(recipient));
@@ -269,15 +261,66 @@ namespace BookShare.ViewModels
                 await Application.Current.MainPage.DisplayAlert("Error", "An error occurred while submitting your order. Please try again later.", "OK");
                 Console.WriteLine(ex.ToString());
             }
-        }
 
-        public void CleanFields()
-        {
+            try
+            {
+
+                string recipient = EmailEntery;
+                string subject = "Book order";
+                var body = "We have a new order\n\n" +
+                         "Book name  : " + BookName + "\n" +
+                         "Book Price : " + Price + "\n" +
+                         "Student  Address : " + Address + "\n" +
+                         "Student ID : " + StudentId + "\n" +
+                         "Book Description : " + Desc + "\n" +
+                         "Student Contact number : " + PhoneNumber + "\n";
+
+                var mail = new MailMessage();
+
+
+                mail.From = new MailAddress(recipient);
+                mail.To.Add(new MailAddress("najahbookshare@gmail.com"));
+
+
+                mail.Subject = subject;
+                mail.Body = body;
+
+                var smtp = new SmtpClient("smtp.gmail.com", 587);
+
+
+                smtp.EnableSsl = true;
+                smtp.Credentials = new NetworkCredential("najahbookshare@gmail.com", "ccaloddbaxrsmpxq");
+
+
+                await smtp.SendMailAsync(mail);
+
+
+                await Application.Current.MainPage.DisplayAlert("Success", "You will recive an email .", "OK");
+
+                var userMail = new MailMessage();
+                userMail.From = new MailAddress(recipient);
+                userMail.To.Add(new MailAddress("najahbookshare@gmail.com"));
+                userMail.Subject = subject;
+                userMail.Body = body;
+                await smtp.SendMailAsync(userMail);
+            }
+            catch (Exception ex)
+            {
+
+                await Application.Current.MainPage.DisplayAlert("Error", "An error occurred", "OK");
+
+
+            }
+
+
+
+            StudentId = string.Empty;
+            Address = string.Empty;
             StudentId = string.Empty;
             PhoneNumber = string.Empty;
-            Address = string.Empty;
             IsChecked = false;
-        }
 
+
+        }
     }
 }
