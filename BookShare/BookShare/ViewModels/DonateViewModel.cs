@@ -240,6 +240,7 @@ namespace BookShare.ViewModels
                     DetailsText = string.Empty;
                     SelectedStatus = string.Empty;
                     SelectedContact = string.Empty;
+                    ResetInputs();
                 }
             }
             catch (Exception ex) 
@@ -247,6 +248,17 @@ namespace BookShare.ViewModels
                 Console.WriteLine(ex);
             }
 
+        }
+        private void ResetInputs()
+        {
+            BindingBook = new Models.Book();
+            BooknameText = "";
+            SelectedStatus = "";
+            DetailsText = "";
+            SelectedContact = "";
+            SelectedContactMethod = "";
+            PublisherGender = "";
+            UserName = "";
         }
         public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
