@@ -306,13 +306,8 @@ namespace BookShare.ViewModels
             }
             catch (Exception ex)
             {
-
                 await Application.Current.MainPage.DisplayAlert("Error", "An error occurred", "OK");
-
-
             }
-
-
 
             StudentId = string.Empty;
             Address = string.Empty;

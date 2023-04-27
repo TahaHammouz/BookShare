@@ -213,10 +213,14 @@
       <Generator>
       </Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\account_logout.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BookShare\BookShare.csproj">
-      <Project>{18BFB9CA-9F10-4D97-9347-CE3CD53D9704}</Project>
+      <Project>{6FC40264-4D36-45D1-9BBF-75902EE04822}</Project>
       <Name>BookShare</Name>
     </ProjectReference>
   </ItemGroup>

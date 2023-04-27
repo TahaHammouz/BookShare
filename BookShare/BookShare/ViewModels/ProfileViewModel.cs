@@ -92,11 +92,24 @@ namespace BookShare.ViewModels
             FilterBooks();
             OnPropertyChanged(nameof(ReversedPosts));
         }
-
+        private bool isBusy;
+        public bool IsBusy
+        {
+            get { return isBusy; }
+            set
+            {
+                if (isBusy != value)
+                {
+                    isBusy = value;
+                    OnPropertyChanged(nameof(IsBusy));
+                }
+            }
+        }
         public async Task LoadPostsAsync()
         {
             try
             {
+                IsBusy = true;
                 var books = await firebaseDataService.GetBooksAsync();
                 userBooks = new ObservableCollection<Book>(books);
                 FilterBooks();
@@ -104,6 +117,10 @@ namespace BookShare.ViewModels
             catch (Exception e)
             {
                 e.Source = "LoadBooksAsync";
+            }
+            finally
+            {
+                IsBusy = false;
             }
         }
 
@@ -230,8 +247,7 @@ namespace BookShare.ViewModels
             var buttons = new List<string>
             {
                 "Yes",
-                "NO",
-
+                "No",
             };
 
 
@@ -245,7 +261,6 @@ namespace BookShare.ViewModels
                     await LogoutFromApp();
                     break;
                 case "No":
-                    await SatyInTheApp();
                     break;
 
             }
@@ -260,12 +275,6 @@ namespace BookShare.ViewModels
             var loginPage = new LoginPage();
 
             await Application.Current.MainPage.Navigation.PushModalAsync(loginPage);
-        }
-
-
-        private async Task SatyInTheApp()
-        {
-
         }
 
 
