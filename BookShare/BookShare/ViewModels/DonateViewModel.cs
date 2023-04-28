@@ -9,11 +9,16 @@ using System.Runtime.CompilerServices;
 using Xamarin.CommunityToolkit.Converters;
 using Xamarin.Forms;
 using System;
+using BookShare.Models;
 
 namespace BookShare.ViewModels
 {
     public class DonateViewModel : INotifyPropertyChanged
     {
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
         public ICommand Donate { set; get; }
         public Models.Book BindingBook { set; get; }
         private string _booknameText;
@@ -26,6 +31,20 @@ namespace BookShare.ViewModels
                 {
                     _booknameText = value;
                     OnPropertyChanged(nameof(BooknameText));
+                }
+            }
+        }
+        private string _bookname;
+
+        public string Bookname
+        {
+            get { return _bookname; }
+            set
+            {
+                if (_bookname != value)
+                {
+                    _bookname = value;
+                    OnPropertyChanged(nameof(Bookname));
                 }
             }
         }
@@ -87,7 +106,7 @@ namespace BookShare.ViewModels
                 }
             }
         }
-      
+
         private bool _isContactInputVisible;
         public bool IsContactInputVisible
         {
@@ -116,7 +135,7 @@ namespace BookShare.ViewModels
                 OnSelectedContactMethodChanged();
             }
         }
-    
+
 
         private string _status;
         public string Status
@@ -141,7 +160,7 @@ namespace BookShare.ViewModels
                 }
             }
         }
-      
+
 
         private string _selectedContact;
         public string SelectedContact
@@ -194,7 +213,7 @@ namespace BookShare.ViewModels
 
         private readonly BookShareDB _services = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
 
-        public event PropertyChangedEventHandler PropertyChanged;
+
 
         public DonateViewModel()
         {
@@ -202,12 +221,19 @@ namespace BookShare.ViewModels
             Donate = new AsyncCommand(DonateBook);
 
         }
-        public bool IsBooknameEntryEmpty => string.IsNullOrEmpty(BindingBook.Bookname);
-           public bool IsSelectedStatusEmpty => Status == null;
 
-        public bool IsDetailsEntryEmpty => string.IsNullOrEmpty(BindingBook.Details);
-        public bool IsSelectedContactEmpty => string.IsNullOrEmpty(BindingBook.ContactMethod);
-        public async Task DonateBook()
+
+
+
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private bool IsBooknameEntryEmpty => string.IsNullOrEmpty(BindingBook.Bookname);
+        private bool IsSelectedStatusEmpty => string.IsNullOrEmpty(Status);
+
+        private bool IsDetailsEntryEmpty => string.IsNullOrEmpty(BindingBook.Details);
+        private bool IsSelectedContactEmpty => string.IsNullOrEmpty(BindingBook.ContactMethod);
+
+        private async Task DonateBook()
         {
             try
             {
@@ -215,54 +241,50 @@ namespace BookShare.ViewModels
 
                 if (IsBooknameEntryEmpty)
                 {
-                    BooknameText = "please write your Book name !";
-                }
-                else if (IsSelectedStatusEmpty)
-                {
-                    SelectedStatus = "please select your book status !";
-                }
-                else if (IsDetailsEntryEmpty)
-                {
-                    DetailsText = "please write your descrption!";
-                }
-                else if (IsSelectedContactEmpty)
-                {
-                    SelectedContact = "please select your contact method !";
+                    BooknameText = "Please write your book name!";
+                    return;
                 }
 
-                else
+                if (IsSelectedStatusEmpty)
                 {
-
-                    BindingBook.Status = Status;
-                    BindingBook.Contactlink = SelectedContactMethod;
-                    await _services.AddBook(BindingBook);
-                    BooknameText = string.Empty;
-                    DetailsText = string.Empty;
-                    SelectedStatus = string.Empty;
-                    SelectedContact = string.Empty;
-                    ResetInputs();
+                    SelectedStatus = "Please select your book status!";
+                    return;
                 }
+
+                if (IsDetailsEntryEmpty)
+                {
+                    DetailsText = "Please write your description!";
+                    return;
+                }
+
+                if (IsSelectedContactEmpty)
+                {
+                    SelectedContact = "Please select your contact method!";
+                    return;
+                }
+
+                await _services.AddBook(BindingBook);
+
+                ResetInputs();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
-
         }
+
         private void ResetInputs()
         {
-            BindingBook = new Models.Book();
-            BooknameText = "";
-            SelectedStatus = "";
-            DetailsText = "";
-            SelectedContact = "";
-            SelectedContactMethod = "";
-            PublisherGender = "";
-            UserName = "";
-        }
-        public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            BindingBook = new Book();
+            BooknameText = string.Empty;
+            SelectedStatus = string.Empty;
+            DetailsText = string.Empty;
+            Status = string.Empty;
+            SelectedContact = string.Empty;
+            SelectedContactMethod = string.Empty;
+            PublisherGender = string.Empty;
+            UserName = string.Empty;
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(null));
         }
     }
 }
