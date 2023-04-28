@@ -1,5 +1,6 @@
 ﻿using BookShare.Services;
 using BookShare.Views;
+using Rg.Plugins.Popup.Services;
 using System;
 using System.ComponentModel;
 using System.Threading.Tasks;
@@ -16,12 +17,16 @@ namespace BookShare.ViewModels
         private string _password;
         private bool _isLoading;
         private readonly BookShareDB _services;
+        private PopupageViewModel _popupageViewModel;
+
 
         public LoginViewModel()
         {
             _services = new BookShareDB("https://book-share-9ab66-default-rtdb.firebaseio.com/");
             SubmitCommand = new Command(async () => await SignIn(_email, _password));
             SignUpPageCommand = new Command(NavigateToSignUpPage);
+            _popupageViewModel = new PopupageViewModel();
+
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -104,15 +109,19 @@ namespace BookShare.ViewModels
             {
                 try
                 {
-                    IsLoading = true;
+                    await _popupageViewModel.ShowLoadingPageAsync();
+
                     await _services.Login(email, password);
                 }
                 finally
                 {
-                    IsLoading = false;
+                    await _popupageViewModel.HideLoadingPageAsync();
+
+                    await App.Current.MainPage.Navigation.PopModalAsync();
                 }
             }
         }
+
 
         private void NavigateToSignUpPage()
         {
