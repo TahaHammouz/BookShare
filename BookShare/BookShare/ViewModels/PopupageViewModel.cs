@@ -43,9 +43,15 @@ namespace BookShare.ViewModels
 
         public async Task HideLoadingPageAsync()
         {
+            if (PopupNavigation.Instance.PopupStack.Count > 0)
+            {
+                await PopupNavigation.Instance.PopAsync();
+            }
+
             IsLoading = false;
             IsBusy = false;
-            await PopupNavigation.Instance.PopAsync(true);
+           // await PopupNavigation.Instance.PopAsync(true);
+
         }
 
 
