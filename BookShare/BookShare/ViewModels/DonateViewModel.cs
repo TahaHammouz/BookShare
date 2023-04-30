@@ -272,7 +272,6 @@ namespace BookShare.ViewModels
             finally
             {
                 await _popupageViewModel.HideLoadingPageAsync();
-
             }
         }
 

@@ -20,6 +20,8 @@ namespace BookShare.ViewModels
     internal class ItemToSellViewModel : BaseViewModel
     {
         private readonly BookShareDB firebaseDataService;
+        private PopupageViewModel _popupageViewModel;
+
         public ItemToSellViewModel(Order selectedItem)
         {
             SelectedItem = selectedItem;
@@ -27,8 +29,9 @@ namespace BookShare.ViewModels
             SetEmail();
             firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
             OrderCommand = new Xamarin.Forms.Command(async () => await OnOrderClick());
+            _popupageViewModel = new PopupageViewModel();
         }
-        public ItemToSellViewModel() { }
+        public ItemToSellViewModel(){}
         public ICommand OrderCommand { get; }
         private Order selectedItem;
         public Order SelectedItem
@@ -203,7 +206,7 @@ namespace BookShare.ViewModels
                 return;
             }
 
-            if (string.IsNullOrEmpty(StudentId) || StudentId.Length < 8)
+            if (string.IsNullOrEmpty(StudentId) || StudentId.Length <= 8)
             {
                 await Application.Current.MainPage.DisplayAlert("Error", "Please enter your student ID", "OK");
                 return;
@@ -236,6 +239,7 @@ namespace BookShare.ViewModels
 
             try
             {
+                await _popupageViewModel.ShowLoadingPageAsync();
                 var recipient = EmailEntery;
                 var subject = "Book order";
                 string body = "Your order has been received successfully\n\n";
@@ -256,6 +260,11 @@ namespace BookShare.ViewModels
             {
                 await Application.Current.MainPage.DisplayAlert("Error", "An error occurred while submitting your order. Please try again later.", "OK");
                 Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                await _popupageViewModel.HideLoadingPageAsync();
+
             }
 
             try
