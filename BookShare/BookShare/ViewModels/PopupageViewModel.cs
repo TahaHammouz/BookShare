@@ -36,8 +36,6 @@ namespace BookShare.ViewModels
 
         public async Task ShowLoadingPageAsync()
         {
-            IsLoading = true;
-            IsBusy = true; 
             await PopupNavigation.Instance.PushAsync(new Popupage());
         }
 
@@ -47,10 +45,6 @@ namespace BookShare.ViewModels
             {
                 await PopupNavigation.Instance.PopAsync();
             }
-
-            IsLoading = false;
-            IsBusy = false;
-           // await PopupNavigation.Instance.PopAsync(true);
 
         }
 

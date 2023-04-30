@@ -194,8 +194,6 @@ namespace BookShare.ViewModels
             }
         }
 
-
-
         private async Task OnOrderClick()
         {
 
@@ -235,8 +233,6 @@ namespace BookShare.ViewModels
                 await Application.Current.MainPage.DisplayAlert("Validation Failed", "Please agree to the terms and conditions", "OK");
                 return;
             }
-
-
 
             try
             {
@@ -304,18 +300,15 @@ namespace BookShare.ViewModels
                 userMail.Body = body;
                 await smtp.SendMailAsync(userMail);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 await Application.Current.MainPage.DisplayAlert("Error", "An error occurred", "OK");
             }
-
             StudentId = string.Empty;
             Address = string.Empty;
             StudentId = string.Empty;
             PhoneNumber = string.Empty;
             IsChecked = false;
-
-
         }
     }
 }
