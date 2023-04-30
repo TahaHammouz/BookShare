@@ -161,7 +161,7 @@
                             <ColumnDefinition Width="auto" />
                         </Grid.ColumnDefinitions>
 
-                        <Image Grid.Column="0" Source="location.png" HeightRequest="30" WidthRequest="30" Margin="10" />
+                        <Image Grid.Column="0" Source="contact.png" HeightRequest="30" WidthRequest="30" Margin="10" />
                         <Entry  Grid.Column="1"
                 
                    PlaceholderColor="Gray"

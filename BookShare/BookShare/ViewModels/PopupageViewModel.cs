@@ -6,11 +6,11 @@ using Rg.Plugins.Popup.Services;
 
 namespace BookShare.ViewModels
 {
-	public class PopupageViewModel : INotifyPropertyChanged
+    public class PopupageViewModel : INotifyPropertyChanged
     {
-		public PopupageViewModel()
-		{
-		}
+        public PopupageViewModel()
+        {
+        }
 
         private bool _isLoading;
         public bool IsLoading
@@ -23,20 +23,33 @@ namespace BookShare.ViewModels
             }
         }
 
+        private bool _isBusy;
+        public bool IsBusy
+        {
+            get { return _isBusy; }
+            set
+            {
+                _isBusy = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(IsBusy)));
+            }
+        }
+
         public async Task ShowLoadingPageAsync()
         {
             IsLoading = true;
+            IsBusy = true; 
             await PopupNavigation.Instance.PushAsync(new Popupage());
         }
 
         public async Task HideLoadingPageAsync()
         {
             IsLoading = false;
-            await PopupNavigation.Instance.PopAsync();
+            IsBusy = false;
+            await PopupNavigation.Instance.PopAsync(true);
         }
+
 
 
         public event PropertyChangedEventHandler PropertyChanged;
     }
 }
-

@@ -16,8 +16,8 @@ namespace BookShare.Views
     {
         public Popupage()
         {
+            this.InputTransparent = true;
             InitializeComponent();
-
             animatepage1();
             animatepage2();
             animatepage3();

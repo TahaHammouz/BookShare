@@ -110,13 +110,15 @@ namespace BookShare.ViewModels
                 try
                 {
                     await _popupageViewModel.ShowLoadingPageAsync();
-
                     await _services.Login(email, password);
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine(ex);
                 }
                 finally
                 {
                     await _popupageViewModel.HideLoadingPageAsync();
-
                     await App.Current.MainPage.Navigation.PopModalAsync();
                 }
             }
