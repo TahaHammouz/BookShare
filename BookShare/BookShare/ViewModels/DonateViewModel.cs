@@ -213,18 +213,13 @@ namespace BookShare.ViewModels
 
         private readonly BookShareDB _services = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
 
-
-
         public DonateViewModel()
         {
             BindingBook = new Models.Book();
             Donate = new AsyncCommand(DonateBook);
+            _popupageViewModel = new PopupageViewModel();
 
         }
-
-
-
-
 
         public event PropertyChangedEventHandler PropertyChanged;
         private bool IsBooknameEntryEmpty => string.IsNullOrEmpty(BindingBook.Bookname);
@@ -232,9 +227,12 @@ namespace BookShare.ViewModels
 
         private bool IsDetailsEntryEmpty => string.IsNullOrEmpty(BindingBook.Details);
         private bool IsSelectedContactEmpty => string.IsNullOrEmpty(BindingBook.ContactMethod);
+        private PopupageViewModel _popupageViewModel;
+
 
         private async Task DonateBook()
         {
+            await _popupageViewModel.ShowLoadingPageAsync();
             try
             {
                 BooknameText = SelectedStatus = DetailsText = SelectedContact = string.Empty;
@@ -270,6 +268,10 @@ namespace BookShare.ViewModels
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
+            }
+            finally
+            {
+                await _popupageViewModel.HideLoadingPageAsync();
             }
         }
 

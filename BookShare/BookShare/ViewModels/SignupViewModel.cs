@@ -30,6 +30,9 @@ namespace BookShare.ViewModels
 
         public Models.User BindingUser { set; get; }
 
+        private PopupageViewModel _popupageViewModel;
+
+
         private bool _isPasswordVisible;
         public bool IsPasswordVisible
         {
@@ -149,12 +152,15 @@ namespace BookShare.ViewModels
             IsPasswordVisible = true;
             TogglePasswordCommand = new MvvmHelpers.Commands.Command(() => IsPasswordVisible = !IsPasswordVisible);
             LogInPageCommand = new Command(NavigateToLogInPage);
+            _popupageViewModel = new PopupageViewModel();
 
         }
 
 
         public async Task CreateAccount()
         {
+            await _popupageViewModel.ShowLoadingPageAsync();
+
             EmailText = UsernameText = PasswordText = SelectedFaculty = SelectedGender = string.Empty;
             
             if (IsEmailEntryEmpty)
@@ -184,12 +190,11 @@ namespace BookShare.ViewModels
                 
             }
             else
-            {
-               
+            {       
                 await BookShareDB.CreateUser(BindingUser);
-               
+                await _popupageViewModel.HideLoadingPageAsync();
             }
-            
+
         }
 
         public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)

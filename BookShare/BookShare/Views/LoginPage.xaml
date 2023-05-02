@@ -28,9 +28,6 @@
                             <Entry Text="{Binding Password}" Placeholder="Password" IsPassword="True" BackgroundColor="White"/>
                         </Frame>
                         <Label Text="{Binding PasswordText}" TextColor="Red"/>
-                     <Grid VerticalOptions="Center" HorizontalOptions="Center">
-                        <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" Color="Black"/>
-                    </Grid>
                     </StackLayout>
                     <Button Margin="20"
                             WidthRequest="207"

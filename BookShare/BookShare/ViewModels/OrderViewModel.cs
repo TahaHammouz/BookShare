@@ -23,6 +23,8 @@ namespace BookShare.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
+        private PopupageViewModel _popupageViewModel;
+
         private string _emailEntery;
 
         public string EmailEntery
@@ -187,8 +189,8 @@ namespace BookShare.ViewModels
             }
 
             try
-
             {
+                await _popupageViewModel.ShowLoadingPageAsync();
                 var recipient = EmailEntery;
                 var subject = "New Order";
                 var body = "Order a book\n\n" +
@@ -217,7 +219,10 @@ namespace BookShare.ViewModels
                 await Application.Current.MainPage.DisplayAlert("Error", "An error occurred while submitting your order. Please try again later.", "OK");
                 Console.WriteLine(ex.ToString());
             }
-           
+            finally
+            {
+                await _popupageViewModel.HideLoadingPageAsync();
+            }
             BookName = string.Empty;
             FacultyPicker = string.Empty;
             StudentId = string.Empty;
@@ -231,6 +236,7 @@ namespace BookShare.ViewModels
         public OrderViewModel()
         {
             SetEmailEntry();
+            _popupageViewModel = new PopupageViewModel();
         }
     }
 
