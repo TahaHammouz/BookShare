@@ -18,7 +18,7 @@ namespace BookShare.Views
             InitializeComponent();
 
             BindingContext = new BuyViewModel();
-                
+
         }
 
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
@@ -29,6 +29,17 @@ namespace BookShare.Views
                 await Navigation.PushAsync(new ItemToSellPage(selectedItem));
             }
 
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
         }
     }
 }

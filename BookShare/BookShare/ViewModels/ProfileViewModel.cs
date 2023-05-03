@@ -37,6 +37,11 @@ namespace BookShare.ViewModels
         private ObservableCollection<Book> userBooks;
         public ProfileViewModel()
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             _auth = FirebaseAuth.DefaultInstance;
             Logout = new Command(async () => await DisplayActionSheet());
 

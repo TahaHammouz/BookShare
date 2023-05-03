@@ -22,6 +22,11 @@ namespace BookShare.ViewModels
 
         public LoginViewModel()
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             _services = new BookShareDB("https://book-share-9ab66-default-rtdb.firebaseio.com/");
             SubmitCommand = new Command(async () => await SignIn(_email, _password));
             SignUpPageCommand = new Command(NavigateToSignUpPage);
@@ -112,7 +117,7 @@ namespace BookShare.ViewModels
                     await _popupageViewModel.ShowLoadingPageAsync();
                     await _services.Login(email, password);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     Console.WriteLine(ex);
                 }
