@@ -66,7 +66,7 @@
                             HeightRequest="80"
                             Title="Status"
                             TitleColor="Gray"
-                            SelectedItem="{Binding Status}"
+                            SelectedItem="{Binding BindingBook.Status}"
                             BackgroundColor="White">
                             <Picker.ItemsSource>
                                 <x:Array Type="{x:Type x:String}">

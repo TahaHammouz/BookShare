@@ -107,6 +107,8 @@ namespace BookShare.ViewModels
             }
         }
 
+
+
         private bool _isContactInputVisible;
         public bool IsContactInputVisible
         {
@@ -147,6 +149,11 @@ namespace BookShare.ViewModels
                 OnPropertyChanged(nameof(Status));
             }
         }
+
+ 
+
+
+
         private string _selectedStatus;
         public string SelectedStatus
         {
@@ -175,7 +182,7 @@ namespace BookShare.ViewModels
                 }
             }
         }
-        public bool IsSelectedContacEmpty => string.IsNullOrEmpty(BindingBook.ContactMethod);
+         
 
 
 
@@ -223,7 +230,7 @@ namespace BookShare.ViewModels
 
         public event PropertyChangedEventHandler PropertyChanged;
         private bool IsBooknameEntryEmpty => string.IsNullOrEmpty(BindingBook.Bookname);
-        private bool IsSelectedStatusEmpty => string.IsNullOrEmpty(Status);
+        private bool IsSelectedStatusEmpty => string.IsNullOrEmpty(BindingBook.Status);
 
         private bool IsDetailsEntryEmpty => string.IsNullOrEmpty(BindingBook.Details);
         private bool IsSelectedContactEmpty => string.IsNullOrEmpty(BindingBook.ContactMethod);
@@ -260,9 +267,9 @@ namespace BookShare.ViewModels
                     SelectedContact = "Please select your contact method!";
                     return;
                 }
-
+         BindingBook.Contactlink = SelectedContactMethod;
                 await _services.AddBook(BindingBook);
-
+                
                 ResetInputs();
             }
             catch (Exception ex)
@@ -279,13 +286,14 @@ namespace BookShare.ViewModels
         {
             BindingBook = new Book();
             BooknameText = string.Empty;
-            SelectedStatus = string.Empty;
+           SelectedStatus = string.Empty;
             DetailsText = string.Empty;
-            Status = string.Empty;
+           Status = string.Empty;
             SelectedContact = string.Empty;
-            SelectedContactMethod = string.Empty;
+           SelectedContactMethod = string.Empty;
             PublisherGender = string.Empty;
             UserName = string.Empty;
+     
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(null));
         }
     }
