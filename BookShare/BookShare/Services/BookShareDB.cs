@@ -36,7 +36,7 @@ namespace BookShare.Services
         };
         private HttpClient httpClient;
         private FirebaseClient firebaseClient;
-
+        private FirebaseAuthProvider firebaseAuthProvider;
 
         private static readonly FirebaseAuthClient userAuthentication = new FirebaseAuthClient(_config);
         private static readonly FirebaseClient fireBaseBase = new FirebaseClient(_baseUrl);
@@ -45,6 +45,30 @@ namespace BookShare.Services
             httpClient = new HttpClient();
             firebaseClient = new FirebaseClient(url);
         }
+        public async Task ResetPassword(string email)
+        {
+            try
+            {
+                await userAuthentication.SendPasswordResetEmailAsync(email);
+                await App.Current.MainPage.DisplayAlert("Success", "Reset password email sent successfully.", "OK");
+            }
+            catch (FirebaseAuthException ex)
+            {
+                if (ex.Reason == AuthErrorReason.InvalidEmailAddress)
+                {
+                    await App.Current.MainPage.DisplayAlert("Error", "Invalid email address.", "OK");
+                }
+                else if (ex.Reason == AuthErrorReason.UserNotFound)
+                {
+                    await App.Current.MainPage.DisplayAlert("Error", "User not found.", "OK");
+                }
+                else
+                {
+                    await App.Current.MainPage.DisplayAlert("Error", "An error occurred" + ex.Message, "OK");
+                }
+            }
+        }
+
         public static async Task CreateUser(Models.User bindingUser)
         {
 
