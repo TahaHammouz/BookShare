@@ -10,6 +10,13 @@
         <viewmodels:DonateViewModel />
     </ContentPage.BindingContext>
 
+    <Shell.TitleView>
+        <StackLayout >
+            <Label FontSize="20" Margin="0,0,25,0" TextColor="Black" FontAttributes="Bold"  HorizontalOptions="Center" 
+                   VerticalOptions="CenterAndExpand" >BookShare
+            </Label>
+        </StackLayout>
+    </Shell.TitleView>
     <ContentPage.Content>
      
             <StackLayout Grid.Row="1" Padding="20" Margin="15">

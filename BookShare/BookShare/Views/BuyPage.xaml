@@ -6,7 +6,13 @@
     <ContentPage.BindingContext>
         <viewmodels:BuyViewModel />
     </ContentPage.BindingContext>
-
+    <Shell.TitleView>
+        <StackLayout >
+            <Label FontSize="20" Margin="0,0,25,0" TextColor="Black" FontAttributes="Bold"  HorizontalOptions="Center" 
+                   VerticalOptions="CenterAndExpand" >BookShare
+            </Label>
+        </StackLayout>
+    </Shell.TitleView>
     <StackLayout Spacing="10" BackgroundColor="#White">
         <StackLayout.Resources>
             <ResourceDictionary>
