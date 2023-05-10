@@ -17,6 +17,11 @@ namespace BookShare.ViewModels
 
         public EditProfileViewModel(User selecteduser)
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             SelectedUser = selecteduser;
             firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
             SaveCommand = new Xamarin.Forms.Command(async () => await UpdateUser(selecteduser));
@@ -24,7 +29,11 @@ namespace BookShare.ViewModels
         }
         public EditProfileViewModel()
         {
-
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
         }
         public ICommand SaveCommand { get; }
         private User selecteduser;

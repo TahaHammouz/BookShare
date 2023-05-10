@@ -37,6 +37,11 @@ namespace BookShare.ViewModels
         private ObservableCollection<Book> userBooks;
         public ProfileViewModel()
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             _auth = FirebaseAuth.DefaultInstance;
             Logout = new Command(async () => await DisplayActionSheet());
 
@@ -266,16 +271,17 @@ namespace BookShare.ViewModels
             }
         }
 
+
         private async Task LogoutFromApp()
         {
-
             await SecureStorage.SetAsync("auth_token", "");
             await SecureStorage.SetAsync("issignin", "false");
 
             var loginPage = new LoginPage();
-
             await Application.Current.MainPage.Navigation.PushModalAsync(loginPage);
         }
+
+
 
 
     }

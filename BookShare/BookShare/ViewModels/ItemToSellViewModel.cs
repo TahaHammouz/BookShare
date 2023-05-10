@@ -24,6 +24,11 @@ namespace BookShare.ViewModels
 
         public ItemToSellViewModel(Order selectedItem)
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             SelectedItem = selectedItem;
             SetInfo();
             SetEmail();
@@ -31,7 +36,14 @@ namespace BookShare.ViewModels
             OrderCommand = new Xamarin.Forms.Command(async () => await OnOrderClick());
             _popupageViewModel = new PopupageViewModel();
         }
-        public ItemToSellViewModel(){}
+        public ItemToSellViewModel()
+        {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
+        }
         public ICommand OrderCommand { get; }
         private Order selectedItem;
         public Order SelectedItem

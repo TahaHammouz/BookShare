@@ -222,6 +222,11 @@ namespace BookShare.ViewModels
 
         public DonateViewModel()
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             BindingBook = new Models.Book();
             Donate = new AsyncCommand(DonateBook);
             _popupageViewModel = new PopupageViewModel();
