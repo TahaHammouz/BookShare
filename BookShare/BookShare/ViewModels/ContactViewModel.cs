@@ -1,6 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Windows.Input;
 using BookShare.Models;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace BookShare.ViewModels
@@ -23,7 +25,8 @@ namespace BookShare.ViewModels
             }
         }
 
-      
+        public ICommand CopyCommand { get; }
+
         private string genderImageSource;
         public string GenderImageSource
         {
@@ -77,7 +80,17 @@ namespace BookShare.ViewModels
           
             contact(); 
             publisherGender();
+            CopyCommand = new Command(CopyButton_Clicked);
         }
+        private void CopyButton_Clicked(object parameter)
+        {
+            if (parameter is Label contactMethodLabel)
+            {
+                string textToCopy = contactMethodLabel.Text;
+                Clipboard.SetTextAsync(textToCopy);
+            }
+        }
+
 
         protected virtual void OnPropertyChanged(string propertyName)
         {
