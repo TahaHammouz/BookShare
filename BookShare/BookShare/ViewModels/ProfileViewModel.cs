@@ -271,16 +271,17 @@ namespace BookShare.ViewModels
             }
         }
 
+
         private async Task LogoutFromApp()
         {
-
             await SecureStorage.SetAsync("auth_token", "");
             await SecureStorage.SetAsync("issignin", "false");
 
             var loginPage = new LoginPage();
-
             await Application.Current.MainPage.Navigation.PushModalAsync(loginPage);
         }
+
+
 
 
     }
