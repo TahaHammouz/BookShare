@@ -3,36 +3,39 @@ using System;
 using MvvmHelpers;
 using BookShare.Services;
 using MvvmHelpers.Commands;
-
-public class ResetPasswordViewModel : BaseViewModel
+namespace BookShare.ViewModels
 {
-    private readonly BookShareDB _firebaseAuthService;
-    private string _email;
-
-    public ResetPasswordViewModel(BookShareDB firebaseAuthService)
+    public class ResetPasswordViewModel : BaseViewModel
     {
-        _firebaseAuthService = firebaseAuthService;
-        ResetPasswordCommand = new Command(ResetPassword);
-    }
+        private BookShareDB _firebaseAuthService;
+        private string _email;
 
-    public string Email
-    {
-        get => _email;
-        set => SetProperty(ref _email, value);
-    }
 
-    public ICommand ResetPasswordCommand { get; }
-
-    private async void ResetPassword()
-    {
-        try
+        public ResetPasswordViewModel()
         {
-            await _firebaseAuthService.ResetPassword(Email);
-            // Show success message to the user
+
+            _firebaseAuthService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
+            ResetPasswordCommand = new Command(ResetPassword);
         }
-        catch (Exception ex)
+
+        public string Email
         {
-            // Handle error and show message to the user
+            get => _email;
+            set => SetProperty(ref _email, value);
+        }
+
+        public ICommand ResetPasswordCommand { get; }
+
+        private async void ResetPassword()
+        {
+            try
+            {
+                await _firebaseAuthService.ResetPassword(Email);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }

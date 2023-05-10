@@ -49,7 +49,7 @@ namespace BookShare.Services
         {
             try
             {
-                await userAuthentication.SendPasswordResetEmailAsync(email);
+                await userAuthentication.ResetEmailPasswordAsync(email);
                 await App.Current.MainPage.DisplayAlert("Success", "Reset password email sent successfully.", "OK");
             }
             catch (FirebaseAuthException ex)
