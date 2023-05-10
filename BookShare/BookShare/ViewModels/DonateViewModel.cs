@@ -247,7 +247,7 @@ namespace BookShare.ViewModels
             await _popupageViewModel.ShowLoadingPageAsync();
             try
             {
-                BooknameText = SelectedStatus = DetailsText = SelectedContact = string.Empty;
+               // BooknameText = SelectedStatus = DetailsText = SelectedContact = string.Empty;
 
                 if (IsBooknameEntryEmpty)
                 {
@@ -272,7 +272,7 @@ namespace BookShare.ViewModels
                     SelectedContact = "Please select your contact method!";
                     return;
                 }
-         BindingBook.Contactlink = SelectedContactMethod;
+                BindingBook.Contactlink = SelectedContactMethod;
                 await _services.AddBook(BindingBook);
                 
                 ResetInputs();
