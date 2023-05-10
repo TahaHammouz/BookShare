@@ -35,75 +35,82 @@
                 <viewmodels:ProfileViewModel x:Key="ProfileViewModel" />
             </ResourceDictionary>
         </StackLayout.Resources>
-        <StackLayout>
-            <Frame CornerRadius="100" HasShadow="False" Padding="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="410" WidthRequest="140" >
-                <Image Source="{Binding PublisherImageSource}" 
-                   Aspect="AspectFill"
-                   />
-            </Frame>
-            <StackLayout  Orientation="Horizontal" HorizontalOptions="Center" >
-                <Label Text="{Binding Username}"
-                       Margin="0,15"
-                       FontSize="Medium"
-                       
-                       />
-                
-            </StackLayout>
-            <!--        
+        <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+            <RefreshView.Content>
+                <FlexLayout Direction="Column"
+                            Wrap="Wrap"
+                            AlignItems="Center"
+                            AlignContent="Center"
+                            JustifyContent="SpaceAround"
+                            HeightRequest="360"
+                                >
+                    <ScrollView>
+                        <StackLayout>
+                            <Frame CornerRadius="100" HasShadow="False" Padding="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="300" WidthRequest="200">
+                                <Image Source="{Binding PublisherImageSource}" Aspect="AspectFit" />
+                            </Frame>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="{Binding Username}" Margin="0" FontSize="Medium" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </FlexLayout>
+            </RefreshView.Content>
+        </RefreshView>
+        <!--        
             <StackLayout IsVisible="{Binding IsBusy}" HorizontalOptions="Center" VerticalOptions="Center">
             <ActivityIndicator Color="black" IsRunning="{Binding IsBusy}" />
             <Label Text="Loading data..." HorizontalOptions="Center" VerticalOptions="Center" />
             </StackLayout>
             -->
-            <Label BackgroundColor="Gray" HeightRequest="2" />
-            <Label FontSize="20" Margin="10,0,0,0" TextColor="Black" LineBreakMode="WordWrap" HorizontalOptions="Center">Donated Books</Label>
-            <Label BackgroundColor="Gray" HeightRequest="2" />
+        <Label BackgroundColor="Gray" HeightRequest="2" />
+        <Label FontSize="20" Margin="10,0,0,0" TextColor="Black" LineBreakMode="WordWrap" HorizontalOptions="Center">Donated Books</Label>
+        <Label BackgroundColor="Gray" HeightRequest="2" />
 
-            <CollectionView ItemsSource="{Binding ReversedPosts}" VerticalOptions="CenterAndExpand">
-                <CollectionView.EmptyView>
-                    <StackLayout Padding="160" HorizontalOptions="Center" VerticalOptions="Center">
-                        <Label Text="No books found" />
-                    </StackLayout>
-                </CollectionView.EmptyView>
-    
-                <CollectionView.ItemsLayout>
-                    <GridItemsLayout Orientation="Vertical"
+        <CollectionView ItemsSource="{Binding ReversedPosts}" VerticalOptions="CenterAndExpand">
+            <CollectionView.EmptyView>
+                <StackLayout Padding="160" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="No books found" />
+                </StackLayout>
+            </CollectionView.EmptyView>
+
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
                                       Span="2"
                                       VerticalItemSpacing="10"
                                       HorizontalItemSpacing="10"/>
-                </CollectionView.ItemsLayout>
+            </CollectionView.ItemsLayout>
 
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Frame Margin="10" BackgroundColor="white" Padding="10" HasShadow="True">
-                            <Frame.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="OnItemTapped" />
-                            </Frame.GestureRecognizers>
-                            <Frame BorderColor="#E2E2E2">
-                                <StackLayout Orientation="Vertical" Spacing="7" WidthRequest="0" HeightRequest="50">
-                                    <Label FontSize="16" Margin="10,0,0,0">
-                                        <Label.FormattedText>
-                                            <FormattedString>
-                                                <Span Text="Book  " FontSize="16" TextColor="Gray" />
-                                                <Span Text="{Binding Bookname}" FontSize="16" TextColor="#544E50" FontAttributes="Bold" />
-                                            </FormattedString>
-                                        </Label.FormattedText>
-                                    </Label>
-                                    <Label FontSize="14" Margin="10,0,0,0">
-                                        <Label.FormattedText>
-                                            <FormattedString>
-                                                <Span Text="Details  " FontSize="16" TextColor="Gray" />
-                                                <Span Text="{Binding Details}" FontSize="14" TextColor="#544E50" FontAttributes="Bold" />
-                                            </FormattedString>
-                                        </Label.FormattedText>
-                                    </Label>
-                                </StackLayout>
-                            </Frame>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="10" BackgroundColor="white" Padding="10" HasShadow="True">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnItemTapped" />
+                        </Frame.GestureRecognizers>
+                        <Frame BorderColor="#E2E2E2">
+                            <StackLayout Orientation="Vertical" Spacing="7" WidthRequest="0" HeightRequest="50">
+                                <Label FontSize="16" Margin="10,0,0,0">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Book  " FontSize="16" TextColor="Gray" />
+                                            <Span Text="{Binding Bookname}" FontSize="16" TextColor="#544E50" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label FontSize="14" Margin="10,0,0,0">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Details  " FontSize="16" TextColor="Gray" />
+                                            <Span Text="{Binding Details}" FontSize="14" TextColor="#544E50" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                            </StackLayout>
                         </Frame>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
 
-        </StackLayout>
     </StackLayout>
 </ContentPage>

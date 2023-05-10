@@ -155,6 +155,9 @@ namespace BookShare.Services
             var users = await firebaseClient
                         .Child("Users")
                         .OnceAsync<Models.User>();
+            var books = await firebaseClient
+                        .Child("books")
+                        .OnceAsync<Models.Book>();
 
             foreach (var user in users)
             {
@@ -163,7 +166,20 @@ namespace BookShare.Services
                     await firebaseClient.Child("Users").Child(user.Key).PutAsync(u);
                 }
             }
+
+            foreach (var book in books)
+            {
+                // Check if the book belongs to the updated user
+                if (book.Object.UserId == u.Uid)
+                {
+                    // Update the book with the new user name and ID
+                    book.Object.Username = u.Name;
+                    book.Object.UserId = u.Uid;
+                    await firebaseClient.Child("books").Child(book.Key).PutAsync(book.Object);
+                }
+            }
         }
+        
         public async Task UpdateBook(Book b)
         {
             var books = await firebaseClient

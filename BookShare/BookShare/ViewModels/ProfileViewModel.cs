@@ -20,6 +20,18 @@ namespace BookShare.ViewModels
 {
     public class ProfileViewModel : INotifyPropertyChanged
     {
+
+        private bool isRefreshing;
+        public bool IsRefreshing
+        {
+            get { return isRefreshing; }
+            set { isRefreshing = value; OnPropertyChanged(); }
+        }
+
+        public Command RefreshCommand { get; }
+
+
+
         private readonly FirebaseAuth _auth;
         public ICommand Logout { get; set; }
 
@@ -52,6 +64,12 @@ namespace BookShare.ViewModels
                 _ = LoadUserAsync();
             }
             catch (Exception e) { e.Source = "ProfileViewModel"; }
+            RefreshCommand = new Command(async () =>
+            {
+                IsRefreshing = true;
+                await LoadUserAsync();
+                IsRefreshing = false;
+            });
         }
         public ICommand DeleteBookCommand { get; set; }
 
