@@ -137,7 +137,7 @@ namespace BookShare.ViewModels
 
         }
 
-        public ImageSource PasswordIcon => IsPasswordVisible ? ImageSourceConstants.Eye : ImageSourceConstants.EyeOff;
+        public ImageSource PasswordIcon => IsPasswordVisible ? ImageSourceConstants.EyeOff : ImageSourceConstants.Eye;
 
         private void NavigateToLogInPage()
         {
