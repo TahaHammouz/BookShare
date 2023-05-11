@@ -7,6 +7,13 @@
     <ContentPage.BindingContext>
         <viewmodels:ContactViewModel />
     </ContentPage.BindingContext>
+    <Shell.TitleView>
+        <StackLayout >
+            <Label FontSize="20" Margin="0,0,80,0" TextColor="Black" FontAttributes="Bold"  HorizontalOptions="Center" 
+                   VerticalOptions="CenterAndExpand" >BookShare
+            </Label>
+        </StackLayout>
+    </Shell.TitleView>
 
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Margin="50,10,40,50">

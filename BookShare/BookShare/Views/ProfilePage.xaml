@@ -18,9 +18,9 @@
                          BorderColor="Transparent" 
                          BackgroundColor="Transparent" 
                          />
-            <Label FontSize="24" Margin="50,0,0,0" TextColor="Black" HorizontalOptions="Center" 
-                   VerticalOptions="CenterAndExpand" >User Profile</Label>
-            
+            <Label FontSize="20" Margin="50,0,0,0" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center" 
+                   VerticalOptions="CenterAndExpand" >BookShare</Label>
+
             <ImageButton Source="icon_edit.xml" Aspect="AspectFill" 
                          HorizontalOptions="EndAndExpand" HeightRequest="100" 
                          WidthRequest="100" Clicked="EditProfile" 
@@ -28,7 +28,7 @@
                          />
         </StackLayout>
     </Shell.TitleView>
-    
+
     <StackLayout Spacing="10">
         <StackLayout.Resources>
             <ResourceDictionary>

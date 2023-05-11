@@ -22,6 +22,11 @@ namespace BookShare.ViewModels
 
         public LoginViewModel()
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             _services = new BookShareDB("https://book-share-9ab66-default-rtdb.firebaseio.com/");
             SubmitCommand = new Command(async () => await SignIn(_email, _password));
             SignUpPageCommand = new Command(NavigateToSignUpPage);
@@ -97,32 +102,39 @@ namespace BookShare.ViewModels
         {
             EmailText = PasswordText = String.Empty;
 
-            if (IsEmailEntryEmpty)
+            if (string.IsNullOrEmpty(email))
             {
-                EmailText = "please write your Email !";
+                EmailText = "Please enter your email.";
+                return;
             }
-            else if (IsPasswordEntryEmpty)
+
+            if (string.IsNullOrEmpty(password))
             {
-                PasswordText = "please write your Password !";
+                PasswordText = "Please enter your password.";
+                return;
             }
-            else
+
+            try
             {
-                try
-                {
-                    await _popupageViewModel.ShowLoadingPageAsync();
-                    await _services.Login(email, password);
-                }
-                catch(Exception ex)
-                {
-                    Console.WriteLine(ex);
-                }
-                finally
-                {
-                    await _popupageViewModel.HideLoadingPageAsync();
-                    await App.Current.MainPage.Navigation.PopModalAsync();
-                }
+                await _popupageViewModel.ShowLoadingPageAsync();
+                await _services.Login(email, password);
+
+                EmailText = PasswordText = String.Empty;
+                await _popupageViewModel.HideLoadingPageAsync();
+                await App.Current.MainPage.Navigation.PopModalAsync();
+            }
+            catch (Exception ex)
+            {
+                EmailText = "Invalid email or password.";
+                Console.WriteLine(ex);
+            }
+            finally
+            {
+                await _popupageViewModel.HideLoadingPageAsync();
             }
         }
+
+
 
 
         private void NavigateToSignUpPage()

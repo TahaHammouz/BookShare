@@ -43,7 +43,11 @@ namespace BookShare.ViewModels
 
         public ContactViewModel()
         {
-            
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
         }
         public void contact()
         {
@@ -67,7 +71,7 @@ namespace BookShare.ViewModels
             {
                 selectedBook.ProfileIcon = "male.png";
             }
-            if(selectedBook.PublisherGender =="Female")
+            if (selectedBook.PublisherGender == "Female")
             {
                 selectedBook.ProfileIcon = "female.png";
             }
@@ -77,8 +81,8 @@ namespace BookShare.ViewModels
         public ContactViewModel(Book selectedBook)
         {
             SelectedBook = selectedBook;
-          
-            contact(); 
+
+            contact();
             publisherGender();
             CopyCommand = new Command(CopyButton_Clicked);
         }

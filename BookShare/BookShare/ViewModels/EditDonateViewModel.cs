@@ -15,7 +15,7 @@ using Xamarin.Forms;
 
 namespace BookShare.ViewModels
 {
-    internal class EditDonateViewModel:BaseViewModel
+    internal class EditDonateViewModel : BaseViewModel
     {
         private BookShareDB firebaseDataService;
         public ICommand SaveCommand { get; }
@@ -35,6 +35,11 @@ namespace BookShare.ViewModels
 
         public EditDonateViewModel(Book selectedBook)
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             SelectedBook = selectedBook;
             firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
             SaveCommand = new Xamarin.Forms.Command(async () => await UpdatePost(selectedBook));
@@ -42,10 +47,14 @@ namespace BookShare.ViewModels
         }
         public EditDonateViewModel()
         {
-            
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
         }
-        
-        public async Task UpdatePost (Book book)
+
+        public async Task UpdatePost(Book book)
         {
             if ((selectedBook.Equals(book)))
             {
@@ -56,7 +65,7 @@ namespace BookShare.ViewModels
                     MessagingCenter.Send(this, "NavigateToNewPage");
                     OnPropertyChanged(nameof(Book));
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     Console.WriteLine($"Editing Failed: {ex.Message}");
                 }

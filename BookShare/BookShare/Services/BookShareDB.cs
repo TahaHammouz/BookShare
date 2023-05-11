@@ -158,9 +158,10 @@ namespace BookShare.Services
 
             foreach (var user in users)
             {
-
-                await firebaseClient.Child("Users").Child(user.Key).PutAsync(u);
-
+                if (user.Object.Uid == u.Uid)
+                {
+                    await firebaseClient.Child("Users").Child(user.Key).PutAsync(u);
+                }
             }
         }
         public async Task UpdateBook(Book b)
