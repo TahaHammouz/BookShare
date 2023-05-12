@@ -19,7 +19,7 @@ namespace BookShare.Views
             BindingContext = new EditProfileViewModel(user);
             MessagingCenter.Subscribe<EditProfileViewModel>(this, "NavigateToNewPage", async (sender) =>
             {
-                await Navigation.PushAsync(new ProfilePage());
+                await Navigation.PopAsync();
             });
 
         }
