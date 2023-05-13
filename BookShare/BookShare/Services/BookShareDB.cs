@@ -124,6 +124,15 @@ namespace BookShare.Services
             catch (FirebaseAuthException ex) when (ex.Reason == AuthErrorReason.InvalidEmailAddress || ex.Reason == AuthErrorReason.WrongPassword)
             {
                 await Application.Current.MainPage.DisplayAlert("Failed", "Email or Password is wrong", "ok");
+
+                var loginViewModel = new LoginViewModel();
+                var loginPage = new LoginPage()
+                {
+                    BindingContext = loginViewModel
+                };
+
+                // Use the MainPage's Navigation to push the LoginPage
+                await Application.Current.MainPage.Navigation.PushModalAsync(loginPage);
             }
             catch (Exception ex)
             {
@@ -131,6 +140,8 @@ namespace BookShare.Services
                 await Application.Current.MainPage.DisplayAlert("Failed", "An error occurred while signing in", "ok");
             }
         }
+
+
 
         public static async Task<string> GetUserEmail()
         {
