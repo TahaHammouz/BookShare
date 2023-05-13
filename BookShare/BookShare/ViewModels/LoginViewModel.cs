@@ -121,7 +121,6 @@ namespace BookShare.ViewModels
 
                 EmailText = PasswordText = String.Empty;
                 await _popupageViewModel.HideLoadingPageAsync();
-                await App.Current.MainPage.Navigation.PopModalAsync();
             }
             catch (Exception ex)
             {
