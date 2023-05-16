@@ -22,10 +22,6 @@ namespace BookShare.Views
         }
 
 
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
-        {
-
-
         protected override void OnAppearing()
         {
             base.OnAppearing();
