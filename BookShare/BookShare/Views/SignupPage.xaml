@@ -35,94 +35,68 @@
 
                 <StackLayout Grid.Row="1" Padding="20" Margin="10">
 
-                    <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
-
-                        <Entry  
-                            PlaceholderColor="Gray"
-                            Placeholder="Email@stu.najah.edu"
-                            Keyboard="Email"
-                            BackgroundColor="Transparent"
-                            WidthRequest="300"
-                            TextColor="Black"  
-                            Text="{Binding BindingUser.Email}"
-                            FontSize="18"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center"
-                            x:Name="email_entry"
-                            >
+                <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="id.png" WidthRequest="24" HeightRequest="24" Margin="10,0,0,0"/>
+                        <Entry Grid.Column="1" Placeholder="Email@stu.najah.edu" Keyboard="Email" BackgroundColor="Transparent" WidthRequest="300" TextColor="Black" Text="{Binding BindingUser.Email}" FontSize="18" HorizontalOptions="StartAndExpand" VerticalOptions="Center" x:Name="email_entry">
                             <Entry.Behaviors>
-                                <xct:EmailValidationBehavior
-                                    RegexPattern="^.*@([a-z]+.)?stu.najah.edu$"
-                                    IsValid="{Binding IsValidInput}"
-                                    InvalidStyle="{StaticResource InvalidEntryStyle}"
-                            />
+                                <xct:EmailValidationBehavior RegexPattern="^.*@([a-z]+.)?stu.najah.edu$" IsValid="{Binding IsValidInput}" InvalidStyle="{StaticResource InvalidEntryStyle}" />
                             </Entry.Behaviors>
                         </Entry>
-                    </Frame>    
+                    </Grid>
+                </Frame>
+
                     <Label TextColor="red" Text="{Binding EmailText}"></Label>
 
-
-                    <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
-                        <Entry 
-                            PlaceholderColor="Gray"
-                            Placeholder="Username"
-                            BackgroundColor="Transparent"
-                            Text="{Binding BindingUser.Name}"
-                            WidthRequest="300"
-                            TextColor="Black"
-                            FontSize="18"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center"/>
-                    </Frame>
-                    <Label TextColor="red" Text="{Binding UsernameText}"></Label>
+                <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="profile.png" WidthRequest="24" HeightRequest="24" Margin="10,0,0,0"/>
+                        <Entry Grid.Column="1" Placeholder="Username" BackgroundColor="Transparent" WidthRequest="300" TextColor="Black" Text="{Binding BindingUser.Name}" FontSize="18" HorizontalOptions="StartAndExpand" VerticalOptions="Center" x:Name="username_entry">
+                        </Entry>
+                    </Grid>
+                </Frame>
+                <Label TextColor="Red" Text="{Binding UsernameText}" />
 
 
-                    <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0" >
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="auto" />
-                            </Grid.ColumnDefinitions>
-                            <Entry  
-                                Placeholder="Password"
-                                IsPassword="{Binding IsPasswordVisible}"
-                                PlaceholderColor="Gray"
-                                BackgroundColor="Transparent"
-                                Text="{Binding BindingUser.Password}"
-                                WidthRequest="300"
-                                TextColor="Black"
-                                FontSize="18"
-                                HorizontalOptions="Center"
-                                VerticalOptions="Center"
-                                Grid.ColumnSpan="2">
-                                <Entry.Behaviors>
-                                    <xct:TextValidationBehavior MinimumLength="5" InvalidStyle="{StaticResource InvalidEntryStyle}" IsValid="{Binding IsValidInput}" />
-                                </Entry.Behaviors>
-                            </Entry>
-                            <Image Grid.Column="1" Source="{Binding PasswordIcon}" WidthRequest="24" HeightRequest="24" >
-                                <Image.Behaviors>
-                                </Image.Behaviors>
-                                <Image.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding TogglePasswordCommand}"  />
-                                </Image.GestureRecognizers>
-                            </Image>
-                        </Grid>
-                    </Frame>
-                    <Label TextColor="red" Text="{Binding PasswordText}"></Label>
+            <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="padlock.png" WidthRequest="24" HeightRequest="24" Margin="10,0,0,0"/>
+                    <Entry Grid.Column="1" Placeholder="Password" IsPassword="{Binding IsPasswordVisible}" PlaceholderColor="Gray" BackgroundColor="Transparent" Text="{Binding BindingUser.Password}" WidthRequest="300" TextColor="Black" FontSize="18" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                        <Entry.Behaviors>
+                            <xct:TextValidationBehavior MinimumLength="5" InvalidStyle="{StaticResource InvalidEntryStyle}" IsValid="{Binding IsValidInput}" />
+                        </Entry.Behaviors>
+                    </Entry>
+                    <Image Grid.Column="2" Source="{Binding PasswordIcon}" WidthRequest="24" HeightRequest="24" Margin="0,0,10,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding TogglePasswordCommand}" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Grid>
+            </Frame>
 
+    <Label TextColor="red" Text="{Binding PasswordText}"></Label>
 
-
-
-                    <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
-                        <Picker 
-                            VerticalOptions="CenterAndExpand"
-                            HorizontalOptions="CenterAndExpand"
-                            WidthRequest="300"
-                            Title="Faculty"
-                            TitleColor="Gray"
-                            SelectedItem="{Binding BindingUser.Faculty}"
-                            BackgroundColor="White"
-                             >
+                    <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="0" Source="online.png" WidthRequest="24" HeightRequest="24" Margin="10,0,0,0"/>
+        <Picker Grid.Column="1" Title="Faculty" TitleColor="Gray" SelectedItem="{Binding BindingUser.Faculty}" BackgroundColor="Transparent" WidthRequest="300" VerticalOptions="CenterAndExpand">
                             <Picker.ItemsSource>
 
                                 <x:Array Type="{x:Type x:String}">
@@ -138,30 +112,41 @@
                                     <x:String>Faculty of Economics and Social Sciences</x:String>
                                 </x:Array>
                             </Picker.ItemsSource>
-                        </Picker>
-                    </Frame>
+        </Picker>
+    </Grid>
+</Frame>
+<Label TextColor="red" Text="{Binding SelectedFaculty}"></Label>
 
-                    <Label TextColor="red" Text="{Binding SelectedFaculty}"></Label>
 
-                    <Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand"  Padding="0" Margin="0" >
-                        <Picker 
-                            VerticalOptions="CenterAndExpand"
-                            HorizontalOptions="CenterAndExpand"
-                            WidthRequest="300"
-                            Title="Gender"
-                            TitleColor="Gray"
-                            SelectedItem="{Binding BindingUser.Gender}"
-                            BackgroundColor="White"
-                            >
-                            <Picker.ItemsSource>
-                                <x:Array Type="{x:Type x:String}">
-                                    <x:String>Male</x:String>
-                                    <x:String>Female</x:String>
-                                </x:Array>
-                            </Picker.ItemsSource>
-                        </Picker>
-                    </Frame>
-                    <Label TextColor="red" Text="{Binding SelectedGender}"></Label>
+
+
+<Frame BackgroundColor="White"  BorderColor="Black" CornerRadius="10" HorizontalOptions="FillAndExpand" Padding="0" Margin="0" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="0" Source="desc.png" WidthRequest="24" HeightRequest="24" />
+        <Picker Grid.Column="1"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="300"
+                Title="Gender"
+                TitleColor="Gray"
+                SelectedItem="{Binding BindingUser.Gender}"
+                BackgroundColor="White">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Male</x:String>
+                    <x:String>Female</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+    </Grid>
+</Frame>
+<Label TextColor="Red" Text="{Binding SelectedGender}" />
+
+
 
                     <Button 
                         WidthRequest="207"

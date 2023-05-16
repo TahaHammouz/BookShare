@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Threading.Tasks;
 using BookShare.Views;
 using Rg.Plugins.Popup.Services;
+using Xamarin.Forms;
 
 namespace BookShare.ViewModels
 {
@@ -10,6 +11,11 @@ namespace BookShare.ViewModels
     {
         public PopupageViewModel()
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
         }
 
         private bool _isLoading;

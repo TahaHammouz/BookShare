@@ -20,6 +20,18 @@ namespace BookShare.ViewModels
 {
     public class ProfileViewModel : INotifyPropertyChanged
     {
+
+        private bool isRefreshing;
+        public bool IsRefreshing
+        {
+            get { return isRefreshing; }
+            set { isRefreshing = value; OnPropertyChanged(); }
+        }
+
+        public Command RefreshCommand { get; }
+
+
+
         private readonly FirebaseAuth _auth;
         public ICommand Logout { get; set; }
 
@@ -37,6 +49,11 @@ namespace BookShare.ViewModels
         private ObservableCollection<Book> userBooks;
         public ProfileViewModel()
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             _auth = FirebaseAuth.DefaultInstance;
             Logout = new Command(async () => await DisplayActionSheet());
 
@@ -47,6 +64,12 @@ namespace BookShare.ViewModels
                 _ = LoadUserAsync();
             }
             catch (Exception e) { e.Source = "ProfileViewModel"; }
+            RefreshCommand = new Command(async () =>
+            {
+                IsRefreshing = true;
+                await LoadUserAsync();
+                IsRefreshing = false;
+            });
         }
         public ICommand DeleteBookCommand { get; set; }
 
@@ -266,16 +289,17 @@ namespace BookShare.ViewModels
             }
         }
 
+
         private async Task LogoutFromApp()
         {
-
             await SecureStorage.SetAsync("auth_token", "");
             await SecureStorage.SetAsync("issignin", "false");
 
             var loginPage = new LoginPage();
-
             await Application.Current.MainPage.Navigation.PushModalAsync(loginPage);
         }
+
+
 
 
     }

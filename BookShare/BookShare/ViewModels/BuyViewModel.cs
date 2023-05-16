@@ -12,6 +12,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
+using MvvmHelpers;
 
 namespace BookShare.ViewModels
 {
@@ -45,6 +46,11 @@ namespace BookShare.ViewModels
 
         public BuyViewModel()
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             DisplayActionSheetCommand = new Command(async () => await DisplayActionSheet());
             LoadBooks();
         }
@@ -83,6 +89,7 @@ namespace BookShare.ViewModels
 
 
         }
+
 
         private void SortOrdersByPriceLowToHigh()
         {

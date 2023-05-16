@@ -28,8 +28,14 @@ namespace BookShare.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-
+            if (!ConnectivityHelper.IsConnected())
+            {
+                await Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             await _viewModel.LoadPostsAsync();
+
+
         }
 
 
@@ -71,6 +77,8 @@ namespace BookShare.Views
 
             }
         }
+
+
 
     }
 }

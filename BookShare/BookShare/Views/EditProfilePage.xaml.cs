@@ -19,13 +19,19 @@ namespace BookShare.Views
             BindingContext = new EditProfileViewModel(user);
             MessagingCenter.Subscribe<EditProfileViewModel>(this, "NavigateToNewPage", async (sender) =>
             {
-                await Navigation.PushAsync(new ProfilePage());
+                await Navigation.PopAsync();
             });
 
         }
-        public EditProfilePage()
+        protected override void OnAppearing()
         {
+            base.OnAppearing();
 
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
         }
 
     }

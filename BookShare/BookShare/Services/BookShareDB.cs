@@ -148,6 +148,15 @@ namespace BookShare.Services
             catch (FirebaseAuthException ex) when (ex.Reason == AuthErrorReason.InvalidEmailAddress || ex.Reason == AuthErrorReason.WrongPassword)
             {
                 await Application.Current.MainPage.DisplayAlert("Failed", "Email or Password is wrong", "ok");
+
+                var loginViewModel = new LoginViewModel();
+                var loginPage = new LoginPage()
+                {
+                    BindingContext = loginViewModel
+                };
+
+                // Use the MainPage's Navigation to push the LoginPage
+                await Application.Current.MainPage.Navigation.PushModalAsync(loginPage);
             }
             catch (Exception ex)
             {
@@ -155,6 +164,8 @@ namespace BookShare.Services
                 await Application.Current.MainPage.DisplayAlert("Failed", "An error occurred while signing in", "ok");
             }
         }
+
+
 
         public static async Task<string> GetUserEmail()
         {
@@ -179,14 +190,31 @@ namespace BookShare.Services
             var users = await firebaseClient
                         .Child("Users")
                         .OnceAsync<Models.User>();
+            var books = await firebaseClient
+                        .Child("books")
+                        .OnceAsync<Models.Book>();
 
             foreach (var user in users)
             {
+                if (user.Object.Uid == u.Uid)
+                {
+                    await firebaseClient.Child("Users").Child(user.Key).PutAsync(u);
+                }
+            }
 
-                await firebaseClient.Child("Users").Child(user.Key).PutAsync(u);
-
+            foreach (var book in books)
+            {
+                // Check if the book belongs to the updated user
+                if (book.Object.UserId == u.Uid)
+                {
+                    // Update the book with the new user name and ID
+                    book.Object.Username = u.Name;
+                    book.Object.UserId = u.Uid;
+                    await firebaseClient.Child("books").Child(book.Key).PutAsync(book.Object);
+                }
             }
         }
+        
         public async Task UpdateBook(Book b)
         {
             var books = await firebaseClient

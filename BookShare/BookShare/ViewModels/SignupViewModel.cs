@@ -137,7 +137,7 @@ namespace BookShare.ViewModels
 
         }
 
-        public ImageSource PasswordIcon => IsPasswordVisible ? ImageSourceConstants.Eye : ImageSourceConstants.EyeOff;
+        public ImageSource PasswordIcon => IsPasswordVisible ? ImageSourceConstants.EyeOff : ImageSourceConstants.Eye;
 
         private void NavigateToLogInPage()
         {
@@ -147,6 +147,11 @@ namespace BookShare.ViewModels
 
         public SignupViewModel()
         {
+            if (!ConnectivityHelper.IsConnected())
+            {
+                Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
+                return;
+            }
             BindingUser = new User();
             CreateAcount = new AsyncCommand(CreateAccount);
             IsPasswordVisible = true;
@@ -162,7 +167,7 @@ namespace BookShare.ViewModels
             await _popupageViewModel.ShowLoadingPageAsync();
 
             EmailText = UsernameText = PasswordText = SelectedFaculty = SelectedGender = string.Empty;
-            
+
             if (IsEmailEntryEmpty)
             {
                 EmailText = "please write your Email !";
@@ -185,12 +190,12 @@ namespace BookShare.ViewModels
             }
             else if (!IsValidInput)
             {
-                
+
                 EmailText = "Please use your unversity email, example@stu.najah.edu";
-                
+
             }
             else
-            {       
+            {
                 await BookShareDB.CreateUser(BindingUser);
                 await _popupageViewModel.HideLoadingPageAsync();
             }
