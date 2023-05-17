@@ -44,7 +44,7 @@
                 <StackLayout Orientation="Horizontal">
                     <Image Source="{Binding SelectedBook.ContactIcon}" HeightRequest="55" Aspect="AspectFit"/>
                     <Label x:Name="ContactMethodLabel" Text="{Binding SelectedBook.ContactMethod}" FontSize="Small" TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
-                    <ImageButton Source="copy.jpg" Command="{Binding CopyCommand}" CommandParameter="{x:Reference ContactMethodLabel}" HeightRequest="25" WidthRequest="25" Margin="5,0,0,0"/>
+                    <ImageButton Source="copy.jpg" Command="{Binding CopyCommand}" CommandParameter="{x:Reference ContactMethodLabel}" HeightRequest="25" WidthRequest="25" Margin="10"/>
                 </StackLayout>
             </Frame>
 

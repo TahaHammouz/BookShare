@@ -14,7 +14,7 @@ namespace BookShare.ViewModels
         public ResetPasswordViewModel()
         {
 
-            _firebaseAuthService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
+            _firebaseAuthService = new BookShareDB(Constants.BaseUrl);
             ResetPasswordCommand = new Command(ResetPassword);
         }
 

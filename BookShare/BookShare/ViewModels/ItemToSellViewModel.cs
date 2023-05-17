@@ -32,7 +32,7 @@ namespace BookShare.ViewModels
             SelectedItem = selectedItem;
             SetInfo();
             SetEmail();
-            firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
+            firebaseDataService = new BookShareDB(Constants.BaseUrl);
             OrderCommand = new Xamarin.Forms.Command(async () => await OnOrderClick());
             _popupageViewModel = new PopupageViewModel();
         }

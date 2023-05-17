@@ -19,16 +19,11 @@ namespace BookShare.Services
 {
     public class BookShareDB
     {
-        private static readonly string _apiKey = "AIzaSyD-Qf4rSCuiatxgta-6e93RR_rBJ5hWjR0";
-
-        private static readonly string _authDomain = "bookshare-33c3f.firebaseapp.com";
-
-        private static readonly string _baseUrl = "https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/";
         private string userAccessToken { get; set; }
         private static readonly FirebaseAuthConfig _config = new FirebaseAuthConfig
         {
-            ApiKey = _apiKey,
-            AuthDomain = _authDomain,
+            ApiKey = Constants.ApiKey,
+            AuthDomain = Constants.AuthDomain,
             Providers = new FirebaseAuthProvider[]
             {
                 new EmailProvider()
@@ -36,10 +31,9 @@ namespace BookShare.Services
         };
         private HttpClient httpClient;
         private FirebaseClient firebaseClient;
-        private FirebaseAuthProvider firebaseAuthProvider;
 
         private static readonly FirebaseAuthClient userAuthentication = new FirebaseAuthClient(_config);
-        private static readonly FirebaseClient fireBaseBase = new FirebaseClient(_baseUrl);
+        private static readonly FirebaseClient fireBaseBase = new FirebaseClient(Constants.BaseUrl);
         public BookShareDB(string url)
         {
             httpClient = new HttpClient();

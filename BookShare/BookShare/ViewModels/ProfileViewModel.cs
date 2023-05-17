@@ -59,7 +59,7 @@ namespace BookShare.ViewModels
 
             try
             {
-                firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
+                firebaseDataService = new BookShareDB(Constants.BaseUrl);
                 _ = LoadPostsAsync();
                 _ = LoadUserAsync();
             }
