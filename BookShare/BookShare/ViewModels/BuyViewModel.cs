@@ -122,7 +122,7 @@ namespace BookShare.ViewModels
         }
         private async void LoadBooks()
         {
-            var firebaseClient = new FirebaseClient("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
+            var firebaseClient = new FirebaseClient(Constants.BaseUrl);
             var orders = await firebaseClient.Child("List").OnceAsync<Order>();
             OrderList = new ObservableCollection<Order>();
             foreach (var book in orders)

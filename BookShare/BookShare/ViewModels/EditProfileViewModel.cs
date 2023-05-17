@@ -23,7 +23,7 @@ namespace BookShare.ViewModels
                 return;
             }
             SelectedUser = selecteduser;
-            firebaseDataService = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
+            firebaseDataService = new BookShareDB(Constants.BaseUrl);
             SaveCommand = new Xamarin.Forms.Command(async () => await UpdateUser(selecteduser));
 
         }

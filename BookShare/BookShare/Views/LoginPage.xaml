@@ -29,6 +29,14 @@
                         </Frame>
                         <Label Text="{Binding PasswordText}" TextColor="Red"/>
                     </StackLayout>
+                    <StackLayout HorizontalOptions="Start" Margin="40,-30,0,10">
+                        <Label Text="Forgot your password?" TextColor="#F4717F">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding ResetPasswordCommand}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
                     <Button Margin="20"
                             WidthRequest="207"
                             HeightRequest="46"

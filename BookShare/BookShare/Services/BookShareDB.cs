@@ -19,16 +19,11 @@ namespace BookShare.Services
 {
     public class BookShareDB
     {
-        private static readonly string _apiKey = "AIzaSyD-Qf4rSCuiatxgta-6e93RR_rBJ5hWjR0";
-
-        private static readonly string _authDomain = "bookshare-33c3f.firebaseapp.com";
-
-        private static readonly string _baseUrl = "https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/";
         private string userAccessToken { get; set; }
         private static readonly FirebaseAuthConfig _config = new FirebaseAuthConfig
         {
-            ApiKey = _apiKey,
-            AuthDomain = _authDomain,
+            ApiKey = Constants.ApiKey,
+            AuthDomain = Constants.AuthDomain,
             Providers = new FirebaseAuthProvider[]
             {
                 new EmailProvider()
@@ -37,14 +32,37 @@ namespace BookShare.Services
         private HttpClient httpClient;
         private FirebaseClient firebaseClient;
 
-
         private static readonly FirebaseAuthClient userAuthentication = new FirebaseAuthClient(_config);
-        private static readonly FirebaseClient fireBaseBase = new FirebaseClient(_baseUrl);
+        private static readonly FirebaseClient fireBaseBase = new FirebaseClient(Constants.BaseUrl);
         public BookShareDB(string url)
         {
             httpClient = new HttpClient();
             firebaseClient = new FirebaseClient(url);
         }
+        public async Task ResetPassword(string email)
+        {
+            try
+            {
+                await userAuthentication.ResetEmailPasswordAsync(email);
+                await App.Current.MainPage.DisplayAlert("Success", "Reset password email sent successfully.", "OK");
+            }
+            catch (FirebaseAuthException ex)
+            {
+                if (ex.Reason == AuthErrorReason.InvalidEmailAddress)
+                {
+                    await App.Current.MainPage.DisplayAlert("Error", "Invalid email address.", "OK");
+                }
+                else if (ex.Reason == AuthErrorReason.UserNotFound)
+                {
+                    await App.Current.MainPage.DisplayAlert("Error", "User not found.", "OK");
+                }
+                else
+                {
+                    await App.Current.MainPage.DisplayAlert("Error", "An error occurred" + ex.Message, "OK");
+                }
+            }
+        }
+
         public static async Task CreateUser(Models.User bindingUser)
         {
 

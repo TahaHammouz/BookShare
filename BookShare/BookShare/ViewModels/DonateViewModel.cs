@@ -218,7 +218,7 @@ namespace BookShare.ViewModels
             }
         }
 
-        private readonly BookShareDB _services = new BookShareDB("https://bookshare-33c3f-default-rtdb.europe-west1.firebasedatabase.app/");
+        private readonly BookShareDB _services = new BookShareDB(Constants.BaseUrl);
 
         public DonateViewModel()
         {
@@ -247,8 +247,6 @@ namespace BookShare.ViewModels
             await _popupageViewModel.ShowLoadingPageAsync();
             try
             {
-               // BooknameText = SelectedStatus = DetailsText = SelectedContact = string.Empty;
-
                 if (IsBooknameEntryEmpty)
                 {
                     BooknameText = "Please write your book name!";

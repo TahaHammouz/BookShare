@@ -126,7 +126,7 @@
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <Image Grid.Column="0" Source="desc.png" WidthRequest="24" HeightRequest="24" />
+        <Image Grid.Column="0" Source="desc.png" WidthRequest="24" HeightRequest="24" Margin="10,0,0,0" />
         <Picker Grid.Column="1"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"

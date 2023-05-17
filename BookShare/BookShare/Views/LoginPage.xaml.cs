@@ -21,6 +21,7 @@ namespace BookShare.Views
 
         }
 
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
@@ -30,6 +31,7 @@ namespace BookShare.Views
                 Application.Current.MainPage.DisplayAlert("No Internet Connection", "Please check your internet connection and try again.", "OK");
                 return;
             }
+
         }
     }
 }

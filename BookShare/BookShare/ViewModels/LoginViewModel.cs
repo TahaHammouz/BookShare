@@ -12,6 +12,7 @@ namespace BookShare.ViewModels
     {
         public Command SubmitCommand { get; }
         public Command SignUpPageCommand { get; }
+        public Command ResetPasswordCommand { get; }
 
         private string _email;
         private string _password;
@@ -30,6 +31,7 @@ namespace BookShare.ViewModels
             _services = new BookShareDB("https://book-share-9ab66-default-rtdb.firebaseio.com/");
             SubmitCommand = new Command(async () => await SignIn(_email, _password));
             SignUpPageCommand = new Command(NavigateToSignUpPage);
+            ResetPasswordCommand = new Command(NavigateToResetPage);
             _popupageViewModel = new PopupageViewModel();
 
         }
@@ -139,6 +141,10 @@ namespace BookShare.ViewModels
         private void NavigateToSignUpPage()
         {
             App.Current.MainPage.Navigation.PushAsync(new SignupPage());
+        }
+        private void NavigateToResetPage()
+        {
+            App.Current.MainPage.Navigation.PushAsync(new ResetPasswordPage());
         }
     }
 }
